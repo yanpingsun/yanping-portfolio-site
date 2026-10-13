@@ -30,6 +30,8 @@ dialog{border:0;padding:0;box-shadow:0 35px 100px rgba(6,24,18,.28);background:#
 .project-copy h1{width:100%;overflow-wrap:break-word}
 .project-facts strong,.index-case-value b{white-space:nowrap}
 
+
+.sales-examples{display:grid;grid-template-columns:1fr 1fr;gap:16px}.sales-example{background:#fffefa;border:1px solid #e1e7de;padding:24px;min-width:0}.sales-example>small{color:#ac806b;letter-spacing:.1em;font-size:10px}.sales-example h3{font-size:19px;margin:10px 0 16px;color:#264b39}.sales-example blockquote{margin:0 0 18px;padding:16px;background:#edf0e9;border-left:3px solid #a4b49a;color:#355a43;font-size:14px;line-height:1.9;white-space:pre-line}.sales-example dl{margin:0}.sales-example dt{font-size:11px;color:#a47d66;margin:13px 0 5px}.sales-example dd{margin:0;font-size:12px;color:#637865;line-height:1.9}.sales-scope{margin-top:16px;padding:22px;background:#edf0e9}.sales-scope h3{font-size:15px;margin:0 0 10px}.sales-scope p,.sales-source{font-size:12px;color:#6c7e6f;line-height:1.9}.sales-source{margin:16px 0 0}.project-page.sales-project .project-facts strong{font-size:28px}.project-page.sales-project .outcome-stat strong{font-size:38px}@media(max-width:640px){.sales-examples{grid-template-columns:1fr}.sales-example{padding:20px}}
 </style>
 
 
@@ -507,6 +509,52 @@ window.PORTFOLIO_DATA = {
         }
       ],
       "summary": "通过平台定位、竞品研究、内容排期与多种表现形式，让账号运营从持续产出走向有目标的内容管理。"
+    },
+    {
+      "slug": "sales-content",
+      "order": "08",
+      "category": "beauty",
+      "categoryName": "产品内容策划",
+      "name": "销售内容支持",
+      "title": "把产品信息，整理成销售可选用的传播素材。",
+      "subtitle": "朋友圈文案 / 配图建议 / 视频号素材",
+      "years": "护肤品内容工作",
+      "role": "文案撰写 / 内容素材制作",
+      "theme": "social",
+      "featured": false,
+      "metric": "内容交付",
+      "metricLabel": "文案、配图建议与视频素材",
+      "metricNote": "未建立统一的效果数据回收机制。本案例呈现个人内容交付，不以销售发布、客户反馈或成交数据作为已验证成果。",
+      "lead": "围绕活动推广、童颜面膜等产品撰写朋友圈文案，在内部群中提供文案与图片；同时参与达人素材二创和视频号内容制作，为销售朋友圈传播提供素材。",
+      "challenge": "销售日常需要介绍不同产品和活动。如何将产品信息整理成主题清楚、便于选用的文案，并给出对应的配图方向？",
+      "roleDetails": "撰写活动及产品朋友圈文案，按内容主题整理并在内部群中交付图文素材；在部分文案中标注配图建议。参与达人素材二次创作及视频号内容制作，视频号内容主要供销售作为朋友圈素材使用。产品配图不作为个人视觉设计成果。",
+      "strategies": [
+        {
+          "index": "01",
+          "title": "按产品主题拆分文案",
+          "body": "现存交付稿以“面霜功效”“金膜专利”等标题区分内容角度，使不同主题的文案能够分别选用。"
+        },
+        {
+          "index": "02",
+          "title": "让文字与配图对应",
+          "body": "在面霜文案中标注“（聊天记录截图）＋（产品图）”，将文字与图片搭配方式一起交付。这里呈现的是配图建议，不等同于已经验证的客户反馈。"
+        },
+        {
+          "index": "03",
+          "title": "围绕销售使用场景供稿",
+          "body": "朋友圈图文在内部群中交付；视频号内容主要面向销售转发需求。以实际交付为展示重点，区分素材制作与后续销售使用效果。"
+        }
+      ],
+      "outputs": [
+        "活动朋友圈文案",
+        "产品朋友圈文案",
+        "配图建议",
+        "群内图文交付",
+        "达人素材二创",
+        "视频号素材"
+      ],
+      "media": [],
+      "summary": "完成面向销售朋友圈传播的文案及素材支持：按产品主题组织文字，为部分文案提供配图建议，并通过内部群交付。现存文案记录能够呈现内容组织与交付方式；视频部分目前仅展示工作范围。"
     }
   ],
   "library": [
@@ -662,7 +710,12 @@ window.PORTFOLIO_DATA = {
       <a class="library-callout" href="#/library/all"><span><small>03 / CONTENT LIBRARY</small><strong>脚本、视频、海报等更多作品</strong></span><span class="callout-arrow">进入内容作品库 ↗</span></a>
     </div>`;
   }
+  function salesAssets() {
+    return `<section class="tab-content"><div class="body-intro"><small>SALES CONTENT / SELECTED EXCERPTS</small><h2>朋友圈文案<span>与配图建议。</span></h2><p>基于 2024 年 3 月的群内交付记录，提取标题与部分原文，展示内容组织方式。</p></div><div class="sales-examples"><article class="sales-example"><small>01 / 体验分享角度</small><h3>面霜产品文案</h3><blockquote>一、（面霜功效）
+每日坚持涂抹 #微整霜</blockquote><dl><dt>内容结构整理</dt><dd>体验叙述 → 产品带入 → 配图提示。</dd><dt>原稿配图建议</dt><dd>“（聊天记录截图）＋（产品图）”</dd><dt>表达思路</dt><dd>以使用体验展开产品介绍，并明确文字需要搭配的图片类型，供销售选用。</dd></dl></article><article class="sales-example"><small>02 / 技术卖点角度</small><h3>面膜产品文案</h3><blockquote>二、（金膜专利）</blockquote><dl><dt>内容结构整理</dt><dd>技术主题 → 产品特点 → 使用利益点。</dd><dt>原稿呈现方式</dt><dd>与面霜文案分条编排，以标题区分不同产品和沟通角度。</dd><dt>表达思路</dt><dd>围绕技术特点组织产品介绍，形成与体验分享类文案不同的内容切入点。</dd></dl></article></div><p class="sales-source">引文为原交付稿节选；“内容结构整理”与“表达思路”为作品集整理说明。省略人物信息及未经核验的功效表述，未展示销售实际发布记录。</p><section class="sales-scope"><h3>同类工作：活动图文与视频素材</h3><p>活动推广：撰写朋友圈文案并交付配图。<br>达人二创：基于达人素材开展二次创作。<br>视频号：制作主要供销售用于朋友圈传播的视频内容。<br>以上仅说明已参与的工作范围；本页现有作品节选为产品朋友圈文案。</p></section></section>`;
+  }
   function projectTabBody(p, tab) {
+    if(p.slug === 'sales-content' && tab === 'assets') return salesAssets();
     if(tab === 'strategy') return `<section class="tab-content strategy-content"><div class="body-intro"><small>CONTENT STRATEGY</small><h2>内容从哪里<span>开始？</span></h2><p>围绕项目目标和具体问题，梳理更适合产品与渠道的传播方式。</p></div><div class="strategy-stack">${p.strategies.map(s=>`<article class="strategy-card"><span class="strategy-index">${esc(s.index)}</span><div><h3>${esc(s.title)}</h3><p>${esc(s.body)}</p></div><span class="strategy-dash">↗</span></article>`).join('')}</div></section>`;
     if(tab === 'assets') return `<section class="tab-content"><div class="body-intro"><small>SELECTED DELIVERABLES</small><h2>从策略到<span>具体作品。</span></h2><p>上传真实产品主图、详情页或种草截图后，这里会自动显示。已有历史作品会直接展示。</p></div><div class="gallery-grid">${p.media.map((m,i)=>`<button class="gallery-tile ${i===0?'gallery-first':''}" data-zoom-src="${assetSrc(m.src)}" data-zoom-name="${esc(p.name+' · '+m.label)}" type="button"><div class="gallery-image cover-${esc(p.theme)}"><span class="gallery-pending">${esc(m.label)}<small>等待真实素材 / 上传后展示</small></span><img class="gallery-photo" src="${assetSrc(m.src)}" alt="${esc(m.label)}" loading="lazy" /></div><div class="gallery-foot"><b>${esc(m.label)}</b><span>${esc(m.desc)}</span></div></button>`).join('')}</div><div class="assets-tags"><span>相关内容交付</span>${p.outputs.map(o=>`<em>${esc(o)}</em>`).join('')}</div></section>`;
     if(tab === 'outcome') return `<section class="tab-content outcome-content"><div class="body-intro"><small>OUTCOME & REFLECTION</small><h2>项目结果<span>与总结。</span></h2></div><div class="outcome-layout"><div class="outcome-stat"><small>PROJECT RESULT</small><strong>${esc(p.metric)}</strong><span>${esc(p.metricLabel)}</span></div><div class="outcome-copy"><h3>这次项目，我完成了什么？</h3><p>${esc(p.summary)}</p><div class="metric-caution"><span>ⓘ</span><p>${esc(p.metricNote)}</p></div></div></div><div class="outcome-close">CONTENT STRATEGY <span>×</span> EXECUTION</div></section>`;
@@ -671,9 +724,9 @@ window.PORTFOLIO_DATA = {
   function renderProject(p, tab='overview') {
     const index = projects.findIndex(x => x.slug===p.slug);
     const next = projects[(index + 1) % projects.length];
-    return `<div class="project-page page-fade"><div class="breadcrumbs"><a href="#/home">← 返回项目目录</a><span>${esc(p.categoryName)} / ${esc(p.order)} — 07</span></div>
+    return `<div class="project-page page-fade ${p.slug==='sales-content'?'sales-project':''}"><div class="breadcrumbs"><a href="#/home">← 返回项目目录</a><span>${esc(p.categoryName)} / ${esc(p.order)} — ${String(projects.length).padStart(2,'0')}</span></div>
       <section class="project-top"><div class="project-copy"><span class="overline">${esc(p.category==='beauty'?'PRODUCT CONTENT':'BRAND & SOCIAL')} / ${esc(p.years)}</span><p class="project-role">${esc(p.role)}</p><h1>${esc(p.name)}</h1><p class="project-headline">${esc(p.title)}</p><p class="project-description">${esc(p.lead)}</p><div class="project-facts"><div><small>PROJECT OUTCOME</small><strong>${esc(p.metric)}</strong><span>${esc(p.metricLabel)}</span></div><a href="${routeProject(p,'outcome')}">查看项目结果 ↗</a></div></div>${placeholder(p,p.media[0]?.src,'project-cover')}</section>
-      <div class="case-tabs" role="tablist" aria-label="${esc(p.name)}案例内容">${tabs.map(([key,label],i)=>`<a id="tab-${key}" href="${routeProject(p,key)}" role="tab" aria-controls="projectTabPanel" aria-selected="${key===tab}" class="case-tab ${key===tab?'is-active':''}"><span>0${i+1}</span>${label}</a>`).join('')}</div>
+      <div class="case-tabs" role="tablist" aria-label="${esc(p.name)}案例内容">${tabs.map(([key,label],i)=>`<a id="tab-${key}" href="${routeProject(p,key)}" role="tab" aria-controls="projectTabPanel" aria-selected="${key===tab}" class="case-tab ${key===tab?'is-active':''}"><span>0${i+1}</span>${p.slug==='sales-content' && key==='outcome'?'交付总结':label}</a>`).join('')}</div>
       <div class="project-tab-panel" id="projectTabPanel" role="tabpanel" aria-labelledby="tab-${esc(tab)}">${projectTabBody(p,tab)}</div>
       <div class="next-project"><span>NEXT CASE / 下一个项目</span><a href="${routeProject(next)}">${esc(next.name)} ↗</a></div>
     </div>`;
