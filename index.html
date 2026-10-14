@@ -31,6 +31,15 @@ dialog{border:0;padding:0;box-shadow:0 35px 100px rgba(6,24,18,.28);background:#
 .project-facts strong,.index-case-value b{white-space:nowrap}
 
 .sales-examples{display:grid;grid-template-columns:1fr 1fr;gap:16px}.sales-example{background:#fffefa;border:1px solid #e1e7de;padding:24px;min-width:0}.sales-example>small{color:#ac806b;letter-spacing:.1em;font-size:10px}.sales-example h3{font-size:19px;margin:10px 0 16px;color:#264b39}.sales-example blockquote{margin:0 0 18px;padding:16px;background:#edf0e9;border-left:3px solid #a4b49a;color:#355a43;font-size:14px;line-height:1.9;white-space:pre-line}.sales-example dl{margin:0}.sales-example dt{font-size:11px;color:#a47d66;margin:13px 0 5px}.sales-example dd{margin:0;font-size:12px;color:#637865;line-height:1.9}.sales-scope{margin-top:16px;padding:22px;background:#edf0e9}.sales-scope h3{font-size:15px;margin:0 0 10px}.sales-scope p,.sales-source{font-size:12px;color:#6c7e6f;line-height:1.9}.sales-source{margin:16px 0 0}.project-page.sales-project .project-facts strong{font-size:28px}.project-page.sales-project .outcome-stat strong{font-size:38px}@media(max-width:640px){.sales-examples{grid-template-columns:1fr}.sales-example{padding:20px}}
+
+/* Original oil product image: preserve the full PNG and its natural aspect ratio. */
+.cover.cover-natural{padding:0;min-height:0;height:auto;align-self:start;background:transparent}
+.cover-natural .cover-shape,.cover-natural .cover-top,.cover-natural .cover-text{display:none}
+.cover-natural .cover-image{position:static;inset:auto;width:100%;height:auto;object-fit:contain}
+.gallery-image.gallery-original{height:auto;background:transparent}
+.gallery-original:before,.gallery-original .gallery-pending{display:none}
+.gallery-original .gallery-photo{position:static;inset:auto;width:100%;height:auto;object-fit:contain}
+.gallery-tile:has(.gallery-original):hover .gallery-photo{transform:none}
 </style>
 
 
@@ -105,10 +114,13 @@ window.PORTFOLIO_DATA = {
       ],
       "media": [
         {
-          "src": "portfolio-essence-oil-hero.webp",
+          "src": "portfolio-essence-oil-original.png",
           "label": "日夜双瓶上市主视觉",
           "desc": "将双瓶组合与分时护理放在同一视觉中，建立产品辨识。",
-          "shape": "portrait"
+          "shape": "portrait",
+          "original": true,
+          "width": 928,
+          "height": 854
         },
         {
           "src": "portfolio-essence-oil-day.webp",
@@ -131,7 +143,8 @@ window.PORTFOLIO_DATA = {
       ],
       "summary": "以品类顾虑、价值表达和使用场景串联上市内容，实现从产品信息到多渠道素材的完整转化。",
       "article": "https://mp.weixin.qq.com/s/lY5_fSiM1Bk8Cobkfq_2ug",
-      "articleImage": "portfolio-essence-oil-article.webp"
+      "articleImage": "portfolio-essence-oil-article.webp",
+      "coverOriginal": true
     },
     {
       "slug": "tongyan-mask",
@@ -743,7 +756,7 @@ window.PORTFOLIO_DATA = {
       <a class="side-link side-primary" data-route="about" href="#/about"><span class="nav-icon">◉</span> 关于我 <small>03</small></a>`;
   }
   function placeholder(p, src='', extra='') {
-    return `<div class="cover cover-${esc(p.theme)} ${extra}"><div class="cover-shape"></div><div class="cover-top"><span>SUN YANPING / ${esc(p.order || 'WORK')}</span><span>2026 ↗</span></div><div class="cover-text"><small>SELECTED WORK</small><strong>${esc(p.name)}</strong><span>${esc(p.categoryName || 'CONTENT WORK')}</span></div>${src ? `<img src="${assetSrc(src)}" alt="${esc(p.name)}项目作品" class="cover-image" loading="lazy" />` : ''}</div>`;
+    return `<div class="cover cover-${esc(p.theme)} ${extra} ${p.coverOriginal?'cover-natural':''}"><div class="cover-shape"></div><div class="cover-top"><span>SUN YANPING / ${esc(p.order || 'WORK')}</span><span>2026 ↗</span></div><div class="cover-text"><small>SELECTED WORK</small><strong>${esc(p.name)}</strong><span>${esc(p.categoryName || 'CONTENT WORK')}</span></div>${src ? `<img src="${assetSrc(src)}" alt="${esc(p.name)}项目作品" class="cover-image" loading="lazy" />` : ''}</div>`;
   }
   function renderHome() {
     const links = cat => group(cat).map((p,i) => `<a class="index-case" href="${routeProject(p)}"><span class="index-num">${esc(p.order)}</span><div class="index-case-copy"><strong>${esc(p.name)}</strong><p>${esc(p.subtitle.replaceAll(' / ',' · '))}</p></div><div class="index-case-value"><b>${esc(p.metric)}</b><span>${esc(p.metricLabel)}</span></div><span class="case-arrow">↗</span></a>`).join('');
@@ -761,7 +774,7 @@ window.PORTFOLIO_DATA = {
   function projectTabBody(p, tab) {
     if(p.slug === 'sales-content' && tab === 'assets') return salesAssets();
     if(tab === 'strategy') return `<section class="tab-content strategy-content"><div class="body-intro"><small>CONTENT STRATEGY</small><h2>内容从哪里<span>开始？</span></h2><p>围绕项目目标和具体问题，梳理更适合产品与渠道的传播方式。</p></div><div class="strategy-stack">${p.strategies.map(s=>`<article class="strategy-card"><span class="strategy-index">${esc(s.index)}</span><div><h3>${esc(s.title)}</h3><p>${esc(s.body)}</p></div><span class="strategy-dash">↗</span></article>`).join('')}</div></section>`;
-    if(tab === 'assets') return `<section class="tab-content"><div class="body-intro"><small>SELECTED DELIVERABLES</small><h2>从策略到<span>具体作品。</span></h2><p>精选产品海报、详情页与公众号内容。点击图片可放大查看；本人负责内容策划与文案，视觉由团队协作完成。</p></div><div class="gallery-grid">${p.media.map((m,i)=>`<button class="gallery-tile ${i===0?'gallery-first':''}" data-zoom-src="${assetSrc(m.src)}" data-zoom-name="${esc(p.name+' · '+m.label)}" type="button"><div class="gallery-image cover-${esc(p.theme)}"><span class="gallery-pending">${esc(m.label)}<small>作品预览</small></span><img class="gallery-photo" src="${assetSrc(m.src)}" alt="${esc(m.label)}" loading="lazy" /></div><div class="gallery-foot"><b>${esc(m.label)}</b><span>${esc(m.desc)}</span></div></button>`).join('')}</div>${p.article?`<p><a class="text-link" href="${esc(p.article)}" target="_blank" rel="noopener noreferrer">阅读${esc(p.name)}公众号原文 ↗</a></p>`:''}<div class="assets-tags"><span>相关内容交付</span>${p.outputs.map(o=>`<em>${esc(o)}</em>`).join('')}</div></section>`;
+    if(tab === 'assets') return `<section class="tab-content"><div class="body-intro"><small>SELECTED DELIVERABLES</small><h2>从策略到<span>具体作品。</span></h2><p>精选产品海报、详情页与公众号内容。点击图片可放大查看；本人负责内容策划与文案，视觉由团队协作完成。</p></div><div class="gallery-grid">${p.media.map((m,i)=>`<button class="gallery-tile ${i===0?'gallery-first':''}" data-zoom-src="${assetSrc(m.src)}" data-zoom-name="${esc(p.name+' · '+m.label)}" type="button"><div class="gallery-image cover-${esc(p.theme)} ${m.original?'gallery-original':''}"><span class="gallery-pending">${esc(m.label)}<small>作品预览</small></span><img class="gallery-photo" src="${assetSrc(m.src)}" alt="${esc(m.label)}" loading="lazy" /></div><div class="gallery-foot"><b>${esc(m.label)}</b><span>${esc(m.desc)}</span></div></button>`).join('')}</div>${p.article?`<p><a class="text-link" href="${esc(p.article)}" target="_blank" rel="noopener noreferrer">阅读${esc(p.name)}公众号原文 ↗</a></p>`:''}<div class="assets-tags"><span>相关内容交付</span>${p.outputs.map(o=>`<em>${esc(o)}</em>`).join('')}</div></section>`;
     if(tab === 'outcome') return `<section class="tab-content outcome-content"><div class="body-intro"><small>OUTCOME & REFLECTION</small><h2>项目结果<span>与总结。</span></h2></div><div class="outcome-layout"><div class="outcome-stat"><small>PROJECT RESULT</small><strong>${esc(p.metric)}</strong><span>${esc(p.metricLabel)}</span></div><div class="outcome-copy"><h3>这次项目，我完成了什么？</h3><p>${esc(p.summary)}</p><div class="metric-caution"><span>ⓘ</span><p>${esc(p.metricNote)}</p></div></div></div><div class="outcome-close">CONTENT STRATEGY <span>×</span> EXECUTION</div></section>`;
     return `<section class="tab-content overview-content"><div class="overview-grid"><article class="overview-card"><small>01 / THE CHALLENGE</small><h2>项目问题</h2><p>${esc(p.challenge)}</p></article><article class="overview-card"><small>02 / MY ROLE</small><h2>我的职责</h2><p>${esc(p.roleDetails)}</p></article></div><div class="overview-deliverables"><div><small>CONTENT SCOPE</small><h3>我的工作覆盖哪些内容？</h3></div><div class="pill-list">${p.outputs.map(t=>`<span>${esc(t)}</span>`).join('')}</div></div><div class="overview-next"><span>了解思考过程，而不仅看成果</span><a href="${routeProject(p,'strategy')}">继续查看内容策略 ↗</a></div></section>`;
   }
