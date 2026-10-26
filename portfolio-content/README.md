@@ -22,3 +22,12 @@
 | oil-tutorial.mp4 | 精华油使用方式脚本成片整理版 |
 
 脚本分工及材料状态以项目稿为准。素材是历史作品展示，不直接用于证明所有宣传说法或单项内容带来的销售效果。
+
+
+## 童颜面膜项目（2026-10-22）
+
+- [完整内容与素材目录](tongyan-mask/README.md)
+- [完整项目稿](tongyan-mask/project.md)
+- [开发交接说明](tongyan-mask/developer-handoff.md)
+
+原有精华油内容和资源保留。

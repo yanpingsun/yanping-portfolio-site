@@ -1,0 +1,159 @@
+{
+  "id": "tongyan-mask",
+  "title": "童颜面膜｜王牌产品升级卖点与多渠道内容策划",
+  "updated": "2026-10-22",
+  "language": "zh-CN",
+  "summary": "在胶原炮已有成熟认知的基础上，为童颜面膜建立升级购买理由，并转化为各渠道内容。",
+  "primaryDocument": "project.md",
+  "handoffDocument": "developer-handoff.md",
+  "roles": [
+    "产品卖点制定",
+    "私域种草与销售话术",
+    "公众号全文及图内文案",
+    "朋友圈配文、图内文案和信息顺序",
+    "三条完整合作视频脚本及达人沟通",
+    "直播间话术讨论与制定，非完整主播稿",
+    "商城详情页整页文案、结构和信息顺序"
+  ],
+  "designCredit": "公众号、朋友圈及详情页的视觉设计制作由设计师完成",
+  "channels": [
+    {
+      "id": "wechat",
+      "title": "公众号上新长文",
+      "type": "historical-artifact",
+      "analysis": "docs/wechat-analysis.md",
+      "pdf": "assets/wechat/mask-launch-article.pdf",
+      "images": [
+        "assets/wechat/01-dual-mask-structure.png",
+        "assets/wechat/02-whitening-ingredients.png",
+        "assets/wechat/03-collagen-ingredients.png",
+        "assets/wechat/04-cream-step.png",
+        "assets/wechat/05-launch-bundle.png"
+      ],
+      "originalUrl": "https://mp.weixin.qq.com/s/br1rnY7m4sV6_7hGVMGlEw"
+    },
+    {
+      "id": "moments",
+      "title": "三组朋友圈图文",
+      "type": "historical-artifact",
+      "analysis": "docs/moments-analysis.md",
+      "items": [
+        {
+          "id": "01-upgrade",
+          "image": "assets/moments/01-upgrade.png",
+          "copyFile": "assets/moments/01-upgrade.txt",
+          "copy": "抗老不是越猛越好，\n关键是精准到达肌肤需要的位置✨\n透皮科技2.0升级\n开启细胞级抗老时代！\n更紧更嫩更白！\n"
+        },
+        {
+          "id": "02-reassurance",
+          "image": "assets/moments/02-reassurance.png",
+          "copyFile": "assets/moments/02-reassurance.txt",
+          "copy": "美白可以很猛，\n但安全必须更稳✨\n3大类安全检测通过\n0防腐、0刺激、0风险成分\n这才是安心美白的底气！\n"
+        },
+        {
+          "id": "03-result-expression",
+          "image": "assets/moments/03-result-expression.png",
+          "copyFile": "assets/moments/03-result-expression.txt",
+          "copy": "不用挨针流血，拉起断崖式垮脸！🔥\n45分钟无防腐细胞级灌注\n定点填充凹陷、洗净脏黄\n敷出豪门贵妇原生的净、透、亮！✨\n"
+        }
+      ]
+    },
+    {
+      "id": "video",
+      "title": "明星与达人视频",
+      "type": "historical-video-sanitized-preview",
+      "analysis": "docs/video-analysis.md",
+      "items": [
+        {
+          "id": "celebrity",
+          "title": "骆达华合作推广",
+          "src": "assets/videos/mask-luodahua-preview.mp4",
+          "poster": "assets/video-stills/celebrity-004.jpg",
+          "originalUrl": "https://weixin.qq.com/sph/ABf1djMlJ",
+          "role": "完整脚本撰写"
+        },
+        {
+          "id": "tutorial",
+          "title": "达人个人体验与双膜演示",
+          "src": "assets/videos/mask-influencer-tutorial-preview.mp4",
+          "poster": "assets/video-stills/tutorial-106.jpg",
+          "originalUrl": null,
+          "role": "完整脚本撰写，与达人沟通成片"
+        },
+        {
+          "id": "story",
+          "title": "夫妻日常与产品查证",
+          "src": "assets/videos/mask-influencer-story-preview.mp4",
+          "poster": "assets/video-stills/story-010.jpg",
+          "originalUrl": null,
+          "role": "完整脚本撰写，与达人沟通成片"
+        }
+      ]
+    },
+    {
+      "id": "live",
+      "title": "抖音直播话术",
+      "type": "historical-transcript-screenshot",
+      "analysis": "docs/live-analysis.md",
+      "productScreenshots": [
+        "assets/live/product-01.png",
+        "assets/live/product-02.png",
+        "assets/live/product-03.png",
+        "assets/live/product-04.png",
+        "assets/live/product-05.png",
+        "assets/live/product-06.png",
+        "assets/live/product-07.png",
+        "assets/live/product-08.png"
+      ],
+      "orderScreenshots": [
+        "assets/live/order-01.png",
+        "assets/live/order-02.png",
+        "assets/live/order-03.png"
+      ],
+      "sop": {
+        "image": "assets/live/sop-with-order-guidance.png",
+        "editable": "assets/live/sop-with-order-guidance.pptx",
+        "type": "later-compiled-reference"
+      }
+    },
+    {
+      "id": "detail",
+      "title": "淘宝／天猫详情页",
+      "type": "historical-artifact",
+      "analysis": "docs/detail-analysis.md",
+      "case": "docs/detail-case.md",
+      "images": [
+        "assets/detail/detail-01.jpg",
+        "assets/detail/detail-02.jpg"
+      ]
+    },
+    {
+      "id": "private-sales",
+      "title": "私域销售沟通示例",
+      "type": "later-reconstructed-example",
+      "document": "docs/private-sales-reconstructed.md",
+      "displayLabel": "基于产品资料后期重建，非历史原稿"
+    }
+  ],
+  "confirmedProductReference": {
+    "technology": "500道尔顿以下微分子技术",
+    "includesCream": true,
+    "usage": "按包装：白膜25分钟后不揭下，再覆盖金膜20分钟，总计45分钟；面霜按包装说明"
+  },
+  "results": {
+    "confirmedBusinessMetrics": null,
+    "note": "以交付作品与职责呈现，不补造阅读、成交、投放或老客迁移数据"
+  },
+  "publicationNotes": [
+    "平台规范审阅不放入作品集",
+    "原始录屏保留本地，仓库使用处理个人通知后的副本",
+    "备选图不自动认定为已确认朋友圈组合"
+  ],
+  "compiledDocument": "童颜面膜作品集内容.md",
+  "previewEncoding": {
+    "videos": "压缩预览版，保留完整时间轴、声音及隐私处理",
+    "articlePdf": "31页全文与文字保留，仅压缩嵌入图片",
+    "detail02": "保持原像素尺寸，优化JPEG编码",
+    "originals": "高清原文件保留本地"
+  }
+}

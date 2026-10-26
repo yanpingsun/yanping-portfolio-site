@@ -1,0 +1,495 @@
+{
+  "project": "童颜面膜",
+  "updated": "2026-10-22",
+  "fileCountExcludingThisManifest": 67,
+  "totalBytesExcludingThisManifest": 30233859,
+  "checksumCoverage": "除本清单自身外的所有文件",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2358,
+      "sha256": "d17d17c11688114d62cda82117f6c6c26474af5b27c62827f2984de46e397a03",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "assets/candidates/candidate-01.jpg",
+      "bytes": 590826,
+      "sha256": "91df124b388be17a367f184178bc9542db5ca1c4449433bcab815ed1b4942b18",
+      "type": "optional-candidate",
+      "width": 750,
+      "height": 1150
+    },
+    {
+      "path": "assets/candidates/candidate-02.jpg",
+      "bytes": 520825,
+      "sha256": "c0534ecd1ce9fe9e468ff5384e77fd2ad718bf312bda4b5f848e7a5d34ef0080",
+      "type": "optional-candidate",
+      "width": 750,
+      "height": 1150
+    },
+    {
+      "path": "assets/candidates/candidate-03.jpg",
+      "bytes": 384533,
+      "sha256": "a500aaa7020d018a623cfd7aab85db803a9e869a6bd4c0a76ce0548cf988e0d3",
+      "type": "optional-candidate",
+      "width": 750,
+      "height": 1000
+    },
+    {
+      "path": "assets/candidates/candidate-04.jpg",
+      "bytes": 232459,
+      "sha256": "17b2af332f860db59d9794f1865d0bf06c12f5b16e37b706414893698933cb3a",
+      "type": "optional-candidate",
+      "width": 750,
+      "height": 1000
+    },
+    {
+      "path": "assets/detail/detail-01.jpg",
+      "bytes": 3641104,
+      "sha256": "ba8e2349eab03b4775ca9e31e5f2b59f32406388b246340b2735fc8cfaab23be",
+      "type": "historical-artifact",
+      "width": 657,
+      "height": 14998
+    },
+    {
+      "path": "assets/detail/detail-02.jpg",
+      "bytes": 2114818,
+      "sha256": "e6e07048b45293540876205ae81528fbd4b6b53b97093df46d3841971375d678",
+      "type": "historical-artifact",
+      "width": 1440,
+      "height": 19463
+    },
+    {
+      "path": "assets/live/order-01.png",
+      "bytes": 336780,
+      "sha256": "28bf2acc97ea7f477c5040c2c8945aa26c44c7abc8ecf676555fb519135f74d3",
+      "type": "historical-artifact",
+      "width": 1192,
+      "height": 1048
+    },
+    {
+      "path": "assets/live/order-02.png",
+      "bytes": 342350,
+      "sha256": "28e6f2221fcccdc04225bc8b723cc2322b164b69ed54616bb8fcf9e4dd7b7f0a",
+      "type": "historical-artifact",
+      "width": 1134,
+      "height": 1070
+    },
+    {
+      "path": "assets/live/order-03.png",
+      "bytes": 321569,
+      "sha256": "a38065246571b3e130b05f4155243a01f72bc76221ba6d8fc70d01335c7c5b26",
+      "type": "historical-artifact",
+      "width": 1198,
+      "height": 998
+    },
+    {
+      "path": "assets/live/product-01.png",
+      "bytes": 358403,
+      "sha256": "edc4099de7e24051d9771d2e73d6d4e48ac43880e35d1e831cb78712602a9b55",
+      "type": "historical-artifact",
+      "width": 1232,
+      "height": 1174
+    },
+    {
+      "path": "assets/live/product-02.png",
+      "bytes": 329504,
+      "sha256": "eaf321b443ff9965cabdb2c98e705c2a5d68da5926528c952db27f5d4462bac3",
+      "type": "historical-artifact",
+      "width": 1190,
+      "height": 1066
+    },
+    {
+      "path": "assets/live/product-03.png",
+      "bytes": 369012,
+      "sha256": "63f8556a44c272cc7a2d320473776a6a080c2577b767106266dfc536a77d6d3d",
+      "type": "historical-artifact",
+      "width": 1162,
+      "height": 1024
+    },
+    {
+      "path": "assets/live/product-04.png",
+      "bytes": 394688,
+      "sha256": "483d0bfff3ab7d2b5b2db55afb7e84aea7b68eb332d5cd42103a8cefc5b57752",
+      "type": "historical-artifact",
+      "width": 1212,
+      "height": 1060
+    },
+    {
+      "path": "assets/live/product-05.png",
+      "bytes": 292560,
+      "sha256": "77d40b56b5f0ebb19ae362bf3f0699c6ceefa682dd1141c32d093c927c4d2da2",
+      "type": "historical-artifact",
+      "width": 1208,
+      "height": 1020
+    },
+    {
+      "path": "assets/live/product-06.png",
+      "bytes": 286518,
+      "sha256": "a1a56c8a22f8d83e0fd24550515549e5cd001d4ff15309b5f10dd1703cde8159",
+      "type": "historical-artifact",
+      "width": 1192,
+      "height": 1014
+    },
+    {
+      "path": "assets/live/product-07.png",
+      "bytes": 339365,
+      "sha256": "827a6ff048a9fa399f7c0152c13bb150df2956da629fb0299c1e3e39710796ed",
+      "type": "historical-artifact",
+      "width": 1204,
+      "height": 1074
+    },
+    {
+      "path": "assets/live/product-08.png",
+      "bytes": 286327,
+      "sha256": "64aeedb6433779846b3561c2b0391a1f50fde9144c33145d713e7538e30bd460",
+      "type": "historical-artifact",
+      "width": 1190,
+      "height": 998
+    },
+    {
+      "path": "assets/live/sop-initial.png",
+      "bytes": 501380,
+      "sha256": "388cddc30c86cc97ff8f71263f01020fd69303f5e2c1afce7e412154d0fd4e37",
+      "type": "later-compiled-reference",
+      "width": 2748,
+      "height": 1545
+    },
+    {
+      "path": "assets/live/sop-initial.pptx",
+      "bytes": 39449,
+      "sha256": "a286e9fb53c0b173f8784381b7206b8481866bca5a3ad58a707360c2193ed80c",
+      "type": "later-compiled-reference"
+    },
+    {
+      "path": "assets/live/sop-with-order-guidance.png",
+      "bytes": 523252,
+      "sha256": "8734f71bf888583424476a9d57c4cc75701870b864559f2088b2d9b9f0350452",
+      "type": "later-compiled-reference",
+      "width": 2748,
+      "height": 1545
+    },
+    {
+      "path": "assets/live/sop-with-order-guidance.pptx",
+      "bytes": 40348,
+      "sha256": "e3f622cd54146a19069f5d469aa9a76ef31edf1e6208971751c6806730035c1b",
+      "type": "later-compiled-reference"
+    },
+    {
+      "path": "assets/moments/01-upgrade.png",
+      "bytes": 589421,
+      "sha256": "2abd67a01b96fa1e8c3f89bcea901d27b9e9c0942e64a39b78a7236721807e37",
+      "type": "historical-artifact",
+      "width": 750,
+      "height": 1000
+    },
+    {
+      "path": "assets/moments/01-upgrade.txt",
+      "bytes": 149,
+      "sha256": "816640fb573a31f313f043350fe7b39b67248b7a1eea04a0448e9002db901e94",
+      "type": "historical-artifact"
+    },
+    {
+      "path": "assets/moments/02-reassurance.png",
+      "bytes": 184299,
+      "sha256": "3c40f5864ff36098844757332ee60f1678bbf1cbf4b64789398329c935895d94",
+      "type": "historical-artifact",
+      "width": 1023,
+      "height": 1537
+    },
+    {
+      "path": "assets/moments/02-reassurance.txt",
+      "bytes": 141,
+      "sha256": "e488bc8e3bc7cfc2bcae738c638137c7d5c8427b56daea83c030c4157ff40d49",
+      "type": "historical-artifact"
+    },
+    {
+      "path": "assets/moments/03-result-expression.png",
+      "bytes": 122842,
+      "sha256": "ff841cd4af6a7d7f714f1d64ec0661ed105e1e9a7867bfc3f62d9a3f497c7d18",
+      "type": "historical-artifact",
+      "width": 900,
+      "height": 1234
+    },
+    {
+      "path": "assets/moments/03-result-expression.txt",
+      "bytes": 166,
+      "sha256": "ab1b630ab6f3ca3634fb87f70ff2f1eb85ccfa81bb6dae1fd481fe562d3134de",
+      "type": "historical-artifact"
+    },
+    {
+      "path": "assets/video-stills/celebrity-004.jpg",
+      "bytes": 39976,
+      "sha256": "7f7b6311b69c42e932a83495d9d0886d901dcfc487783c698e559f1d97716c21",
+      "type": "frame-from-sanitized-video",
+      "width": 284,
+      "height": 480
+    },
+    {
+      "path": "assets/video-stills/celebrity-045.jpg",
+      "bytes": 43229,
+      "sha256": "291511cc2183ae9ab40c77478b31886c61a7e4bb4f9ace732e3333319d352f09",
+      "type": "frame-from-sanitized-video",
+      "width": 284,
+      "height": 480
+    },
+    {
+      "path": "assets/video-stills/celebrity-089.jpg",
+      "bytes": 34217,
+      "sha256": "3031ad3a06ebda9a724dccf5a8b54edb921fc9c7ac3844a7e1acf35d99327457",
+      "type": "frame-from-sanitized-video",
+      "width": 284,
+      "height": 480
+    },
+    {
+      "path": "assets/video-stills/celebrity-103.jpg",
+      "bytes": 40927,
+      "sha256": "8cc0892ac2b6d4c213350809a1c6d0efaa4b913c5468ce0bb4e34ef9eba8c762",
+      "type": "frame-from-sanitized-video",
+      "width": 284,
+      "height": 480
+    },
+    {
+      "path": "assets/video-stills/celebrity-134.jpg",
+      "bytes": 42280,
+      "sha256": "778e2964ed18fa2b9dba909c5f392938748f188c0bfd19c49f52833c763247fc",
+      "type": "frame-from-sanitized-video",
+      "width": 284,
+      "height": 480
+    },
+    {
+      "path": "assets/video-stills/story-010.jpg",
+      "bytes": 42152,
+      "sha256": "a5f32f0d76676fd67b46dccd315af8d07b286b9698dd09d973e550f8767aa3ec",
+      "type": "frame-from-sanitized-video",
+      "width": 284,
+      "height": 480
+    },
+    {
+      "path": "assets/video-stills/story-035.jpg",
+      "bytes": 48271,
+      "sha256": "77f44541d7e2c2d81ce5f973ce3602173e1a29d9c6cd20cdeb6b05933978782f",
+      "type": "frame-from-sanitized-video",
+      "width": 284,
+      "height": 480
+    },
+    {
+      "path": "assets/video-stills/story-105.jpg",
+      "bytes": 46720,
+      "sha256": "25aa7da941cb96693ffbffd338db2fb57832532fc55ab0d03b2d1b4a8085953d",
+      "type": "frame-from-sanitized-video",
+      "width": 284,
+      "height": 480
+    },
+    {
+      "path": "assets/video-stills/story-132.jpg",
+      "bytes": 39998,
+      "sha256": "e42f9181c8b8fd53c927c11800c3e0513d95e5e208212f013088d2aed08ec997",
+      "type": "frame-from-sanitized-video",
+      "width": 284,
+      "height": 480
+    },
+    {
+      "path": "assets/video-stills/story-150.jpg",
+      "bytes": 36446,
+      "sha256": "417ba0bb3012a4a9c5907e08d99f97ba946a49fb3063cd46792c884eebf9c946",
+      "type": "frame-from-sanitized-video",
+      "width": 284,
+      "height": 480
+    },
+    {
+      "path": "assets/video-stills/tutorial-000.jpg",
+      "bytes": 36467,
+      "sha256": "93aefc9c19d0ca49830a876859213dbb3632c06a943d195a8138c03a31fef25c",
+      "type": "frame-from-sanitized-video",
+      "width": 284,
+      "height": 480
+    },
+    {
+      "path": "assets/video-stills/tutorial-043.jpg",
+      "bytes": 50248,
+      "sha256": "371fee3af0bd95367e20c5c057a8c35255b50d58aaf4a7eca6ec4a03d6e3083d",
+      "type": "frame-from-sanitized-video",
+      "width": 284,
+      "height": 480
+    },
+    {
+      "path": "assets/video-stills/tutorial-073.jpg",
+      "bytes": 46130,
+      "sha256": "492c354394d7df3bbf9cc2efeb50614a89f70c8ffc15a537202e9d3b82846662",
+      "type": "frame-from-sanitized-video",
+      "width": 284,
+      "height": 480
+    },
+    {
+      "path": "assets/video-stills/tutorial-106.jpg",
+      "bytes": 34331,
+      "sha256": "9409ee3cd4be494a930083d8c3d95f5c5d6e4134d0e1a0556cb6a3dc48338f75",
+      "type": "frame-from-sanitized-video",
+      "width": 284,
+      "height": 480
+    },
+    {
+      "path": "assets/video-stills/tutorial-130.jpg",
+      "bytes": 47077,
+      "sha256": "0053e2045ffb392e0dd9b42bb588a4bc879d5fd862079df994c4b57f95b3e1f6",
+      "type": "frame-from-sanitized-video",
+      "width": 284,
+      "height": 480
+    },
+    {
+      "path": "assets/videos/mask-influencer-story-preview.mp4",
+      "bytes": 3579152,
+      "sha256": "c197493d472efb51d67f5f1046e496640438769fbf1a92b9bf98deb1de811d99",
+      "type": "sanitized-video-preview"
+    },
+    {
+      "path": "assets/videos/mask-influencer-tutorial-preview.mp4",
+      "bytes": 3088476,
+      "sha256": "a9e09c5ae21ada236c00ddcfa1ccc0493ebaa3445e81c299ccebb659f3976066",
+      "type": "sanitized-video-preview"
+    },
+    {
+      "path": "assets/videos/mask-luodahua-preview.mp4",
+      "bytes": 3100791,
+      "sha256": "43a2b45afa3d3426ce8531460cc5c2de0c282a6c31afb9045bf4887ae4c14cf5",
+      "type": "sanitized-video-preview"
+    },
+    {
+      "path": "assets/wechat/01-dual-mask-structure.png",
+      "bytes": 813388,
+      "sha256": "405b7d85ebb38d87c614cb6172c3bc92a66a4699c224409931f300ce12d2d127",
+      "type": "historical-artifact",
+      "width": 750,
+      "height": 1000
+    },
+    {
+      "path": "assets/wechat/02-whitening-ingredients.png",
+      "bytes": 1075820,
+      "sha256": "39d7c8ecef635c3a32ed51da3f1cd08ae1cdcdbf75599e07c0af2c58646a19c9",
+      "type": "historical-artifact",
+      "width": 750,
+      "height": 1650
+    },
+    {
+      "path": "assets/wechat/03-collagen-ingredients.png",
+      "bytes": 914004,
+      "sha256": "12f254b217a4abef493ffe8d92764cd6b93a6a6c37fb16c2e33ff0df370214f7",
+      "type": "historical-artifact",
+      "width": 640,
+      "height": 981
+    },
+    {
+      "path": "assets/wechat/04-cream-step.png",
+      "bytes": 394048,
+      "sha256": "583548e621a8cd4d88c642f0d1699231a78717a4e21d0fb17978494dafeb28ca",
+      "type": "historical-artifact",
+      "width": 540,
+      "height": 684
+    },
+    {
+      "path": "assets/wechat/05-launch-bundle.png",
+      "bytes": 704111,
+      "sha256": "c7cc51e2c2f46f564ba8d9841ad39ce569eac19397b84c02472eed0ef60ce1a1",
+      "type": "historical-artifact",
+      "width": 640,
+      "height": 1024
+    },
+    {
+      "path": "assets/wechat/mask-launch-article.pdf",
+      "bytes": 2638590,
+      "sha256": "c109368ee33efa8e0765ee8433eca66d5965471fe3f16946435d48e5248a5e0d",
+      "type": "historical-artifact"
+    },
+    {
+      "path": "content.json",
+      "bytes": 6121,
+      "sha256": "1929b1e3f9dbd68f02298b46cb87db91e69f6ac78438883837db36f99b9e2f83",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "developer-handoff.md",
+      "bytes": 3906,
+      "sha256": "6948d9f503ace790c5607a2152cd3a1b1569207577e671a09ab6b739c6a85558",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "docs/channel-roles.md",
+      "bytes": 2948,
+      "sha256": "80b513bbab670a9e882d113f97430fc7f3aaa46017e09b00d1e07f1b1fc0c959",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "docs/detail-analysis.md",
+      "bytes": 7227,
+      "sha256": "60978ec2a3eb42256ac21eccb96c41005158755844766fc9218ea9fa42ff2d3e",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "docs/detail-case.md",
+      "bytes": 2388,
+      "sha256": "57c139fb0d6d71a95ec6e456ec2ba33725a30c80b64fa51295dbb374a2d527d0",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "docs/live-analysis.md",
+      "bytes": 7351,
+      "sha256": "b4c5e7eebf081a3263c1c75bac11ea3132c8e63aa4b251fab3382b8f38eb07a4",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "docs/moments-analysis.md",
+      "bytes": 7580,
+      "sha256": "acb1f3ae88fbe46fed39d3415b6b8111a1ea6e22cea3fc1a8480e6956a8f8386",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "docs/private-sales-reconstructed.md",
+      "bytes": 11538,
+      "sha256": "7246c8438674e95d46cce6f14fab3b900819c8c83ff3b09701e66c8580d05da1",
+      "type": "later-reconstructed-example"
+    },
+    {
+      "path": "docs/selling-point-strategy.md",
+      "bytes": 1322,
+      "sha256": "71af31555718105c7a9001e4204e9991b1f30776efde261fabf57aaf2d7f436c",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "docs/video-analysis.md",
+      "bytes": 17106,
+      "sha256": "2992116d81783fe0404dbc21b63684d7f2b1d422f8d85b4880209116cc1ef0d9",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "docs/video-case.md",
+      "bytes": 1601,
+      "sha256": "718518248da0f51bdf9b55a7180a97bf346d006703c150847ec17ab4a834ee4e",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "docs/wechat-analysis.md",
+      "bytes": 8005,
+      "sha256": "406420243e107772b594e070b7133ee6440cbce74e26ec540f4207a5844e1ad4",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "project.md",
+      "bytes": 11091,
+      "sha256": "8b8835f53a6726f3d1da874bde4b0556d669c56c9fa707a1746dc8b684b7cb61",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "video-metadata.json",
+      "bytes": 468,
+      "sha256": "37e145f2c782476695fcb9837cea44ef9cb061cb4a98f9ee6ae6e35307ec366c",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "童颜面膜作品集内容.md",
+      "bytes": 62912,
+      "sha256": "3de26910fa36982c05b0256384bedbac5810e776fb8ae18aaba6ea5b572f53d4",
+      "type": "compiled-document-or-data"
+    }
+  ]
+}

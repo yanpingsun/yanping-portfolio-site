@@ -1,0 +1,23 @@
+[
+  {
+    "audioTracks" : 1,
+    "duration" : 136.53333333333333,
+    "file" : "mask-luodahua-preview.mp4",
+    "height" : 480,
+    "width" : 284
+  },
+  {
+    "audioTracks" : 1,
+    "duration" : 133.19999999999999,
+    "file" : "mask-influencer-tutorial-preview.mp4",
+    "height" : 480,
+    "width" : 284
+  },
+  {
+    "audioTracks" : 1,
+    "duration" : 154.19999999999999,
+    "file" : "mask-influencer-story-preview.mp4",
+    "height" : 480,
+    "width" : 284
+  }
+]
