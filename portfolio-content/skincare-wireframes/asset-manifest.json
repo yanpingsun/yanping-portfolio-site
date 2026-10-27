@@ -1,0 +1,156 @@
+{
+  "title": "护肤四品类海报线稿",
+  "status": "创意线稿提案",
+  "singlePageCount": 8,
+  "overviewCount": 1,
+  "formats": [
+    "PNG",
+    "SVG"
+  ],
+  "assets": [
+    {
+      "path": "portfolio-content/skincare-wireframes/png/00_整组线稿总览.png",
+      "relativePath": "png/00_整组线稿总览.png",
+      "sourceName": "00_整组线稿总览.png",
+      "bytes": 578976,
+      "sha": "7bd2c94d2bb454d1f9d1bf4a01aee2b516c139ca",
+      "width": 2400,
+      "height": 2212
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/svg/00_整组线稿总览.svg",
+      "relativePath": "svg/00_整组线稿总览.svg",
+      "sourceName": "00_整组线稿总览.svg",
+      "bytes": 52852,
+      "sha": "f27b556791e35c8683851adcd79ac36421de2e1c"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/png/01A_童颜面膜_主海报.png",
+      "relativePath": "png/01A_童颜面膜_主海报.png",
+      "sourceName": "01A_童颜面膜_主海报.png",
+      "bytes": 113046,
+      "sha": "57c7d9bf1d92dc6b34a5ad0d0e98a19c273da408",
+      "width": 1080,
+      "height": 1620
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/svg/01A_童颜面膜_主海报.svg",
+      "relativePath": "svg/01A_童颜面膜_主海报.svg",
+      "sourceName": "01A_童颜面膜_主海报.svg",
+      "bytes": 6066,
+      "sha": "11a9b1c1c6c191c262cfedf7370c840507baccdc"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/png/01B_童颜面膜_卖点页.png",
+      "relativePath": "png/01B_童颜面膜_卖点页.png",
+      "sourceName": "01B_童颜面膜_卖点页.png",
+      "bytes": 129063,
+      "sha": "64407b647dcc64e28bae1f07f4382abf01b6d3ca",
+      "width": 1080,
+      "height": 1620
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/svg/01B_童颜面膜_卖点页.svg",
+      "relativePath": "svg/01B_童颜面膜_卖点页.svg",
+      "sourceName": "01B_童颜面膜_卖点页.svg",
+      "bytes": 5946,
+      "sha": "276def7ff78328131b7426f73aa702dc748aa9c2"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/png/02A_防晒_主海报.png",
+      "relativePath": "png/02A_防晒_主海报.png",
+      "sourceName": "02A_防晒_主海报.png",
+      "bytes": 103272,
+      "sha": "9ac2ca6d3704492ff9983beb285083599b29c877",
+      "width": 1080,
+      "height": 1620
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/svg/02A_防晒_主海报.svg",
+      "relativePath": "svg/02A_防晒_主海报.svg",
+      "sourceName": "02A_防晒_主海报.svg",
+      "bytes": 6324,
+      "sha": "a49f3d119b2f6f059f0554da3cc2192cfdf004f2"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/png/02B_防晒_卖点页.png",
+      "relativePath": "png/02B_防晒_卖点页.png",
+      "sourceName": "02B_防晒_卖点页.png",
+      "bytes": 132803,
+      "sha": "714b64378ac700596e69f0a46544790796eb365c",
+      "width": 1080,
+      "height": 1620
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/svg/02B_防晒_卖点页.svg",
+      "relativePath": "svg/02B_防晒_卖点页.svg",
+      "sourceName": "02B_防晒_卖点页.svg",
+      "bytes": 5972,
+      "sha": "0e01896bdeff88069586df027b6b2e2a2210bcd7"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/png/03A_精华油_主海报.png",
+      "relativePath": "png/03A_精华油_主海报.png",
+      "sourceName": "03A_精华油_主海报.png",
+      "bytes": 112670,
+      "sha": "2319aea56b2476fcdda6d100bd09349d6cce2690",
+      "width": 1080,
+      "height": 1620
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/svg/03A_精华油_主海报.svg",
+      "relativePath": "svg/03A_精华油_主海报.svg",
+      "sourceName": "03A_精华油_主海报.svg",
+      "bytes": 5215,
+      "sha": "aab9cafda0bb03597566981f0d17f1a0b2d0d80a"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/png/03B_精华油_卖点页.png",
+      "relativePath": "png/03B_精华油_卖点页.png",
+      "sourceName": "03B_精华油_卖点页.png",
+      "bytes": 125481,
+      "sha": "5ac345b6dd6fff09d5d5e897eff13bfeb4f6ed1f",
+      "width": 1080,
+      "height": 1620
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/svg/03B_精华油_卖点页.svg",
+      "relativePath": "svg/03B_精华油_卖点页.svg",
+      "sourceName": "03B_精华油_卖点页.svg",
+      "bytes": 6577,
+      "sha": "a79ccf2eb57306501f840e148c6e9b6b0e052d90"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/png/04A_洁面_主海报.png",
+      "relativePath": "png/04A_洁面_主海报.png",
+      "sourceName": "04A_洁面_主海报.png",
+      "bytes": 108879,
+      "sha": "398dcbfc800d0d0be5aa5b64256b9f68734e1b62",
+      "width": 1080,
+      "height": 1620
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/svg/04A_洁面_主海报.svg",
+      "relativePath": "svg/04A_洁面_主海报.svg",
+      "sourceName": "04A_洁面_主海报.svg",
+      "bytes": 5404,
+      "sha": "e334d925435aa7321af446d0527bbba40c1a2663"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/png/04B_洁面_卖点页.png",
+      "relativePath": "png/04B_洁面_卖点页.png",
+      "sourceName": "04B_洁面_卖点页.png",
+      "bytes": 125445,
+      "sha": "52da2642ddd64cb691cf1eff5284601050f8f577",
+      "width": 1080,
+      "height": 1620
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/svg/04B_洁面_卖点页.svg",
+      "relativePath": "svg/04B_洁面_卖点页.svg",
+      "sourceName": "04B_洁面_卖点页.svg",
+      "bytes": 5922,
+      "sha": "b70f003932a9a66423c4e45b790f39dd5d9d06db"
+    }
+  ]
+}
