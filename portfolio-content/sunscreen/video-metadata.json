@@ -1,0 +1,42 @@
+[
+  {
+    "audioTracks" : 1,
+    "durationSeconds" : 117.7,
+    "file" : "sunscreen-liying.mp4",
+    "height" : 778,
+    "sourceDurationSeconds" : 117.7,
+    "sourceTimelinePreserved" : true,
+    "type" : "web-review-copy",
+    "width" : 360
+  },
+  {
+    "audioTracks" : 1,
+    "durationSeconds" : 173.33333333333334,
+    "file" : "sunscreen-xianghailan.mp4",
+    "height" : 772,
+    "sourceDurationSeconds" : 173.33333333333334,
+    "sourceTimelinePreserved" : true,
+    "type" : "web-review-copy",
+    "width" : 360
+  },
+  {
+    "audioTracks" : 1,
+    "durationSeconds" : 118.23333333333333,
+    "file" : "sunscreen-influencer-03.mp4",
+    "height" : 778,
+    "sourceDurationSeconds" : 118.23333333333333,
+    "sourceTimelinePreserved" : true,
+    "type" : "web-review-copy",
+    "width" : 360
+  },
+  {
+    "audioTracks" : 1,
+    "durationSeconds" : 72.400000000000006,
+    "file" : "sunscreen-influencer-04.mp4",
+    "height" : 778,
+    "sourceDurationSeconds" : 72.400000000000006,
+    "sourceTimelinePreserved" : true,
+    "type" : "web-review-copy",
+    "width" : 360
+  }
+]

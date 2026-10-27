@@ -1,0 +1,191 @@
+{
+  "id": "sunscreen",
+  "title": "高客单抗老防晒｜从0到1建立购买理由与多渠道内容",
+  "updated": "2026-10-27",
+  "product": "原生密码肌底逆龄防晒乳",
+  "language": "zh-CN",
+  "primaryDocument": "project.md",
+  "fullAnalysisDocument": "防晒作品集内容.md",
+  "handoffDocument": "developer-handoff.md",
+  "selectionDocument": "selected-materials.md",
+  "hero": "assets/detail/detail-01.png",
+  "summary": "围绕既定高客单定位，以防晒与美白抗老精华护理的结合建立价值主线，并用轻薄肤感与具体使用场景承接购买顾虑。",
+  "role": "产品卖点与内容策划／文案",
+  "responsibilities": [
+    "从0到1提炼产品卖点与内容主线",
+    "公众号上新文章内容策划与撰写",
+    "朋友圈图文内容策划与配文",
+    "私域销售话术",
+    "完整详情页文案与内容结构",
+    "两条明星合作及两条达人视频脚本"
+  ],
+  "coreExpression": "1支防晒半支精华，外防光老化，内养冷白皮。",
+  "results": {
+    "display": "防晒上新半个月，私域GMV 120万＋",
+    "scope": "参与内容策划项目的整体销售成绩，由团队与渠道共同完成",
+    "source": "沿用项目本人授权使用的简历已披露口径"
+  },
+  "displayOrder": [
+    "overview",
+    "challenge",
+    "responsibilities",
+    "strategy",
+    "wechat",
+    "moments",
+    "private-sales",
+    "detail",
+    "videos",
+    "results"
+  ],
+  "channels": [
+    {
+      "id": "wechat",
+      "title": "公众号上新文章",
+      "analysis": "docs/wechat-analysis.md",
+      "pdf": "assets/wechat/sunscreen-launch-article.pdf",
+      "images": [
+        "assets/wechat/wechat-01.png",
+        "assets/wechat/wechat-02.png",
+        "assets/wechat/wechat-03.png",
+        "assets/wechat/wechat-04.png",
+        "assets/wechat/wechat-05.png",
+        "assets/wechat/wechat-06.png",
+        "assets/wechat/wechat-07.png",
+        "assets/wechat/wechat-08.png"
+      ],
+      "featuredImages": [
+        "assets/wechat/wechat-01.png",
+        "assets/wechat/wechat-05.png"
+      ],
+      "originalUrl": "https://mp.weixin.qq.com/s/zy8nm3TFUkB6eYzNfENkcg"
+    },
+    {
+      "id": "moments",
+      "title": "三组朋友圈图文",
+      "analysis": "docs/moments-analysis.md",
+      "items": [
+        {
+          "id": "01-evidence",
+          "image": "assets/moments/01-evidence.png",
+          "copyFile": "assets/moments/01-evidence.txt",
+          "featured": false
+        },
+        {
+          "id": "02-essence-value",
+          "image": "assets/moments/02-essence-value.png",
+          "copyFile": "assets/moments/02-essence-value.txt",
+          "featured": true
+        },
+        {
+          "id": "03-routine",
+          "image": "assets/moments/03-routine.png",
+          "copyFile": "assets/moments/03-routine.txt",
+          "featured": true
+        }
+      ]
+    },
+    {
+      "id": "private-sales",
+      "title": "私域销售话术",
+      "type": "historical-source-document",
+      "analysis": "docs/private-sales-analysis.md",
+      "document": "assets/sales/private-sales-source.docx",
+      "textFile": "assets/sales/private-sales-text.txt",
+      "uses": [
+        "一对一客户沟通",
+        "群内上新介绍",
+        "销售培训"
+      ],
+      "featuredParagraphs": [
+        "P37-P39",
+        "P29"
+      ]
+    },
+    {
+      "id": "detail",
+      "title": "完整电商详情页",
+      "analysis": "docs/detail-analysis.md",
+      "fullImage": "assets/detail/sunscreen-detail-full.jpg",
+      "images": [
+        "assets/detail/detail-01.png",
+        "assets/detail/detail-02.png",
+        "assets/detail/detail-03.png",
+        "assets/detail/detail-04.png",
+        "assets/detail/detail-05.png",
+        "assets/detail/detail-06.png",
+        "assets/detail/detail-07.png"
+      ],
+      "featuredImages": [
+        "assets/detail/detail-01.png",
+        "assets/detail/detail-04.png",
+        "assets/detail/detail-05.png"
+      ]
+    },
+    {
+      "id": "videos",
+      "title": "两条明星合作与两条达人视频",
+      "analysis": [
+        "docs/celebrity-video-analysis.md",
+        "docs/influencer-video-analysis.md"
+      ],
+      "items": [
+        {
+          "id": "liying",
+          "title": "李颖｜价格质疑到体验改观",
+          "src": "assets/videos/sunscreen-liying.mp4",
+          "poster": "assets/video-stills/liying-051.jpg",
+          "analysis": "docs/video-01-structure.md",
+          "featured": true,
+          "sourceDurationSeconds": 117.7
+        },
+        {
+          "id": "xianghailan",
+          "title": "向海岚｜人物主题与首尾呼应",
+          "src": "assets/videos/sunscreen-xianghailan.mp4",
+          "poster": "assets/video-stills/xiang-035.jpg",
+          "analysis": "docs/video-02-structure.md",
+          "featured": false,
+          "sourceDurationSeconds": 173.33333333333334,
+          "notificationMask": {
+            "topPixelsOfSource": 175,
+            "sourceTimeIntervalsSeconds": [
+              [
+                42,
+                63
+              ],
+              [
+                125,
+                136
+              ]
+            ]
+          }
+        },
+        {
+          "id": "influencer3",
+          "title": "达人录屏3｜高价疑问与资料说明",
+          "src": "assets/videos/sunscreen-influencer-03.mp4",
+          "poster": "assets/video-stills/influencer3-024.jpg",
+          "analysis": "docs/video-03-structure.md",
+          "featured": false,
+          "sourceDurationSeconds": 118.23333333333333
+        },
+        {
+          "id": "influencer4",
+          "title": "达人录屏4｜肤感演示与护理价值",
+          "src": "assets/videos/sunscreen-influencer-04.mp4",
+          "poster": "assets/video-stills/influencer4-023.jpg",
+          "analysis": "docs/video-04-structure.md",
+          "featured": true,
+          "sourceDurationSeconds": 72.4
+        }
+      ]
+    }
+  ],
+  "materialsNotes": [
+    "展示顺序为作品集叙事，不代表历史发布排期",
+    "视频为保留声音与源时间轴的网页查阅副本，向海岚通知已遮挡",
+    "完整详情长图保持原尺寸，PDF保持31页，仅优化网页查阅体积",
+    "海报设计线稿在跨品类模块统一展示",
+    "仅按已确认职责呈现内容策划及脚本贡献"
+  ]
+}

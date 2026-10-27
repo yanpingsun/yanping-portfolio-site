@@ -1,0 +1,22 @@
+{
+  "audioTracks" : 1,
+  "durationSeconds" : 173.33333333333334,
+  "height" : 960,
+  "notificationMask" : {
+    "intervalsSeconds" : [
+      [
+        42,
+        63
+      ],
+      [
+        125,
+        136
+      ]
+    ],
+    "topPixels" : 175
+  },
+  "originalDurationSeconds" : 173.33333333333334,
+  "timelinePreserved" : true,
+  "videoType" : "notification-masked-recording",
+  "width" : 448
+}

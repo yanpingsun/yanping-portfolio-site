@@ -1,0 +1,797 @@
+{
+  "project": "原生密码肌底逆龄防晒乳",
+  "updated": "2026-10-27",
+  "fileCountExcludingThisManifest": 94,
+  "totalBytesExcludingThisManifest": 53775721,
+  "checksumCoverage": "除本清单自身外的全部文件",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2392,
+      "sha256": "a34c1f92cddcdbae8f914a1edbc269f8232efe5b5f47b3fd194c249b792c3c1f",
+      "gitBlobSha": "c47e20b68da15926b8271348d87792deff29da99",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "assets/detail/detail-01.png",
+      "bytes": 3036157,
+      "sha256": "bf6d7a46562689683ffc0164db6e6b07a822bdb4d2eeba603f525741c81bab43",
+      "gitBlobSha": "5ef3802e94d578effcad5286127ad7c433354a5a",
+      "type": "historical-artifact-image",
+      "width": 1440,
+      "height": 2500
+    },
+    {
+      "path": "assets/detail/detail-02.png",
+      "bytes": 2148812,
+      "sha256": "3c22b2c3a4a7556463fb3114e39043b8a80f99a5da5725cbce9c1aeb1393af38",
+      "gitBlobSha": "57e1238454c3840989bcec444e7d9c20355436b1",
+      "type": "historical-artifact-image",
+      "width": 1440,
+      "height": 2050
+    },
+    {
+      "path": "assets/detail/detail-03.png",
+      "bytes": 1696545,
+      "sha256": "dfe6c1f3c3330d77af5640b7a45c967ed5b4328081b58cc420122c502c9b5391",
+      "gitBlobSha": "ed8b951bbab5b94e4782422b15a0736279833c23",
+      "type": "historical-artifact-image",
+      "width": 1440,
+      "height": 2020
+    },
+    {
+      "path": "assets/detail/detail-04.png",
+      "bytes": 4526912,
+      "sha256": "052c34bf1bc3d8e61761c1e0cf6df98298a9bd236e05fb2701c7f6eec6b828ce",
+      "gitBlobSha": "4ebf0c44af0fd03a787e36d1840bb8c48fc25824",
+      "type": "historical-artifact-image",
+      "width": 1440,
+      "height": 2000
+    },
+    {
+      "path": "assets/detail/detail-05.png",
+      "bytes": 1540907,
+      "sha256": "0793a62603238e6ab3db547620e9cd670a73e853becd73ef1c0da6ea0a04bb46",
+      "gitBlobSha": "38b84c181fccec941a4800f6a66d0b0a0de47bb2",
+      "type": "historical-artifact-image",
+      "width": 1440,
+      "height": 1800
+    },
+    {
+      "path": "assets/detail/detail-06.png",
+      "bytes": 1519125,
+      "sha256": "3b2f623249de0a3fd6deca3254882b8f6f7ca3a0c7fcbae1eed2efd9a1810f4e",
+      "gitBlobSha": "dfbab8a1e24bbc9b67e027f2267da6a0ab7b22e5",
+      "type": "historical-artifact-image",
+      "width": 1440,
+      "height": 2290
+    },
+    {
+      "path": "assets/detail/detail-07.png",
+      "bytes": 3118430,
+      "sha256": "a4368a45e287c5a71a40dc3ce909292ff64163ae19d59ef3c924549c4a6498aa",
+      "gitBlobSha": "583cbf1aa18cfc9ffbc22e16ef75a372364d4ea5",
+      "type": "historical-artifact-image",
+      "width": 1440,
+      "height": 3112
+    },
+    {
+      "path": "assets/detail/sunscreen-detail-full.jpg",
+      "bytes": 6000451,
+      "sha256": "87ebe13ad7e9efb41e99dbfa4cf96d67bd01df060306045be709e584d83613d4",
+      "gitBlobSha": "4185f8e3ab7b532459672d1f64a3393fbd93d8bf",
+      "type": "historical-artifact-image",
+      "width": 1440,
+      "height": 47392
+    },
+    {
+      "path": "assets/moments/01-evidence.png",
+      "bytes": 106583,
+      "sha256": "6488826264424e7c9a25286a1eeb20aab5c2f795480d4924771ad4ed1d478493",
+      "gitBlobSha": "569a77f852c23c01a3e051d9eb32dead0316271f",
+      "type": "historical-artifact-image",
+      "width": 750,
+      "height": 1000
+    },
+    {
+      "path": "assets/moments/01-evidence.txt",
+      "bytes": 173,
+      "sha256": "28ff9c9d7c04b3ed110799bbebd35696659f5542fcf250f38843de2ce1b6b071",
+      "gitBlobSha": "a485ec94cbab65f4093e2299a88407e738f3f638",
+      "type": "source-document"
+    },
+    {
+      "path": "assets/moments/02-essence-value.png",
+      "bytes": 500170,
+      "sha256": "c5810648a026f7c2c294db45dc6fa1bbd70f3531192be0108be15c56511549ef",
+      "gitBlobSha": "08da019490fd91bc1c0dbfadd2c4106ffcaf0362",
+      "type": "historical-artifact-image",
+      "width": 750,
+      "height": 1000
+    },
+    {
+      "path": "assets/moments/02-essence-value.txt",
+      "bytes": 131,
+      "sha256": "9fabf3349d9e45cd7fad170e3ae91bfb027d7a65da7255031a03725009c85ace",
+      "gitBlobSha": "51c63acc9910b414e09f7ca48e4daaa3f2ec8969",
+      "type": "source-document"
+    },
+    {
+      "path": "assets/moments/03-routine.png",
+      "bytes": 185312,
+      "sha256": "5008467904906545428a6b2ef82634ff6be0c614404081f03222a6eb0008a4f5",
+      "gitBlobSha": "e16e7254257c98266bf7ec463e1708aa4da3ad7d",
+      "type": "historical-artifact-image",
+      "width": 750,
+      "height": 1000
+    },
+    {
+      "path": "assets/moments/03-routine.txt",
+      "bytes": 124,
+      "sha256": "8002279a4fc2ccfb69066759b3d61d79d3bf7fad2ac2da9fd1527edee0e26d97",
+      "gitBlobSha": "2f6c0786570bcf6a61fd8f38e7ef7c5ac1ce02ac",
+      "type": "source-document"
+    },
+    {
+      "path": "assets/sales/private-sales-source.docx",
+      "bytes": 14687,
+      "sha256": "e58896d1d122dbc191011f906aabd1d8e21456172543d06721afdeca28484c2d",
+      "gitBlobSha": "102d2fe4503375b59a8947c08131dbf29075f104",
+      "type": "source-document"
+    },
+    {
+      "path": "assets/sales/private-sales-text.txt",
+      "bytes": 5769,
+      "sha256": "c10a9a6b8d27515e10dddcd5af0f2a5a8b39f6f8e1af568a0d9598b6548bb7c6",
+      "gitBlobSha": "756e4c89a37736ac415fd800e9637e759f37c72e",
+      "type": "source-document"
+    },
+    {
+      "path": "assets/video-stills/influencer3-002.jpg",
+      "bytes": 151605,
+      "sha256": "c654393c57cff38746b617e4f9c9d99df6d9bc5796952e8e1b304d1dbd2ec854",
+      "gitBlobSha": "e5aba0ec71a97f4f02e1f1e454bed92c4b4c36d1",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer3-012.jpg",
+      "bytes": 154569,
+      "sha256": "d1715f4b0e5e76974257328daf619ec7d48131af22732fe24a4022a759de12e1",
+      "gitBlobSha": "02d2e5751e992142bb17a0d26e16a308e68d8f11",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer3-024.jpg",
+      "bytes": 163973,
+      "sha256": "44c2746759cf8e99a39ffb7a775166c82e588ba6788f514670637c9f4c7e65a0",
+      "gitBlobSha": "740b9370cfe0adb8e71ec5186bc7bd63d6722f6d",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer3-033.jpg",
+      "bytes": 196743,
+      "sha256": "c29f62a39c6b3623f29270923b7905a103b805440e66127dcabfd2c6166164ef",
+      "gitBlobSha": "eda0d52754910bff032407ada0e2534c9d4f1520",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer3-050.jpg",
+      "bytes": 149164,
+      "sha256": "f2c6e9515862dd9920203c95a39f2063cbe4e3ea6e561098b042c5438854f391",
+      "gitBlobSha": "2f41ca3fc94de6e22fc24f53ce4e374e48decc18",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer3-055.jpg",
+      "bytes": 166526,
+      "sha256": "d8fbea47a66547491c2818c5dfa6c733e894d54279e3b1a21403305bc454db9a",
+      "gitBlobSha": "bb3e682a122d5dd1a0c16dae25d60db2505f827a",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer3-058.jpg",
+      "bytes": 180019,
+      "sha256": "45b5d5c7870d2d283b06a2bff0597349af4df5249d873b262db31079da9a864d",
+      "gitBlobSha": "75b075d9842718f91514b966459b630a9188c7a2",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer3-073.jpg",
+      "bytes": 170893,
+      "sha256": "4e610b1e665d03120acbe7d585ae9a27fef891c5a5a00a00fb506bd42c1bfe69",
+      "gitBlobSha": "d00d86ee15e849221884238ef5cc9d9bbb473ac9",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer3-085.jpg",
+      "bytes": 284673,
+      "sha256": "371b0eba0c4eae5f50f9964a3113e8d130c2d11c464ff493f6587dde456e3f9f",
+      "gitBlobSha": "3447ce5b79efee93ed01a4e327c16d0e12e1bfb8",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer3-090.jpg",
+      "bytes": 168757,
+      "sha256": "d6b93c9b56afdcc976cdc7581403ece7f98df09a3961f3c60e2a4877d0427be0",
+      "gitBlobSha": "ad84e88a0a4c325a77787d0f708334410c452470",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer3-100.jpg",
+      "bytes": 216925,
+      "sha256": "c4e32df40e4f1d610ae1e29c1b106dd74828e91417121b0a87f7be85077a41b2",
+      "gitBlobSha": "83c4f41531d8d8aeed26ba10cd2faeb374258a09",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer3-114.jpg",
+      "bytes": 163256,
+      "sha256": "c8d20f1ab8045896eb90e144fa22fa700e66e449790ca24a8cf5bfbc7355862e",
+      "gitBlobSha": "ed88b41d6beeee897a39231b482f70be84f6092b",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer3-118.jpg",
+      "bytes": 162011,
+      "sha256": "87b9e56a78aafbc4db842a447f39769beb92b6e6057a88ff4c2064d28865e80a",
+      "gitBlobSha": "41f85553597f8ccd80d381c6e531a297f1740add",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer4-004.jpg",
+      "bytes": 162766,
+      "sha256": "8bc3b75fdcace45c2f52ceb50d9006eb5411996b491afccc591c9d9e233b3b24",
+      "gitBlobSha": "776c2e949c320085f21a6e84e7aea73c6a7c91ae",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer4-009.jpg",
+      "bytes": 149660,
+      "sha256": "326f241bb55eee14253a6ef8b297365d103e1fbf33d003df309b2c54c5be875e",
+      "gitBlobSha": "c4529d1f489137b269c7509d8b70df100119bd56",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer4-014.jpg",
+      "bytes": 173720,
+      "sha256": "612e482b5d77872f7ccb4e5533cd31b2b50c19890895a56c34544ccb351641b4",
+      "gitBlobSha": "3a2d2c6589b0fd1a148f4ac0e4bd42b4067dfe29",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer4-023.jpg",
+      "bytes": 172540,
+      "sha256": "28f3711cf7e6996671e55d548a5e6e899c7bfac204efb1afdcfce788b9907f79",
+      "gitBlobSha": "dd71db1f96c476f75e7457243e1edad37e88f64c",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer4-028.jpg",
+      "bytes": 134751,
+      "sha256": "4eede70424cb66c81e240bfb1bf0fb4608f94bbb4e1bbb221e2bbc7a21bbdaf9",
+      "gitBlobSha": "4c3437cf37a511fdef398545930ce8ba04b3c1aa",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer4-033.jpg",
+      "bytes": 149831,
+      "sha256": "267491f692589f8a067fe214a328475bbe309d4327d70703d2fb6e5b2c5831c9",
+      "gitBlobSha": "f73435fcb08a81ae593df02d96206cc945495427",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer4-038.jpg",
+      "bytes": 191791,
+      "sha256": "0c788cdd1ff9d9edd1e06250fc2835a761ee114302f936104cf9c4288a336b67",
+      "gitBlobSha": "f09075b14bbafec2d49f3b32a0c8533238bc6808",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer4-045.jpg",
+      "bytes": 270182,
+      "sha256": "a123ba4a620e4bbba6ea6662b49b405e8a0c7f34276580fa3bed7fa6efb75939",
+      "gitBlobSha": "d825afe758c289928add9d86187a90b6504c0bf7",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer4-051.jpg",
+      "bytes": 204466,
+      "sha256": "eb5963e64f97e7201e0e28300c64f86087eede6765b18377350b3182d06913b6",
+      "gitBlobSha": "ea9aed89aee1a2f167dff1dea44a96d35f76e68e",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer4-054.jpg",
+      "bytes": 200636,
+      "sha256": "d91980c0d690cb0684cbf8ed2d0e9db0b54a01c6e96251a3f73714aa55649fbc",
+      "gitBlobSha": "35ade1622a12aaa533a4dfd67df64378a73658e3",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer4-058.jpg",
+      "bytes": 158457,
+      "sha256": "d7a83af1ed90016d7b4dcae3e32657e1bb7864cbaefb6796c9d83266a545e5d4",
+      "gitBlobSha": "8bb9b8ae595de1edc2a7aefaf91d0f477df9af03",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer4-067.jpg",
+      "bytes": 160742,
+      "sha256": "96fa0f222fd5505713c897d41cccc0872a559df3d022b6ce91b0dc31539a53dc",
+      "gitBlobSha": "1f5a2c613268f51d15af32505a32b0526dc781b3",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/influencer4-072.jpg",
+      "bytes": 165130,
+      "sha256": "9defb74c5f14cd943fae1a96d4693303957f5a9fc72626603361c68e6f4a6c82",
+      "gitBlobSha": "0305c3f907fd8cd9becf0b303b0e79fb3fb13429",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/liying-000.jpg",
+      "bytes": 164615,
+      "sha256": "9154f8306591e20bdc9ed4819c23b0cbf149c7a1592605170f22f423b000913d",
+      "gitBlobSha": "bcf500d62a15529a3cad0b383566204a856cd571",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/liying-041.jpg",
+      "bytes": 166203,
+      "sha256": "8debc370207bb604777d6a68ba14a0034f898fb275430081045ef9ff852f30b4",
+      "gitBlobSha": "c7200e9d4dc7f574e71b066b5c8bc604a0687269",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/liying-051.jpg",
+      "bytes": 149023,
+      "sha256": "23c101d35cfa7982a0751b48664eb09d969afe7de7052b5c63c77c81f7b9773f",
+      "gitBlobSha": "a69c8b330b053d5f94e4d3aa13c3b65e707271db",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/liying-064.jpg",
+      "bytes": 170104,
+      "sha256": "aa81f778eba5c707e5a7bd4f8a4a579a39d48f1994f34b17dad7fb63525c6df7",
+      "gitBlobSha": "8f8b37b73de641bda0883fde99ffeb744d35c017",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/liying-072.jpg",
+      "bytes": 194797,
+      "sha256": "c4cd7dd5adb7a79672ac58c6d7daa0b369f27496b0edc9f05b0416148e8f0aa4",
+      "gitBlobSha": "80e00bf6e4d51950a9dd8d74f1d4a9939a873747",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/liying-092.jpg",
+      "bytes": 185146,
+      "sha256": "2e23afe491b4fb2ae29bf94ad73cc8f13523d9cb6b63e8db00d6cb8e11337ac5",
+      "gitBlobSha": "f3d606860b1e5eb231635e9f80048e62cc46ea8a",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/liying-104.jpg",
+      "bytes": 191427,
+      "sha256": "fcdd6cf20cdae0303127c42b5f805a2e03aa4fa7dc0d8b5929fbf7bdf06ee950",
+      "gitBlobSha": "c94b9127e47969629507137ec05b44670245b3fd",
+      "type": "recording-frame",
+      "width": 592,
+      "height": 1280
+    },
+    {
+      "path": "assets/video-stills/xiang-007.jpg",
+      "bytes": 120974,
+      "sha256": "b36ce1e05ed6e796ffb2ec61d9c0f59b08d5580056cdbdfc104737d8e3be2744",
+      "gitBlobSha": "17b33e577406fedc59290ee6222fe47483f2a65b",
+      "type": "notification-masked-video-frame",
+      "width": 448,
+      "height": 960
+    },
+    {
+      "path": "assets/video-stills/xiang-035.jpg",
+      "bytes": 126455,
+      "sha256": "5c088d595b87355491d6f6aa760ae3b81c4400141f156cfbc3a97c02a13da91d",
+      "gitBlobSha": "ece5a99a152dfb1a7e5027efab91b16bd20b2ebd",
+      "type": "notification-masked-video-frame",
+      "width": 448,
+      "height": 960
+    },
+    {
+      "path": "assets/video-stills/xiang-047.jpg",
+      "bytes": 88920,
+      "sha256": "a191f9697252f2daeb0aeea1741d9650344615f988c27b7854669b088901341b",
+      "gitBlobSha": "0df70a2be4fa37895caf780176b7903accb0e029",
+      "type": "notification-masked-video-frame",
+      "width": 448,
+      "height": 960
+    },
+    {
+      "path": "assets/video-stills/xiang-052.jpg",
+      "bytes": 96177,
+      "sha256": "d8168f52d219569c2c52bcf152f8f7d8e74d9baa41ee3404a902e06ee32eaa11",
+      "gitBlobSha": "d90254951ab16c001f4ec3417384e3fa3e786c76",
+      "type": "notification-masked-video-frame",
+      "width": 448,
+      "height": 960
+    },
+    {
+      "path": "assets/video-stills/xiang-074.jpg",
+      "bytes": 91381,
+      "sha256": "7fe3a1bdfe1786b1f913b830bf5d55858870c7a12c9f72eb347b16f18c65ac35",
+      "gitBlobSha": "241dede04353f8f579d9d436e75f2c173862376c",
+      "type": "notification-masked-video-frame",
+      "width": 448,
+      "height": 960
+    },
+    {
+      "path": "assets/video-stills/xiang-095.jpg",
+      "bytes": 97001,
+      "sha256": "6b485029651c4c5732a838f0544d4b3607ef93297c3bb0ccd391a62c2afb69e7",
+      "gitBlobSha": "9bd1b19cdfcc6dd04408010192fd0e41e01fdf12",
+      "type": "notification-masked-video-frame",
+      "width": 448,
+      "height": 960
+    },
+    {
+      "path": "assets/video-stills/xiang-112.jpg",
+      "bytes": 129128,
+      "sha256": "aa7251798a3734ee998961e7f92be3974bd7eb0d03157e5dc72ff2d1e26c50c5",
+      "gitBlobSha": "de43bdd8031287a871ff4414bc67dba0ad670dee",
+      "type": "notification-masked-video-frame",
+      "width": 448,
+      "height": 960
+    },
+    {
+      "path": "assets/video-stills/xiang-119.jpg",
+      "bytes": 133732,
+      "sha256": "9148fe3e1bd994600f4bd4def2bd193cfdf21998b3c4bcd962a299e71249c22b",
+      "gitBlobSha": "d18af4bf368efdb51353ebd7110a1aceef341316",
+      "type": "notification-masked-video-frame",
+      "width": 448,
+      "height": 960
+    },
+    {
+      "path": "assets/video-stills/xiang-136.jpg",
+      "bytes": 109906,
+      "sha256": "a8ada23b38deeceed4b2340147081fd0cd6bc3d286ca974443f3256f2151b927",
+      "gitBlobSha": "7764ae3905b6ed9ac8865f7556384168bf1f249f",
+      "type": "notification-masked-video-frame",
+      "width": 448,
+      "height": 960
+    },
+    {
+      "path": "assets/video-stills/xiang-146.jpg",
+      "bytes": 119336,
+      "sha256": "c25e42dd0d3fb762bf0c4df1ac0367fef8c24157f69856f560f902fa69c86bcb",
+      "gitBlobSha": "12ed4503c7d9586ef32b11b5fe19d493c0f11649",
+      "type": "notification-masked-video-frame",
+      "width": 448,
+      "height": 960
+    },
+    {
+      "path": "assets/video-stills/xiang-154.jpg",
+      "bytes": 105577,
+      "sha256": "43b230b01a56c932c282c96bec2ea5b9b30e6513edff1b8b8143dde30f73814b",
+      "gitBlobSha": "7e9aa8876d024d854e6b87a6cdeb1d75ff16d877",
+      "type": "notification-masked-video-frame",
+      "width": 448,
+      "height": 960
+    },
+    {
+      "path": "assets/video-stills/xiang-158.jpg",
+      "bytes": 74309,
+      "sha256": "bead740227f4e8e393f008f31e098dcfe3e6a3a34d6de1180512fe0dfc4501e9",
+      "gitBlobSha": "663872388e2430000837f7cd69bc71e100f9c680",
+      "type": "notification-masked-video-frame",
+      "width": 448,
+      "height": 960
+    },
+    {
+      "path": "assets/video-stills/xiang-171.jpg",
+      "bytes": 136350,
+      "sha256": "0897ff9c11208d3a4c1fa59ff73e27a7c748a16372afa87adc1ffb969f768fbf",
+      "gitBlobSha": "605fedf394e36b7478a9d293a02dad4971575908",
+      "type": "notification-masked-video-frame",
+      "width": 448,
+      "height": 960
+    },
+    {
+      "path": "assets/videos/sunscreen-influencer-03.mp4",
+      "bytes": 3558808,
+      "sha256": "bcd293099f450ee2270eace220c411eadf260eb99fb7e532f4c19bd9481514a2",
+      "gitBlobSha": "8434159dc85c5ea21d8ddbee5ffcd6b9f80f558a",
+      "type": "web-review-video"
+    },
+    {
+      "path": "assets/videos/sunscreen-influencer-04.mp4",
+      "bytes": 2145781,
+      "sha256": "1702337fe08fe545ca1bc8b8c26be15ebef240937b2e50f86430054c36712c43",
+      "gitBlobSha": "cf3a010453753a05883e1536cd7f5aa8f847a05c",
+      "type": "web-review-video"
+    },
+    {
+      "path": "assets/videos/sunscreen-liying.mp4",
+      "bytes": 3430471,
+      "sha256": "85b37a75d7580709528134087818202005a499b86e5c7bab01ed3eedd7c3e3af",
+      "gitBlobSha": "0f0c5552f9931ccc49446a2ab52d2fc2663100a8",
+      "type": "web-review-video"
+    },
+    {
+      "path": "assets/videos/sunscreen-xianghailan.mp4",
+      "bytes": 5066021,
+      "sha256": "4d5a02228b9ce866affb9b0d5cdf972ad5816c018ea1eef625b9201c94c9263f",
+      "gitBlobSha": "0ad2b08f46d6db00fb4b85e1cfb28b7f9cd5a145",
+      "type": "web-review-video"
+    },
+    {
+      "path": "assets/wechat/sunscreen-launch-article.pdf",
+      "bytes": 2570171,
+      "sha256": "c4631689b1908d34faef8b0288ee2d27da143f7204d26431d2ff004e9dc7d0fa",
+      "gitBlobSha": "8dea9c376c68f87b2fbcee6e7d07808ef449191d",
+      "type": "source-document"
+    },
+    {
+      "path": "assets/wechat/wechat-01.png",
+      "bytes": 749752,
+      "sha256": "33e177b6e0a4ace991e68e58ec4b5dc18335d6feee2178c60f6589401fc9e6a7",
+      "gitBlobSha": "1ece57c6666959b8da6576993a051ff059d778ad",
+      "type": "historical-artifact-image",
+      "width": 750,
+      "height": 900
+    },
+    {
+      "path": "assets/wechat/wechat-02.png",
+      "bytes": 608711,
+      "sha256": "5e9fb4e19fb6d376d558fcc4d3e80e4e0a776ff5041745f19803fc4fdf192e8f",
+      "gitBlobSha": "1942bc59027246ee25cc5238779161f44cbbb183",
+      "type": "historical-artifact-image",
+      "width": 600,
+      "height": 800
+    },
+    {
+      "path": "assets/wechat/wechat-03.png",
+      "bytes": 750678,
+      "sha256": "99eb1883e2f4fb6a5d4e6df568f8991192cba7b7adc0d9b777bb57999fb22197",
+      "gitBlobSha": "5b507ce56bd821dccda3775eef2bc9f20077e2f7",
+      "type": "historical-artifact-image",
+      "width": 640,
+      "height": 853
+    },
+    {
+      "path": "assets/wechat/wechat-04.png",
+      "bytes": 914098,
+      "sha256": "fc34a1eff0450338cd12f8a2a4efbe643c7990984801456aa7b8cd1c4a6e46b2",
+      "gitBlobSha": "4d86a1166bdeeab6a382964cebfdd686a5cc091c",
+      "type": "historical-artifact-image",
+      "width": 750,
+      "height": 1300
+    },
+    {
+      "path": "assets/wechat/wechat-05.png",
+      "bytes": 290761,
+      "sha256": "5192ef8f1ec57af1a201f8b8ae4625ff4127cd66bafebb36323b8449f602f93e",
+      "gitBlobSha": "d1239ad2ba013b889c4732523bf539ae5b6e934f",
+      "type": "historical-artifact-image",
+      "width": 750,
+      "height": 350
+    },
+    {
+      "path": "assets/wechat/wechat-06.png",
+      "bytes": 638497,
+      "sha256": "52521375e7423e677dc3f097a1cb2509da2ee63c4194bdf8fd45717e4399bbe6",
+      "gitBlobSha": "23a17845892eafba2850bfbf4dfa07a76cfecf20",
+      "type": "historical-artifact-image",
+      "width": 750,
+      "height": 1000
+    },
+    {
+      "path": "assets/wechat/wechat-07.png",
+      "bytes": 547144,
+      "sha256": "e57f15bafcd57b8eb392ded660d4b40b1fc427c45e31dadca4dfd9b2cacfc0ff",
+      "gitBlobSha": "96d1e3bbd6b42b68efc0113a2d7951a14b12d7df",
+      "type": "historical-artifact-image",
+      "width": 640,
+      "height": 1067
+    },
+    {
+      "path": "assets/wechat/wechat-08.png",
+      "bytes": 660367,
+      "sha256": "3c1efe4b11f3b67a33cade817b7ee51e0eba852f4f4a5a8b98b5a43506070501",
+      "gitBlobSha": "e78ce301a2190b278459bb0747f8e4a428f77a1e",
+      "type": "historical-artifact-image",
+      "width": 640,
+      "height": 1067
+    },
+    {
+      "path": "content.json",
+      "bytes": 6379,
+      "sha256": "63da32428574c38da4dc5d53b8413519c9ec1cbbc484a7a0cc8f34ee340a6c7e",
+      "gitBlobSha": "52e8a4485f4f7c90d95fbbfd77414dfa07071dbd",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "developer-handoff.md",
+      "bytes": 2821,
+      "sha256": "8d8201c6398bed497938d38a74ba461c3d363614df60d941195d00fc5fab8430",
+      "gitBlobSha": "67bc891d78bc02bae24ae31627eb54a7e65401dd",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "docs/celebrity-video-analysis.md",
+      "bytes": 10986,
+      "sha256": "9059053d1283a0221859ef3f448419f64faad3e9d7a0617345ed025a73df5fdc",
+      "gitBlobSha": "d6d0ec96482b93f9e83b440c1d6c97b163bd8df8",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "docs/detail-analysis.md",
+      "bytes": 9520,
+      "sha256": "8342d6561d5093f096f1006318015e17bc8359eb87e074b7d6109f7d311dfb5e",
+      "gitBlobSha": "4291ee5c32d4d51a57723dfa894d36344750fdab",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "docs/influencer-video-analysis.md",
+      "bytes": 8765,
+      "sha256": "1f70fc214d08fd5b83efda4217ac55b0c618c3f6bc8b8f2f074aed92aa27407c",
+      "gitBlobSha": "5a1ffc3730f21f2991de7e9983785f45b45f3c98",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "docs/moments-analysis.md",
+      "bytes": 7691,
+      "sha256": "c99efbe7fdb85ab21dec69f36eb0121746f13f65911560fd5cd297bda591ff1f",
+      "gitBlobSha": "6f6ef99a354fd8d300c969a8971129579228020d",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "docs/private-sales-analysis.md",
+      "bytes": 7032,
+      "sha256": "81217f1028749a6b62435b1fb2f651fa4e78edf69d1a23e18d69229b86086720",
+      "gitBlobSha": "966c90181c330f5715af3d2a840f9bf3cbfff0bc",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "docs/selling-point-strategy.md",
+      "bytes": 8997,
+      "sha256": "d711d09bd49948a9e445dafd3a5bbb04d6479e879bf35d822214730c02f98b77",
+      "gitBlobSha": "3a9f78646cd5d8251ea0e011687e8eddded0b5b7",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "docs/video-01-structure.md",
+      "bytes": 2487,
+      "sha256": "02e40b9cb6702899507143c17f7b0e3ed935aae77ee07d0d281ebf2af51ea9b2",
+      "gitBlobSha": "95924079a77f29b5c0240894a90f29e764b92477",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "docs/video-02-structure.md",
+      "bytes": 4686,
+      "sha256": "f06c872314dbdc7cf1bd9a2d5475c94c245affbfe835830cd0fee55cc533bf9a",
+      "gitBlobSha": "bc0693fb8d74c72cfd57b31a321dc04b7f82a3f6",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "docs/video-03-structure.md",
+      "bytes": 4459,
+      "sha256": "9e53a8bd869332b5047fa8906321595ad478fba12f21d7a564a17e2a183bd9a2",
+      "gitBlobSha": "25ecf2f51063638c38d15852f38d9845d24eee01",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "docs/video-04-structure.md",
+      "bytes": 3984,
+      "sha256": "d2a3f8f39ac609fd918701e24349dcd44f5dadce57fe388d50c7e5e6802d82c0",
+      "gitBlobSha": "dc9989e57fba2695aea86384979f2a1e8557a731",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "docs/wechat-analysis.md",
+      "bytes": 8804,
+      "sha256": "ebfe917eb5ec16fff66e9578d92d72cc29d181386c2f79178fbe297d9ed717ee",
+      "gitBlobSha": "6e7d797b204137e5bbfa3296f9ee235cbf1bf7fe",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "project.md",
+      "bytes": 11989,
+      "sha256": "1b1895af57309b744804b2df1ce6665d70570c9320d89954378b2e653ae6b21f",
+      "gitBlobSha": "2215bd7aadbb8fd27a8a618103f348fc633dc2be",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "selected-materials.md",
+      "bytes": 3609,
+      "sha256": "d0577594dc3bf91901464cf27ed392ed59ebda621bf4635937812dfebbc779ff",
+      "gitBlobSha": "50ea57c22f29be9d3181f98cbd3c4374e850314c",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "video-metadata.json",
+      "bytes": 1079,
+      "sha256": "2855582fc5ffb44e325fbdd2efa887231383119316bc7f047f06867e6f5aa0ee",
+      "gitBlobSha": "931af49a95105ced053a3bae2a79fb6269b793aa",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "video-redaction-metadata.json",
+      "bytes": 396,
+      "sha256": "9851aa6732cd747a3c84c204b28499e71b5c235846b88f26208b6c1e7afc1c17",
+      "gitBlobSha": "769c6ab8c1f5c1632bc7769ee8b9b987b44c3559",
+      "type": "compiled-document-or-data"
+    },
+    {
+      "path": "防晒作品集内容.md",
+      "bytes": 63750,
+      "sha256": "447468f94779ac9374d64e97c776a3f6bd8239df941d4862a598a24096301535",
+      "gitBlobSha": "a9134ad363a72c328fc58c2fcaadaa36ab3fccc6",
+      "type": "compiled-document-or-data"
+    }
+  ]
+}

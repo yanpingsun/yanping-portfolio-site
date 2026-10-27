@@ -31,3 +31,14 @@
 - [开发交接说明](tongyan-mask/developer-handoff.md)
 
 原有精华油内容和资源保留。
+
+
+## 防晒项目（2026-10-27）
+
+- [完整项目与全部资料](sunscreen/README.md)
+- [完整项目稿](sunscreen/project.md)
+- [全量内容分析](sunscreen/防晒作品集内容.md)
+- [开发交接说明](sunscreen/developer-handoff.md)
+- [结构化内容与资源入口](sunscreen/content.json)
+
+围绕高客单抗老防晒建立购买理由，含公众号、三组朋友圈、私域话术、完整详情页、两条明星与两条达人视频及代表帧。成果沿用已披露的简历口径。
