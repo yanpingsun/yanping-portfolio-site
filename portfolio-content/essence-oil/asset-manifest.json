@@ -1,0 +1,177 @@
+{
+  "project": "日夜精华油",
+  "updated": "2026-10-27",
+  "fileCountExcludingThisManifest": 28,
+  "totalBytesExcludingThisManifest": 21876792,
+  "checksumCoverage": "除本清单自身外的全部文件",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2061,
+      "sha256": "7e8da5b566d8696a89d3e952bbd8bbc084982069b519e63bfefa1ea928aee5c6",
+      "gitBlobSha": "f3d75937b3360aef961c2f5200c55de85ef1226e"
+    },
+    {
+      "path": "assets/moments/oil-essence-structure.png",
+      "bytes": 139626,
+      "sha256": "257f0c05cbd7fb2362e6014819ab4164616e5ee113592b395db2091a5c2c7e56",
+      "gitBlobSha": "e5af4ccf9913729945667bbc0f81f6d7177656b1"
+    },
+    {
+      "path": "assets/moments/oil-sebum-explanation.png",
+      "bytes": 184432,
+      "sha256": "b52c18eea5746fd00954eec262fca360dfe65ec2bcfb1f4f3d0d79977c7be683",
+      "gitBlobSha": "6cb82c13c30548f705d9f9bd7d55b50030ce5da4"
+    },
+    {
+      "path": "assets/moments/oil-sebum-needs.png",
+      "bytes": 178390,
+      "sha256": "d4b38fa6dac5363033f3eb4f3a2724d29a5426a99a2bd8e8f6d127c5b0b8fc44",
+      "gitBlobSha": "88b742a55a711c21d4f0558e043ba494506aa076"
+    },
+    {
+      "path": "assets/posters/oil-benefit.png",
+      "bytes": 990251,
+      "sha256": "4ed40ef7c322bad62a2f5c43e78fa329eeb30f91ad918c35059d264f82548ba4",
+      "gitBlobSha": "f1586df3203479bc352c5d91c9434166201788a1"
+    },
+    {
+      "path": "assets/posters/oil-product.png",
+      "bytes": 1223616,
+      "sha256": "c7a299d3a4a3d2fffe86d76c022f1494b0252a58926b7881de5585ff900e8117",
+      "gitBlobSha": "43c9697bc40a8be3b46043945ea530381bc881ad"
+    },
+    {
+      "path": "assets/posters/oil-usage.png",
+      "bytes": 1269372,
+      "sha256": "e2e7390547f0beb19958750203bd170d937632eb730c9197d85d723b8e29d27a",
+      "gitBlobSha": "17f4b1d9f486677eb5ea9f882d3bb5671f3c3836"
+    },
+    {
+      "path": "assets/videos/oil-influencer-qa.mp4",
+      "bytes": 2491449,
+      "sha256": "3e0e49eb36f13ee65947155e2e78a7c8bb55f1cc5ca4f53aab030c1541c6749b",
+      "gitBlobSha": "502a1c52143b0f758e4130b9ea552a76124afa65"
+    },
+    {
+      "path": "assets/videos/oil-liuxiaoqing.mp4",
+      "bytes": 2236563,
+      "sha256": "ddeb47afb6b321b3b9d40e5986f399fe38d17a324bde589c7a89744b8bfd82b7",
+      "gitBlobSha": "d051961be1bdd4340cb539390a5711cfab590bc9"
+    },
+    {
+      "path": "assets/videos/oil-sebum-education.mp4",
+      "bytes": 2667551,
+      "sha256": "24dbaa730070ce940ca1cd0161dce5a5f015e38f7b62616dc0808c38ae6c598e",
+      "gitBlobSha": "374d3a717560c142910c1c590914080243b1073d"
+    },
+    {
+      "path": "assets/videos/oil-tutorial.mp4",
+      "bytes": 2979154,
+      "sha256": "8a7e27b8870d49e6ff74dc937f9627bde6b9492b51568211595a3cabc4eba43b",
+      "gitBlobSha": "d930289a595bd5966fe591c98759273ed965675a"
+    },
+    {
+      "path": "assets/wechat/01-care-needs.png",
+      "bytes": 464474,
+      "sha256": "25bef68fd2eef73f10726d6f4fba5846943e11195ae8657deddc58842b7946f0",
+      "gitBlobSha": "f9e35e432475d7fc4b18a92d1c6d896a74e5f9c2"
+    },
+    {
+      "path": "assets/wechat/02-sebum-concept.png",
+      "bytes": 549703,
+      "sha256": "4b6fb8e9325ca704e5bb4dc667ce55cb3da23d0783aa1b70640476f4cccf79d8",
+      "gitBlobSha": "db71d8abe632fb0dbc75ef84aa9331935e4c2999"
+    },
+    {
+      "path": "assets/wechat/03-essence-structure.png",
+      "bytes": 465215,
+      "sha256": "c4a2c0a93390e6edcef5eb33ddf2e5b2d7bd1d60eb7fdb696e6f05f53eb9ef2f",
+      "gitBlobSha": "f85e9e7e0b719ba7320414673aafbaa1de3e9e63"
+    },
+    {
+      "path": "assets/wechat/04-day-night.png",
+      "bytes": 698113,
+      "sha256": "c45449ef3a357005d40a0eb7ebe05d68a93ec040dac18eb61fe15b7cf69bfcc2",
+      "gitBlobSha": "b1f3df1234810e95ca45c4e9a88a832a6bcfd1fc"
+    },
+    {
+      "path": "assets/wechat/05-day-oil.png",
+      "bytes": 542967,
+      "sha256": "189dce76bbb747ea7bc84cfca30a96455dc08150e97b90e6893e9e52e9b6b782",
+      "gitBlobSha": "a7df318bc6b3fd64317f55ef6aa3c7cdb0358036"
+    },
+    {
+      "path": "assets/wechat/06-night-oil.png",
+      "bytes": 686330,
+      "sha256": "3ee3f75d2fbf1aace69fc180dfe561795d4e380e8235bde09c48ee4d2ec69a2e",
+      "gitBlobSha": "d3214b1c08f25b57ed5596cd8fbff2169b2ba85b"
+    },
+    {
+      "path": "assets/wechat/07-usage.png",
+      "bytes": 736190,
+      "sha256": "7e35cde15766defa40a7b0542d00e8cac00c77b419b48e8dede5a8cf71d38721",
+      "gitBlobSha": "7fa170bb3a04b169eacaabdf0e95fa82d904e3b3"
+    },
+    {
+      "path": "assets/wechat/08-launch-bundle.png",
+      "bytes": 665117,
+      "sha256": "05afb6661692d40847aea6298c03802183fec48e32b28e221f5935b995440ffc",
+      "gitBlobSha": "6851fb4dd899eec07c74350943501a3fd1c7a9b9"
+    },
+    {
+      "path": "assets/wechat/oil-launch-article.pdf",
+      "bytes": 2619907,
+      "sha256": "b2cb61c43b0c94676c2a502d257410c744088bdf48a6883b59bee92ad068a1cb",
+      "gitBlobSha": "d1ebcd8e9f16688e2eedd5c7a9c17e882445e9c0"
+    },
+    {
+      "path": "content.json",
+      "bytes": 5340,
+      "sha256": "faaa0b1b3e764cccb6521f701b67e1a656c4b262957fecaf44c2e0ec2a044458",
+      "gitBlobSha": "223365e0365f6385bdd3381e6fcd004c0d51cdf4"
+    },
+    {
+      "path": "developer-handoff.md",
+      "bytes": 2392,
+      "sha256": "b20cf8af48959a865fbb2d6a6d0e50569302a9b2d24b0391c8406374bbdcd944",
+      "gitBlobSha": "ee1bdd6c188fd42d21f105c2234fd70f1d96e927"
+    },
+    {
+      "path": "docs/private-sales-reconstructed.md",
+      "bytes": 6551,
+      "sha256": "abe5bc365798372665dfb7c9ae5484c5a44b92fd50e498b5b64369684b931e6a",
+      "gitBlobSha": "d2e4d3195ebcda27332a52e388b4177d1e211446"
+    },
+    {
+      "path": "docs/video-analysis.md",
+      "bytes": 14191,
+      "sha256": "6c267fe086ee8689c56ccd984d9d0833c8c9097909d2b4ba71d7808ece8339d4",
+      "gitBlobSha": "2a2c03bb4d902d9ea6b96b434bad6d15848e509c"
+    },
+    {
+      "path": "docs/wechat-analysis.md",
+      "bytes": 7322,
+      "sha256": "a700b5fee4022057fc4822ffed37134318bc052b9070d12a244bc06bf1b8e589",
+      "gitBlobSha": "f612caf54c6ffa9629d958273c1447cb41176623"
+    },
+    {
+      "path": "project.md",
+      "bytes": 9823,
+      "sha256": "4b22fdb63da1d2856c0c32e8599987a985a0698e114debad92ea5e52908a6c7b",
+      "gitBlobSha": "5c4f47d773c19e721b766c8273722860b67211f8"
+    },
+    {
+      "path": "selected-materials.md",
+      "bytes": 2664,
+      "sha256": "c76d6e0617115fd204bb2fb316ee7ae0c39133f8fd99c6a6386684bcefc10af8",
+      "gitBlobSha": "33dadf838251fca0ee85c1ea4d2b51f72916302a"
+    },
+    {
+      "path": "精华油作品集内容.md",
+      "bytes": 38028,
+      "sha256": "44b0b77d08be1c9f2f578a749041a69a03aa51834ac91d6cad74fcb2a7f2f466",
+      "gitBlobSha": "9ff0d2eb9786bad20139db6693fb7ddbf30b12b9"
+    }
+  ]
+}

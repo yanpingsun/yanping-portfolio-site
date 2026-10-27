@@ -1,7 +1,7 @@
 {
   "id": "tongyan-mask",
   "title": "童颜面膜｜王牌产品升级卖点与多渠道内容策划",
-  "updated": "2026-10-22",
+  "updated": "2026-10-27",
   "language": "zh-CN",
   "summary": "在胶原炮已有成熟认知的基础上，为童颜面膜建立升级购买理由，并转化为各渠道内容。",
   "primaryDocument": "project.md",
@@ -141,8 +141,17 @@
     "usage": "按包装：白膜25分钟后不揭下，再覆盖金膜20分钟，总计45分钟；面霜按包装说明"
   },
   "results": {
-    "confirmedBusinessMetrics": null,
-    "note": "以交付作品与职责呈现，不补造阅读、成交、投放或老客迁移数据"
+    "display": "童颜面膜上新GMV 100万+",
+    "confirmedBusinessMetrics": {
+      "metric": "GMV",
+      "value": 1000000,
+      "qualifier": "+",
+      "currency": "CNY",
+      "period": "上新",
+      "confirmedOn": "2026-10-27",
+      "source": "项目本人确认"
+    },
+    "note": "项目整体销售结果，为团队及渠道共同完成；不归因于单条内容，不附加首月或两周统计时长。"
   },
   "publicationNotes": [
     "平台规范审阅不放入作品集",

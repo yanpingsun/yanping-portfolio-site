@@ -1,14 +1,14 @@
 {
   "project": "童颜面膜",
-  "updated": "2026-10-22",
+  "updated": "2026-10-27",
   "fileCountExcludingThisManifest": 67,
-  "totalBytesExcludingThisManifest": 30233859,
+  "totalBytesExcludingThisManifest": 30235083,
   "checksumCoverage": "除本清单自身外的所有文件",
   "files": [
     {
       "path": "README.md",
-      "bytes": 2358,
-      "sha256": "d17d17c11688114d62cda82117f6c6c26474af5b27c62827f2984de46e397a03",
+      "bytes": 2507,
+      "sha256": "869a291ec508879014aa7eefe619e3d028228e1054f16268efec2d03fa2c1ed4",
       "type": "compiled-document-or-data"
     },
     {
@@ -403,14 +403,14 @@
     },
     {
       "path": "content.json",
-      "bytes": 6121,
-      "sha256": "1929b1e3f9dbd68f02298b46cb87db91e69f6ac78438883837db36f99b9e2f83",
+      "bytes": 6406,
+      "sha256": "5a0478d9dea2b6809997fd4bdb1997fd5398bdbccf23088364a84b1016319c75",
       "type": "compiled-document-or-data"
     },
     {
       "path": "developer-handoff.md",
-      "bytes": 3906,
-      "sha256": "6948d9f503ace790c5607a2152cd3a1b1569207577e671a09ab6b739c6a85558",
+      "bytes": 4149,
+      "sha256": "5081a75f5212d98e65df86798211f1aab14817639d997eb2192559dd161b1223",
       "type": "compiled-document-or-data"
     },
     {
@@ -475,8 +475,8 @@
     },
     {
       "path": "project.md",
-      "bytes": 11091,
-      "sha256": "8b8835f53a6726f3d1da874bde4b0556d669c56c9fa707a1746dc8b684b7cb61",
+      "bytes": 11363,
+      "sha256": "02c03ec7b3ad7958f941e38809e4e28ad0e60aa7d45e0c8f7353a17e3f97536d",
       "type": "compiled-document-or-data"
     },
     {
@@ -487,8 +487,8 @@
     },
     {
       "path": "童颜面膜作品集内容.md",
-      "bytes": 62912,
-      "sha256": "3de26910fa36982c05b0256384bedbac5810e776fb8ae18aaba6ea5b572f53d4",
+      "bytes": 63187,
+      "sha256": "b41e99f0a9d18f966076294e84b5b1432e37f9ab0fae072bce235e9484e1ecee",
       "type": "compiled-document-or-data"
     }
   ]
