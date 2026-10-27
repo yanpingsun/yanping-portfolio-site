@@ -1,0 +1,70 @@
+{
+  "project": "原生密码逆时光洁颜霜",
+  "updated": "2026-10-27",
+  "gmv": "上新 GMV 80万+",
+  "assets": [
+    {
+      "original_filename": "【新品】洁面产品简介【7.3】.xlsx",
+      "path": "assets/source/product-introduction.xlsx",
+      "size_bytes": 2450528,
+      "sha256": "5ef90858ecef6c902840828cda8c6be5ae6f1bbaf88e5b4a11da1bb16281605e",
+      "git_blob_sha": "5c7a7e95c7979695e325c7cd36feb2df60d3b92f"
+    },
+    {
+      "original_filename": "image(3).png",
+      "path": "assets/selling-points/selling-points-01.png",
+      "size_bytes": 524649,
+      "sha256": "c47de9838826031832aebd3818339fff95ec041fd8bb5034ece4e583330e0275",
+      "git_blob_sha": "f205c2392730994d0fe83389639c82bdf5975c94"
+    },
+    {
+      "original_filename": "image(4).png",
+      "path": "assets/selling-points/selling-points-02.png",
+      "size_bytes": 450312,
+      "sha256": "fda38be17991903b8614c679fe0f52ac9bb92b3ae919d9f6fb77b7e59ec5ce65",
+      "git_blob_sha": "9505c443108bfd71d2cae141222020eb36bbe65e"
+    },
+    {
+      "original_filename": "image(5).png",
+      "path": "assets/selling-points/selling-points-03.png",
+      "size_bytes": 364511,
+      "sha256": "67e46cf912f6794de1d99e9a725b17f44040441f5cb2f4eee04e22279af212af",
+      "git_blob_sha": "3aab5fc83f590718be34edc2e4ca47aaedd37493"
+    },
+    {
+      "original_filename": "image(6).png",
+      "path": "assets/selling-points/selling-points-04.png",
+      "size_bytes": 181783,
+      "sha256": "141adf125b6a80342a9cd118947f16509512d93286e8ba5c3adba97d1bfeef06",
+      "git_blob_sha": "0eee5805fa88b43b288979d0c04d12c8f05f132d"
+    },
+    {
+      "original_filename": "洁面公众号全文.pdf",
+      "path": "assets/wechat/cleanser-launch-article.pdf",
+      "size_bytes": 14824785,
+      "sha256": "dd5ef5c02816738a75cabb4ed7293087780ffe32b45f126adf768cacd2dc79d4",
+      "git_blob_sha": "8f9553398d5288cd3e505506ce351e829fd8d197"
+    },
+    {
+      "original_filename": "逆时光洁颜霜海报.jpg",
+      "path": "assets/posters/cleanser-main.jpg",
+      "size_bytes": 464042,
+      "sha256": "33f2d1557ac81bf155bcc22207cbfb10b10e0f0dac8a335898bcbc9fff4d1481",
+      "git_blob_sha": "f5cf999dc26f1b1dbd766ca71da53c15e6f7e201"
+    },
+    {
+      "original_filename": "WechatIMG130.jpg",
+      "path": "assets/posters/cleanser-cleansing.jpg",
+      "size_bytes": 515773,
+      "sha256": "4089de2011bc29fbaae895bf451df35148d55a714d2b65d0d10aed32dafa7123",
+      "git_blob_sha": "9f8047d3b085ab2c5a8726c1c8a967f4a0958d6c"
+    },
+    {
+      "original_filename": "WechatIMG131.jpg",
+      "path": "assets/posters/cleanser-hydrating.jpg",
+      "size_bytes": 444756,
+      "sha256": "741e5aca0c6ba50a9856c2705e5cc049b40d6c943a587bd00ac57170c2e81969",
+      "git_blob_sha": "df5bb8b6e1e9046a55c67ebebb865fce8f482d7f"
+    }
+  ]
+}
