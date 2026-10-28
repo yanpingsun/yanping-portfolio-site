@@ -1,0 +1,174 @@
+{
+  "id": "kugou",
+  "title": "酷狗音乐｜多平台内容运营与客户端引流",
+  "updated": "2026-10-28",
+  "language": "zh-CN",
+  "primaryDocument": "project.md",
+  "compiledDocument": "酷狗作品集内容.md",
+  "handoffDocument": "developer-handoff.md",
+  "assetIndex": "asset-index.md",
+  "platforms": [
+    "微博",
+    "小红书",
+    "抖音",
+    "公众号",
+    "视频号"
+  ],
+  "presentationOrder": [
+    "平台总览",
+    "客户端引流与发糖机",
+    "小红书活动",
+    "产品功能内容",
+    "微信渠道",
+    "入梦晚安电台精选"
+  ],
+  "assets": [
+    {
+      "path": "assets/weibo/fatang-weibo.jpg",
+      "title": "时代少年团发糖机发布微博",
+      "width": 1008,
+      "height": 2048,
+      "note": "历史公开作品截图；重新编码移除元数据，图内内容未改写"
+    },
+    {
+      "path": "assets/weibo/fatang-rules.jpg",
+      "title": "时代少年团三时有声活动长图与指定序号奖励",
+      "width": 750,
+      "height": 1972,
+      "note": "历史公开作品截图；重新编码移除元数据，图内内容未改写"
+    },
+    {
+      "path": "assets/xiaohongshu/luhan-topic.png",
+      "title": "鹿晗演唱会话题与16.8万次浏览",
+      "width": 306,
+      "height": 555,
+      "note": "历史公开作品截图；重新编码移除元数据，图内内容未改写"
+    },
+    {
+      "path": "assets/xiaohongshu/sound-effect-ugc.png",
+      "title": "蝰蛇音效相关用户内容节选",
+      "width": 338,
+      "height": 203,
+      "note": "仅保留用户内容展示区域；上方聊天记录及下方后台趋势图未公开"
+    },
+    {
+      "path": "assets/douyin/gokuraku-screenshot.png",
+      "title": "极乐净土现场与HiFi现场音效截图",
+      "width": 945,
+      "height": 2048,
+      "note": "历史公开作品截图；重新编码移除元数据，图内内容未改写"
+    },
+    {
+      "path": "assets/douyin/concert-collection.png",
+      "title": "蝰蛇音效演唱会合集：1763万播放、48集",
+      "width": 311,
+      "height": 601,
+      "note": "历史公开作品截图；重新编码移除元数据，图内内容未改写"
+    },
+    {
+      "path": "assets/wechat/article-opening.png",
+      "title": "公众号音乐内容与新专辑切入",
+      "width": 292,
+      "height": 619,
+      "note": "历史公开作品截图；重新编码移除元数据，图内内容未改写"
+    },
+    {
+      "path": "assets/wechat/article-feature-and-reading.png",
+      "title": "公众号音效功能、收听引导与阅读10万+",
+      "width": 285,
+      "height": 619,
+      "note": "历史公开作品截图；重新编码移除元数据，图内内容未改写"
+    },
+    {
+      "path": "assets/channels/live-list.png",
+      "title": "视频号Live列表与多条高互动内容",
+      "width": 312,
+      "height": 590,
+      "note": "历史公开作品截图；重新编码移除元数据，图内内容未改写"
+    },
+    {
+      "path": "assets/radio/poster-fiona.png",
+      "title": "薛凯琪晚安电台海报",
+      "width": 223,
+      "height": 404,
+      "note": "从项目介绍的物料展示页节选已发布海报；未公开完整项目PDF"
+    },
+    {
+      "path": "assets/radio/poster-yuwenwen.png",
+      "title": "于文文晚安电台海报",
+      "width": 225,
+      "height": 404,
+      "note": "从物料展示页节选已发布海报"
+    },
+    {
+      "path": "assets/radio/weibo-promotion.jpg",
+      "title": "电台四期官方微博推广",
+      "width": 885,
+      "height": 358,
+      "note": "从项目介绍节选已发布官博截图，未公开整份内部文件"
+    },
+    {
+      "path": "assets/radio/in-app-program.png",
+      "title": "电台站内栏目页面",
+      "width": 131,
+      "height": 279,
+      "note": "从总结图仅节选站内节目界面，成果数字与职责在文档中说明"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "客户端引流",
+      "display": "200万+",
+      "scope": "拉新及促活，不含单纯访问",
+      "period": null,
+      "relationToNewUsers": "待核实，不相加"
+    },
+    {
+      "label": "纯拉新",
+      "display": "21万",
+      "period": null
+    },
+    {
+      "label": "发糖机参与",
+      "display": "8万人次",
+      "scope": "活动历史阶段汇总，非单期"
+    },
+    {
+      "label": "发糖机拉新促活",
+      "display": "2.2万人次",
+      "scope": "活动历史阶段汇总，非纯新增"
+    },
+    {
+      "label": "鹿晗相关话题浏览",
+      "display": "16.8万次",
+      "scope": "截图时点累计浏览"
+    },
+    {
+      "label": "抖音多功能阶段推广",
+      "display": "播放5700万、互动82万",
+      "scope": "11项功能阶段汇总，周期待确认"
+    },
+    {
+      "label": "抖音演唱会合集",
+      "display": "1763万播放、48集",
+      "scope": "截图时点"
+    },
+    {
+      "label": "公众号代表文章",
+      "display": "阅读10万+",
+      "scope": "截图时点"
+    },
+    {
+      "label": "视频号代表内容",
+      "display": "两条爱心互动10万+",
+      "scope": "截图时点，不是播放量"
+    },
+    {
+      "label": "电台阶段成果",
+      "display": "26期、84万播放、1000+订阅、67%完播率",
+      "scope": "历史总结，周期及完播率基数待确认"
+    }
+  ],
+  "videoAvailability": "screenshots-only",
+  "publication": "公开展示副本；未含内部合作配置、后台页面、原始完整PPT/PDF及个人聊天"
+}

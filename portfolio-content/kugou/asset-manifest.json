@@ -1,0 +1,122 @@
+{
+  "project": "酷狗音乐",
+  "updated": "2026-10-28",
+  "fileCountExcludingThisManifest": 19,
+  "totalBytesExcludingThisManifest": 2966808,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1410,
+      "sha256": "3d80268f68e74ab0b4aaf3ff8cd86a8354f938009010578df4c38915fda7a137",
+      "gitBlobSha": "3e03e6dcd29ad012b7c0008dae8090ee6c449cbf"
+    },
+    {
+      "path": "asset-index.md",
+      "bytes": 2621,
+      "sha256": "0d523c71e4031b50f9e5a13ff999586e5bca9390c6c8f1ca0cba520ee08bf1fa",
+      "gitBlobSha": "9dea52566deab9964dd42586e14d492a07388b9b"
+    },
+    {
+      "path": "assets/channels/live-list.png",
+      "bytes": 287577,
+      "sha256": "daa18146d6d6856ccb059dc42b60c79bf1dbcc7154f0b72c69f147636395f6b4",
+      "gitBlobSha": "8471d33c9bd6cd3e82e2c3a6430f5bda11959003"
+    },
+    {
+      "path": "assets/douyin/concert-collection.png",
+      "bytes": 121087,
+      "sha256": "0ebbcb7bedf54a15a0e6294a8569a5759a6402868a231b71944bbfcc3b5379ba",
+      "gitBlobSha": "6a14429cc798602200280bd2303da22aa27e93eb"
+    },
+    {
+      "path": "assets/douyin/gokuraku-screenshot.png",
+      "bytes": 842483,
+      "sha256": "20b60a5fdbba6004752496b075adb39cee1c30e5f8e322a40f4f7e1daf8dbdff",
+      "gitBlobSha": "0fdf15a178f132188a9fc2c4b5acf8f81f67b8f4"
+    },
+    {
+      "path": "assets/radio/in-app-program.png",
+      "bytes": 37719,
+      "sha256": "ca60d0ad58edae752815602cfa0407d270e6f5827cb0ee31ae67276703b18d2d",
+      "gitBlobSha": "3430e06e8e011d1659045ba04654544da7c3a915"
+    },
+    {
+      "path": "assets/radio/poster-fiona.png",
+      "bytes": 99027,
+      "sha256": "a40d56748cb4cd733da9ea888fc08c77cfc8f47f68c2d9a48cebcabce77c03de",
+      "gitBlobSha": "0f353ca210e78cc914303d567467772ae1767ff2"
+    },
+    {
+      "path": "assets/radio/poster-yuwenwen.png",
+      "bytes": 107393,
+      "sha256": "5704588bf3a3a610f122721916b0c0d8d587b31f3dc2f9a4bcc97890393bb616",
+      "gitBlobSha": "ae1f4543d777bea140d1280eae2ef4b9621ba65a"
+    },
+    {
+      "path": "assets/radio/weibo-promotion.jpg",
+      "bytes": 114230,
+      "sha256": "5906dd40b363006110931f0fd531d28aa51ef80a87943647aa01a4f4f976fcae",
+      "gitBlobSha": "5648e9f4021cd153b2ab7625e8c213e0fce06611"
+    },
+    {
+      "path": "assets/wechat/article-feature-and-reading.png",
+      "bytes": 63342,
+      "sha256": "f93f6773df4fe6e9be918298ca020e6338048e6ae6c5b9daf74d06613743f962",
+      "gitBlobSha": "1811bb1037f4988839e1cae1c076bb23a9c7072d"
+    },
+    {
+      "path": "assets/wechat/article-opening.png",
+      "bytes": 119695,
+      "sha256": "790d1106bf6ba52c406433b15c7858fb6ac977b7e4ad8d68337b20eb62148cb3",
+      "gitBlobSha": "8e1f2fcac4424cdcb16ad3528c312054c4502154"
+    },
+    {
+      "path": "assets/weibo/fatang-rules.jpg",
+      "bytes": 368530,
+      "sha256": "be65fdf306b8d0ee88c010a07a1ff31c2fdcac63268f57780276160c166e6cd0",
+      "gitBlobSha": "f2aab73dc4912d4389ee7a493783ebce618cd645"
+    },
+    {
+      "path": "assets/weibo/fatang-weibo.jpg",
+      "bytes": 518687,
+      "sha256": "f8f1bf927688747dee46f14c30bbfd82de10343552b1ceac6d357012dcd65085",
+      "gitBlobSha": "10e54c56661f6f402292c114c6c971f59d925da8"
+    },
+    {
+      "path": "assets/xiaohongshu/luhan-topic.png",
+      "bytes": 142195,
+      "sha256": "79c2f1d3aa5f7a121a542eb04f2d81dc65fda7563428b8e7b102d5fd766268b8",
+      "gitBlobSha": "e00c1158ae3a56511ff9be6a5a733197f6f7824e"
+    },
+    {
+      "path": "assets/xiaohongshu/sound-effect-ugc.png",
+      "bytes": 72975,
+      "sha256": "471a35f4f766a4a7236281fe5c7eaa0ce6e64d0c6b61639bb2409587cdd8ad5d",
+      "gitBlobSha": "8acf340f1b0f1b65d7c7e9ec33e884f211db2a59"
+    },
+    {
+      "path": "content.json",
+      "bytes": 5554,
+      "sha256": "3d7d953abdf877729e4e99fec4f684717df36ee1052258208b3899c72e0f29a9",
+      "gitBlobSha": "7c2ca6868cb5d13188c2e626b0d858f1f27147bc"
+    },
+    {
+      "path": "developer-handoff.md",
+      "bytes": 2072,
+      "sha256": "5cc8ad3396fddd7f15664cd5e789ba8ef2e011b7447c43fe9fe8391d2f7c6acc",
+      "gitBlobSha": "96363f34be67d8172f5c50b9e66e6170bddb2b57"
+    },
+    {
+      "path": "project.md",
+      "bytes": 7275,
+      "sha256": "4128b7f1f9eff0d27f2b65335e99af867ec77198e7722cb40dc9dac562c7b9e2",
+      "gitBlobSha": "82523bc503da6e4682f9ea785edce8bd9e5978ec"
+    },
+    {
+      "path": "酷狗作品集内容.md",
+      "bytes": 52936,
+      "sha256": "ab5e4d3640da7e192598b52d78ff5884902ea7b9d047a1bbdd5357c5d27af5b6",
+      "gitBlobSha": "c6b1ed10b4c6e566586c5cca0bcfdb710e7eb6f1"
+    }
+  ]
+}
