@@ -2,7 +2,8 @@
 const main = document.getElementById('main');
 const viewer = document.getElementById('image-viewer');
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const preview = src => src;
+const PREVIEWS = {"portfolio-content/essence-oil/assets/posters/oil-product.png": "portfolio-previews/oil.webp", "portfolio-sunscreen-product-original.png": "portfolio-previews/sun.webp", "portfolio-mask-product-original.png": "portfolio-previews/mask.webp", "portfolio-content/cleanser/assets/posters/cleanser-main.jpg": "portfolio-previews/clean.webp", "portfolio-content/kugou/assets/weibo/fatang-rules.jpg": "portfolio-previews/kugou.webp"};
+const preview = src => PREVIEWS[src] || src;
 const flow = items => `<div class="flow">${items.map((s,i) => `${i?'<i aria-hidden="true">→</i>':''}<span>${esc(s)}</span>`).join('')}</div>`;
 let currentView = '';
 let lastImageButton = null;
@@ -18,7 +19,7 @@ function home() {
   return `<div class="container">
     <section class="home-hero" aria-labelledby="home-title">
       <div class="hero-copy"><p class="eyebrow">CONTENT, WITH A REASON. <span> / 2026</span></p><p class="hero-person"><b>我是孙岩萍</b> · 品牌／产品内容策划</p><h1 id="home-title">把产品价值，<br>写成<em>选择理由。</em></h1><p class="lead">从卖点提炼、图文策划到视频脚本与销售沟通，<br class="desktop-break">让专业的产品信息，成为更容易理解的内容。</p><div class="hero-actions"><a class="button" href="#/works">浏览精选项目 <span aria-hidden="true">↘</span></a><a class="text-link" href="#/about">了解我的工作方式 ↗</a></div></div>
-      <div class="hero-art" aria-label="日夜精华油与童颜面膜代表作品"><div class="hero-art-top"><b>SELECTED WORK</b><span>PRODUCT → CONTENT</span></div><div class="hero-art-images"><img class="hero-art-main" src="portfolio-content/essence-oil/assets/posters/oil-product.png" alt="日夜精华油历史产品海报" width="740" height="820" fetchpriority="high"><img class="hero-art-small" src="portfolio-mask-product-original.png" alt="童颜面膜产品作品" width="340" height="380"></div><div class="hero-art-bottom"><span>从一个卖点，到一组完整的内容。</span><span>01 — 05</span></div></div>
+      <div class="hero-art" aria-label="日夜精华油与童颜面膜代表作品"><div class="hero-art-top"><b>SELECTED WORK</b><span>PRODUCT → CONTENT</span></div><div class="hero-art-images"><img class="hero-art-main" src="portfolio-previews/oil.webp" alt="日夜精华油历史产品海报" width="740" height="820" fetchpriority="high"><img class="hero-art-small" src="portfolio-previews/mask.webp" alt="童颜面膜产品作品" width="340" height="380"></div><div class="hero-art-bottom"><span>从一个卖点，到一组完整的内容。</span><span>01 — 05</span></div></div>
     </section>
     <div class="expertise-strip" aria-label="工作范围"><span>What I do</span><span>产品卖点提炼</span><i>／</i><span>多渠道内容策划</span><i>／</i><span>人物与场景脚本</span><i>／</i><span>公域内容与活动</span></div>
     <section id="works" class="work-section" aria-labelledby="work-title"><div class="section-heading"><div><p class="eyebrow">01 / SELECTED PROJECTS</p><h2 id="work-title">用真实项目，展开策划过程。</h2></div><p>四个护肤产品案例，<br>一段音乐平台的内容与增长实践。</p></div><div class="work-grid">${PROJECTS.map(projectCard).join('')}</div><p class="work-note">护肤品 GMV 为团队与渠道共同完成的项目销售结果。酷狗引流为拉新及促活口径；具体统计范围见各案例说明。</p></section>
