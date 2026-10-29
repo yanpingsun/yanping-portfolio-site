@@ -1,4 +1,4 @@
-/* Portfolio 2.0: the approved personal cover and five peer project menus. */
+/* Portfolio 2.0: magazine opening page and five peer project menus. */
 .portfolio-v2{min-height:100dvh;display:flex;flex-direction:column}
 .portfolio-v2 #main{flex:1}
 .portfolio-v2 .site-header{height:auto;min-height:105px;width:100%;padding-top:23px;padding-bottom:23px;gap:30px}
@@ -9,25 +9,22 @@
 .portfolio-v2 .site-header nav a[aria-current="page"]{color:var(--accent);border-bottom-color:var(--accent)}
 .portfolio-v2 .site-header .about-nav{margin-left:1px;padding-left:23px;border-left:1px solid var(--line)}
 .portfolio-v2[data-page="home"] #main{display:flex;align-items:center}
-.v2-hero{display:grid;grid-template-columns:1.18fr 1fr;gap:6%;padding:48px 0 44px;align-items:center}
-.v2-hero .eyebrow{margin-bottom:23px}
-.v2-person{font-size:12px;color:var(--muted);margin-bottom:15px;letter-spacing:.02em}
-.v2-hero h1{font:500 clamp(44px,4.4vw,66px)/1.35 var(--serif);letter-spacing:-.04em;margin:0 0 21px}
-.v2-hero h1 em{font-style:normal;color:var(--accent)}
-.v2-intro{font-size:13px;color:var(--text);line-height:2;max-width:450px;margin:0}
-.v2-evidence{list-style:none;padding:0;margin:23px 0 25px;border-top:1px solid var(--line)}
-.v2-evidence li{display:grid;grid-template-columns:1fr;gap:2px;padding:10px 0;border-bottom:1px solid var(--line);line-height:1.8}
-.v2-evidence strong{font-size:12px;font-weight:500}
-.v2-evidence span{font-size:11px;color:var(--text)}
-.v2-hero .hero-actions{gap:28px;flex-wrap:wrap}
-.v2-hero .button{gap:40px}
-.v2-hero-art{height:auto;aspect-ratio:.9;max-height:540px;position:relative;background:#e5e1d5;overflow:hidden}
-.v2-hero-art:before{content:'';position:absolute;right:10%;top:-25%;height:150%;width:40%;background:#d8d6ca;transform:rotate(23deg)}
-.v2-art-top,.v2-art-bottom{position:absolute;left:23px;right:23px;display:flex;align-items:center;justify-content:space-between;gap:15px;color:#6d7061;font-size:10px;letter-spacing:.06em;z-index:2}
-.v2-art-top{top:23px}
-.v2-art-bottom{bottom:19px}
-.v2-art-main{position:absolute;width:65%;height:70%;left:8%;top:17%;object-fit:cover;object-position:center;transform:rotate(-7deg);box-shadow:10px 14px 22px #0002}
-.v2-art-small{position:absolute;width:35%;height:49%;right:5%;bottom:9%;object-fit:cover;object-position:50% 34%;transform:rotate(8deg);border:6px solid var(--bg);box-shadow:7px 9px 18px #0002}
+.magazine-cover{padding:42px 0 52px}
+.magazine-top{display:flex;align-items:flex-start;justify-content:space-between;gap:30px}
+.magazine-top .eyebrow{margin:0 0 10px}
+.magazine-identity{font-size:14px;line-height:1.9;margin:0}
+.magazine-meta{font-size:10px;line-height:2;letter-spacing:.07em;text-align:right;color:var(--muted);margin:0}
+.magazine-cover h1{font:400 clamp(49px,6.5vw,88px)/1.28 var(--serif);letter-spacing:-.055em;margin:30px 0 32px;text-wrap:initial}
+.magazine-cover h1 em{font-style:normal;color:var(--accent)}
+.magazine-story{display:grid;grid-template-columns:1.13fr 1fr;gap:48px;align-items:end;padding-bottom:37px}
+.magazine-story>p{font-size:13px;line-height:2;color:var(--text);margin:0;max-width:540px}
+.magazine-story .hero-actions{justify-content:flex-end;gap:27px;flex-wrap:wrap}
+.magazine-story .button{gap:35px}
+.magazine-story .text-link{white-space:nowrap}
+.magazine-skills{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:38px;padding-top:28px;border-top:1px solid var(--line)}
+.magazine-skills article>span{font:italic 400 18px/1.5 Georgia,serif;color:var(--accent)}
+.magazine-skills h2{font-size:16px;line-height:1.7;font-weight:500;margin:12px 0 8px;text-wrap:initial}
+.magazine-skills p{font-size:12px;line-height:2;color:var(--muted);margin:0;max-width:330px}
 .portfolio-v2 .site-footer{width:88.8%;max-width:1280px;margin:0 auto;padding:22px 0;border-top:1px solid var(--line);font-size:10px;gap:22px}
 .portfolio-v2 .site-footer>a:first-child{font-size:12px}
 .portfolio-v2 .site-footer>a:first-child span{font-size:10px;margin-left:11px}
@@ -50,15 +47,13 @@
 .v2-directory-copy>span{font-size:11px;color:var(--muted)}
 .v2-directory-arrow{font-size:25px;color:var(--accent)}
 .v2-directory-list>a:hover .v2-directory-copy strong{color:var(--accent)}
-@media(min-width:1450px){.v2-hero{gap:7%;padding:58px 0}.v2-hero-art{max-height:580px}}
 @media(max-width:1100px){
   .portfolio-v2 .site-header{gap:23px}
   .portfolio-v2 .site-header nav{gap:18px}
   .portfolio-v2 .site-header .about-nav{padding-left:18px}
-  .v2-hero{gap:5%}
-  .v2-hero h1{font-size:49px}
-  .v2-art-top,.v2-art-bottom{font-size:9px;left:21px;right:21px}
-  .v2-art-top{gap:10px}
+  .magazine-story{gap:30px}
+  .magazine-story .hero-actions{gap:20px}
+  .magazine-skills{gap:28px}
   .portfolio-v2 .site-footer{width:90%}
 }
 @media(max-width:900px){
@@ -66,10 +61,9 @@
   .portfolio-v2 .wordmark span{display:none}
   .portfolio-v2 .site-header nav{width:100%;justify-content:flex-start;gap:22px}
   .portfolio-v2 .site-header .about-nav{margin-left:0}
-  .v2-hero h1{font-size:43px}
-  .v2-hero-art{aspect-ratio:.82}
-  .v2-evidence span{font-size:11px}
-  .v2-art-top{font-size:8px}
+  .magazine-story{grid-template-columns:1fr 1fr;gap:23px}
+  .magazine-story .button{gap:22px;padding-left:16px;padding-right:16px}
+  .magazine-story .hero-actions{gap:17px}
   .v2-directory-copy strong{font-size:22px}
 }
 @media(max-width:760px){
@@ -78,21 +72,23 @@
   .portfolio-v2 .site-header nav{gap:2px 17px;font-size:11px}
   .portfolio-v2 .site-header nav a{min-height:42px}
   .portfolio-v2 .site-header .about-nav{padding-left:0;border-left:0}
-  .v2-hero{grid-template-columns:1fr;gap:32px;padding:30px 0 31px}
-  .v2-hero .eyebrow{font-size:10px;margin-bottom:17px}
-  .v2-person{font-size:11px;margin-bottom:13px}
-  .v2-hero h1{font-size:clamp(34px,8.6vw,45px);line-height:1.4;margin-bottom:17px}
-  .v2-intro{font-size:12px;line-height:2;max-width:500px}
-  .v2-evidence{margin:18px 0 22px}
-  .v2-evidence li{padding:9px 0;gap:2px}
-  .v2-evidence strong{font-size:12px}
-  .v2-evidence span{font-size:11px}
-  .v2-hero .hero-actions{gap:24px}
-  .v2-hero .button{gap:35px}
-  .v2-hero-art{height:350px;aspect-ratio:auto;max-height:none}
-  .v2-art-top,.v2-art-bottom{font-size:9px;left:21px;right:21px}
-  .v2-art-main{width:65%;height:70%}
-  .v2-art-small{width:35%;height:49%}
+  .magazine-cover{padding:28px 0 34px}
+  .magazine-top{gap:18px}
+  .magazine-top .eyebrow{font-size:9px;letter-spacing:.08em;margin-bottom:9px}
+  .magazine-identity{font-size:13px}
+  .magazine-meta{font-size:9px;letter-spacing:.02em;white-space:nowrap}
+  .magazine-meta span{display:none}
+  .magazine-cover h1{font-size:clamp(32px,8.5vw,56px);line-height:1.4;margin:28px 0 23px}
+  .magazine-story{display:block;padding-bottom:28px}
+  .magazine-story>p{font-size:12px;max-width:500px}
+  .magazine-story-break{display:none}
+  .magazine-story .hero-actions{justify-content:flex-start;gap:22px;margin-top:23px}
+  .magazine-story .button{gap:27px;padding:12px 18px}
+  .magazine-skills{grid-template-columns:1fr;gap:0;padding-top:0}
+  .magazine-skills article{display:grid;grid-template-columns:30px 1fr;gap:0 12px;padding:20px 0;border-bottom:1px solid var(--line)}
+  .magazine-skills article>span{grid-row:1/3;font-size:16px;padding-top:3px}
+  .magazine-skills h2{font-size:14px;margin:0 0 6px}
+  .magazine-skills p{font-size:12px;max-width:none}
   .portfolio-v2 .site-footer{width:88%;padding:20px 0;gap:13px;font-size:9px}
   .portfolio-v2 .site-footer>a:first-child{font-size:12px}
   .portfolio-v2 .site-footer>a:first-child span{font-size:9px;margin-left:8px}
@@ -115,10 +111,9 @@
 }
 @media(max-width:380px){
   .portfolio-v2 .site-header nav{gap:2px 15px}
-  .v2-hero h1{font-size:32px}
-  .v2-hero .hero-actions{gap:18px}
-  .v2-hero .button{gap:25px;padding-left:16px;padding-right:16px}
-  .v2-hero-art{height:295px}
+  .magazine-story .hero-actions{gap:18px}
+  .magazine-story .button{gap:19px;padding-left:14px;padding-right:14px}
+  .magazine-cover h1{font-size:32px}
   .portfolio-v2 .project-hero h1{font-size:25px}
   .v2-directory-list>a{grid-template-columns:20px 52px 1fr 15px;gap:10px}
   .v2-directory-list img{width:52px;height:75px}

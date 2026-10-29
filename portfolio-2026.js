@@ -19,24 +19,20 @@ const PROJECT_INTROS = {
 
 function home() {
   return `<div class="container v2-home">
-    <section class="v2-hero" aria-labelledby="home-title">
-      <div class="v2-hero-copy">
-        <p class="eyebrow">CONTENT, WITH A REASON.</p>
-        <p class="v2-person">我是孙岩萍 · 内容策划作品集</p>
-        <h1 id="home-title">把产品价值，<br>写成<em>选择理由。</em></h1>
-        <p class="v2-intro">从护肤品新品上市与升级，到音乐平台内容与活动，建立沟通主线，并推动内容落地。</p>
-        <ul class="v2-evidence" aria-label="核心工作经历">
-          <li><strong>护肤品产品内容策划</strong><span>卖点提炼 · 内容主线 · 文案与视频脚本</span></li>
-          <li><strong>多渠道内容统筹</strong><span>公众号 · 朋友圈 · 详情页 · 视频 · 销售沟通</span></li>
-          <li><strong>团队协作</strong><span>酷狗管理两名专员，协调产品与 APP 运营资源</span></li>
-        </ul>
-        <div class="hero-actions"><a class="button" href="#/project/oil">浏览项目 <span aria-hidden="true">↗</span></a><a class="text-link" href="#/about">了解我的经历 →</a></div>
+    <section class="magazine-cover" aria-labelledby="home-title">
+      <div class="magazine-top">
+        <div><p class="eyebrow">CONTENT, WITH A REASON.</p><p class="magazine-identity">我是孙岩萍，内容策划。</p></div>
+        <p class="magazine-meta">SELECTED WORK / 2026<br><span>BEAUTY · MUSIC · CONTENT</span></p>
       </div>
-      <div class="v2-hero-art" aria-label="精华油与洁颜霜历史作品拼贴">
-        <div class="v2-art-top"><span>SELECTED WORK</span><span>PRODUCT → CONTENT</span></div>
-        <img class="v2-art-main" src="portfolio-previews/oil.webp" alt="日夜精华油历史作品" width="620" height="800" fetchpriority="high">
-        <img class="v2-art-small" src="portfolio-previews/clean.webp" alt="逆时光洁颜霜历史作品" width="620" height="995">
-        <div class="v2-art-bottom"><span>从价值判断，到内容表达。</span><span>2026</span></div>
+      <h1 id="home-title">把产品价值，<br>写成<em>选择理由。</em></h1>
+      <div class="magazine-story">
+        <p>从护肤品新品上市与升级，到音乐平台内容与活动，<br class="magazine-story-break">建立沟通主线，并推动内容落地。</p>
+        <div class="hero-actions"><a class="button" href="#/works">浏览五个项目 <span aria-hidden="true">↗</span></a><a class="text-link" href="#/about">了解我的经历 →</a></div>
+      </div>
+      <div class="magazine-skills" aria-label="核心工作经历">
+        <article><span aria-hidden="true">01.</span><h2>护肤品产品内容策划</h2><p>卖点提炼、内容主线、文案与视频脚本。</p></article>
+        <article><span aria-hidden="true">02.</span><h2>多渠道内容统筹</h2><p>公众号、朋友圈、详情页、视频与销售沟通。</p></article>
+        <article><span aria-hidden="true">03.</span><h2>团队协作</h2><p>酷狗管理两名专员，统筹内容审核，协调产品与 APP 运营资源。</p></article>
       </div>
     </section>
   </div>`;
