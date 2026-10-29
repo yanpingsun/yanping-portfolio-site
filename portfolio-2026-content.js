@@ -602,7 +602,8 @@ const PROJECTS = [
     "responsibilities": [
       "独立完成产品卖点提炼与传播表达",
       "上新公众号内容策划与文案",
-      "系列产品海报内容策划与文案输出"
+      "系列产品海报内容策划与文案输出",
+      "产品海报内容排版线稿与信息层级规划"
     ],
     "credit": "本人职责为卖点与整体内容。产品配方、研发及测试来自产品资料，摄影与视觉设计未计入个人已确认职责。",
     "strategy": [
@@ -622,33 +623,29 @@ const PROJECTS = [
     ],
     "chapters": [
       {
+        "id": "wireframes",
+        "kind": "wireframes",
+        "title": "海报线稿｜内容结构与设计沟通",
+        "body": [],
+        "images": [],
+        "links": []
+      },
+      {
         "id": "works",
-        "title": "代表作品｜上新长文与系列海报",
+        "title": "补充作品｜上新长文与清洁表达",
         "body": [
-          "公众号通过标题、清洁顾虑、配方解释、养肤体验与使用方式建立完整介绍。海报用更短的表达，分别突出清洁与水润肤感。",
-          "以下保留原始作品，策划说明依据现有素材作事后归纳。"
+          "公众号通过标题、清洁顾虑、配方解释、养肤体验与使用方式建立完整介绍。系列海报的主要表达已在上方线稿模块中对照展示。",
+          "另保留一张围绕清洁感的补充海报，供展开查阅；以下说明依据现有作品作内容归纳。"
         ],
-        "images": [
-          {
-            "src": "portfolio-content/cleanser/assets/posters/cleanser-main.jpg",
-            "title": "核心海报｜双重需求一句话表达",
-            "note": ""
-          },
-          {
-            "src": "portfolio-content/cleanser/assets/posters/cleanser-cleansing.jpg",
-            "title": "清洁感｜形象化短文案",
-            "note": ""
-          },
-          {
-            "src": "portfolio-content/cleanser/assets/posters/cleanser-hydrating.jpg",
-            "title": "水润肤感｜把关注点延伸到洗后",
-            "note": ""
-          }
-        ],
+        "images": [],
         "links": [
           {
             "href": "portfolio-content/cleanser/assets/wechat/cleanser-launch-article.pdf",
             "title": "查看完整公众号 · 30页 PDF"
+          },
+          {
+            "href": "portfolio-content/cleanser/assets/posters/cleanser-cleansing.jpg",
+            "title": "补充查看清洁感海报 · 原图"
           }
         ]
       }

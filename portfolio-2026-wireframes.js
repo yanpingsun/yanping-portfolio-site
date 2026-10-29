@@ -136,7 +136,61 @@ const MASK_WIREFRAMES = [
     ]
   }
 ];
+const CLEANSER_WIREFRAMES = [
+  {
+    "id": "core",
+    "name": "核心主张",
+    "pdfPage": 2,
+    "title": "把两类使用顾虑，压缩成一句产品记忆。",
+    "task": "围绕洗不净与洗后紧绷两类顾虑，确定主海报先讲什么，让读者快速理解产品希望回应的问题。",
+    "structure": "用“油皮洗得净，干皮不紧绷”组织对称的两行标题，同时安排清洁与洗后感受两个重点。其余空间留给产品画面，避免继续叠加次要信息。",
+    "comparison": "简版线稿明确标题与双产品主视觉的关系；成品通过字号、陈列和光影强化观看重点。本组展示的是文案取舍与信息主次。",
+    "points": [
+      "取舍：主海报集中表达一个核心理由",
+      "句式：清洁与洗后感受相互对应",
+      "层级：主标题与产品画面形成主次"
+    ]
+  },
+  {
+    "id": "ingredients",
+    "name": "成分分组",
+    "pdfPage": 1,
+    "title": "把成分名称与说明，拆成三组对应信息。",
+    "task": "为产品资料安排阅读层次，让每组成分信息各有明确的位置和说明。",
+    "structure": "将三组成分分别组织为名称与配套短说明，另为产品和成分意象预留画面位置，让较长资料不挤在同一段中。",
+    "comparison": "简版线稿先把三组文案分开；成品围绕产品安排成分意象和说明，通过位置与分隔线保持对应关系。分析关注内容分组，图内历史表述按原作保留。",
+    "points": [
+      "分组：每个成分名对应一组说明",
+      "主次：产品与成分信息分别安排",
+      "对应：文字和画面能逐组辨认"
+    ]
+  },
+  {
+    "id": "texture",
+    "name": "肤感表达",
+    "pdfPage": 3,
+    "title": "先表达洗后感受，再用短标签补充信息。",
+    "task": "将肤感相关主张与配方信息分层，让一张海报既有记忆表达，也保留简短的介绍入口。",
+    "structure": "用两行主标题表达洗后感受，将配方相关信息压缩为三个短标签，与产品和质地画面区分。",
+    "comparison": "简版线稿将标题、产品占位和三个标签分区；成品以主产品、质地意象及侧边圆形标签建立阅读关系。原图中的限定与描述按历史作品保留。",
+    "points": [
+      "入口：标题先表达使用感受",
+      "补充：三个标签集中排列",
+      "图文：产品、质地与文字分工"
+    ]
+  }
+];
 const PROJECT_WIREFRAMES = {
+  clean: {
+    base: 'portfolio-content/skincare-wireframes/cleanser/',
+    pdf: 'cleanser-content-wireframes.pdf', pages: 3, featured: 1,
+    scope: '核心主张、成分分组与肤感表达',
+    intro: '围绕清洁与洗后感受，我将产品信息组织为主海报、成分分组和肤感表达三种内容。主展示核心主张的文案与结构，另外两组展开查看，保持这个补充案例简洁。',
+    visualCredit: '视觉制作：未计入个人职责',
+    finishedCredit: '文案与内容线稿：孙岩萍',
+    cases: CLEANSER_WIREFRAMES
+  },
+
   mask: {
     base: 'portfolio-content/skincare-wireframes/tongyan-mask/',
     pdf: 'mask-content-wireframes.pdf', pages: 4, featured: 2,
@@ -166,7 +220,7 @@ function wireframeFigure(p, c, kind) {
   const title = `${p.name}·${c.name}｜${isDraft ? '内容排版线稿' : '海报成品'}`;
   const src = cfg.base + c.id + (isDraft ? '-wireframe.webp' : '-finished.jpg');
   const display = isDraft ? src : cfg.base + c.id + '-finished.webp';
-  return `<figure class="wireframe-figure"><figcaption><span>${isDraft ? '01 / CONTENT STRUCTURE' : '02 / FINISHED POSTER'}</span><strong>${isDraft ? '内容排版线稿' : '海报成品'}</strong><small>${isDraft ? `简版线稿 PDF · 第${c.pdfPage}页` : '文案与线稿：孙岩萍 · 视觉设计：设计师'}</small></figcaption><button type="button" class="wireframe-image-button" data-image="${esc(src)}" data-caption="${esc(title)}" aria-label="放大查看：${esc(title)}"><img src="${esc(display)}" alt="${esc(title)}" loading="lazy" decoding="async"><span class="expand" aria-hidden="true">放大查看 ↗</span></button></figure>`;
+  return `<figure class="wireframe-figure"><figcaption><span>${isDraft ? '01 / CONTENT STRUCTURE' : '02 / FINISHED POSTER'}</span><strong>${isDraft ? '内容排版线稿' : '海报成品'}</strong><small>${isDraft ? `简版线稿 PDF · 第${c.pdfPage}页` : esc(cfg.finishedCredit || '文案与线稿：孙岩萍 · 视觉设计：设计师')}</small></figcaption><button type="button" class="wireframe-image-button" data-image="${esc(src)}" data-caption="${esc(title)}" aria-label="放大查看：${esc(title)}"><img src="${esc(display)}" alt="${esc(title)}" loading="lazy" decoding="async"><span class="expand" aria-hidden="true">放大查看 ↗</span></button></figure>`;
 }
 
 function wireframeCase(p, c, index) {
@@ -177,10 +231,10 @@ function projectWireframes(p, number) {
   const cfg = PROJECT_WIREFRAMES[p.id];
   if (!cfg) return '';
   const extra=cfg.cases.slice(cfg.featured);
-  return `<section class="case-section project-wireframes" id="${p.id}-wireframes" aria-labelledby="${p.id}-wireframes-title"><span class="section-num">${number} / CONTENT STRUCTURE</span><div class="section-heading"><h2 id="${p.id}-wireframes-title">海报线稿｜从内容结构到视觉成品</h2></div><p class="wireframes-lead">${esc(cfg.intro)}</p><div class="wireframe-project-meta"><span>${esc(cfg.scope)}</span><span>本人：文案与内容线稿</span><span>设计师：视觉设计与制作</span></div><div class="wireframes-actions"><a class="text-link" href="${cfg.base+cfg.pdf}" target="_blank" rel="noopener">查看${cfg.pages}页简版线稿 PDF ↗</a></div>${cfg.cases.slice(0,cfg.featured).map((c,i)=>wireframeCase(p,c,i)).join('')}${extra.length?`<details class="wireframe-more"><summary>补充查看 ${extra.length} 组：${extra.map(c=>esc(c.name)).join('、')}<span aria-hidden="true">＋</span></summary><div>${extra.map((c,i)=>wireframeCase(p,c,i+cfg.featured)).join('')}</div></details>`:''}<p class="historical-note wireframes-footnote">简版线稿用于展示文案与信息层级，成品保留历史作品表达；结构说明依据现有材料整理。图中功效、数字及用户反馈未作本次独立核验，也不作为海报的销售归因数据。展示顺序按内容任务整理。</p></section>`;
+  return `<section class="case-section project-wireframes" id="${p.id}-wireframes" aria-labelledby="${p.id}-wireframes-title"><span class="section-num">${number} / CONTENT STRUCTURE</span><div class="section-heading"><h2 id="${p.id}-wireframes-title">海报线稿｜从内容结构到视觉成品</h2></div><p class="wireframes-lead">${esc(cfg.intro)}</p><div class="wireframe-project-meta"><span>${esc(cfg.scope)}</span><span>本人：文案与内容线稿</span><span>${esc(cfg.visualCredit || '设计师：视觉设计与制作')}</span></div><div class="wireframes-actions"><a class="text-link" href="${cfg.base+cfg.pdf}" target="_blank" rel="noopener">查看${cfg.pages}页简版线稿 PDF ↗</a></div>${cfg.cases.slice(0,cfg.featured).map((c,i)=>wireframeCase(p,c,i)).join('')}${extra.length?`<details class="wireframe-more"><summary>补充查看 ${extra.length} 组：${extra.map(c=>esc(c.name)).join('、')}<span aria-hidden="true">＋</span></summary><div>${extra.map((c,i)=>wireframeCase(p,c,i+cfg.featured)).join('')}</div></details>`:''}<p class="historical-note wireframes-footnote">简版线稿用于展示文案与信息层级，成品保留历史作品表达；结构说明依据现有材料整理。图中功效、数字及用户反馈未作本次独立核验，也不作为海报的销售归因数据。展示顺序按内容任务整理。</p></section>`;
 }
 
 function wireframeTeaser() {
   const cfg=PROJECT_WIREFRAMES.oil;
-  return `<section class="wireframe-teaser" aria-labelledby="wireframe-teaser-title"><div><p class="eyebrow">02 / CONTENT STRUCTURE</p><h2 id="wireframe-teaser-title">从文案线稿，<br>看见信息安排。</h2><p>在精华油、防晒与童颜面膜项目中，结合产品任务查看海报文案、信息层级及成品对照。</p><p class="wireframe-credit">本人负责海报文案与线稿 · 设计师完成视觉设计</p><div class="wireframe-teaser-links"><a class="button light" href="#/project/oil/wireframes">精华油线稿案例 <span aria-hidden="true">↗</span></a><a class="text-link" href="#/project/sun/wireframes">防晒线稿案例 ↗</a><a class="text-link" href="#/project/mask/wireframes">童颜面膜线稿案例 ↗</a></div></div><a class="wireframe-teaser-pair" href="#/project/oil/wireframes" aria-label="查看精华油海报线稿与成品"><img src="${cfg.base}day-wireframe.webp" alt="日间精华油内容排版线稿" loading="lazy" width="934" height="1400"><img src="${cfg.base}day-finished.webp" alt="日间精华油海报成品" loading="lazy" width="700" height="933"><span>内容排版线稿 <i aria-hidden="true">→</i> 海报成品</span></a></section>`;
+  return `<section class="wireframe-teaser" aria-labelledby="wireframe-teaser-title"><div><p class="eyebrow">02 / CONTENT STRUCTURE</p><h2 id="wireframe-teaser-title">从文案线稿，<br>看见信息安排。</h2><p>在四个护肤产品项目中，结合产品任务查看海报文案、信息层级及成品对照。</p><p class="wireframe-credit">本人负责文案与内容线稿 · 视觉制作分工见各项目</p><div class="wireframe-teaser-links"><a class="button light" href="#/project/oil/wireframes">精华油线稿案例 <span aria-hidden="true">↗</span></a><a class="text-link" href="#/project/sun/wireframes">防晒线稿案例 ↗</a><a class="text-link" href="#/project/mask/wireframes">童颜面膜线稿案例 ↗</a><a class="text-link" href="#/project/clean/wireframes">洁面线稿案例 ↗</a></div></div><a class="wireframe-teaser-pair" href="#/project/oil/wireframes" aria-label="查看精华油海报线稿与成品"><img src="${cfg.base}day-wireframe.webp" alt="日间精华油内容排版线稿" loading="lazy" width="934" height="1400"><img src="${cfg.base}day-finished.webp" alt="日间精华油海报成品" loading="lazy" width="700" height="933"><span>内容排版线稿 <i aria-hidden="true">→</i> 海报成品</span></a></section>`;
 }

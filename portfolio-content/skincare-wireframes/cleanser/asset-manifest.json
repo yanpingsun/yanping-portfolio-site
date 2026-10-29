@@ -1,0 +1,39 @@
+{
+  "updated": "2026-10-29",
+  "pdf": "cleanser-content-wireframes.pdf",
+  "items": [
+    {
+      "id": "core",
+      "pdfPage": 2,
+      "originalFilename": "逆时光洁颜霜海报.jpg",
+      "width": 900,
+      "height": 1444,
+      "originalSha256": "33f2d1557ac81bf155bcc22207cbfb10b10e0f0dac8a335898bcbc9fff4d1481",
+      "wireframe": "core-wireframe.webp",
+      "finished": "core-finished.jpg",
+      "preview": "core-finished.webp"
+    },
+    {
+      "id": "ingredients",
+      "pdfPage": 1,
+      "originalFilename": "WechatIMG159.jpg",
+      "width": 750,
+      "height": 850,
+      "originalSha256": "3c78820e23f9f87a8d387aee395c34654877500610f2acdd52eb1642ca73f194",
+      "wireframe": "ingredients-wireframe.webp",
+      "finished": "ingredients-finished.jpg",
+      "preview": "ingredients-finished.webp"
+    },
+    {
+      "id": "texture",
+      "pdfPage": 3,
+      "originalFilename": "WechatIMG156.jpg",
+      "width": 750,
+      "height": 1150,
+      "originalSha256": "15171e1a81b705ba0d1c6d99bad6abe397273530644b0082feb496f976d0d0f2",
+      "wireframe": "texture-wireframe.webp",
+      "finished": "texture-finished.jpg",
+      "preview": "texture-finished.webp"
+    }
+  ]
+}
