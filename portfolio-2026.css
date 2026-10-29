@@ -6,3 +6,64 @@
 img{height:auto}
 #main:focus{outline:none}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+/* Homepage positioning: capability evidence and four equally prominent cases. */
+.positioning-hero{padding-top:48px;padding-bottom:48px;gap:6%}
+.positioning-hero .eyebrow{margin-bottom:18px}
+.positioning-hero .hero-person{margin-bottom:15px}
+.positioning-hero h1{margin-bottom:20px}
+.positioning-hero .lead{margin-bottom:20px}
+.hero-capabilities{list-style:none;padding:0;margin:0 0 25px;border-top:1px solid var(--line)}
+.hero-capabilities li{display:grid;grid-template-columns:146px 1fr;align-items:baseline;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);line-height:1.7}
+.hero-capabilities strong{font-size:12px;font-weight:500;color:var(--ink)}
+.hero-capabilities span{font-size:11px;color:var(--text)}
+.positioning-strip{gap:15px}
+.positioning-work .section-heading h2{line-height:1.45}
+.featured-projects .card-meta>span:first-child{color:var(--accent)}
+.featured-projects .project-card{display:flex;flex-direction:column}
+.featured-projects .card-art{flex-shrink:0}
+.featured-projects .card-info{display:flex;flex-direction:column;flex:1}
+.featured-projects .card-info>p{max-width:none;flex:1}
+.featured-projects .card-kugou{grid-column:auto;display:flex;background:transparent}
+.featured-projects .card-kugou .card-info{padding:19px 0 0;display:flex}
+.supporting-project{display:grid;grid-template-columns:160px 1fr auto;gap:28px;align-items:center;margin-top:46px;padding:22px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.supporting-project-art{height:116px;overflow:hidden;background:#e4ded1}
+.supporting-project-art img{width:100%;height:100%;object-fit:cover;object-position:50% 35%;transition:transform .3s}
+.supporting-project:hover img{transform:scale(1.025)}
+.supporting-project-copy .eyebrow{display:block;font-size:9px;letter-spacing:.08em;margin-bottom:9px}
+.supporting-project-copy h3{font:500 23px/1.5 var(--serif);margin-bottom:8px;letter-spacing:-.02em}
+.supporting-project-copy p{font-size:12px;color:var(--text);margin:0}
+.supporting-project-link{white-space:nowrap;font-size:11px;display:flex;gap:23px;border-bottom:1px solid var(--line);padding:9px 0}
+.supporting-project:hover .supporting-project-link{color:var(--accent);border-color:var(--accent)}
+@media(max-width:1050px){
+  .hero-capabilities li{grid-template-columns:1fr;gap:2px;padding:8px 0}
+  .positioning-hero{gap:5%}
+  .positioning-strip{font-size:10px;gap:10px}
+  .supporting-project{grid-template-columns:125px 1fr auto;gap:22px}
+}
+@media(max-width:760px){
+  .positioning-hero{padding:30px 0 35px;gap:30px}
+  .positioning-hero .eyebrow{margin-bottom:12px}
+  .positioning-hero .hero-person{margin-bottom:12px}
+  .positioning-hero h1{margin-bottom:15px}
+  .positioning-hero .lead{margin-bottom:17px;font-size:12px}
+  .hero-capabilities{margin-bottom:21px}
+  .hero-capabilities li{gap:2px;padding:8px 0}
+  .hero-capabilities strong{font-size:12px}
+  .hero-capabilities span{font-size:10px}
+  .positioning-hero .hero-actions{gap:19px;flex-wrap:wrap}
+  .positioning-hero .button{gap:18px;padding:12px 15px}
+  .positioning-strip{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:11px 18px;font-size:10px}
+  .positioning-strip>span:first-child{width:100%;font-size:16px;margin:0}
+  .positioning-strip>span:not(:first-child){line-height:1.8}
+  .positioning-work .section-heading{display:block}
+  .positioning-work .section-heading h2{font-size:29px}
+  .positioning-work .section-heading>p{max-width:none;font-size:11px;margin-top:14px}
+  .featured-projects .card-kugou .card-info{padding:15px 0 0}
+  .supporting-project{grid-template-columns:80px 1fr;gap:16px;margin-top:34px;padding:20px 0}
+  .supporting-project-art{height:110px;grid-row:1/3;align-self:start}
+  .supporting-project-copy .eyebrow{font-size:8px;margin-bottom:7px}
+  .supporting-project-copy h3{font-size:18px;margin-bottom:7px}
+  .supporting-project-copy p{font-size:11px;line-height:1.9}
+  .supporting-project-link{grid-column:2;justify-self:start;padding:5px 0;font-size:10px;margin-top:-7px}
+}

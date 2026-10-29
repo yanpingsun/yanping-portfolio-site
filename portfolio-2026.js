@@ -8,23 +8,34 @@ const flow = items => `<div class="flow">${items.map((s,i) => `${i?'<i aria-hidd
 let currentView = '';
 let lastImageButton = null;
 
+// Homepage emphasis describes demonstrated capabilities, rather than past job titles.
+const HOME_PROJECTS = {
+  oil: {focus:'复杂产品 · 内容主线',title:'日夜精华油：为双产品建立一条主线',summary:'从皮脂膜护理切入，串联“精华入油”与日夜场景，统一公众号、朋友圈、视频与销售沟通的表达。'},
+  sun: {focus:'高价产品 · 价值沟通',title:'高客单防晒：让护理价值成为购买理由',summary:'围绕高端抗老定位，以精华护理解释价值、以轻薄肤感回应顾虑，并用图文、话术和视频承接同一主线。'},
+  mask: {focus:'产品升级 · 复杂信息梳理',title:'童颜面膜：在旧品认知上讲清升级价值',summary:'承接王牌产品认知，梳理新增卖点、双膜组合与使用步骤，将升级理由延展到图文、视频、直播话术与详情页。'},
+  kugou: {focus:'团队协作 · 平台与资源统筹',title:'酷狗音乐：从内容策划到多平台协同',summary:'独立负责微博内容与活动，管理两名专员并统筹内容审核；协调产品与 APP 运营资源，连接客户端拉新与促活。'}
+};
+
 function projectCard(p) {
+  const home = HOME_PROJECTS[p.id];
   return `<a class="project-card card-${p.id}" href="#/project/${p.id}" aria-label="查看${esc(p.name)}案例">
     <div class="card-art"><img src="${preview(p.cover)}" alt="${esc(p.coverNote)}历史作品" loading="lazy" width="800" height="552"><div class="card-topline"><span>${p.number} / ${esc(p.category)}</span></div><span class="card-arrow" aria-hidden="true">↗</span></div>
-    <div class="card-info"><div class="card-meta"><span>${esc(p.label)}</span><span>CASE ${p.number}</span></div><h3>${esc(p.cardTitle)}</h3><p>${esc(p.summary)}</p><div class="card-result"><strong>${esc(p.metric)}</strong><span>${esc(p.metricLabel)}</span></div></div>
+    <div class="card-info"><div class="card-meta"><span>${esc(home.focus)}</span><span>CASE ${p.number}</span></div><h3>${esc(home.title)}</h3><p>${esc(home.summary)}</p><div class="card-result"><strong>${esc(p.metric)}</strong><span>${esc(p.metricLabel)}</span></div></div>
   </a>`;
 }
 
 function home() {
+  const featured = ['oil','sun','mask','kugou'].map(id=>PROJECTS.find(p=>p.id===id));
+  const clean = PROJECTS.find(p=>p.id==='clean');
   return `<div class="container">
-    <section class="home-hero" aria-labelledby="home-title">
-      <div class="hero-copy"><p class="eyebrow">CONTENT, WITH A REASON. <span> / 2026</span></p><p class="hero-person"><b>我是孙岩萍</b> · 品牌／产品内容策划</p><h1 id="home-title">把产品价值，<br>写成<em>选择理由。</em></h1><p class="lead">从卖点提炼、图文策划到视频脚本与销售沟通，<br class="desktop-break">让专业的产品信息，成为更容易理解的内容。</p><div class="hero-actions"><a class="button" href="#/works">浏览精选项目 <span aria-hidden="true">↘</span></a><a class="text-link" href="#/about">了解我的工作方式 ↗</a></div></div>
+    <section class="home-hero positioning-hero" aria-labelledby="home-title">
+      <div class="hero-copy"><p class="eyebrow">CONTENT, WITH A REASON. <span> / 2026</span></p><p class="hero-person"><b>我是孙岩萍</b> · 内容策划作品集</p><h1 id="home-title">把产品价值，<br>写成<em>选择理由。</em></h1><p class="lead">从护肤品新品内容到酷狗音乐的平台实践，<br class="desktop-break">围绕产品价值组织内容，协同团队推进落地。</p><ul class="hero-capabilities" aria-label="核心工作经历"><li><strong>护肤品产品内容策划</strong><span>卖点提炼 · 内容主线 · 文案与视频脚本</span></li><li><strong>多渠道内容统筹</strong><span>公众号、朋友圈、详情页、视频与销售沟通</span></li><li><strong>团队协作</strong><span>酷狗管理两名专员，协同设计、产品与 APP 运营</span></li></ul><div class="hero-actions"><a class="button" href="#/works">浏览四个重点案例 <span aria-hidden="true">↘</span></a><a class="text-link" href="#/about">了解我的工作方式 ↗</a></div></div>
       <div class="hero-art" aria-label="日夜精华油与童颜面膜代表作品"><div class="hero-art-top"><b>SELECTED WORK</b><span>PRODUCT → CONTENT</span></div><div class="hero-art-images"><img class="hero-art-main" src="portfolio-previews/oil.webp" alt="日夜精华油历史产品海报" width="740" height="820" fetchpriority="high"><img class="hero-art-small" src="portfolio-previews/mask.webp" alt="童颜面膜产品作品" width="340" height="380"></div><div class="hero-art-bottom"><span>从一个卖点，到一组完整的内容。</span><span>01 — 05</span></div></div>
     </section>
-    <div class="expertise-strip" aria-label="工作范围"><span>What I do</span><span>产品卖点提炼</span><i>／</i><span>多渠道内容策划</span><i>／</i><span>人物与场景脚本</span><i>／</i><span>公域内容与活动</span></div>
-    <section id="works" class="work-section" aria-labelledby="work-title"><div class="section-heading"><div><p class="eyebrow">01 / SELECTED PROJECTS</p><h2 id="work-title">用真实项目，展开策划过程。</h2></div><p>四个护肤产品案例，<br>一段音乐平台的内容与增长实践。</p></div><div class="work-grid">${PROJECTS.map(projectCard).join('')}</div><p class="work-note">护肤品 GMV 为团队与渠道共同完成的项目销售结果。酷狗引流为拉新及促活口径；具体统计范围见各案例说明。</p></section>
+    <div class="expertise-strip positioning-strip" aria-label="案例关注的问题"><span>What I solve</span><span>高价产品的价值沟通</span><i>／</i><span>复杂产品的内容主线</span><i>／</i><span>团队与平台协同</span></div>
+    <section id="works" class="work-section positioning-work" aria-labelledby="work-title"><div class="section-heading"><div><p class="eyebrow">01 / SELECTED PROJECTS</p><h2 id="work-title">四个重点案例，<br>展开不同的策划判断。</h2></div><p>精华油、防晒、童颜面膜与酷狗音乐，<br>从产品价值到内容落地与团队协同。</p></div><div class="work-grid featured-projects">${featured.map(projectCard).join('')}</div><a class="supporting-project" href="#/project/clean" aria-label="查看逆时光洁颜霜案例"><div class="supporting-project-art"><img src="${preview(clean.cover)}" alt="逆时光洁颜霜历史海报" loading="lazy" width="300" height="220"></div><div class="supporting-project-copy"><span class="eyebrow">补充案例 / PRODUCT COPY</span><h3>逆时光洁颜霜：把清洁力与肤感讲清楚</h3><p>通过上新长文、系列海报和线稿对照，展示产品卖点、信息层级与文案表达。</p></div><span class="supporting-project-link">查看案例 <span aria-hidden="true">↗</span></span></a><p class="work-note">护肤品 GMV 为团队与渠道共同完成的项目销售结果。酷狗引流为拉新及促活口径；具体统计范围见各案例说明。</p></section>
     ${wireframeTeaser()}
-    <section id="about" class="about-section" aria-labelledby="about-title"><p class="eyebrow">03 / ABOUT & APPROACH</p><div class="about-layout"><div><h2 id="about-title" class="about-lead">以消费者能理解的方式，<br>讲清产品为什么值得关注。</h2><span class="about-label">产品内容 × 公域传播</span></div><div class="about-copy"><p>我的经验覆盖护肤品新品内容策划，以及酷狗音乐的多平台内容运营与活动。前者让我持续处理卖点、成分信息和购买顾虑；后者让我关注内容如何适应平台、带动参与并连接业务目标。</p><p>在项目中，我负责把零散资料组织成主次清楚的表达，再根据公众号、朋友圈、详情页、视频或销售沟通的场景，调整内容的展开方式。</p><a class="text-link" href="mailto:beibiduo@163.com">关于品牌／产品内容岗位，欢迎联系 ↗</a></div></div><div class="method-grid"><div><span>01.</span><h3>找到主线</h3><p>从产品资料与沟通任务里，选择用户先需要理解的核心问题。</p></div><div><span>02.</span><h3>组织表达</h3><p>将专业信息转成观点、类比、场景与故事，建立清楚的讲述顺序。</p></div><div><span>03.</span><h3>推进落地</h3><p>按渠道安排内容，与设计、达人及相关团队沟通，完成具体交付。</p></div></div></section>
+    <section id="about" class="about-section" aria-labelledby="about-title"><p class="eyebrow">03 / ABOUT & APPROACH</p><div class="about-layout"><div><h2 id="about-title" class="about-lead">讲清产品价值，<br>也推动内容走到用户面前。</h2><span class="about-label">产品内容策划 × 多渠道统筹 × 团队协作</span></div><div class="about-copy"><p>在护肤品项目中，我负责产品卖点、文案、内容结构与视频脚本，建立新品或产品升级的沟通主线，并根据公众号、朋友圈、详情页、视频与销售沟通的任务组织表达，与设计师及达人协作完成作品。</p><p>在酷狗音乐，我独立负责微博内容与活动，管理两名专员，统筹其他平台的内容及脚本审核。在客户端引流项目中，我提出资源合作思路，协调产品与 APP 运营团队，策划用户参与机制。</p><a class="text-link" href="mailto:beibiduo@163.com">关于品牌／产品内容岗位，欢迎联系 ↗</a></div></div><div class="method-grid"><div><span>01.</span><h3>建立产品主线</h3><p>从产品资料和购买顾虑中选择沟通重点，让成分、技术与使用场景围绕同一个价值展开。</p></div><div><span>02.</span><h3>安排渠道任务</h3><p>让长文解释完整价值、海报突出一个理由、话术回应疑问、视频呈现人物与使用场景。</p></div><div><span>03.</span><h3>协同内容落地</h3><p>对接设计、达人及平台资源；在酷狗管理两名专员，统筹内容与脚本审核，推进跨团队合作。</p></div></div></section>
   </div><section id="contact" class="contact-section"><div><span>LET'S MAKE GOOD CONTENT.</span><h2>下一次，让内容为你的品牌说话。</h2></div><a href="mailto:beibiduo@163.com">beibiduo@163.com <span>↗</span></a></section>`;
 }
 
