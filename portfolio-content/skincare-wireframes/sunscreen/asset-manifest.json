@@ -1,0 +1,52 @@
+{
+  "updated": "2026-10-29",
+  "confirmedByUser": {
+    "channels": [
+      "私域一对一",
+      "朋友圈种草"
+    ],
+    "contribution": [
+      "海报文案",
+      "内容排版线稿"
+    ]
+  },
+  "pdf": "sunscreen-content-wireframes.pdf",
+  "items": [
+    {
+      "id": "value",
+      "pdfPage": 1,
+      "originalFilename": "1mage.jpg",
+      "originalSha256": "3ca0dd817dc3a6afe34df4b05007f930053daccb311d2c0cb1f0f607ad6b1b95",
+      "wireframe": "value-wireframe.webp",
+      "finished": "value-finished.jpg",
+      "preview": "value-finished.webp"
+    },
+    {
+      "id": "launch",
+      "pdfPage": 2,
+      "originalFilename": "2image.jpg",
+      "originalSha256": "37ab8053b2c2f7d41b3e27e441faef9ece4a8b277b540bf3f0810613ebd15052",
+      "wireframe": "launch-wireframe.webp",
+      "finished": "launch-finished.jpg",
+      "preview": "launch-finished.webp"
+    },
+    {
+      "id": "feedback",
+      "pdfPage": 3,
+      "originalFilename": "5image.jpg",
+      "originalSha256": "249fe324860dd4d1461b7b98bf713dccf22237e02856676842099b3f9097213a",
+      "wireframe": "feedback-wireframe.webp",
+      "finished": "feedback-finished.jpg",
+      "preview": "feedback-finished.webp"
+    },
+    {
+      "id": "texture",
+      "pdfPage": 4,
+      "originalFilename": "image.jpg",
+      "originalSha256": "596e896809ec935c16d3c0a5bc21e3a43183e7d643bc430099dcb5159a656443",
+      "wireframe": "texture-wireframe.webp",
+      "finished": "texture-finished.jpg",
+      "preview": "texture-finished.webp"
+    }
+  ]
+}

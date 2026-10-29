@@ -23,7 +23,8 @@ function home() {
     </section>
     <div class="expertise-strip" aria-label="工作范围"><span>What I do</span><span>产品卖点提炼</span><i>／</i><span>多渠道内容策划</span><i>／</i><span>人物与场景脚本</span><i>／</i><span>公域内容与活动</span></div>
     <section id="works" class="work-section" aria-labelledby="work-title"><div class="section-heading"><div><p class="eyebrow">01 / SELECTED PROJECTS</p><h2 id="work-title">用真实项目，展开策划过程。</h2></div><p>四个护肤产品案例，<br>一段音乐平台的内容与增长实践。</p></div><div class="work-grid">${PROJECTS.map(projectCard).join('')}</div><p class="work-note">护肤品 GMV 为团队与渠道共同完成的项目销售结果。酷狗引流为拉新及促活口径；具体统计范围见各案例说明。</p></section>
-    <section id="about" class="about-section" aria-labelledby="about-title"><p class="eyebrow">02 / ABOUT & APPROACH</p><div class="about-layout"><div><h2 id="about-title" class="about-lead">以消费者能理解的方式，<br>讲清产品为什么值得关注。</h2><span class="about-label">产品内容 × 公域传播</span></div><div class="about-copy"><p>我的经验覆盖护肤品新品内容策划，以及酷狗音乐的多平台内容运营与活动。前者让我持续处理卖点、成分信息和购买顾虑；后者让我关注内容如何适应平台、带动参与并连接业务目标。</p><p>在项目中，我负责把零散资料组织成主次清楚的表达，再根据公众号、朋友圈、详情页、视频或销售沟通的场景，调整内容的展开方式。</p><a class="text-link" href="mailto:beibiduo@163.com">关于品牌／产品内容岗位，欢迎联系 ↗</a></div></div><div class="method-grid"><div><span>01.</span><h3>找到主线</h3><p>从产品资料与沟通任务里，选择用户先需要理解的核心问题。</p></div><div><span>02.</span><h3>组织表达</h3><p>将专业信息转成观点、类比、场景与故事，建立清楚的讲述顺序。</p></div><div><span>03.</span><h3>推进落地</h3><p>按渠道安排内容，与设计、达人及相关团队沟通，完成具体交付。</p></div></div></section>
+    ${wireframeTeaser()}
+    <section id="about" class="about-section" aria-labelledby="about-title"><p class="eyebrow">03 / ABOUT & APPROACH</p><div class="about-layout"><div><h2 id="about-title" class="about-lead">以消费者能理解的方式，<br>讲清产品为什么值得关注。</h2><span class="about-label">产品内容 × 公域传播</span></div><div class="about-copy"><p>我的经验覆盖护肤品新品内容策划，以及酷狗音乐的多平台内容运营与活动。前者让我持续处理卖点、成分信息和购买顾虑；后者让我关注内容如何适应平台、带动参与并连接业务目标。</p><p>在项目中，我负责把零散资料组织成主次清楚的表达，再根据公众号、朋友圈、详情页、视频或销售沟通的场景，调整内容的展开方式。</p><a class="text-link" href="mailto:beibiduo@163.com">关于品牌／产品内容岗位，欢迎联系 ↗</a></div></div><div class="method-grid"><div><span>01.</span><h3>找到主线</h3><p>从产品资料与沟通任务里，选择用户先需要理解的核心问题。</p></div><div><span>02.</span><h3>组织表达</h3><p>将专业信息转成观点、类比、场景与故事，建立清楚的讲述顺序。</p></div><div><span>03.</span><h3>推进落地</h3><p>按渠道安排内容，与设计、达人及相关团队沟通，完成具体交付。</p></div></div></section>
   </div><section id="contact" class="contact-section"><div><span>LET'S MAKE GOOD CONTENT.</span><h2>下一次，让内容为你的品牌说话。</h2></div><a href="mailto:beibiduo@163.com">beibiduo@163.com <span>↗</span></a></section>`;
 }
 
@@ -37,7 +38,7 @@ function chapterSection(p, c, number) {
   return `<section class="case-section ${p.id==='kugou'?'kugou-section':''}" id="${p.id}-${c.id}"><span class="section-num">${number} / SELECTED WORK</span><div class="section-heading"><h2>${esc(c.title)}</h2></div><div class="chapter-copy">${c.body.map(t=>`<p>${esc(t)}</p>`).join('')}</div>
     ${imageGallery(c.images)}
     ${example?`<div class="example-box"><p class="example-label">${esc(example.label)}</p><h3>${esc(example.question)}</h3><blockquote>${esc(example.answer)}</blockquote>${flow(example.steps)}${example.note?`<small>${esc(example.note)}</small>`:''}</div>`:''}
-    ${c.links.length?`<div class="document-links">${c.links.map(l=>`<a href="${esc(l.href)}" target="_blank" rel="noopener">${esc(l.title)} <span aria-hidden="true">↗</span></a>`).join('')}</div>`:''}
+    ${c.links.length?`<div class="document-links">${c.links.map(l=>`<a href="${esc(l.href)}" ${l.href.startsWith("#/")?'':'target="_blank" rel="noopener"'}>${esc(l.title)} <span aria-hidden="true">↗</span></a>`).join('')}</div>`:''}
     ${c.stats?`<div class="section-stats">${c.stats.map(s=>`<div><strong>${esc(s.value)}</strong><span>${esc(s.label)}</span></div>`).join('')}</div><p class="stat-note">${esc(c.statsNote)}</p>`:''}
   </section>`;
 }
@@ -60,17 +61,18 @@ function project(p) {
 function route() {
   const parts=location.hash.replace(/^#\/?/,'').split('/').filter(Boolean);
   const isProject=parts[0]==='project';
+  const isWireframes=parts[0]==='wireframes';
   const p=isProject?PROJECTS.find(p=>p.id===parts[1]):null;
-  const view=isProject?(p?`project-${p.id}`:'missing'):'home';
+  const view=isProject?(p?`project-${p.id}`:'missing'):isWireframes?'wireframes':'home';
   if(view!==currentView){
     document.querySelectorAll('video').forEach(v=>v.pause());
     if(viewer.open) closeViewer();
-    main.innerHTML=view==='home'?home():p?project(p):`<div class="container empty-state"><h1>没有找到这个项目</h1><p>可以回到项目目录继续浏览。</p><a class="button" href="#/works">查看全部项目 ↗</a></div>`;
+    main.innerHTML=view==='home'?home():isWireframes?wireframesPage():p?project(p):`<div class="container empty-state"><h1>没有找到这个项目</h1><p>可以回到项目目录继续浏览。</p><a class="button" href="#/works">查看全部项目 ↗</a></div>`;
     currentView=view;
   }
-  document.title=p?`${p.name}｜孙岩萍作品集`:'孙岩萍｜品牌与产品内容策划';
+  document.title=p?`${p.name}｜孙岩萍作品集`:isWireframes?'海报内容结构与设计沟通｜孙岩萍作品集':'孙岩萍｜品牌与产品内容策划';
   document.querySelectorAll('[data-nav]').forEach(a=>{if(a.dataset.nav===(parts[0]||''))a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
-  const target=p&&parts[2]?document.getElementById(`${p.id}-${parts[2]}`):view==='home'&&parts[0]?document.getElementById(parts[0]):null;
+  const target=p&&parts[2]?document.getElementById(`${p.id}-${parts[2]}`):isWireframes&&parts[1]?document.getElementById(`wireframes-${parts[1]}`):view==='home'&&parts[0]?document.getElementById(parts[0]):null;
   requestAnimationFrame(()=>{
     if(target)target.scrollIntoView({behavior:'instant',block:'start'});else window.scrollTo({top:0,behavior:'instant'});
     main.focus({preventScroll:true});
