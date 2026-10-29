@@ -34,6 +34,7 @@ function imageGallery(images) {
 }
 
 function chapterSection(p, c, number) {
+  if(c.kind==='wireframes') return projectWireframes(p,number);
   const example = c.example;
   return `<section class="case-section ${p.id==='kugou'?'kugou-section':''}" id="${p.id}-${c.id}"><span class="section-num">${number} / SELECTED WORK</span><div class="section-heading"><h2>${esc(c.title)}</h2></div><div class="chapter-copy">${c.body.map(t=>`<p>${esc(t)}</p>`).join('')}</div>
     ${imageGallery(c.images)}
@@ -60,19 +61,21 @@ function project(p) {
 
 function route() {
   const parts=location.hash.replace(/^#\/?/,'').split('/').filter(Boolean);
+  if(parts[0]==='wireframes'){location.replace('#/project/sun/wireframes'+(parts[1]?'/'+parts[1]:''));return;}
   const isProject=parts[0]==='project';
-  const isWireframes=parts[0]==='wireframes';
   const p=isProject?PROJECTS.find(p=>p.id===parts[1]):null;
-  const view=isProject?(p?`project-${p.id}`:'missing'):isWireframes?'wireframes':'home';
+  const view=isProject?(p?`project-${p.id}`:'missing'):'home';
   if(view!==currentView){
     document.querySelectorAll('video').forEach(v=>v.pause());
     if(viewer.open) closeViewer();
-    main.innerHTML=view==='home'?home():isWireframes?wireframesPage():p?project(p):`<div class="container empty-state"><h1>没有找到这个项目</h1><p>可以回到项目目录继续浏览。</p><a class="button" href="#/works">查看全部项目 ↗</a></div>`;
+    main.innerHTML=view==='home'?home():p?project(p):`<div class="container empty-state"><h1>没有找到这个项目</h1><p>可以回到项目目录继续浏览。</p><a class="button" href="#/works">查看全部项目 ↗</a></div>`;
     currentView=view;
   }
-  document.title=p?`${p.name}｜孙岩萍作品集`:isWireframes?'海报内容结构与设计沟通｜孙岩萍作品集':'孙岩萍｜品牌与产品内容策划';
+  document.title=p?`${p.name}｜孙岩萍作品集`:'孙岩萍｜品牌与产品内容策划';
   document.querySelectorAll('[data-nav]').forEach(a=>{if(a.dataset.nav===(parts[0]||''))a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
-  const target=p&&parts[2]?document.getElementById(`${p.id}-${parts[2]}`):isWireframes&&parts[1]?document.getElementById(`wireframes-${parts[1]}`):view==='home'&&parts[0]?document.getElementById(parts[0]):null;
+  const detailTarget=p&&parts[2]==='wireframes'&&parts[3]?document.getElementById(`${p.id}-wireframe-${parts[3]}`):null;
+  if(detailTarget?.closest('details')) detailTarget.closest('details').open=true;
+  const target=detailTarget||(p&&parts[2]?document.getElementById(`${p.id}-${parts[2]}`):view==='home'&&parts[0]?document.getElementById(parts[0]):null);
   requestAnimationFrame(()=>{
     if(target)target.scrollIntoView({behavior:'instant',block:'start'});else window.scrollTo({top:0,behavior:'instant'});
     main.focus({preventScroll:true});

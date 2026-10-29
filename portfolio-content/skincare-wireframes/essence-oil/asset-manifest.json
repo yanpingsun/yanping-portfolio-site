@@ -1,0 +1,39 @@
+{
+  "updated": "2026-10-29",
+  "pdf": "oil-content-wireframes.pdf",
+  "items": [
+    {
+      "id": "day",
+      "pdfPage": 1,
+      "originalFilename": "23image.jpg",
+      "width": 750,
+      "height": 1000,
+      "originalSha256": "2bba8585728692250ccf9b36631f235e45af3dc7c9088fd8bb27bb8753debb8a",
+      "wireframe": "day-wireframe.webp",
+      "finished": "day-finished.jpg",
+      "preview": "day-finished.webp"
+    },
+    {
+      "id": "night",
+      "pdfPage": 2,
+      "originalFilename": "i34mage.jpg",
+      "width": 750,
+      "height": 1000,
+      "originalSha256": "ca6501fc93194687d5200101aba89f780d33b33f5373005e86702211ea4623a3",
+      "wireframe": "night-wireframe.webp",
+      "finished": "night-finished.jpg",
+      "preview": "night-finished.webp"
+    },
+    {
+      "id": "data",
+      "pdfPage": 3,
+      "originalFilename": "image.png",
+      "width": 750,
+      "height": 1100,
+      "originalSha256": "4ed40ef7c322bad62a2f5c43e78fa329eeb30f91ad918c35059d264f82548ba4",
+      "wireframe": "data-wireframe.webp",
+      "finished": "data-finished.jpg",
+      "preview": "data-finished.webp"
+    }
+  ]
+}
