@@ -406,6 +406,7 @@ const PROJECTS = [
     "responsibilities": [
       "制定升级卖点及私域种草内容",
       "独立完成公众号标题、正文与图内文案",
+      "产品海报的图内文案与内容排版线稿",
       "朋友圈配文、图内文案及信息顺序",
       "一条明星合作、两条达人视频完整脚本与沟通",
       "参与直播话术讨论，制定产品讲解内容",
@@ -428,6 +429,14 @@ const PROJECTS = [
       }
     ],
     "chapters": [
+      {
+        "id": "wireframes",
+        "kind": "wireframes",
+        "title": "海报线稿｜内容结构与设计沟通",
+        "body": [],
+        "images": [],
+        "links": []
+      },
       {
         "id": "article",
         "title": "公众号｜建立完整的新版产品认知",

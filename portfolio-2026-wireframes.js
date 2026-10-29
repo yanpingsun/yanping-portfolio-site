@@ -78,7 +78,73 @@ const OIL_WIREFRAMES = [
     ]
   }
 ];
+const MASK_WIREFRAMES = [
+  {
+    "id": "comparison",
+    "name": "问题切入",
+    "pdfPage": 1,
+    "title": "先用问题建立入口，再用对照组织阅读。",
+    "task": "围绕护理效果的疑问组织一张对照型海报，集中呈现产品希望沟通的差异化信息。",
+    "structure": "标题先提出问题，主体划分两个对照区，各自安排名称、图片和说明，底部再归纳主张。线稿明确哪些信息需要成组呈现，让读者能够按相同维度对照浏览。",
+    "comparison": "成品通过不同底色、面膜与人物画面，以及勾叉等视觉标记强化分区。这里展示的是设问、对照与收束的内容结构，历史海报中的判断性表达按原作保留。",
+    "points": [
+      "入口：标题先提出护理疑问",
+      "对照：同一维度的信息成组出现",
+      "收束：底部短句概括沟通主张"
+    ]
+  },
+  {
+    "id": "dual",
+    "name": "双膜信息",
+    "pdfPage": 3,
+    "title": "把双膜拆成两个信息组，讲清产品组合。",
+    "task": "将白膜与金膜分别呈现，让一个组合产品中的不同组件各有名称、主张与说明。",
+    "structure": "先安排总标题，再为白膜和金膜分别组织名称、核心表达与补充说明。线稿预留双产品画面，并明确文字与对应组件的关系。",
+    "comparison": "成品以两款产品的位置、文字分区与引线建立对应关系，让读者可以辨认每组信息归属哪一个组件。本人负责文案及内容结构，设计师完成视觉设计与制作。",
+    "points": [
+      "识别：白膜与金膜分别命名",
+      "分组：主张与说明归入对应组件",
+      "对应：引线连接产品与文字"
+    ]
+  },
+  {
+    "id": "ingredients",
+    "name": "成分分组",
+    "pdfPage": 2,
+    "title": "用角色标签，把两组成分分开讲。",
+    "task": "为成分较多的内容建立分组方式，使总主张、成分名称与说明形成清楚层次。",
+    "structure": "先给出整体主张，再以历史传播中的“外抵御”和“内充盈”两个标签组织成分名与配套说明，另外安排技术介绍和产品组合位置。",
+    "comparison": "线稿用两个文字区说明内容分工；成品通过成分意象、字号与连线强化分组。分析关注信息组织，未据历史角色标签验证作用部位或功效。",
+    "points": [
+      "主次：总主张与成分说明分层",
+      "标签：两组成分各有表达入口",
+      "图文：成分意象连接对应文字"
+    ]
+  },
+  {
+    "id": "documents",
+    "name": "资料展示",
+    "pdfPage": 4,
+    "title": "把不同资料分区，让图片与说明对应。",
+    "task": "将报告、查询截图、产品与前后图片组织到一张海报中，展示资料型内容的版式安排。",
+    "structure": "上方安排总标题，中部为两类资料设置各自的说明和截图位置，再加入产品组合，底部独立放置前后图及收尾文字。",
+    "comparison": "成品通过截图边框、箭头、产品叠放与底部独立区域组织资料。标题和反馈按历史作品保留，本节说明资料与文案的对应关系。",
+    "points": [
+      "来源：不同截图分别设置说明",
+      "层级：资料、产品与前后图区分",
+      "配对：文字与对应画面放在一起"
+    ]
+  }
+];
 const PROJECT_WIREFRAMES = {
+  mask: {
+    base: 'portfolio-content/skincare-wireframes/tongyan-mask/',
+    pdf: 'mask-content-wireframes.pdf', pages: 4, featured: 2,
+    scope: '产品价值、双膜信息与成分分组',
+    intro: '我将需求设问、双膜信息和成分内容拆成不同海报主题，规划标题、分区及图文对应关系。主展示问题切入与双膜信息两组，成分分组和资料展示作为补充展开。',
+    cases: MASK_WIREFRAMES
+  },
+
   oil: {
     base: 'portfolio-content/skincare-wireframes/essence-oil/',
     pdf: 'oil-content-wireframes.pdf', pages: 3, featured: 2,
@@ -116,5 +182,5 @@ function projectWireframes(p, number) {
 
 function wireframeTeaser() {
   const cfg=PROJECT_WIREFRAMES.oil;
-  return `<section class="wireframe-teaser" aria-labelledby="wireframe-teaser-title"><div><p class="eyebrow">02 / CONTENT STRUCTURE</p><h2 id="wireframe-teaser-title">从文案线稿，<br>看见信息安排。</h2><p>在精华油与防晒项目中，结合产品任务查看海报文案、信息层级及成品对照。</p><p class="wireframe-credit">本人负责海报文案与线稿 · 设计师完成视觉设计</p><div class="wireframe-teaser-links"><a class="button light" href="#/project/oil/wireframes">精华油线稿案例 <span aria-hidden="true">↗</span></a><a class="text-link" href="#/project/sun/wireframes">防晒线稿案例 ↗</a></div></div><a class="wireframe-teaser-pair" href="#/project/oil/wireframes" aria-label="查看精华油海报线稿与成品"><img src="${cfg.base}day-wireframe.webp" alt="日间精华油内容排版线稿" loading="lazy" width="934" height="1400"><img src="${cfg.base}day-finished.webp" alt="日间精华油海报成品" loading="lazy" width="700" height="933"><span>内容排版线稿 <i aria-hidden="true">→</i> 海报成品</span></a></section>`;
+  return `<section class="wireframe-teaser" aria-labelledby="wireframe-teaser-title"><div><p class="eyebrow">02 / CONTENT STRUCTURE</p><h2 id="wireframe-teaser-title">从文案线稿，<br>看见信息安排。</h2><p>在精华油、防晒与童颜面膜项目中，结合产品任务查看海报文案、信息层级及成品对照。</p><p class="wireframe-credit">本人负责海报文案与线稿 · 设计师完成视觉设计</p><div class="wireframe-teaser-links"><a class="button light" href="#/project/oil/wireframes">精华油线稿案例 <span aria-hidden="true">↗</span></a><a class="text-link" href="#/project/sun/wireframes">防晒线稿案例 ↗</a><a class="text-link" href="#/project/mask/wireframes">童颜面膜线稿案例 ↗</a></div></div><a class="wireframe-teaser-pair" href="#/project/oil/wireframes" aria-label="查看精华油海报线稿与成品"><img src="${cfg.base}day-wireframe.webp" alt="日间精华油内容排版线稿" loading="lazy" width="934" height="1400"><img src="${cfg.base}day-finished.webp" alt="日间精华油海报成品" loading="lazy" width="700" height="933"><span>内容排版线稿 <i aria-hidden="true">→</i> 海报成品</span></a></section>`;
 }

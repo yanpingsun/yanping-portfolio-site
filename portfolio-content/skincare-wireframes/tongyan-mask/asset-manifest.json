@@ -1,0 +1,50 @@
+{
+  "updated": "2026-10-29",
+  "pdf": "mask-content-wireframes.pdf",
+  "items": [
+    {
+      "id": "comparison",
+      "pdfPage": 1,
+      "originalFilename": "图4.png",
+      "width": 790,
+      "height": 1000,
+      "originalSha256": "76cc7a87d619679e7b4c87ec47d4782e2d3d5a77774785e9a990bcefcb072d25",
+      "wireframe": "comparison-wireframe.webp",
+      "finished": "comparison-finished.jpg",
+      "preview": "comparison-finished.webp"
+    },
+    {
+      "id": "ingredients",
+      "pdfPage": 2,
+      "originalFilename": "图片5.png",
+      "width": 750,
+      "height": 1551,
+      "originalSha256": "0057272b69c1ec32d5a6a2e73825a85c0319e68f132b084bd1c35a707272b989",
+      "wireframe": "ingredients-wireframe.webp",
+      "finished": "ingredients-finished.jpg",
+      "preview": "ingredients-finished.webp"
+    },
+    {
+      "id": "dual",
+      "pdfPage": 3,
+      "originalFilename": "图片7.png",
+      "width": 750,
+      "height": 1000,
+      "originalSha256": "e9e07bde8cc03b3a2edcbd0cc2ce604ab0cc1ce909ddc1112a055cbba8c36fa9",
+      "wireframe": "dual-wireframe.webp",
+      "finished": "dual-finished.jpg",
+      "preview": "dual-finished.webp"
+    },
+    {
+      "id": "documents",
+      "pdfPage": 4,
+      "originalFilename": "图片6.png",
+      "width": 750,
+      "height": 1219,
+      "originalSha256": "f2a4ed6fd11c7b4703cf66816015c8863d9e89a7bda6238c3e6a0925a581b4fd",
+      "wireframe": "documents-wireframe.webp",
+      "finished": "documents-finished.jpg",
+      "preview": "documents-finished.webp"
+    }
+  ]
+}
