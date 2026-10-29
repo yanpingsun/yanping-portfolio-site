@@ -1,0 +1,126 @@
+/* Portfolio 2.0: the approved personal cover and five peer project menus. */
+.portfolio-v2{min-height:100dvh;display:flex;flex-direction:column}
+.portfolio-v2 #main{flex:1}
+.portfolio-v2 .site-header{height:auto;min-height:105px;width:100%;padding-top:23px;padding-bottom:23px;gap:30px}
+.portfolio-v2 .wordmark{display:block;font-size:21px;letter-spacing:.1em;flex-shrink:0}
+.portfolio-v2 .wordmark span{display:block;border:0;padding:0;font-size:9px;line-height:1.7;letter-spacing:.12em;margin-top:4px}
+.portfolio-v2 .site-header nav{display:flex;gap:23px;flex-wrap:wrap;justify-content:flex-end;font-size:12px}
+.portfolio-v2 .site-header nav a{white-space:nowrap;min-height:44px;display:flex;align-items:center;border-bottom:2px solid transparent;padding:9px 0}
+.portfolio-v2 .site-header nav a[aria-current="page"]{color:var(--accent);border-bottom-color:var(--accent)}
+.portfolio-v2 .site-header .about-nav{margin-left:1px;padding-left:23px;border-left:1px solid var(--line)}
+.portfolio-v2[data-page="home"] #main{display:flex;align-items:center}
+.v2-hero{display:grid;grid-template-columns:1.18fr 1fr;gap:6%;padding:48px 0 44px;align-items:center}
+.v2-hero .eyebrow{margin-bottom:23px}
+.v2-person{font-size:12px;color:var(--muted);margin-bottom:15px;letter-spacing:.02em}
+.v2-hero h1{font:500 clamp(44px,4.4vw,66px)/1.35 var(--serif);letter-spacing:-.04em;margin:0 0 21px}
+.v2-hero h1 em{font-style:normal;color:var(--accent)}
+.v2-intro{font-size:13px;color:var(--text);line-height:2;max-width:450px;margin:0}
+.v2-evidence{list-style:none;padding:0;margin:23px 0 25px;border-top:1px solid var(--line)}
+.v2-evidence li{display:grid;grid-template-columns:1fr;gap:2px;padding:10px 0;border-bottom:1px solid var(--line);line-height:1.8}
+.v2-evidence strong{font-size:12px;font-weight:500}
+.v2-evidence span{font-size:11px;color:var(--text)}
+.v2-hero .hero-actions{gap:28px;flex-wrap:wrap}
+.v2-hero .button{gap:40px}
+.v2-hero-art{height:auto;aspect-ratio:.9;max-height:540px;position:relative;background:#e5e1d5;overflow:hidden}
+.v2-hero-art:before{content:'';position:absolute;right:10%;top:-25%;height:150%;width:40%;background:#d8d6ca;transform:rotate(23deg)}
+.v2-art-top,.v2-art-bottom{position:absolute;left:23px;right:23px;display:flex;align-items:center;justify-content:space-between;gap:15px;color:#6d7061;font-size:10px;letter-spacing:.06em;z-index:2}
+.v2-art-top{top:23px}
+.v2-art-bottom{bottom:19px}
+.v2-art-main{position:absolute;width:65%;height:70%;left:8%;top:17%;object-fit:cover;object-position:center;transform:rotate(-7deg);box-shadow:10px 14px 22px #0002}
+.v2-art-small{position:absolute;width:35%;height:49%;right:5%;bottom:9%;object-fit:cover;object-position:50% 34%;transform:rotate(8deg);border:6px solid var(--bg);box-shadow:7px 9px 18px #0002}
+.portfolio-v2 .site-footer{width:88.8%;max-width:1280px;margin:0 auto;padding:22px 0;border-top:1px solid var(--line);font-size:10px;gap:22px}
+.portfolio-v2 .site-footer>a:first-child{font-size:12px}
+.portfolio-v2 .site-footer>a:first-child span{font-size:10px;margin-left:11px}
+.portfolio-v2 .project-hero .eyebrow{font-size:11px;letter-spacing:.06em;line-height:1.9}
+.portfolio-v2 .project-hero h1{font-size:clamp(33px,3.1vw,50px);line-height:1.55}
+.v2-about-page{padding:57px 0 65px}
+.v2-about-page h1.about-lead{font-size:clamp(30px,2.9vw,43px);line-height:1.6;margin-bottom:21px}
+.v2-about-page .about-layout{gap:8%}
+.v2-about-page .method-grid h2{font-size:15px;font-weight:500;margin:14px 0 10px;line-height:1.6}
+.portfolio-v2 .contact-section+*{margin-top:0}
+.v2-directory{padding:45px 0 55px}
+.v2-directory>h1{font:500 42px/1.5 var(--serif);letter-spacing:-.03em;margin-bottom:30px}
+.v2-directory-list{border-top:1px solid var(--line)}
+.v2-directory-list>a{display:grid;grid-template-columns:30px 85px 1fr 30px;align-items:center;gap:28px;padding:23px 0;border-bottom:1px solid var(--line)}
+.v2-directory-number{font:400 15px/1.5 Georgia,serif;color:var(--muted)}
+.v2-directory-list img{width:85px;height:106px;object-fit:cover;object-position:center 40%}
+.v2-directory-copy{min-width:0}
+.v2-directory-copy small{display:block;font-size:11px;color:var(--accent);margin-bottom:6px}
+.v2-directory-copy strong{display:block;font:500 25px/1.5 var(--serif);margin-bottom:6px}
+.v2-directory-copy>span{font-size:11px;color:var(--muted)}
+.v2-directory-arrow{font-size:25px;color:var(--accent)}
+.v2-directory-list>a:hover .v2-directory-copy strong{color:var(--accent)}
+@media(min-width:1450px){.v2-hero{gap:7%;padding:58px 0}.v2-hero-art{max-height:580px}}
+@media(max-width:1100px){
+  .portfolio-v2 .site-header{gap:23px}
+  .portfolio-v2 .site-header nav{gap:18px}
+  .portfolio-v2 .site-header .about-nav{padding-left:18px}
+  .v2-hero{gap:5%}
+  .v2-hero h1{font-size:49px}
+  .v2-art-top,.v2-art-bottom{font-size:9px;left:21px;right:21px}
+  .v2-art-top{gap:10px}
+  .portfolio-v2 .site-footer{width:90%}
+}
+@media(max-width:900px){
+  .portfolio-v2 .site-header{align-items:flex-start;flex-wrap:wrap;padding-top:20px;padding-bottom:15px;gap:9px}
+  .portfolio-v2 .wordmark span{display:none}
+  .portfolio-v2 .site-header nav{width:100%;justify-content:flex-start;gap:22px}
+  .portfolio-v2 .site-header .about-nav{margin-left:0}
+  .v2-hero h1{font-size:43px}
+  .v2-hero-art{aspect-ratio:.82}
+  .v2-evidence span{font-size:11px}
+  .v2-art-top{font-size:8px}
+  .v2-directory-copy strong{font-size:22px}
+}
+@media(max-width:760px){
+  .portfolio-v2 .site-header{height:auto;min-height:0;padding:18px 6% 12px;gap:11px}
+  .portfolio-v2 .wordmark{font-size:19px}
+  .portfolio-v2 .site-header nav{gap:2px 17px;font-size:11px}
+  .portfolio-v2 .site-header nav a{min-height:42px}
+  .portfolio-v2 .site-header .about-nav{padding-left:0;border-left:0}
+  .v2-hero{grid-template-columns:1fr;gap:32px;padding:30px 0 31px}
+  .v2-hero .eyebrow{font-size:10px;margin-bottom:17px}
+  .v2-person{font-size:11px;margin-bottom:13px}
+  .v2-hero h1{font-size:clamp(34px,8.6vw,45px);line-height:1.4;margin-bottom:17px}
+  .v2-intro{font-size:12px;line-height:2;max-width:500px}
+  .v2-evidence{margin:18px 0 22px}
+  .v2-evidence li{padding:9px 0;gap:2px}
+  .v2-evidence strong{font-size:12px}
+  .v2-evidence span{font-size:11px}
+  .v2-hero .hero-actions{gap:24px}
+  .v2-hero .button{gap:35px}
+  .v2-hero-art{height:350px;aspect-ratio:auto;max-height:none}
+  .v2-art-top,.v2-art-bottom{font-size:9px;left:21px;right:21px}
+  .v2-art-main{width:65%;height:70%}
+  .v2-art-small{width:35%;height:49%}
+  .portfolio-v2 .site-footer{width:88%;padding:20px 0;gap:13px;font-size:9px}
+  .portfolio-v2 .site-footer>a:first-child{font-size:12px}
+  .portfolio-v2 .site-footer>a:first-child span{font-size:9px;margin-left:8px}
+  .portfolio-v2 .site-footer>a:last-child{display:block;width:100%;font-size:11px}
+  .portfolio-v2 .project-hero h1{font-size:clamp(27px,6.3vw,40px);line-height:1.6}
+  .portfolio-v2 .project-hero .eyebrow{font-size:10px}
+  .v2-about-page{padding:32px 0 40px}
+  .v2-about-page h1.about-lead{font-size:29px;margin-bottom:15px}
+  .v2-about-page .about-label{font-size:10px}
+  .v2-about-page .method-grid h2{font-size:14px;margin:0 0 7px}
+  .v2-directory{padding:30px 0 40px}
+  .v2-directory>h1{font-size:30px;margin-bottom:23px}
+  .v2-directory-list>a{grid-template-columns:23px 63px 1fr 17px;gap:13px;padding:20px 0}
+  .v2-directory-list img{width:63px;height:84px}
+  .v2-directory-number{font-size:12px}
+  .v2-directory-copy small{font-size:9px;margin-bottom:5px}
+  .v2-directory-copy strong{font-size:18px;line-height:1.6;margin-bottom:4px}
+  .v2-directory-copy>span{font-size:10px;line-height:1.8;display:block}
+  .v2-directory-arrow{font-size:19px}
+}
+@media(max-width:380px){
+  .portfolio-v2 .site-header nav{gap:2px 15px}
+  .v2-hero h1{font-size:32px}
+  .v2-hero .hero-actions{gap:18px}
+  .v2-hero .button{gap:25px;padding-left:16px;padding-right:16px}
+  .v2-hero-art{height:295px}
+  .portfolio-v2 .project-hero h1{font-size:25px}
+  .v2-directory-list>a{grid-template-columns:20px 52px 1fr 15px;gap:10px}
+  .v2-directory-list img{width:52px;height:75px}
+  .v2-directory-copy strong{font-size:16px}
+}

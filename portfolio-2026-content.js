@@ -585,7 +585,7 @@ const PROJECTS = [
     "id": "clean",
     "number": "04",
     "name": "逆时光洁颜霜",
-    "category": "精简产品案例",
+    "category": "产品内容策划",
     "label": "PRODUCT COPY / LAUNCH CONTENT",
     "title": "把清洁与温和，\n写成一句直观的记忆。",
     "cardTitle": "逆时光洁颜霜：从卖点到系列文案",
