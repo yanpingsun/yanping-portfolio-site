@@ -17,7 +17,7 @@
 - 当前网站代码基线：c9fc45a4417e7a8cfca30cc6536adcbaa66bcfe0；后续以最新 main 为准。
 - 改版分支：work/portfolio-revamp。
 - 内容工作分支：`work/general-content-r1`，沿用原任务分支；[内容草稿 PR #2](https://github.com/yanpingsun/yanping-portfolio-site/pull/2) 基于已共享的规范分支工作。
-- UX 工作分支：`work/general-ux-r1`，基于内容分支，保存[UX r1](../design/README.md)及静态线框；尚未合入 main。
+- UX 工作分支：`work/general-ux-r1`，基于内容分支，保存[UX r1](../design/README.md)及静态线框；[UX 草稿 PR #3](https://github.com/yanpingsun/yanping-portfolio-site/pull/3) 尚未合入 main，固定节点见版本记录。
 - 规范分支：docs/project-standards；[草稿 PR #1](https://github.com/yanpingsun/yanping-portfolio-site/pull/1) 尚未合入 main。
 - 原站源码归档：`archive/baseline-20261101`，固定到上述代码基线；岗位版本及重要节点统一见 [版本记录](VERSIONS.md)。
 
