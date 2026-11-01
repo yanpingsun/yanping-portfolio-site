@@ -7,6 +7,7 @@
 | 能力主张 | 已有个人职责依据 | 代表证据 | 正文使用方式 |
 | --- | --- | --- | --- |
 | 提炼产品沟通主线 | 精华油卖点、公众号标题正文与图内文案、脚本由本人负责 | [精华入油结构图](../portfolio-content/essence-oil/assets/wechat/03-essence-structure.png)、[日夜图](../portfolio-content/essence-oil/assets/wechat/04-day-night.png)、[25页全文](../portfolio-content/essence-oil/assets/wechat/oil-launch-article.pdf) | 分清既定产品方案与个人内容策划，解释一句话如何展开为作品 |
+| 安排海报内容与信息层级 | 既有职责包括海报／朋友圈图内文案、信息顺序及版式规划，设计师完成视觉 | [三组线稿与成品及来源](../portfolio-content/skincare-wireframes/essence-oil/README.md) | 精华油 r3 全部保留；线稿为本人于2026年10月29日补充提供的简版内容排版线稿，未认定为当年原始底稿 |
 | 根据讲述场景组织脚本 | 四条精华油脚本均有本人职责说明；拍摄剪辑不归入个人贡献 | [四条脚本分析及成片](../portfolio-content/essence-oil/docs/video-analysis.md) | 保留品牌科普、人物推广、答疑、演示四种处理方式；分析为事后归纳 |
 | 设计活动玩法并推进合作 | 酷狗微博内容、合作思路、发糖机策划、产品及运营协作 | [发布微博](../portfolio-content/kugou/assets/weibo/fatang-weibo.jpg)、[规则长图](../portfolio-content/kugou/assets/weibo/fatang-rules.jpg) | 作品说明具体期次；技术开发与内部实现不计入个人工作 |
 | 多平台统筹与审核 | 酷狗资料已记录管理2位专员、统筹与脚本审核的分工 | [职责与平台总览](../portfolio-content/kugou/project.md)、[音效作品截图](../portfolio-content/kugou/assets/douyin/gokuraku-screenshot.png) | 区分独立策划、统筹审核及专员制作；截图保持静态作品身份 |
@@ -46,4 +47,6 @@
 
 第二轮补查：面膜新旧升级图、防晒护理价值与搭配图、鹿晗话题图、精华油使用方式与朋友圈结构图，共六张。精华油使用图注改为“三种方式分别归组”，搭配图注按油皮、干皮与熟龄护理区分。直接读取精华油、防晒、洁面归档 PDF 的头部及页数，核对25／31／30页与各自发布时间；未把打印时间当作发布日期。尚未逐张复核长详情页，也没有新增本人数据确认。
 
-本轮内容可用于 UX 的结构与阅读方案设计；正式对外发布前，仍需本人核对 CV 是否最新、职责措辞和保留的成果口径。待核对数字不在正文预留夸大的承诺，也不要求 UX 为未知数据设计重点展示。
+精华油单案 r3 另核对日间、夜间、资料信息三组线稿与成品，并与来源 README 交叉检查材料身份。13幅正文图像、四条视频、两份原有作品 PDF 及补充分析／重建入口均保留；没有新加历史原稿、排期或销售归因事实。
+
+本轮内容继续与原版校准，随后用于 UX 的结构与阅读方案设计；正式对外发布前，仍需本人核对 CV 是否最新、职责措辞和保留的成果口径。待核对数字不在正文预留夸大的承诺，也不要求 UX 为未知数据设计重点展示。
