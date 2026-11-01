@@ -45,6 +45,6 @@ python3 -m http.server 8765
 
 ## 修改与发布
 
-开发在工作分支进行；开工和 PR 交付前检查 owner 的远端更新，再整合有影响的变更。`main` 对应正式网站，合并后的发布沿用现有 GitHub Pages 配置。具体步骤见 [协作规则](docs/COLLABORATION.md)。
+开发在工作分支进行；开工和 PR 交付前检查 owner 的远端更新，再整合有影响的变更。正式站继续沿用现有 GitHub Pages；新版 HTML 先提供独立预览链接，用户实际查看并确认对应版本后，再更新正式入口，保留可恢复的旧版节点。当前尚未创建新版网页预览。具体步骤见 [协作规则](docs/COLLABORATION.md)。
 
 当前 UX 任务分支为 `work/general-ux-r1`，基于内容分支 `work/general-content-r1`；各草稿 PR 与实际阶段见项目状态。内容继续遵循已确认的个人职责与成果口径，技术和设计任务在授权范围内自主推进；事实缺口与内容含义冲突单独说明。
