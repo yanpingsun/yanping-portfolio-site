@@ -14,7 +14,7 @@ owner 只需说明需求、提供素材和确认事实，GitHub 操作由 agent 
 
 ## 制作顺序
 
-按 [四层流程](docs/OPTIMIZATION-PLAN.md) 推进：先保留原始资料，再准备网页文案、精选素材和内容结构，之后做 UI/UX，最后实现 HTML/CSS/JS。当前先准备内容，不直接拿原始材料生成页面。
+按 [四层流程](docs/OPTIMIZATION-PLAN.md) 管理资料与产物：保留原始资料，结合 CV 和目标岗位准备网页内容；内容研究与 UI/UX 研究可以分别推进、相互校准。HTML/CSS/JS 制作放在最后，代码原型也留到实现阶段。
 
 ## 本地预览
 
