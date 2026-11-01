@@ -12,9 +12,9 @@
 
 owner 只需说明需求、提供素材和确认事实，GitHub 操作由 agent 处理。需要给对方 agent 上下文时，可转交 [简短接手提示](docs/OWNER-AGENT-START.md)。规范尚未合入 main 时，从 docs/project-standards 分支读取。
 
-## 制作顺序
+## 制作方法
 
-按 [四层流程](docs/OPTIMIZATION-PLAN.md) 管理资料与产物：保留原始资料，结合 CV 和目标岗位准备网页内容；内容研究与 UI/UX 研究可以分别推进、相互校准。HTML/CSS/JS 制作放在最后，代码原型也留到实现阶段。
+先读 [制作 Pipeline](docs/OPTIMIZATION-PLAN.md)：如何从原始材料、CV 和求职目标推导定位、证据、内容策略，再分别准备内容与 UI/UX，最后实现并验证 HTML。文档同时说明选材与展示的理由、写作者的交付方式，以及页面问题应回到哪个环节处理。当前先搭建这套方法，具体研究与制作尚未开始。
 
 ## 本地预览
 
