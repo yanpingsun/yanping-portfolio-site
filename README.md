@@ -10,7 +10,7 @@
 
 先读 [项目状态](docs/PROJECT.md) 了解进度，开发遵循 [AGENTS.md](AGENTS.md)。双方使用正常的 [同步、分支与 PR 流程](docs/COLLABORATION.md)。
 
-owner 只需说明需求、提供素材和确认事实，GitHub 操作由 agent 处理。需要给对方 agent 上下文时，可转交 [简短接手提示](docs/OWNER-AGENT-START.md)。规范尚未合入 main 时，从 docs/project-standards 分支读取。
+项目只有 owner 与另一位协作者，两边 agent 遵守同一套规范。owner 没有开发和 Git 背景，只需说明需求、提供素材和确认事实；agent 负责版本同步和技术操作，遇到不准确的技术说法时按意图引导。需要给对方 agent 上下文时，可转交 [简短接手提示](docs/OWNER-AGENT-START.md)。规范尚未合入 main 时，从 docs/project-standards 分支读取。
 
 ## 制作方法
 
