@@ -8,35 +8,9 @@
 
 ## 开始协作
 
-项目规范 1.1 包含内容／开发标准与双方 agent 的协作方式。不同入口各自负责：
+先读 [项目状态](docs/PROJECT.md) 了解进度，开发遵循 [AGENTS.md](AGENTS.md)。双方使用正常的 [同步、分支与 PR 流程](docs/COLLABORATION.md)。
 
-| 入口 | 用途 |
-| --- | --- |
-| [项目状态](docs/PROJECT.md) | 当前做到哪里，下一步是什么 |
-| [项目规范](docs/STANDARDS.md) | 内容依据、素材、目录、代码和验证要求 |
-| [协作与同步](docs/COLLABORATION.md) | owner 与协作者如何同步、解决冲突和交付 PR |
-| [给 owner 的 agent](docs/OWNER-AGENT-START.md) | 可直接转交的接手提示词，以及规范尚未合入 main 时的读取方法 |
-| [决定记录](docs/DECISIONS.md) | 哪些已采用，哪些仍是改版建议 |
-| [优化计划](docs/OPTIMIZATION-PLAN.md) | 分阶段目标与交付物 |
-| [AGENTS.md](AGENTS.md) | Codex／ChatGPT 等 AI 工具的执行入口 |
-
-当前页面和路由参考 [2.0 实现说明](PORTFOLIO-2.0.md)。规范的本地建立、远端合并和网站发布分别记录，不互相代表完成。
-
-## owner 提供资料时
-
-owner 只需说明业务需求、提供文件、确认事实或页面效果。GitHub 操作交给 agent，不用先学分支、提交或 PR。
-
-可以直接对自己的 agent 说：
-
-- “这些是精华油的新视频，先归档资料，还不用改网页。”
-- “把网站童颜面膜案例中的这句话改成下面的版本。”
-- “这张图片替换防晒页面的旧图，其他内容保持现有版本。”
-
-agent 应识别案例、补充／替换关系、个人负责部分与数据范围，只追问影响事实或交付的缺口，再按 [协作流程](docs/COLLABORATION.md) 更新文件、验证并交付任务分支／PR。
-
-历史作品、后期复盘和重建示例分开说明。只在自己电脑上的文件不会自动同步给其他协作者，需要提交到共同使用的 GitHub 分支。
-
-第一次接入时转交 [接手说明](docs/OWNER-AGENT-START.md) 中的提示词。规范未合入 `main` 时，明确读取 `docs/project-standards` 分支，不能只打开旧默认分支就假定已读到新规则。
+owner 只需说明需求、提供素材和确认事实，GitHub 操作由 agent 处理。需要给对方 agent 上下文时，可转交 [简短接手提示](docs/OWNER-AGENT-START.md)。规范尚未合入 main 时，从 docs/project-standards 分支读取。
 
 ## 本地预览
 
