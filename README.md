@@ -14,7 +14,7 @@
 
 ## 制作方法
 
-先读 [制作 Pipeline](docs/OPTIMIZATION-PLAN.md)：如何从原始材料、CV 和求职目标推导定位、证据、内容策略，再分别准备内容与 UI/UX，最后实现并验证 HTML。[通用基准版内容 r2](content/README.md)包含定位、证据、首页、关于我和五个案例；当前已形成 [UX r1](design/README.md)，包括参考比较、页面结构和桌面／手机非代码线框，尚未开始网页实现。
+先读 [制作 Pipeline](docs/OPTIMIZATION-PLAN.md)：既有网站先还原原版内容与 UI/UX，再从材料、CV 和目标推导修订，最后实现 HTML。[原版基线](baseline/README.md)已补齐完整正文、内容策略、UI/UX 和同层对照。[通用内容 r2](content/README.md)与 [UX r1](design/README.md)保留为待校准稿，尚未证明整体优于原版；五页线框是布局节选，尚未开始网页实现。
 
 不同岗位版本、同版迭代与旧版保留见 [版本记录](docs/VERSIONS.md)。现有网站源码已保留归档分支；多版本网页访问入口留到 HTML 阶段实现。
 
@@ -38,6 +38,7 @@ python3 -m http.server 8765
 | `portfolio-2026-wireframes.js` | 四个护肤品项目的线稿与成品对照 |
 | `portfolio-2026.css`、`portfolio-2.css`、`portfolio-2026-wireframes.css` | 当前样式；实际应用顺序见 `index.html` |
 | `portfolio-content/` | 项目文稿、来源说明、原件及展示素材 |
+| `baseline/` | 固定原版的完整正文、内容策略与 UI/UX 还原，以及与新稿的同层对照 |
 | `content/` | 本轮准备进入网页的内容稿与选材说明 |
 | `design/` | UI/UX 参考、页面结构及静态线框 PDF |
 | `portfolio-previews/` | 网页轻量预览图 |

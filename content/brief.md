@@ -30,6 +30,8 @@
 
 ## 本轮边界与后续
 
+现已补齐[原版基线及同层对照](../baseline/README.md)。后续以原版为默认起点；两个主要案例决定入口优先级，不自动授权移除其他案例的独特能力证据。已有职责区、策划主线、海报对照、视频和补充材料应分别安排去向，再决定如何控制默认篇幅。本稿的选材是待校准提议，不因内容更短就视为优化已成立。
+
 本轮继续精修首页、关于我与五个案例的通用内容，引用已有素材，不改写原材料或 CV。当前不依赖具体 JD 才能推进；案例排序仍可依据本人试读调整，事实差异按证据清单核对。以后需要岗位定制版时，再基于通用内容调整重点。内容可用后进入 UX。
 
 主要依据：[现有 CV](../portfolio-resume.pdf)、[精华油项目稿](../portfolio-content/essence-oil/project.md)、[酷狗项目稿](../portfolio-content/kugou/project.md)、[面膜项目稿](../portfolio-content/tongyan-mask/project.md)、[防晒项目稿](../portfolio-content/sunscreen/project.md)、[洁面资料稿](../portfolio-content/cleanser/洁面作品集内容.md)。

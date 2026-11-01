@@ -1,0 +1,1451 @@
+{
+  "source_commit": "c9fc45a4417e7a8cfca30cc6536adcbaa66bcfe0",
+  "sources": [
+    {
+      "file": "index.html",
+      "blob": "1fa2298776793a8e67a3c016854ec9beeb47628d"
+    },
+    {
+      "file": "portfolio-2026.js",
+      "blob": "691fa8c40eb565a51a54d3627388794cf9265b6a"
+    },
+    {
+      "file": "portfolio-2026-content.js",
+      "blob": "d3d13770c65cf1cfba13b05feb677e50a59eaf0a"
+    },
+    {
+      "file": "portfolio-2026-wireframes.js",
+      "blob": "52172975c78a1c78121663447cab9a70b2974183"
+    },
+    {
+      "file": "portfolio-2026.css",
+      "blob": "6c80d4489501bd4efe76382554ce8a540e2d8317"
+    },
+    {
+      "file": "portfolio-2026-wireframes.css",
+      "blob": "2fa162137dc239c88446482f6a6c71e299be2551"
+    },
+    {
+      "file": "portfolio-2.css",
+      "blob": "d16bb6cd51c656d501f9fe6a60b1bb395816e322"
+    }
+  ],
+  "pages": [
+    {
+      "id": "home",
+      "file": "pages/home.md",
+      "route": "#/",
+      "chinese_text_chunks": 14,
+      "missing_text_chunks": 0
+    },
+    {
+      "id": "works",
+      "file": "pages/works.md",
+      "route": "#/works",
+      "chinese_text_chunks": 17,
+      "missing_text_chunks": 0
+    },
+    {
+      "id": "about",
+      "file": "pages/about.md",
+      "route": "#/about",
+      "chinese_text_chunks": 13,
+      "missing_text_chunks": 0
+    },
+    {
+      "id": "oil",
+      "file": "pages/projects/oil.md",
+      "route": "#/project/oil",
+      "chinese_text_chunks": 141,
+      "missing_text_chunks": 0
+    },
+    {
+      "id": "sun",
+      "file": "pages/projects/sun.md",
+      "route": "#/project/sun",
+      "chinese_text_chunks": 162,
+      "missing_text_chunks": 0
+    },
+    {
+      "id": "mask",
+      "file": "pages/projects/mask.md",
+      "route": "#/project/mask",
+      "chinese_text_chunks": 153,
+      "missing_text_chunks": 0
+    },
+    {
+      "id": "clean",
+      "file": "pages/projects/cleanser.md",
+      "route": "#/project/clean",
+      "chinese_text_chunks": 93,
+      "missing_text_chunks": 0
+    },
+    {
+      "id": "kugou",
+      "file": "pages/projects/kugou.md",
+      "route": "#/project/kugou",
+      "chinese_text_chunks": 80,
+      "missing_text_chunks": 0
+    }
+  ],
+  "projects": [
+    {
+      "id": "oil",
+      "name": "日夜精华油",
+      "chapters": [
+        {
+          "id": "wireframes",
+          "title": "海报线稿｜内容结构与设计沟通",
+          "kind": "wireframes",
+          "images": 0,
+          "documents": 0
+        },
+        {
+          "id": "article",
+          "title": "公众号｜让一个概念，贯穿一篇上新长文",
+          "kind": "content",
+          "images": 3,
+          "documents": 1
+        },
+        {
+          "id": "moments",
+          "title": "朋友圈｜一次讲清一个理由",
+          "kind": "content",
+          "images": 3,
+          "documents": 0
+        },
+        {
+          "id": "sales",
+          "title": "销售沟通｜从资料，转向具体的问题",
+          "kind": "content",
+          "images": 0,
+          "documents": 0
+        }
+      ],
+      "videos": [
+        {
+          "title": "品牌科普｜把专业概念讲得具体",
+          "src": "portfolio-content/essence-oil/assets/videos/oil-sebum-education.mp4"
+        },
+        {
+          "title": "刘晓庆合作｜让卖点进入人物讲述",
+          "src": "portfolio-content/essence-oil/assets/videos/oil-liuxiaoqing.mp4"
+        },
+        {
+          "title": "达人答疑｜用问题推进信息",
+          "src": "portfolio-content/essence-oil/assets/videos/oil-influencer-qa.mp4"
+        },
+        {
+          "title": "达人演示｜把产品写成使用动作",
+          "src": "portfolio-content/essence-oil/assets/videos/oil-tutorial.mp4"
+        }
+      ],
+      "wireframes": {
+        "groups": 3,
+        "featured": 2,
+        "pdf": "portfolio-content/skincare-wireframes/essence-oil/oil-content-wireframes.pdf"
+      }
+    },
+    {
+      "id": "sun",
+      "name": "高客单抗老防晒",
+      "chapters": [
+        {
+          "id": "wireframes",
+          "title": "海报线稿｜内容结构与设计沟通",
+          "kind": "wireframes",
+          "images": 0,
+          "documents": 0
+        },
+        {
+          "id": "article",
+          "title": "公众号｜先建立价值，再接住使用疑问",
+          "kind": "content",
+          "images": 2,
+          "documents": 1
+        },
+        {
+          "id": "moments",
+          "title": "朋友圈｜从价值参照，走到具体用法",
+          "kind": "content",
+          "images": 3,
+          "documents": 0
+        },
+        {
+          "id": "sales",
+          "title": "销售话术｜把顾虑写成可调用的回应",
+          "kind": "content",
+          "images": 0,
+          "documents": 0
+        },
+        {
+          "id": "detail",
+          "title": "电商详情页｜让用户可以自主理解与查阅",
+          "kind": "content",
+          "images": 3,
+          "documents": 1
+        }
+      ],
+      "videos": [
+        {
+          "title": "李颖合作｜从质疑到体验改观",
+          "src": "portfolio-content/sunscreen/assets/videos/sunscreen-liying.mp4"
+        },
+        {
+          "title": "达人体验｜先让肤感被看见",
+          "src": "portfolio-content/sunscreen/assets/videos/sunscreen-influencer-04.mp4"
+        },
+        {
+          "title": "向海岚合作｜让产品连接人物态度",
+          "src": "portfolio-content/sunscreen/assets/videos/sunscreen-xianghailan.mp4"
+        },
+        {
+          "title": "达人讲述｜逐层解释为什么贵",
+          "src": "portfolio-content/sunscreen/assets/videos/sunscreen-influencer-03.mp4"
+        }
+      ],
+      "wireframes": {
+        "groups": 4,
+        "featured": 2,
+        "pdf": "portfolio-content/skincare-wireframes/sunscreen/sunscreen-content-wireframes.pdf"
+      }
+    },
+    {
+      "id": "mask",
+      "name": "童颜面膜",
+      "chapters": [
+        {
+          "id": "wireframes",
+          "title": "海报线稿｜内容结构与设计沟通",
+          "kind": "wireframes",
+          "images": 0,
+          "documents": 0
+        },
+        {
+          "id": "article",
+          "title": "公众号｜建立完整的新版产品认知",
+          "kind": "content",
+          "images": 3,
+          "documents": 1
+        },
+        {
+          "id": "moments",
+          "title": "朋友圈｜三个主题，拆开升级理由",
+          "kind": "content",
+          "images": 3,
+          "documents": 0
+        },
+        {
+          "id": "live",
+          "title": "直播讲解｜让抽象信息跟得上、听得懂",
+          "kind": "content",
+          "images": 3,
+          "documents": 0
+        },
+        {
+          "id": "detail",
+          "title": "商城详情页｜把升级信息组织成连续阅读",
+          "kind": "content",
+          "images": 2,
+          "documents": 0
+        }
+      ],
+      "videos": [
+        {
+          "title": "骆达华合作｜从人物故事自然转场",
+          "src": "portfolio-content/tongyan-mask/assets/videos/mask-luodahua-preview.mp4"
+        },
+        {
+          "title": "达人体验｜将护理步骤写进故事",
+          "src": "portfolio-content/tongyan-mask/assets/videos/mask-influencer-tutorial-preview.mp4"
+        },
+        {
+          "title": "夫妻日常｜从怀疑走向逐步理解",
+          "src": "portfolio-content/tongyan-mask/assets/videos/mask-influencer-story-preview.mp4"
+        }
+      ],
+      "wireframes": {
+        "groups": 4,
+        "featured": 2,
+        "pdf": "portfolio-content/skincare-wireframes/tongyan-mask/mask-content-wireframes.pdf"
+      }
+    },
+    {
+      "id": "clean",
+      "name": "逆时光洁颜霜",
+      "chapters": [
+        {
+          "id": "wireframes",
+          "title": "海报线稿｜内容结构与设计沟通",
+          "kind": "wireframes",
+          "images": 0,
+          "documents": 0
+        },
+        {
+          "id": "works",
+          "title": "补充作品｜上新长文与清洁表达",
+          "kind": "content",
+          "images": 0,
+          "documents": 2
+        }
+      ],
+      "videos": [],
+      "wireframes": {
+        "groups": 3,
+        "featured": 1,
+        "pdf": "portfolio-content/skincare-wireframes/cleanser/cleanser-content-wireframes.pdf"
+      }
+    },
+    {
+      "id": "kugou",
+      "name": "酷狗音乐",
+      "chapters": [
+        {
+          "id": "growth",
+          "title": "主案例｜微博向客户端引流与发糖机",
+          "kind": "content",
+          "images": 2,
+          "documents": 0
+        },
+        {
+          "id": "social",
+          "title": "小红书｜从活动机制到用户表达",
+          "kind": "content",
+          "images": 2,
+          "documents": 0
+        },
+        {
+          "id": "function",
+          "title": "抖音｜用音乐现场表达音效体验",
+          "kind": "content",
+          "images": 2,
+          "documents": 0
+        },
+        {
+          "id": "wechat",
+          "title": "微信渠道｜定位调整与从0到1",
+          "kind": "content",
+          "images": 3,
+          "documents": 0
+        },
+        {
+          "id": "radio",
+          "title": "精选补充｜入梦晚安电台",
+          "kind": "content",
+          "images": 3,
+          "documents": 0
+        }
+      ],
+      "videos": [],
+      "wireframes": null
+    }
+  ],
+  "assets": [
+    {
+      "path": "portfolio-content/cleanser/assets/posters/cleanser-cleansing.jpg",
+      "blob": "9f8047d3b085ab2c5a8726c1c8a967f4a0958d6c",
+      "kinds": [
+        "document-or-link"
+      ],
+      "pages": [
+        "clean"
+      ]
+    },
+    {
+      "path": "portfolio-content/cleanser/assets/wechat/cleanser-launch-article.pdf",
+      "blob": "8f9553398d5288cd3e505506ce351e829fd8d197",
+      "kinds": [
+        "document-or-link"
+      ],
+      "pages": [
+        "clean"
+      ]
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/moments/oil-essence-structure.png",
+      "blob": "e5af4ccf9913729945667bbc0f81f6d7177656b1",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/moments/oil-sebum-explanation.png",
+      "blob": "6cb82c13c30548f705d9f9bd7d55b50030ce5da4",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/moments/oil-sebum-needs.png",
+      "blob": "88b742a55a711c21d4f0558e043ba494506aa076",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/videos/oil-influencer-qa.mp4",
+      "blob": "502a1c52143b0f758e4130b9ea552a76124afa65",
+      "kinds": [
+        "video"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/videos/oil-liuxiaoqing.mp4",
+      "blob": "d051961be1bdd4340cb539390a5711cfab590bc9",
+      "kinds": [
+        "video"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/videos/oil-sebum-education.mp4",
+      "blob": "374d3a717560c142910c1c590914080243b1073d",
+      "kinds": [
+        "video"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/videos/oil-tutorial.mp4",
+      "blob": "d930289a595bd5966fe591c98759273ed965675a",
+      "kinds": [
+        "video"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/wechat/03-essence-structure.png",
+      "blob": "f85e9e7e0b719ba7320414673aafbaa1de3e9e63",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/wechat/04-day-night.png",
+      "blob": "b1f3df1234810e95ca45c4e9a88a832a6bcfd1fc",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/wechat/07-usage.png",
+      "blob": "7fa170bb3a04b169eacaabdf0e95fa82d904e3b3",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/wechat/oil-launch-article.pdf",
+      "blob": "d1ebcd8e9f16688e2eedd5c7a9c17e882445e9c0",
+      "kinds": [
+        "document-or-link"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/kugou/assets/channels/live-list.png",
+      "blob": "8471d33c9bd6cd3e82e2c3a6430f5bda11959003",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "kugou"
+      ]
+    },
+    {
+      "path": "portfolio-content/kugou/assets/douyin/concert-collection.png",
+      "blob": "6a14429cc798602200280bd2303da22aa27e93eb",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "kugou"
+      ]
+    },
+    {
+      "path": "portfolio-content/kugou/assets/douyin/gokuraku-screenshot.png",
+      "blob": "0fdf15a178f132188a9fc2c4b5acf8f81f67b8f4",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "kugou"
+      ]
+    },
+    {
+      "path": "portfolio-content/kugou/assets/radio/poster-fiona.png",
+      "blob": "0f353ca210e78cc914303d567467772ae1767ff2",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "kugou"
+      ]
+    },
+    {
+      "path": "portfolio-content/kugou/assets/radio/poster-yuwenwen.png",
+      "blob": "ae1f4543d777bea140d1280eae2ef4b9621ba65a",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "kugou"
+      ]
+    },
+    {
+      "path": "portfolio-content/kugou/assets/radio/weibo-promotion.jpg",
+      "blob": "5648e9f4021cd153b2ab7625e8c213e0fce06611",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "kugou"
+      ]
+    },
+    {
+      "path": "portfolio-content/kugou/assets/wechat/article-feature-and-reading.png",
+      "blob": "1811bb1037f4988839e1cae1c076bb23a9c7072d",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "kugou"
+      ]
+    },
+    {
+      "path": "portfolio-content/kugou/assets/wechat/article-opening.png",
+      "blob": "8e1f2fcac4424cdcb16ad3528c312054c4502154",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "kugou"
+      ]
+    },
+    {
+      "path": "portfolio-content/kugou/assets/weibo/fatang-rules.jpg",
+      "blob": "f2aab73dc4912d4389ee7a493783ebce618cd645",
+      "kinds": [
+        "original-image"
+      ],
+      "pages": [
+        "kugou"
+      ]
+    },
+    {
+      "path": "portfolio-content/kugou/assets/weibo/fatang-weibo.jpg",
+      "blob": "10e54c56661f6f402292c114c6c971f59d925da8",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "kugou"
+      ]
+    },
+    {
+      "path": "portfolio-content/kugou/assets/xiaohongshu/luhan-topic.png",
+      "blob": "e00c1158ae3a56511ff9be6a5a733197f6f7824e",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "kugou"
+      ]
+    },
+    {
+      "path": "portfolio-content/kugou/assets/xiaohongshu/sound-effect-ugc.png",
+      "blob": "8acf340f1b0f1b65d7c7e9ec33e884f211db2a59",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "kugou"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/cleanser-content-wireframes.pdf",
+      "blob": "4d64f374941af3ec343a3bad9eeea9ac3a9d978a",
+      "kinds": [
+        "document-or-link"
+      ],
+      "pages": [
+        "clean"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/core-finished.jpg",
+      "blob": "64816c4f7295dd5a9f0bb3e0901f3ac5a6b9374b",
+      "kinds": [
+        "original-image"
+      ],
+      "pages": [
+        "clean"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/core-finished.webp",
+      "blob": "3491dc0163c454a211508472eb8c69864f3b4fd7",
+      "kinds": [
+        "display-image"
+      ],
+      "pages": [
+        "clean"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/core-wireframe.webp",
+      "blob": "09297a931e9e33b067990b8b012e42888eba87f4",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "clean"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/ingredients-finished.jpg",
+      "blob": "11ebee42a9b28cf33c89908ba365617f538b6593",
+      "kinds": [
+        "original-image"
+      ],
+      "pages": [
+        "clean"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/ingredients-finished.webp",
+      "blob": "39a5db3f332079f7da8ef0e10fb46a0d02206560",
+      "kinds": [
+        "display-image"
+      ],
+      "pages": [
+        "clean"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/ingredients-wireframe.webp",
+      "blob": "e1cd6aac6156e79c598a8150196dcdfa6062fade",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "clean"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/texture-finished.jpg",
+      "blob": "7cc298a71f27b0b344ddd249b3af9f4589310620",
+      "kinds": [
+        "original-image"
+      ],
+      "pages": [
+        "clean"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/texture-finished.webp",
+      "blob": "44ee19899910613185078ff7385e26d25d1acfbb",
+      "kinds": [
+        "display-image"
+      ],
+      "pages": [
+        "clean"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/texture-wireframe.webp",
+      "blob": "b03beb48c4acc9bd3f65ff198abbe427c8d6dbe8",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "clean"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/data-finished.jpg",
+      "blob": "cc1f2d8f8d3e080b4661a4b883799e40b6111a6f",
+      "kinds": [
+        "original-image"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/data-finished.webp",
+      "blob": "add6dc86eae8b2bcc232561cf88c91377c5f16c6",
+      "kinds": [
+        "display-image"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/data-wireframe.webp",
+      "blob": "62caf64eb9cdc878e999f57c6995b9e760ae76ff",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/day-finished.jpg",
+      "blob": "f0bebe11e9fd39a29b127c5c2d6351b524e60ece",
+      "kinds": [
+        "original-image"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/day-finished.webp",
+      "blob": "77c2635b2518df224c2ad38dfef2aca547b01b25",
+      "kinds": [
+        "display-image"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/day-wireframe.webp",
+      "blob": "109268ff9f34797b5ff37db88af086056ddb9acf",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/night-finished.jpg",
+      "blob": "de51abd0885cbcc5ca3cc1ba8a9e7babff4ad3dd",
+      "kinds": [
+        "original-image"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/night-finished.webp",
+      "blob": "c3049f27859f06233e503a5480b1a1bc4f3324f8",
+      "kinds": [
+        "display-image"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/night-wireframe.webp",
+      "blob": "44c67f1bc640df7f80821127be9b8a0b51c8841c",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/oil-content-wireframes.pdf",
+      "blob": "8a3e5efb476f7eeea7e721d4efd091798df55988",
+      "kinds": [
+        "document-or-link"
+      ],
+      "pages": [
+        "oil"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/feedback-finished.jpg",
+      "blob": "fac0e6a9a28e82315cc3e454121545c6ae3d7654",
+      "kinds": [
+        "original-image"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/feedback-finished.webp",
+      "blob": "c59746bb492dcc72f53626c3c17c2830837b1377",
+      "kinds": [
+        "display-image"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/feedback-wireframe.webp",
+      "blob": "8b54582789622cb1c4afa980ed81212f3ab182b7",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/launch-finished.jpg",
+      "blob": "061047170bf7ad7339ff562e554ec765078b02b8",
+      "kinds": [
+        "original-image"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/launch-finished.webp",
+      "blob": "26331b361b78472b4b0ca6936bec0698b6d1b790",
+      "kinds": [
+        "display-image"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/launch-wireframe.webp",
+      "blob": "9fa94df6719d0a6b44338a83bab2c7ba09db7568",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/sunscreen-content-wireframes.pdf",
+      "blob": "5bc4590ae562f7cc07be08381cf2fff4433aeb58",
+      "kinds": [
+        "document-or-link"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/texture-finished.jpg",
+      "blob": "d8a7fc3987f0f2db7ef641ae9b19d6f66ca02f4d",
+      "kinds": [
+        "original-image"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/texture-finished.webp",
+      "blob": "911b000511a5914f77218deb57676d0a9883ce8d",
+      "kinds": [
+        "display-image"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/texture-wireframe.webp",
+      "blob": "aeacbb4f2d9eea34a5c49a9b6879e119a25cc75f",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/value-finished.jpg",
+      "blob": "c541b83c5f8007b4a7ae6e9bbc68306b238cbf97",
+      "kinds": [
+        "original-image"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/value-finished.webp",
+      "blob": "845c1fc4d7653166199a7527cbd3471c0e7001d9",
+      "kinds": [
+        "display-image"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/value-wireframe.webp",
+      "blob": "ad8806d3da06fba086f3b7b85ccd0acc3b0b2823",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/comparison-finished.jpg",
+      "blob": "00d134573adb227a847b7ab370976e5be8721897",
+      "kinds": [
+        "original-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/comparison-finished.webp",
+      "blob": "9ac72940072e28eb442ced602e60b0ce298a49a6",
+      "kinds": [
+        "display-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/comparison-wireframe.webp",
+      "blob": "5e8453287da4959d5244e0aee1bfdf7111b08876",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/documents-finished.jpg",
+      "blob": "cdd4a71da26c5caaee76156eba51eaebfcb9443b",
+      "kinds": [
+        "original-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/documents-finished.webp",
+      "blob": "9d336682622e8516fdd5129e43de2e0581eb89f8",
+      "kinds": [
+        "display-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/documents-wireframe.webp",
+      "blob": "3f9e650445a5c7cf38872bd32d4ac02472d007dc",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/dual-finished.jpg",
+      "blob": "4baf12ddc4bb0e2f2c49dd447b4aaaa8901d6f34",
+      "kinds": [
+        "original-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/dual-finished.webp",
+      "blob": "fb91c9832bb78137d630e83fefac9ead87355134",
+      "kinds": [
+        "display-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/dual-wireframe.webp",
+      "blob": "5c55d6bf49ffe24f5dfd694043c0261f6eb1e2e4",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/ingredients-finished.jpg",
+      "blob": "8cf7cca5851b670a121892b4a5647543edd5c74c",
+      "kinds": [
+        "original-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/ingredients-finished.webp",
+      "blob": "730b43ab1263acdfa297f8c38f1ca221ea14967b",
+      "kinds": [
+        "display-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/ingredients-wireframe.webp",
+      "blob": "cf457aa360deba4b2116c366bf4a22e29c9442cb",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/mask-content-wireframes.pdf",
+      "blob": "de10c254d5716eeaf6fb934b5480d330de7143c9",
+      "kinds": [
+        "document-or-link"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/detail/detail-01.png",
+      "blob": "5ef3802e94d578effcad5286127ad7c433354a5a",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/detail/detail-04.png",
+      "blob": "4ebf0c44af0fd03a787e36d1840bb8c48fc25824",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/detail/detail-05.png",
+      "blob": "38b84c181fccec941a4800f6a66d0b0a0de47bb2",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/detail/sunscreen-detail-full.jpg",
+      "blob": "4185f8e3ab7b532459672d1f64a3393fbd93d8bf",
+      "kinds": [
+        "document-or-link"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/moments/01-evidence.png",
+      "blob": "569a77f852c23c01a3e051d9eb32dead0316271f",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/moments/02-essence-value.png",
+      "blob": "08da019490fd91bc1c0dbfadd2c4106ffcaf0362",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/moments/03-routine.png",
+      "blob": "e16e7254257c98266bf7ec463e1708aa4da3ad7d",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/videos/sunscreen-influencer-03.mp4",
+      "blob": "8434159dc85c5ea21d8ddbee5ffcd6b9f80f558a",
+      "kinds": [
+        "video"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/videos/sunscreen-influencer-04.mp4",
+      "blob": "cf3a010453753a05883e1536cd7f5aa8f847a05c",
+      "kinds": [
+        "video"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/videos/sunscreen-liying.mp4",
+      "blob": "0f0c5552f9931ccc49446a2ab52d2fc2663100a8",
+      "kinds": [
+        "video"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/videos/sunscreen-xianghailan.mp4",
+      "blob": "0ad2b08f46d6db00fb4b85e1cfb28b7f9cd5a145",
+      "kinds": [
+        "video"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/wechat/sunscreen-launch-article.pdf",
+      "blob": "8dea9c376c68f87b2fbcee6e7d07808ef449191d",
+      "kinds": [
+        "document-or-link"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/wechat/wechat-01.png",
+      "blob": "1ece57c6666959b8da6576993a051ff059d778ad",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/wechat/wechat-05.png",
+      "blob": "d1239ad2ba013b889c4732523bf539ae5b6e934f",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "sun"
+      ]
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/detail/detail-01.jpg",
+      "blob": "5693eb94a09a339c974f29b72e018d1e64407989",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/detail/detail-02.jpg",
+      "blob": "d1507338f394c7046a762a6280c1c78dd83867fd",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/live/product-01.png",
+      "blob": "f615a30c84a23b1d77586ead76b01fef103d06a4",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/live/product-02.png",
+      "blob": "6b626a309e540ad71e99a9d1cb5e7e0a80f42831",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/live/product-03.png",
+      "blob": "51a1499517016ed3e8a2a67af95ef9bb46aefe3e",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/moments/01-upgrade.png",
+      "blob": "3848b7132d3ad8941a232e219d7674cd67521d1c",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/moments/02-reassurance.png",
+      "blob": "170bd6d974ef21f611a551a4384e45589f7f90d9",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/moments/03-result-expression.png",
+      "blob": "cd2643c6ee77e8b2f5ad6404c8385a9e1e90483b",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/videos/mask-influencer-story-preview.mp4",
+      "blob": "231604e508f66d7a91d1d44c0236a23b23f1abbe",
+      "kinds": [
+        "video"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/videos/mask-influencer-tutorial-preview.mp4",
+      "blob": "5ff76ba0a392f0569f075a4ec35c43a26d8dce92",
+      "kinds": [
+        "video"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/videos/mask-luodahua-preview.mp4",
+      "blob": "54d4a06a2f21cb3f80fcb8e5a270f46a1e6c406e",
+      "kinds": [
+        "video"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/wechat/01-dual-mask-structure.png",
+      "blob": "39d9f85c6706a7c7de2bf01cb93b446219601c8e",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/wechat/02-whitening-ingredients.png",
+      "blob": "dd1e7e11d892aa5bbd4a8df282f1ce5830504cbd",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/wechat/03-collagen-ingredients.png",
+      "blob": "64c2c0ede22bcb1b8956a5ec055a0c2ee059b07b",
+      "kinds": [
+        "display-image",
+        "original-image"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/wechat/mask-launch-article.pdf",
+      "blob": "de9052d3f5a31b6c91d0d57ffcc2f75129ba1b8b",
+      "kinds": [
+        "document-or-link"
+      ],
+      "pages": [
+        "mask"
+      ]
+    },
+    {
+      "path": "portfolio-previews/clean.webp",
+      "blob": "8691beb168b45c6677357e70f4ff5ba7499520df",
+      "kinds": [
+        "display-image"
+      ],
+      "pages": [
+        "clean",
+        "works"
+      ]
+    },
+    {
+      "path": "portfolio-previews/kugou.webp",
+      "blob": "d5703ac02decef949adffbae430ac99ba1b1ca21",
+      "kinds": [
+        "display-image"
+      ],
+      "pages": [
+        "kugou",
+        "works"
+      ]
+    },
+    {
+      "path": "portfolio-previews/mask.webp",
+      "blob": "bb2aae09186f080767c30548b936acc63dd77418",
+      "kinds": [
+        "display-image"
+      ],
+      "pages": [
+        "mask",
+        "works"
+      ]
+    },
+    {
+      "path": "portfolio-previews/oil.webp",
+      "blob": "c1ac7e09dca52aae2a49198900743d25ad03476b",
+      "kinds": [
+        "display-image"
+      ],
+      "pages": [
+        "oil",
+        "works"
+      ]
+    },
+    {
+      "path": "portfolio-previews/sun.webp",
+      "blob": "c4e7ecc32a603a35ce54e1efea35e5034545de0f",
+      "kinds": [
+        "display-image"
+      ],
+      "pages": [
+        "sun",
+        "works"
+      ]
+    }
+  ],
+  "note": "Resource counts measure references, not content quality or distinct creative works."
+}
