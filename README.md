@@ -12,6 +12,10 @@
 
 owner 只需说明需求、提供素材和确认事实，GitHub 操作由 agent 处理。需要给对方 agent 上下文时，可转交 [简短接手提示](docs/OWNER-AGENT-START.md)。规范尚未合入 main 时，从 docs/project-standards 分支读取。
 
+## 制作顺序
+
+按 [四层流程](docs/OPTIMIZATION-PLAN.md) 推进：先保留原始资料，再准备网页文案、精选素材和内容结构，之后做 UI/UX，最后实现 HTML/CSS/JS。当前先准备内容，不直接拿原始材料生成页面。
+
 ## 本地预览
 
 在仓库根目录执行：
@@ -32,6 +36,8 @@ python3 -m http.server 8765
 | `portfolio-2026-wireframes.js` | 四个护肤品项目的线稿与成品对照 |
 | `portfolio-2026.css`、`portfolio-2.css`、`portfolio-2026-wireframes.css` | 当前样式；实际应用顺序见 `index.html` |
 | `portfolio-content/` | 项目文稿、来源说明、原件及展示素材 |
+| `content/`（按需建立） | 本轮准备进入网页的内容稿与选材说明 |
+| `design/`（按需建立） | UI/UX 参考、版式与页面设计稿 |
 | `portfolio-previews/` | 网页轻量预览图 |
 | `docs/` | 本轮优化的项目状态、计划与协作说明 |
 
