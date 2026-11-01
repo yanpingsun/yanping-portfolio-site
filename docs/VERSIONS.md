@@ -1,6 +1,6 @@
 # 展示版本与迭代记录
 
-更新日期：2026-11-01。管理不同岗位／面试场景的展示版本，以及同一版本后续的修改。当前已补齐原版上游基线；`general` 内容 r2 与 UX r1 保留为待同层校准稿，原站与早期内容稿继续保留；尚未制作新的网页入口。
+更新日期：2026-11-01。管理不同岗位／面试场景的展示版本，以及同一版本后续的修改。当前已补齐原版上游基线；`general` 精华油为单案内容 r3，其余页面仍为 r2，UX r1 保留待校准。原站与早期内容稿继续保留，尚未制作新的网页入口。
 
 ## 三件事分开管理
 
@@ -35,10 +35,11 @@
 | `general` | 通用基准版，首稿时方向暂定 | 内容 r1，已由 r2 接续、未投递 | [366e407](https://github.com/yanpingsun/yanping-portfolio-site/commit/366e4077ce653d26bccb276bfe0bdc23a1fde47f) | [首稿归档](https://github.com/yanpingsun/yanping-portfolio-site/tree/archive/general-content-r1)，含定位、证据与七份页面稿；没有对应新网页 |
 | `general` | 通用基准版，用户已确认用途 | 内容 r2，编辑自查节点，当前待原版完整性校准 | [b620200](https://github.com/yanpingsun/yanping-portfolio-site/commit/b620200499655907ab45c00c1ba2114ba9e7e302) | [r2归档](https://github.com/yanpingsun/yanping-portfolio-site/tree/archive/general-content-r2)，原样保留当时内容；后续发现的作品选材缺口见当前对照，未制作或发布网页 |
 | `general` | 基于内容 r2 的通用阅读体验 | UX r1，参考、结构与五页局部线框，待原版同层校准 | [c892af7](https://github.com/yanpingsun/yanping-portfolio-site/commit/c892af701e36932524b6243799f43f9caed0b4fc) | [UX r1归档](https://github.com/yanpingsun/yanping-portfolio-site/tree/archive/general-ux-r1)，原样保留当时的设计提议与静态 PDF；不是完整案例或已验证改版，没有对应新网页 |
+| `general` | 以原版完整案例为起点的增量修订 | 精华油单案内容 r3，完整工作稿及改动对照，待试读 | [4ba2975](https://github.com/yanpingsun/yanping-portfolio-site/commit/4ba297564ced1583c19b99f4d4ade6320c07fe31) | [单案 r3 归档](https://github.com/yanpingsun/yanping-portfolio-site/tree/archive/general-oil-content-r3)，三组海报与原版核心作品入口保留；直接维护 Markdown，无新增报告 PDF 或网页；其余页面未升级为 r3 |
 
 原版的[内容与UI/UX还原](../baseline/README.md)从上述固定源码提取，文档位于当前工作分支；没有回写或移动原站归档。它补齐比较依据，不替代原始作品与事实核对。
 
-用户已确认先做 `general` 通用基准版，内容稿见[阅读入口](../content/README.md)。上述内容 r1 保留初稿当时的状态；当前内容 r2 与 UX r1 分属同版的内容、设计阶段，当前工作稿继续同版修订，不改写归档。尚未形成岗位定制版或正式投递版本。后续只记录实际建立的版本与重要节点；被新节点替代时标明状态并保留旧记录。更早的迭代仍可从原站基线的 Git 历史查阅。
+用户已确认先做 `general` 通用基准版，内容稿见[阅读入口](../content/README.md)。内容 r1、r2 与 UX r1 保留当时状态；当前仅[精华油单案 r3](../content/projects/oil.md)完成本轮完整内容修订，其他六份页面稿继续按 r2 校准。各稿继续同版修订，不改写归档。尚未形成岗位定制版或正式投递版本。后续只记录实际建立的版本与重要节点；被新节点替代时标明状态并保留旧记录。更早的迭代仍可从原站基线的 Git 历史查阅。
 
 ## 查看、恢复与投递
 
