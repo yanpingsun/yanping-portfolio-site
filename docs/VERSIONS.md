@@ -32,7 +32,8 @@
 | 展示版本 | 用途 | 阶段／节点 | 固定提交 | 保留位置与状态 |
 | --- | --- | --- | --- | --- |
 | `baseline-20261101` | 本轮优化前的现有网站 | 原站源码基线 | [c9fc45a](https://github.com/yanpingsun/yanping-portfolio-site/commit/c9fc45a4417e7a8cfca30cc6536adcbaa66bcfe0) | [归档分支](https://github.com/yanpingsun/yanping-portfolio-site/tree/archive/baseline-20261101)，含该提交的页面和素材；未新增网页入口 |
-| `general` | 通用基准版，主投方向暂定 | 内容 r1，可评审、未投递 | [366e407](https://github.com/yanpingsun/yanping-portfolio-site/commit/366e4077ce653d26bccb276bfe0bdc23a1fde47f) | [首稿归档](https://github.com/yanpingsun/yanping-portfolio-site/tree/archive/general-content-r1)，含定位、证据与七份页面稿；没有对应新网页 |
+| `general` | 通用基准版，首稿时方向暂定 | 内容 r1，已由 r2 接续、未投递 | [366e407](https://github.com/yanpingsun/yanping-portfolio-site/commit/366e4077ce653d26bccb276bfe0bdc23a1fde47f) | [首稿归档](https://github.com/yanpingsun/yanping-portfolio-site/tree/archive/general-content-r1)，含定位、证据与七份页面稿；没有对应新网页 |
+| `general` | 通用基准版，用户已确认用途 | 内容 r2，完成编辑自查、可作 UX 输入 | [b620200](https://github.com/yanpingsun/yanping-portfolio-site/commit/b620200499655907ab45c00c1ba2114ba9e7e302) | [r2归档](https://github.com/yanpingsun/yanping-portfolio-site/tree/archive/general-content-r2)，补强具体作品说明并修正图注；未制作或发布网页 |
 
 用户已确认先做 `general` 通用基准版，内容稿见[阅读入口](../content/README.md)。上述 r1 保留初稿当时的状态；当前工作稿继续同版修订，不改写归档。尚未形成岗位定制版或正式投递版本。后续只记录实际建立的版本与重要节点；被新节点替代时标明状态并保留旧记录。更早的迭代仍可从原站基线的 Git 历史查阅。
 
