@@ -10,7 +10,9 @@
 
 ### 两类问题，分别安排内容
 
-我以防晒与精华护理的组合组织价值表达，再把轻薄肤感和日常使用安排为独立的信息重点。这样，成分和技术资料有了讲述方向，使用顾虑也能得到具体回应。
+我以“1支防晒半支精华，外防光老化，内养冷白皮”作为当时的产品传播表达，先建立防晒与精华护理的品类联想，再展开具体资料。“半支精华”在这里承担记忆与价值表达的任务。
+
+轻薄肤感和日常使用则单独成段，回应厚重、搓泥等顾虑。价值信息与使用疑问各有篇幅，避免只罗列产品资料。
 
 公众号先展开护理价值，再接肤感问题；详情页用分区标题安排产品利益、质地与商品查阅信息；视频则把相同信息转为人物讲述、疑问和使用演示。
 
@@ -20,10 +22,10 @@
 | --- | --- |
 | [公众号护理价值片段](../../portfolio-content/sunscreen/assets/wechat/wechat-01.png) | 原文第5页配图。以对照方式集中组织产品的价值表达 |
 | [公众号肤感顾虑片段](../../portfolio-content/sunscreen/assets/wechat/wechat-05.png) | 原文第19页配图。列出厚重、搓泥等使用困扰，为后文的质地与肤感说明建立对象 |
-| [按肤质搭配的朋友圈图文](../../portfolio-content/sunscreen/assets/moments/03-routine.png) | 将产品放回具体护理安排中；本人负责内容与文案，视觉由设计师完成 |
+| [护理搭配的朋友圈图文](../../portfolio-content/sunscreen/assets/moments/03-routine.png) | 按油皮、干皮与熟龄护理三个关注点分组，配合产品图与短句；本人负责内容与文案，视觉由设计师完成 |
 | [完整详情页](../../portfolio-content/sunscreen/assets/detail/sunscreen-detail-full.jpg) | 将核心价值、资料及使用信息整理为可自主查阅的结构 |
 
-[查看公众号全文](../../portfolio-content/sunscreen/assets/wechat/sunscreen-launch-article.pdf)
+[查看公众号全文（31页 PDF）](../../portfolio-content/sunscreen/assets/wechat/sunscreen-launch-article.pdf)
 
 不同内容围绕相同卖点展开，信息量与讲述方式随场景调整。我的贡献是卖点、文案、内容结构及脚本策划，既定价格与产品方案不归入个人决策。
 
@@ -35,8 +37,12 @@
 
 图内产品作用与技术信息保留为历史作品，不作为此次独立核验的产品结论。
 
+继续查看：[洁面的短文案案例](cleanser.md) · [其他代表项目](../home.md#代表项目)
+
 ## 编辑依据与呈现说明
 
 依据：[项目稿](../../portfolio-content/sunscreen/project.md)、[公众号分析](../../portfolio-content/sunscreen/docs/wechat-analysis.md)、[朋友圈分析](../../portfolio-content/sunscreen/docs/moments-analysis.md)。本轮聚焦“价值解释＋顾虑回应”，保留原稿中的完整作品入口，不逐渠道重复同一段介绍。
 
 120万+及半个月沿用 CV 与项目稿一致口径。后续若实际岗位需要更多脚本、销售话术或详情页细节，可从[原项目稿](../../portfolio-content/sunscreen/project.md)选择扩展，不新增未经确认的个人执行职责。
+
+传播文案沿用项目稿已记载的原表达，不将“半支精华”解释为本轮核实的配方比例。归档 PDF 的31页及2026年5月28日发布信息已复核；打印日期不作发布时间。

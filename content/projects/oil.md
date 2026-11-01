@@ -14,13 +14,13 @@
 
 配方、规格、定价和日夜产品方案由相关团队确定；视觉设计、视频拍摄剪辑及明星商务分别由团队或合作方完成。
 
-### 难点：让专业信息有一个能继续讲下去的入口
+### 难点：让双瓶产品有清楚的介绍顺序
 
 消费者需要理解的不只是“有两瓶油”，还包括为什么关注这类产品、精华与油的结合意味着什么，以及日间与夜间怎样区分。我的内容处理围绕三个问题展开。
 
 **先找到理解入口。** 从干燥、紧绷、上妆卡粉等护理困扰进入，把“皮脂膜”作为贯穿内容的解释线索，再连接产品介绍。这样，成分和结构信息有了共同的讲述方向。
 
-**再提炼记忆表达。** 以“表补油，里补精华”概括当时的产品沟通特点，后续通过正文和配图继续解释精华与油相的信息。这是历史传播表达，案例分析关注它怎样组织信息。
+**再提炼记忆表达。** 以“表补油，里补精华”概括当时的产品沟通特点，再用产品结构图展开比例、产品形象和分组说明。一句话负责帮助记忆，正文和图内信息负责继续解释。这是历史传播表达，案例分析关注它怎样组织信息。
 
 **最后放进具体场景。** 在既定双瓶方案下，分别梳理两款的卖点与早晚使用场景，让日夜区别成为能被介绍、复述的内容。
 
@@ -34,7 +34,7 @@
 | --- | --- |
 | [精华入油结构](../../portfolio-content/essence-oil/assets/wechat/03-essence-structure.png) | 原文第14页配图。用标题、产品形象、结构与比例组织同一主题；本人负责内容与图内文案 |
 | [日夜双瓶](../../portfolio-content/essence-oil/assets/wechat/04-day-night.png) | 原文第16页配图。把两款并列到早晚场景中，呈现内容分工；产品方案由团队确定 |
-| [使用方式](../../portfolio-content/essence-oil/assets/wechat/07-usage.png) | 原文第20页配图。将产品信息继续展开为有顺序的使用内容 |
+| [使用方式](../../portfolio-content/essence-oil/assets/wechat/07-usage.png) | 原文第20页配图。把三种使用方式分别归组，以图示与相应说明配对 |
 
 [查看公众号25页全文](../../portfolio-content/essence-oil/assets/wechat/oil-launch-article.pdf)
 
@@ -47,7 +47,7 @@
 | 作品 | 图注 |
 | --- | --- |
 | [护理困扰](../../portfolio-content/essence-oil/assets/moments/oil-sebum-needs.png)与[概念说明](../../portfolio-content/essence-oil/assets/moments/oil-sebum-explanation.png) | 用具体困扰进入专业话题，再用概念图解释内容主线 |
-| [精华入油图文](../../portfolio-content/essence-oil/assets/moments/oil-essence-structure.png) | 把一个产品特点集中成短图文，展示标题与说明的主次 |
+| [精华入油图文](../../portfolio-content/essence-oil/assets/moments/oil-essence-structure.png) | 用“精华入油”作主标题，配合双瓶形象与下方的信息分组，展示一个主题怎样组织成短图文 |
 
 此处分组按内容任务整理，不代表当年的发布排期。
 
@@ -78,6 +78,8 @@
 
 图文与视频保留历史传播表达。原图中的人物、功效、技术和比例等说法作为历史作品查看，不视为本次作品集已独立核实的产品结论。
 
+继续查看：[酷狗音乐的活动与运营](kugou.md) · [查看简历](../../portfolio-resume.pdf)
+
 ## 编辑依据与呈现说明
 
 依据：[项目稿](../../portfolio-content/essence-oil/project.md)、[公众号分析](../../portfolio-content/essence-oil/docs/wechat-analysis.md)、[脚本分析](../../portfolio-content/essence-oil/docs/video-analysis.md)、[既有选材要求](../../portfolio-content/essence-oil/selected-materials.md)。职责与460万+口径沿用项目确认记录。
@@ -85,3 +87,5 @@
 精华油保留完整案例：公众号、三张朋友圈作品、四条可查阅视频和重建稿说明均有入口。正文不新增该项目未提供的包装或详情页交付，不突出尚待核对的“0投放”限定，也不以现有压缩视频代表新制作的高清原片。
 
 图片链接标明应配什么图注，播放器形式和阅读布局留到 UX。后续如需压缩篇幅，优先缩短重复说明，保留职责边界、作品入口和成果范围。
+
+第二轮按实图核对：使用方式图展示三种不同方式，不把它们写成连续三步。公众号25页及2025年12月26日的发布日期已从归档 PDF 头部复核，打印日期不作发布日期。
