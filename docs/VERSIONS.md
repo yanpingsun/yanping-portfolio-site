@@ -37,6 +37,7 @@
 | `general` | 基于内容 r2 的通用阅读体验 | UX r1，参考、结构与五页局部线框，待原版同层校准 | [c892af7](https://github.com/yanpingsun/yanping-portfolio-site/commit/c892af701e36932524b6243799f43f9caed0b4fc) | [UX r1归档](https://github.com/yanpingsun/yanping-portfolio-site/tree/archive/general-ux-r1)，原样保留当时的设计提议与静态 PDF；不是完整案例或已验证改版，没有对应新网页 |
 | `general` | 以原版完整案例为起点的增量修订 | 精华油单案内容 r3，完整工作稿及改动对照，待试读 | [4ba2975](https://github.com/yanpingsun/yanping-portfolio-site/commit/4ba297564ced1583c19b99f4d4ade6320c07fe31) | [单案 r3 归档](https://github.com/yanpingsun/yanping-portfolio-site/tree/archive/general-oil-content-r3)，三组海报与原版核心作品入口保留；直接维护 Markdown，无新增报告 PDF 或网页；当时其余页面未升级为 r3 |
 | `general` | 通用基准版，以原版完整证据为起点 | 内容r3，七份页面完整工作稿，待试读与本人事实核对 | [6631e64](https://github.com/yanpingsun/yanping-portfolio-site/commit/6631e644c37d6044e2dd234c0a84ffd104d43ce5) | [完整r3归档](https://github.com/yanpingsun/yanping-portfolio-site/tree/archive/general-content-r3)，首页、关于我与五案正文，原版86项核心引用保留，附逐项对照；无新增报告PDF或网页 |
+| `general` | 基于完整内容r3的阅读与展示安排 | UX r2：八页结构、三类代表页的桌面／手机静态图，待HTML验证 | [f8cf3a0](https://github.com/yanpingsun/yanping-portfolio-site/commit/f8cf3a0da876b0a299049f36a7427ada81c9d9ce) | [UX r2归档](https://github.com/yanpingsun/yanping-portfolio-site/tree/archive/general-ux-r2)，继承原版视觉与作品分层；完整SVG、查看位图和逐页安排均保留，尚无新网页 |
 
 原版的[内容与UI/UX还原](../baseline/README.md)从上述固定源码提取，文档位于当前工作分支；没有回写或移动原站归档。它补齐比较依据，不替代原始作品与事实核对。
 
