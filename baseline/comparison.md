@@ -2,7 +2,7 @@
 
 日期：2026-11-01。原版按固定提交 `c9fc45a4417e7a8cfca30cc6536adcbaa66bcfe0` 还原；对照内容 r2 和 UX r1。原版全文见[入口](README.md)，新内容见[内容入口](../content/README.md)，新 UX 见[方案](../design/ux-plan.md)。本表保留初轮差异，不作为新稿优于旧版的结论。
 
-后续进展（2026-11-02）：七份页面已形成[通用内容r3完整稿](../content/README.md)，原版核心作品入口全部保留；当前取舍见[本轮逐项对照](../content/reviews/general-r3-vs-baseline.md)。下表继续记录r2时的问题，UX尚未按完整内容更新。
+后续进展（2026-11-02）：七份页面已形成[通用内容r3完整稿](../content/README.md)，原版核心作品入口全部保留；当前取舍见[本轮逐项对照](../content/reviews/general-r3-vs-baseline.md)。下表继续记录r2时的问题；[UX r2](../design/README.md)现已按完整内容校准结构与静态排版，尚未制作网页。
 
 ## 先分清比较对象
 

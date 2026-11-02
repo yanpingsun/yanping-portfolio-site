@@ -1,25 +1,43 @@
-# 通用基准版 UX r1
+# 通用基准版 UX r2
 
-版本 ID：`general`。日期：2026-11-01。基于[内容 r2](../content/README.md)的 UX r1 保留提议；现已回到[原版 UI/UX 基线](../baseline/ui-ux.md)与[同层对照](../baseline/comparison.md)校准，尚未接入网站。原版已有的视觉、内容分层和交互先作为默认起点。
+版本ID：`general`。日期：2026-11-02。依据[完整内容r3](../content/README.md)与[原版UI/UX](../baseline/ui-ux.md)完成阅读结构和静态排版校准，尚未接入网站。
 
-先看原版基线和对照，再按需查看[五页局部线框](output/pdf/general-ux-r1.pdf)、[设计提议](ux-plan.md)和[外部参考](references.md)。线框覆盖首页、精华油、酷狗、防晒、关于我的开头与部分模块，大量后续内容只以续读条概括；它不是完整案例审阅稿，不能用来判断全部内容是否充实。区块并非整页等比例缩小，也不作为最终配色或完整网页。PDF 内的图片用于结构预览，细节仍以原作品为准。
+先看首页设计，再按需要查阅完整案例和[八个页面的安排](page-structure.md)。图中使用真实正文与作品；所有补充组在审阅状态展开，视频是有明确标识的静态区域。它们不能点击或播放，不是网页预览。
 
-本轮重点：两个主案例保持相当的入口权重；个人贡献在作品前交代；长图、四条精华油视频和完整 PDF 各有入口；三个补充案例按不同问题组织，不强行写成同等篇幅。
+## 静态设计图
 
-## 怎样检查这版
+| 页面 | 桌面 | 手机 |
+| --- | --- | --- |
+| 首页：全部正文与五案入口 | [查看整页](layouts/home-desktop.webp) | [查看整页](layouts/home-mobile.webp) |
+| 精华油：全部正文、13幅图与四条视频安排 | [查看整页](layouts/oil-desktop.webp) | [上段](layouts/oil-mobile-01.webp) · [下段](layouts/oil-mobile-02.webp) |
+| 酷狗：全部正文与14幅代表图／截图 | [查看整页](layouts/kugou-desktop.webp) | [上段](layouts/kugou-mobile-01.webp) · [下段](layouts/kugou-mobile-02.webp) |
 
-直接试读三个任务即可：从首页选择一个能说明产品内容能力的案例；在酷狗案例找出本人独立负责与统筹审核的部分；在手机方案里找到完整作品、简历与返回项目的入口。记录具体卡在哪里，回到对应内容或布局修订。当前完成的是编辑与结构自查，尚未进行真实招聘读者试读或网页交互测试。
+长手机图按章节切成连续部分，内容没有省略；完整可编辑SVG分别为[首页桌面](layouts/home-desktop.svg)、[首页手机](layouts/home-mobile.svg)、[精华油桌面](layouts/oil-desktop.svg)、[精华油手机](layouts/oil-mobile.svg)、[酷狗桌面](layouts/kugou-desktop.svg)、[酷狗手机](layouts/kugou-mobile.svg)。SVG引用仓库原件，下载使用时保持目录关系；在线看位图即可。分片坐标、内容块与来源校验见[导出记录](layouts/manifest.json)。
 
-[通用内容r3完整稿](../content/README.md)及[原版对照](../content/reviews/general-r3-vs-baseline.md)现已形成，下一步据此校准UX。内容直接阅读Markdown，不另制作报告PDF；原五页线框维持历史稿状态，不能当作已更新的完整设计。内容事实仍以[证据说明](../content/evidence.md)为准；CV 是否最新及成果口径的本人核对继续保留。
+## 这轮具体确定了什么
 
-## 重建线框
+- 保留原版暖底、深绿、宋体标题与编辑式视觉，调整正文、导航和图注尺寸。
+- 首页给精华油、酷狗两类能力入口，三个互补项目仍直接可选；目录保留全部五案。
+- 四个护肤品案例继承7组主展示、7组补充，全部14组海报与11条视频有展示位置；价格问答、直播、平台独特作品各自保留。
+- 手机同组线稿与成品上下排列，图片保持原比例；超长图给文字说明、缩略预览与原图查阅。
+- 明确章节、补充展开、图片关闭、媒体失败及返回位置的行为。完整要求见[UX方案](ux-plan.md)，逐案去向见[页面安排](page-structure.md)。
 
-需要 Python 3、`reportlab`、`fonttools` 和 `Pillow`，以及官方 [Noto Sans SC](https://github.com/google/fonts/tree/main/ofl/notosanssc) 字体。字体不作为网站依赖，PDF 中只嵌入使用到的字形；许可附在 [NotoSansSC-OFL.txt](tools/NotoSansSC-OFL.txt)。
+本轮已核对完整内容块、作品引用、静态图排布与颜色配对。面膜、防晒、洁面、目录、关于页已逐段安排，尚未分别绘制整页视觉图；真实320／390px浏览器、键盘、滚动和媒体操作留到HTML阶段验证。没有新增读者试读、CV确认或数据结论。
+
+## 重建静态设计
+
+需要Python 3、Pillow，以及官方[Noto Sans SC](https://github.com/google/fonts/tree/main/ofl/notosanssc)和[Noto Serif SC](https://github.com/google/fonts/tree/main/ofl/notoserifsc)。字体不提交为网站依赖；安装时保留各字体OFL许可，既有Sans许可见[NotoSansSC-OFL.txt](tools/NotoSansSC-OFL.txt)。
 
 在仓库根目录运行：
 
 ```bash
-python3 design/tools/build_wireframes.py --font /path/to/NotoSansSC.ttf
+python3 design/tools/build_layout_studies.py --sans /path/to/NotoSansSC.ttf --serif /path/to/NotoSerifSC.ttf
 ```
 
-脚本仅生成静态审阅 PDF，不生成或修改 HTML/CSS/JS。网站原有 `portfolio-2026-wireframes.js` 是历史项目内容对照，与本轮 UX 线框不同。
+仅生成SVG与WebP静态设计，不生成HTML/CSS/JS。位图用于查看，SVG保留文字与原件引用；它们不会修改内容稿或源图片。
+
+## 历史设计
+
+[UX r1固定归档](https://github.com/yanpingsun/yanping-portfolio-site/tree/archive/general-ux-r1)保留当时方案与[五页局部线框PDF](output/pdf/general-ux-r1.pdf)。该PDF仍为旧的局部稿，不是本轮完整案例或已更新的设计。参考站点的11月1日观察与本轮交互依据见[参考记录](references.md)。
+
+下一步按本轮方案制作独立HTML预览，再实际验证并让用户查看具体版本；当前正式站、原件与旧版本均保留。

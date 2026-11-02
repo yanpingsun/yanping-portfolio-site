@@ -12,7 +12,7 @@
 
 结论：采用“定位清楚、作品尽早出现、说明与作品相邻”的编辑式结构。这里没有与中文求职场景完全一致的范例；中文篇幅、长图、历史成果范围与手机入口需要用本项目材料另行校准。无需继续堆积参考，先把代表页面做清楚。
 
-## 与原站相比，具体解决什么
+## UX r1时的初步取舍（历史记录）
 
 以下来自仓库原有 `index.html`、`portfolio-2026.js` 及内容稿的对照，不作为本轮新增的浏览器测试结果。
 
@@ -24,9 +24,14 @@
 
 ## 素材与交互依据
 
+2026-11-02校准：r2继承原版视觉、图组和原有交互，完整安排全部案例；上述r1尝试不再代表当前方案，具体变化见[UX r2](ux-plan.md)。三位作者站点的观察仍注明11月1日，未虚称本轮重新实测这些站点。本轮复核W3C的重排、目标尺寸、对话框、焦点与对比度说明；图片指南沿用既有资料。
+
 - [W3C WAI 图片指南](https://www.w3.org/WAI/tutorials/images/)：按图片的信息与功能准备文字替代。我们的标题、分析与核心结论保留可读文字，历史图稿作为作品，并补充图内关键信息的文字说明。
 - [WCAG 2.2 Reflow 说明](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html)：普通正文在等效 320 CSS px 宽度下重新排布，不依赖整页双向滚动。需放大的原作品在独立查看区处理。
 - [Target Size (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum)：指针目标的 24×24 CSS px 要求带有间距等例外。本项目建议常用按钮按至少 44×44 CSS px 留触控区，这是设计目标，并非将 44 写成该条标准的最低要求。
 - [WAI-ARIA 模态对话框模式](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/)：若沿用图片弹层，打开后移入焦点、约束弹层内的键盘循环，支持 Escape 和可见关闭按钮，关闭后返回触发入口。
 
-这些来源支持可读性和交互的设计要求，不代表现站或本轮静态 PDF 已通过 WCAG 符合性检查。具体接入与验证留到 HTML 阶段。
+- [Focus Not Obscured (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html)：键盘焦点不应被作者创建的内容完全遮挡。本项目进一步以章节标题及焦点清楚可见为设计目标，尤其检查吸顶区域和缩放。
+- [Contrast (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)：一般文本与背景至少4.5:1，大字有不同阈值。本轮按配色值计算标题、正文、链接、图注与暖底的比值，分别约11.31、7.36、4.88、4.97；未把配色检查扩大为网站符合性结论。
+
+这些来源支持可读性和交互的设计要求，不代表现站或本轮静态图已通过WCAG符合性检查。具体接入与验证留到HTML阶段；历史作品中的文字与界面正文分别检查。
