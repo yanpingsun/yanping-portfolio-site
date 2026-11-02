@@ -51,3 +51,5 @@ python3 -m http.server 8765
 开发在工作分支进行；开工和 PR 交付前检查 owner 的远端更新，再整合有影响的变更。正式站继续沿用现有 GitHub Pages；新版 HTML 先提供独立预览链接，用户实际查看并确认对应版本后，再更新正式入口，保留可恢复的旧版节点。当前[通用版预览](https://yanpingsun.github.io/yanping-portfolio-site/preview/general/)由[PR #4](https://github.com/yanpingsun/yanping-portfolio-site/pull/4)只新增独立目录发布，未替换正式首页；[验证范围](docs/HTML-REVIEW.md)与内容、UX来源均有记录。具体步骤见 [协作规则](docs/COLLABORATION.md)。
 
 当前 UX 任务分支为 `work/general-ux-r1`，基于内容分支 `work/general-content-r1`；各草稿 PR 与实际阶段见项目状态。内容继续遵循已确认的个人职责与成果口径，技术和设计任务在授权范围内自主推进；事实缺口与内容含义冲突单独说明。
+
+本轮试读后的改造安排见[总方案](docs/REFINEMENT-PLAN.md)：内容、UI视觉、UX阅读与交互分别提案、调整和review，当前先交付两案内容与精华油静态设计试点。提案目录不自动进入现有预览数据；HTML仍在最后。

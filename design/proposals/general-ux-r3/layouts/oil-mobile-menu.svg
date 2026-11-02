@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="980" viewBox="0 0 390 980">
+<title>孙岩萍 · 精华油 UX r3 静态设计提案</title>
+<desc>来自内容r4试点，默认主叙述与具名补充入口；不可交互，不是已发布网页。</desc>
+<rect width="100%" height="100%" fill="#f6f4ef"/>
+<rect x="0" y="0" width="390" height="28" fill="#eceee5" stroke="none"/>
+<text x="20" y="17" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="11" font-weight="400" fill="#626c62">静态设计提案 · 非网页</text>
+<text x="20" y="71" font-family="Noto Serif SC,Songti SC,serif" font-size="24" font-weight="600" fill="#26382f">孙岩萍</text>
+<text x="206" y="67" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="13" font-weight="400" fill="#26382f">作品   关于   简历 ↗</text>
+<path d="M20,98 L370,98" stroke="#cdd2c7"/>
+<rect x="0" y="100" width="390" height="44" fill="#f6f4ef" stroke="none"/>
+<text x="20" y="126" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#26382f">精华油 · 项目概览</text>
+<text x="308" y="126" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">关闭 ×</text>
+<path d="M0,144 L390,144" stroke="#cdd2c7"/>
+<text x="20" y="186" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="400" fill="#26382f">日夜精华油</text>
+<text x="20" y="235" font-family="Noto Serif SC,Songti SC,serif" font-size="29" font-weight="600" fill="#26382f">把共同特点，写进日夜场景</text>
+<text x="20" y="285" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="500" fill="#46534a">我的工作：卖点与文案、内容结构、四条视频脚</text>
+<text x="20" y="313" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="500" fill="#46534a">本。 既定产品方案由相关团队确定；视觉设计、</text>
+<text x="20" y="341" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="500" fill="#46534a">包装、拍摄剪辑及商务由协作团队负责。</text>
+<image href="../../../../portfolio-content/essence-oil/assets/posters/oil-product.png" x="20.0" y="373" width="350" height="322" preserveAspectRatio="xMidYMid meet"/>
+<text x="20" y="721" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#626c62">日夜精华油代表作品</text>
+<text x="20" y="749" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">查看原图 ↗</text>
+<text x="20" y="819" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="500" fill="#26382f">项目整体结果：产品／套组上市两周，私域 GMV </text>
+<text x="20" y="847" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="500" fill="#26382f">460万+，由团队及渠道共同完成。</text>
+<text x="20" y="896" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">两瓶精华油既要有共同的记忆点，也要让人看</text>
+<text x="20" y="926" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">懂日用、夜用各自的角色。我负责把产品资料</text>
+<text x="20" y="956" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">写成主张、图文和不同讲述方式。</text>
+<rect x="20" y="145" width="350" height="212" fill="#f6f4ef" stroke="#cdd2c7"/>
+<text x="38" y="181" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="400" fill="#a65336">项目概览</text>
+<path d="M38,200 L352,200" stroke="#cdd2c7"/>
+<text x="38" y="228" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="400" fill="#26382f">策划与作品</text>
+<path d="M38,247 L352,247" stroke="#cdd2c7"/>
+<text x="38" y="275" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="400" fill="#26382f">结果与贡献</text>
+<path d="M38,294 L352,294" stroke="#cdd2c7"/>
+<text x="38" y="322" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="400" fill="#26382f">完整作品</text>
+</svg>

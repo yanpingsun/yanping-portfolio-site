@@ -41,3 +41,7 @@ python3 design/tools/build_layout_studies.py --sans /path/to/NotoSansSC.ttf --se
 [UX r1固定归档](https://github.com/yanpingsun/yanping-portfolio-site/tree/archive/general-ux-r1)保留当时方案与[五页局部线框PDF](output/pdf/general-ux-r1.pdf)。该PDF仍为旧的局部稿，不是本轮完整案例或已更新的设计。参考站点的11月1日观察与本轮交互依据见[参考记录](references.md)。
 
 [HTML r1独立预览](https://yanpingsun.github.io/yanping-portfolio-site/preview/general/)已制作，接下来由用户实际试读并针对问题修订。正式入口、原件与旧版本均保留。
+
+## 本轮独立UI／UX提案
+
+[UI视觉方案](proposals/general-ux-r3/ui-plan.md)与[UX阅读／交互方案](proposals/general-ux-r3/ux-plan.md)已分开整理，精华油提供[桌面](proposals/general-ux-r3/layouts/oil-desktop.webp)、[手机](proposals/general-ux-r3/layouts/oil-mobile.webp)及[目录状态](proposals/general-ux-r3/layouts/oil-mobile-menu.webp)静态稿。另见[UI review](reviews/general-ui-r3-review.md)、[UX review](reviews/general-ux-r3-review.md)。输入来自内容r4试点且已记录校验值；当前只是部分页面提案，未改HTML，也未完成真实交互测试。

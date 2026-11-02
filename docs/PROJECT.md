@@ -23,7 +23,7 @@
 
 ## 目前进度
 
-`general`通用基准版已走完本轮“原版还原 → 内容r3 → UX r2 → HTML r1独立预览”的制作过程，现阶段是实际试读与增量修订，尚未确认投递或替换正式入口。内容好坏仍以相关、真实、清楚且有作品支持为准，完成实现不等于已证明整体优于原版。
+`general`通用基准版已走完本轮“原版还原 → 内容r3 → UX r2 → HTML r1独立预览”的制作过程，现阶段按[本轮改造方案](REFINEMENT-PLAN.md)分别推进内容、UI视觉、UX阅读与交互提案及分项review，尚未确认投递或替换正式入口。内容好坏仍以相关、真实、清楚且有作品支持为准，完成实现不等于已证明整体优于原版。
 
 [打开通用版预览](https://yanpingsun.github.io/yanping-portfolio-site/preview/general/)；[现有正式网站](https://yanpingsun.github.io/yanping-portfolio-site/)保持原版。首页、作品目录、关于与五个完整案例均已接入，14组海报、11条视频及13份补充分析阅读页可查阅。原图、全文PDF、Word及视频复用原件；没有新增报告PDF。
 
@@ -33,9 +33,11 @@ HTML r1只新增`preview/general/`五个静态文件，经[PR #4](https://github
 
 桌面及320／390px浏览器框架已核对完整正文、排版、资源和交互；尚未覆盖真实手机触控、Safari或招聘读者试读。固定代码、早期内容及UX节点继续保留，见[版本记录](VERSIONS.md)。
 
+本轮已完成[内容方案与精华油／酷狗两案r4试点](../content/proposals/general-r4/README.md)，保留全部对应原件入口；[UI方案](../design/proposals/general-ux-r3/ui-plan.md)与[UX方案](../design/proposals/general-ux-r3/ux-plan.md)独立维护，精华油已有桌面、手机和目录状态静态稿。已分别记录[内容自审](../content/reviews/general-r4-pilot-review.md)、[UI自审](../design/reviews/general-ui-r3-review.md)、[UX自审](../design/reviews/general-ux-r3-review.md)及实际调整。它们是工作提案，未接入HTML；其余五份r4正文、酷狗整页视觉与其他页面仍待扩展，不将试点视为全站完成。
+
 ## 后续重点
 
-1. 用户实际打开预览，与原版在同一案例比较：定位是否准确、个人判断和分工是否清楚、作品是否有足够解释、阅读主次是否合适；反馈先定位到事实、内容、UX或实现再修改。
+1. 对照原版、现预览和两案内容／精华油静态提案试读，分别反馈内容、UI与UX；按各自记录调整，之后再扩展其余页面。主要论证、完整证据和关键身份都要保留清楚去向。
 2. 结合本人反馈核对CV及已列明的事实缺口；没有确认的新数字继续不刊出。需要真实设备时补测触控、文件打开与长图阅读。
 3. 用户明确确认对应版本后，再按授权处理正式入口替换并保留恢复节点。普通同步或继续优化不自动代表正式切换。
 

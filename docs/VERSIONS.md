@@ -51,3 +51,7 @@
 - 交付明确版本 ID、阶段、是否有固定节点及是否实际发布；内容稿的 `r1` 不代表已经制作或发布对应网页。
 
 制作方法见 [Pipeline](OPTIMIZATION-PLAN.md)，双方操作遵循 [AGENTS](../AGENTS.md) 与 [协作说明](COLLABORATION.md)。版本管理服务于合适的内容与可靠交付，按实际需求建立，不预建全部岗位版本。
+
+## 当前试点提案
+
+2026-11-02，本轮在同一general版本下形成[内容r4试点](../content/proposals/general-r4/README.md)与[UI／UX r3试点](../design/proposals/general-ux-r3/README.md)，各自评审与调整记录已分开。当前仅包含精华油／酷狗完整内容提案、精华油桌面／手机／菜单静态稿及整批方案；不是全站内容r4、完整UX r3或新HTML发布节点。七份输入稿、旧静态设计和已发布HTML r1保持原样，日常提案修订继续由Git记录；试点方向确定后再记录实际的新里程碑。
