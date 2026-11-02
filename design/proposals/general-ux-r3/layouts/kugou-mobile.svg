@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="6758" viewBox="0 0 390 6758">
+<title>孙岩萍 · kugou UX r3 静态设计提案</title>
+<desc>来自内容r4提案，默认主叙述与具名补充入口；不可交互，不是已发布网页。</desc>
+<rect width="100%" height="100%" fill="#f6f4ef"/>
+<rect x="0" y="0" width="390" height="28" fill="#eceee5" stroke="none"/>
+<text x="20" y="17" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="11" font-weight="400" fill="#626c62">静态设计提案 · 非网页</text>
+<text x="20" y="71" font-family="Noto Serif SC,Songti SC,serif" font-size="24" font-weight="600" fill="#26382f">孙岩萍</text>
+<text x="206" y="67" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="13" font-weight="400" fill="#26382f">作品   关于   简历 ↗</text>
+<path d="M20,98 L370,98" stroke="#cdd2c7"/>
+<rect x="0" y="100" width="390" height="44" fill="#f6f4ef" stroke="none"/>
+<text x="20" y="126" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#26382f">酷狗音乐 · 项目概览</text>
+<text x="308" y="126" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">目录</text>
+<path d="M348,120 L353,125" stroke="#a65336"/>
+<path d="M353,125 L358,120" stroke="#a65336"/>
+<path d="M0,144 L390,144" stroke="#cdd2c7"/>
+<text x="20" y="186" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="400" fill="#26382f">酷狗音乐</text>
+<text x="20" y="235" font-family="Noto Serif SC,Songti SC,serif" font-size="29" font-weight="600" fill="#26382f">让粉丝兴趣</text>
+<text x="20" y="278" font-family="Noto Serif SC,Songti SC,serif" font-size="29" font-weight="600" fill="#26382f">有具体的参与入口</text>
+<text x="20" y="328" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="500" fill="#26382f">我的工作：内容与活动策划、资源沟通、团队管</text>
+<text x="20" y="356" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="500" fill="#26382f">理及统筹审核。 技术开发与产品实现由相关团队</text>
+<text x="20" y="384" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="500" fill="#26382f">负责；其他平台的制作、剪辑按团队分工完成。</text>
+<image href="../../../../portfolio-previews/kugou.webp" x="130.5" y="416" width="129" height="340" preserveAspectRatio="xMidYMid meet"/>
+<text x="20" y="782" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#626c62">酷狗音乐：新媒体内容与活动代表作品</text>
+<text x="20" y="810" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">查看原图 ↗</text>
+<text x="20" y="881" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">在官方新媒体工作中，我独立负责微博内容与</text>
+<text x="20" y="911" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">活动，管理两位专员，统筹其他平台的内容及</text>
+<text x="20" y="941" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">脚本审核。工作的重点是组织参与理由、入口</text>
+<text x="20" y="971" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">与内容，并协调产品和运营资源落地。</text>
+<path d="M20,1054 L370,1054" stroke="#cdd2c7"/>
+<text x="20" y="1106" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">发糖机：把艺人节点写成可执行</text>
+<text x="20" y="1144" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">的参与内容</text>
+<text x="20" y="1194" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">账号已有品牌积累、增粉趋缓后，内容还需要</text>
+<text x="20" y="1224" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">承接客户端拉新与促活。我根据微博可合作资</text>
+<text x="20" y="1254" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">源提出跳转合作思路，与产品经理、APP运营</text>
+<text x="20" y="1284" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">沟通，将站外音乐兴趣连接到站内内容。</text>
+<text x="20" y="1334" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">围绕粉丝的签到、打榜与互动习惯，我策划</text>
+<text x="20" y="1364" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">“胖汪发糖机”H5，组织主题、福利、规则及</text>
+<text x="20" y="1394" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">传播内容，并协调产品与设计落地，后续形成</text>
+<text x="20" y="1424" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">月度固定活动。</text>
+<text x="20" y="1496" font-family="Noto Serif SC,Songti SC,serif" font-size="21" font-weight="600" fill="#26382f">一个期次：入口和奖励各自说清</text>
+<text x="20" y="1544" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">2022年11月23日，时代少年团“三时有声”周</text>
+<text x="20" y="1574" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">年企划的发布微博给出网页链接与客户端搜索</text>
+<text x="20" y="1604" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">口令。微博交代参与理由与入口，活动长图继</text>
+<text x="20" y="1634" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">续解释主题和奖励。</text>
+<rect x="20" y="1667" width="350" height="450" fill="#fff" stroke="#cdd2c7"/>
+<image href="../../../../portfolio-content/kugou/assets/weibo/fatang-weibo.jpg" x="89.0" y="1677" width="212" height="430" preserveAspectRatio="xMidYMid meet"/>
+<text x="20" y="2143" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#626c62">发糖机发布微博：链接与搜索口令双入口</text>
+<text x="20" y="2171" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">查看原图 ↗</text>
+<text x="20" y="2242" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">该期将第66、666、1123、6666名参与者与相</text>
+<text x="20" y="2272" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">应福利配对，指定参与序号对应奖励；这不是</text>
+<text x="20" y="2302" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">所有发糖机的统一机制。</text>
+<rect x="20" y="2335" width="350" height="450" fill="#fff" stroke="#cdd2c7"/>
+<image href="../../../../portfolio-content/kugou/assets/weibo/fatang-rules.jpg" x="113.0" y="2345" width="164" height="430" preserveAspectRatio="xMidYMid meet"/>
+<text x="20" y="2811" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#626c62">发糖机活动长图：指定参与序号对应奖励</text>
+<text x="20" y="2839" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">查看原图 ↗</text>
+<text x="20" y="2910" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">在迭代中，围绕参与门槛、福利和主题开展</text>
+<text x="20" y="2940" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">A/B内容测试。现有资料保留本人工作回顾，</text>
+<text x="20" y="2970" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">未提供逐轮分组及结果明细。</text>
+<text x="20" y="3020" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="500" fill="#46534a">历史阶段记录：累计参与8万人次，拉新及促活</text>
+<text x="20" y="3050" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="500" fill="#46534a">2.2万人次。 具体统计周期尚待补充，不归为</text>
+<text x="20" y="3080" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="500" fill="#46534a">上述单期成绩，也不与其他引流数字相加。</text>
+<path d="M20,3139 L370,3139" stroke="#cdd2c7"/>
+<text x="20" y="3191" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">音效内容：让功能进入具体的音</text>
+<text x="20" y="3229" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">乐体验</text>
+<text x="20" y="3279" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">抖音的音效内容中，我负责选题、统筹与脚本</text>
+<text x="20" y="3309" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">审核，专员制作剪辑。选取热门或熟悉的现场</text>
+<text x="20" y="3339" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">Live，让功能与实际听歌场景相连；小红书的</text>
+<text x="20" y="3369" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">征集内容则延伸到用户表达，公众号进一步承</text>
+<text x="20" y="3399" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">担功能说明、设置与收听引导。</text>
+<rect x="20" y="3432" width="350" height="450" fill="#fff" stroke="#cdd2c7"/>
+<image href="../../../../portfolio-content/kugou/assets/douyin/concert-collection.png" x="83.5" y="3442" width="223" height="430" preserveAspectRatio="xMidYMid meet"/>
+<text x="20" y="3908" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#626c62">演唱会音效合集：历史内容列表</text>
+<text x="20" y="3936" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">查看原图 ↗</text>
+<text x="20" y="4007" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="500" fill="#46534a">合集截图显示1763万播放、更新至48集。 这</text>
+<text x="20" y="4037" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="500" fill="#46534a">是截图时点的累计记录，不能等同于功能新增</text>
+<text x="20" y="4067" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="500" fill="#46534a">用户；本案保留的是静态截图，没有提供可播</text>
+<text x="20" y="4097" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="500" fill="#46534a">放原片。</text>
+<text x="20" y="4147" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">不同平台的具体作品与各自指标在下方保留，</text>
+<text x="20" y="4177" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">可继续比较同一功能怎样进入现场内容、用户</text>
+<text x="20" y="4207" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">投稿和长文说明。</text>
+<path d="M20,4266 L370,4266" stroke="#cdd2c7"/>
+<text x="20" y="4318" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">晚安电台：把一个</text>
+<text x="20" y="4356" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">场景持续做成栏目</text>
+<text x="20" y="4406" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">围绕睡前陪伴，将艺人声音、歌词分享、延伸</text>
+<text x="20" y="4436" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">祝愿与晚安收尾组织为3分钟内音频。我负责整</text>
+<text x="20" y="4466" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">体策划、主题内容和站外推广；版权团队沟通</text>
+<text x="20" y="4496" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">艺人录制，电台团队配合站内推广。</text>
+<rect x="20" y="4529" width="350" height="450" fill="#fff" stroke="#cdd2c7"/>
+<image href="../../../../portfolio-content/kugou/assets/radio/poster-fiona.png" x="76.5" y="4539" width="237" height="430" preserveAspectRatio="xMidYMid meet"/>
+<text x="20" y="5005" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#626c62">入梦晚安电台：薛凯琪栏目海报</text>
+<text x="20" y="5033" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">查看原图 ↗</text>
+<text x="20" y="5104" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">历史方案安排每周二、周四22:30更新，具体稿</text>
+<text x="20" y="5134" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">件随艺人与歌曲调整。栏目体现的是持续组织</text>
+<text x="20" y="5164" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">内容与跨团队资源协作，不作为当前在播排</text>
+<text x="20" y="5194" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">期。</text>
+<text x="20" y="5244" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="500" fill="#46534a">历史总结：上线26期、站内播放84万。 统计周</text>
+<text x="20" y="5274" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="500" fill="#46534a">期尚待确认，不与其他平台数字合并。</text>
+<path d="M20,5333 L370,5333" stroke="#cdd2c7"/>
+<text x="20" y="5385" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">我的贡献与工作范围</text>
+<text x="20" y="5435" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">微博从新歌、品牌节点、明星生日到热点和活</text>
+<text x="20" y="5465" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">动内容，由我独立策划并推进。其他平台通过</text>
+<text x="20" y="5495" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">方向、选题和脚本／内容审核组织团队工作，</text>
+<text x="20" y="5525" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">管理两位专员承担相关制作与剪辑。</text>
+<text x="20" y="5575" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">发糖机体现参与机制与资源沟通，音效内容体</text>
+<text x="20" y="5605" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">现渠道改写与审核，电台体现栏目组织及持续</text>
+<text x="20" y="5635" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">协作。活动参与、话题浏览、合集播放、阅读</text>
+<text x="20" y="5665" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">和互动分别看待，不能合计为个人创造的一个</text>
+<text x="20" y="5695" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">总成绩。</text>
+<path d="M20,5754 L370,5754" stroke="#cdd2c7"/>
+<text x="20" y="5806" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">完整作品与补充阅读</text>
+<text x="20" y="5856" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">以下继续保留不同平台的独特作品；它们不是</text>
+<text x="20" y="5886" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">同一期活动的统一排期或同一统计范围。</text>
+<path d="M20,5919 L370,5919" stroke="#cdd2c7"/>
+<text x="20" y="5955" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="500" fill="#26382f">小红书票根：给参与一个明确动作</text>
+<text x="20" y="5988" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">1幅 · 话题与参与内容   展开查看 ＋</text>
+<path d="M20,6018 L370,6018" stroke="#cdd2c7"/>
+<text x="20" y="6054" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="500" fill="#26382f">小红书音效征集：从官号延伸到用户内容</text>
+<text x="20" y="6087" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">1幅 · 用户内容节选   展开查看 ＋</text>
+<path d="M20,6117 L370,6117" stroke="#cdd2c7"/>
+<text x="20" y="6153" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="500" fill="#26382f">抖音代表片段：现场内容与音效结合</text>
+<text x="20" y="6186" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">1幅 · 静态截图   展开查看 ＋</text>
+<path d="M20,6216 L370,6216" stroke="#cdd2c7"/>
+<text x="20" y="6252" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="500" fill="#26382f">公众号：音乐话题之后，接功能与收听</text>
+<text x="20" y="6285" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">2幅 · 同一篇文章   展开查看 ＋</text>
+<path d="M20,6315 L370,6315" stroke="#cdd2c7"/>
+<text x="20" y="6351" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="500" fill="#26382f">视频号：从0到1组织新歌与热点Live</text>
+<text x="20" y="6384" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">1幅 · 互动量截图   展开查看 ＋</text>
+<path d="M20,6414 L370,6414" stroke="#cdd2c7"/>
+<text x="20" y="6450" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="500" fill="#26382f">电台更多作品：另一位</text>
+<text x="20" y="6480" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="500" fill="#26382f">艺人与两个传播位置</text>
+<text x="20" y="6513" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">3幅 · 栏目与传播位置   展开查看 ＋</text>
+<text x="20" y="6582" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="15" font-weight="400" fill="#a65336">继续查看：日夜精华油的产品内容策划 · 其他代表</text>
+<text x="20" y="6609" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="15" font-weight="400" fill="#a65336">项目 · 查看简历</text>
+<path d="M20,6678 L370,6678" stroke="#cdd2c7"/>
+<text x="20" y="6713" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="13" font-weight="400" fill="#626c62">孙岩萍 · 产品内容策划与新媒体运营</text>
+</svg>

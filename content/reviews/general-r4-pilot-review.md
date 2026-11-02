@@ -35,4 +35,4 @@
 
 这两份提案可作为静态设计的固定输入，输入校验值由设计导出记录保存。设计若需要调整文字，先返回内容稿与本记录修改，再重新导出，不在图里另写一份。
 
-当前只完成两案内容试点及分项自审；其余五份页面的r4正文、候选人最终确认与招聘读者试读未完成。设计分别见[UI视觉review](../../design/reviews/general-ui-r3-review.md)及[UX阅读／交互review](../../design/reviews/general-ux-r3-review.md)，不把各条线合并成一个“通过”。
+本记录对应两案试点时点。后续整批文稿及调整另见[整批内容review](general-r4-review.md)；候选人最终确认与招聘读者试读仍未完成。设计分别见[UI视觉review](../../design/reviews/general-ui-r3-review.md)及[UX阅读／交互review](../../design/reviews/general-ux-r3-review.md)，不把各条线合并成一个“通过”。

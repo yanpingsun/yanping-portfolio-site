@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="7627" viewBox="0 0 390 7627">
+<title>孙岩萍 · sun UX r3 静态设计提案</title>
+<desc>来自内容r4提案，默认主叙述与具名补充入口；不可交互，不是已发布网页。</desc>
+<rect width="100%" height="100%" fill="#f6f4ef"/>
+<rect x="0" y="0" width="390" height="28" fill="#eceee5" stroke="none"/>
+<text x="20" y="17" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="11" font-weight="400" fill="#626c62">静态设计提案 · 非网页</text>
+<text x="20" y="71" font-family="Noto Serif SC,Songti SC,serif" font-size="24" font-weight="600" fill="#26382f">孙岩萍</text>
+<text x="206" y="67" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="13" font-weight="400" fill="#26382f">作品   关于   简历 ↗</text>
+<path d="M20,98 L370,98" stroke="#cdd2c7"/>
+<rect x="0" y="100" width="390" height="44" fill="#f6f4ef" stroke="none"/>
+<text x="20" y="126" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#26382f">高客单防晒 · 项目概览</text>
+<text x="308" y="126" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">目录</text>
+<path d="M348,120 L353,125" stroke="#a65336"/>
+<path d="M353,125 L358,120" stroke="#a65336"/>
+<path d="M0,144 L390,144" stroke="#cdd2c7"/>
+<text x="20" y="186" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="400" fill="#26382f">高客单防晒</text>
+<text x="20" y="235" font-family="Noto Serif SC,Songti SC,serif" font-size="29" font-weight="600" fill="#26382f">解释价格，也回应肤感顾虑</text>
+<text x="20" y="285" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="500" fill="#26382f">我的工作：卖点与内容策划、文案、海报内容线</text>
+<text x="20" y="313" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="500" fill="#26382f">稿及四条视频脚本。 定价与产品方案由团队确</text>
+<text x="20" y="341" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="500" fill="#26382f">定；视觉设计、拍摄剪辑和商务由相关团队完</text>
+<text x="20" y="369" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="500" fill="#26382f">成。</text>
+<image href="../../../../portfolio-content/sunscreen/assets/detail/detail-01.png" x="97.0" y="401" width="196" height="340" preserveAspectRatio="xMidYMid meet"/>
+<text x="20" y="767" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#626c62">防晒详情页首屏：历史总主张与产品信息</text>
+<text x="20" y="795" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">查看原图 ↗</text>
+<text x="20" y="865" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="500" fill="#26382f">项目整体结果：防晒上新半个月，私域 GMV 120</text>
+<text x="20" y="893" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="500" fill="#26382f">万+，由团队及渠道共同完成。</text>
+<text x="20" y="942" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">高客单定位已经确定，内容既要解释护理价</text>
+<text x="20" y="972" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">值，也要回应加入精华护理后会不会厚重、假</text>
+<text x="20" y="1002" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">白、搓泥。我将这两类问题分别展开，再写进</text>
+<text x="20" y="1032" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">图文、话术和人物视频。</text>
+<path d="M20,1115 L370,1115" stroke="#cdd2c7"/>
+<text x="20" y="1167" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">价格疑问，需要换一个解释入口</text>
+<text x="20" y="1217" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="500" fill="#46534a">历史话术原稿节选：</text>
+<rect x="20" y="1250" width="350" height="238" fill="#eceee5" stroke="none"/>
+<rect x="20" y="1250" width="3" height="238" fill="#a65336" stroke="none"/>
+<text x="40" y="1292" font-family="Noto Serif SC,Songti SC,serif" font-size="20" font-weight="500" fill="#26382f">问：价格怎么这么贵？外面一瓶防</text>
+<text x="40" y="1328" font-family="Noto Serif SC,Songti SC,serif" font-size="20" font-weight="500" fill="#26382f">晒才一两百块。</text>
+<text x="40" y="1382" font-family="Noto Serif SC,Songti SC,serif" font-size="20" font-weight="500" fill="#26382f">姐，明白您的顾虑。但咱们这款真</text>
+<text x="40" y="1418" font-family="Noto Serif SC,Songti SC,serif" font-size="20" font-weight="500" fill="#26382f">的不是普通的防晒，而是“防晒型</text>
+<text x="40" y="1454" font-family="Noto Serif SC,Songti SC,serif" font-size="20" font-weight="500" fill="#26382f">的抗老美白精华”。</text>
+<text x="20" y="1529" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">先承接顾虑，再把比较维度转到护理组合，随</text>
+<text x="20" y="1559" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">后展开资料。话术用于一对一、群内介绍及销</text>
+<text x="20" y="1589" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">售培训，其中也有帮助销售理解回应方向的内</text>
+<text x="20" y="1619" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">部提示；这里引用原稿，不是实际客户聊天记</text>
+<text x="20" y="1649" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">录。</text>
+<text x="20" y="1699" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#a65336">查看历史话术原文件 · 查看全文文字</text>
+<path d="M20,1763 L370,1763" stroke="#cdd2c7"/>
+<text x="20" y="1815" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">价值与肤感，分别留出说明空间</text>
+<text x="20" y="1864" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="400" fill="#26382f">历史主张：</text>
+<text x="20" y="1912" font-family="Noto Serif SC,Songti SC,serif" font-size="28" font-weight="600" fill="#26382f">“1支防晒半支精华，</text>
+<text x="20" y="1958" font-family="Noto Serif SC,Songti SC,serif" font-size="28" font-weight="600" fill="#26382f">外防光老化，</text>
+<text x="20" y="2004" font-family="Noto Serif SC,Songti SC,serif" font-size="28" font-weight="600" fill="#26382f">内养冷白皮”。</text>
+<text x="20" y="2063" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">这句话建立当时的护理价值参照；“半支精</text>
+<text x="20" y="2093" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">华”是传播表达，不是配方比例。</text>
+<text x="20" y="2143" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">护理信息越丰富，越需要接住使用负担的疑</text>
+<text x="20" y="2173" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">问。我将价值说明与轻薄、贴肤、跟妆分开组</text>
+<text x="20" y="2203" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">织，让“为什么关注”和“用起来怎样”都有</text>
+<text x="20" y="2233" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">明确内容。</text>
+<text x="20" y="2305" font-family="Noto Serif SC,Songti SC,serif" font-size="21" font-weight="600" fill="#26382f">养肤价值：把每组资</text>
+<text x="20" y="2337" font-family="Noto Serif SC,Songti SC,serif" font-size="21" font-weight="600" fill="#26382f">料与各自描述配对</text>
+<text x="20" y="2385" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">总标题之下安排透亮、细腻、嘭弹、滑嫩四组</text>
+<text x="20" y="2415" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">信息。原图中的数值保留“使用4周、受试者自</text>
+<text x="20" y="2445" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">评体验”的条件，不在案例中单独放大成未经</text>
+<text x="20" y="2475" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">说明的结果。文案与内容线稿由我负责，视觉</text>
+<text x="20" y="2505" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">由设计师完成。</text>
+<rect x="20" y="2538" width="350" height="450" fill="#fff" stroke="#cdd2c7"/>
+<image href="../../../../portfolio-content/skincare-wireframes/sunscreen/value-wireframe.webp" x="51.5" y="2548" width="287" height="430" preserveAspectRatio="xMidYMid meet"/>
+<text x="20" y="3014" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#626c62">养肤价值：简版内容线稿</text>
+<text x="20" y="3042" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">查看原图 ↗</text>
+<rect x="20" y="3082" width="350" height="450" fill="#fff" stroke="#cdd2c7"/>
+<image href="../../../../portfolio-content/skincare-wireframes/sunscreen/value-finished.jpg" x="34.0" y="3092" width="322" height="430" preserveAspectRatio="xMidYMid meet"/>
+<text x="20" y="3558" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#626c62">养肤价值：历史海报成品</text>
+<text x="20" y="3586" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">查看原图 ↗</text>
+<text x="20" y="3679" font-family="Noto Serif SC,Songti SC,serif" font-size="21" font-weight="600" fill="#26382f">肤感回应：让读者按顾虑找到说明</text>
+<text x="20" y="3727" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">用“透”“贴”“敏肌友好”三个历史标签组</text>
+<text x="20" y="3757" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">织对应解释，将产品、质地与文字联系起来。</text>
+<text x="20" y="3787" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">它没有重复价值海报的全部资料，而是给使用</text>
+<text x="20" y="3817" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">问题一个独立位置。</text>
+<rect x="20" y="3850" width="350" height="450" fill="#fff" stroke="#cdd2c7"/>
+<image href="../../../../portfolio-content/skincare-wireframes/sunscreen/texture-wireframe.webp" x="51.5" y="3860" width="287" height="430" preserveAspectRatio="xMidYMid meet"/>
+<text x="20" y="4326" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#626c62">肤感回应：简版内容线稿</text>
+<text x="20" y="4354" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">查看原图 ↗</text>
+<rect x="20" y="4394" width="350" height="450" fill="#fff" stroke="#cdd2c7"/>
+<image href="../../../../portfolio-content/skincare-wireframes/sunscreen/texture-finished.jpg" x="34.0" y="4404" width="322" height="430" preserveAspectRatio="xMidYMid meet"/>
+<text x="20" y="4870" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#626c62">肤感回应：历史海报成品</text>
+<text x="20" y="4898" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">查看原图 ↗</text>
+<path d="M20,4978 L370,4978" stroke="#cdd2c7"/>
+<text x="20" y="5030" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">长文把问题接起来，视频让问题</text>
+<text x="20" y="5068" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">推动讲述</text>
+<text x="20" y="5118" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">我负责上新长文的内容与文案。2026年5月28</text>
+<text x="20" y="5148" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">日的文章先建立组合定位，再讲护理资料、成</text>
+<text x="20" y="5178" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">膜与肤感，后段接人物反馈和首发套组。第19</text>
+<text x="20" y="5208" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">页主动列出厚重、搓泥等问题，再转入使用体</text>
+<text x="20" y="5238" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">验，避免只有价值介绍、没有顾虑回应。</text>
+<rect x="20" y="5271" width="350" height="183" fill="#fff" stroke="#cdd2c7"/>
+<image href="../../../../portfolio-content/sunscreen/assets/wechat/wechat-05.png" x="20.0" y="5281" width="350" height="163" preserveAspectRatio="xMidYMid meet"/>
+<text x="20" y="5480" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#626c62">公众号第19页：从具体使用顾虑进入</text>
+<text x="20" y="5508" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">查看原图 ↗</text>
+<text x="20" y="5579" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#a65336">查看公众号31页全文</text>
+<text x="20" y="5634" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">四条脚本均由我负责。以下说明依据现有成片</text>
+<text x="20" y="5664" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">整理，拍摄、剪辑及商务按团队分工完成；逐</text>
+<text x="20" y="5694" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">字历史脚本未在本轮补造。</text>
+<path d="M20,5727 L370,5727" stroke="#cdd2c7"/>
+<image href="../assets/sun-liying-frame.webp" x="27.5" y="5748" width="89" height="192" preserveAspectRatio="xMidYMid meet"/>
+<text x="142" y="5767" font-family="Noto Serif SC,Songti SC,serif" font-size="19" font-weight="600" fill="#26382f">李颖合作：让疑问推动人物</text>
+<text x="142" y="5796" font-family="Noto Serif SC,Songti SC,serif" font-size="19" font-weight="600" fill="#26382f">态度变化</text>
+<text x="142" y="5834" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="400" fill="#46534a">从价格与宣传质疑建立冲突，经</text>
+<text x="142" y="5862" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="400" fill="#46534a">由亲试、推开、上脸、上妆与户</text>
+<text x="142" y="5890" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="400" fill="#46534a">外场景推进体验，再追问原理、</text>
+<text x="142" y="5918" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="400" fill="#46534a">承接资料及推荐。产品信息随着</text>
+<text x="142" y="5946" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="400" fill="#46534a">人物的问题逐步出现。</text>
+<text x="142" y="5984" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">观看李颖合作视频 · 查看逐段分析</text>
+<text x="20" y="5962" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="12" font-weight="400" fill="#626c62">压缩查阅版</text>
+<path d="M20,6034 L370,6034" stroke="#cdd2c7"/>
+<image href="../assets/sun-xianghailan-frame.webp" x="27.0" y="6055" width="90" height="192" preserveAspectRatio="xMidYMid meet"/>
+<text x="142" y="6074" font-family="Noto Serif SC,Songti SC,serif" font-size="19" font-weight="600" fill="#26382f">向海岚合作：把选择理由放</text>
+<text x="142" y="6103" font-family="Noto Serif SC,Songti SC,serif" font-size="19" font-weight="600" fill="#26382f">进人物主题</text>
+<text x="142" y="6141" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="400" fill="#46534a">从人物经历和生活选择进入精简</text>
+<text x="142" y="6169" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="400" fill="#46534a">护肤，再用质地、通勤与妆前场</text>
+<text x="142" y="6197" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="400" fill="#46534a">景解释产品，结尾回到不将就的</text>
+<text x="142" y="6225" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="400" fill="#46534a">生活态度。它以选择观串联内</text>
+<text x="142" y="6253" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="400" fill="#46534a">容，与疑问推动的讲述方式不</text>
+<text x="142" y="6281" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="400" fill="#46534a">同。</text>
+<text x="142" y="6319" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">观看向海岚合作视频 · 查看逐段分</text>
+<text x="142" y="6343" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">析</text>
+<text x="20" y="6269" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="12" font-weight="400" fill="#626c62">压缩查阅版</text>
+<path d="M20,6419 L370,6419" stroke="#cdd2c7"/>
+<text x="20" y="6471" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">项目结果与我的贡献</text>
+<text x="20" y="6521" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="500" fill="#46534a">防晒上新半个月，私域 GMV 120万+。 这是项</text>
+<text x="20" y="6551" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="500" fill="#46534a">目及渠道的整体成绩，没有单条内容或个人销</text>
+<text x="20" y="6581" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="500" fill="#46534a">售归因。</text>
+<text x="20" y="6631" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">我的贡献是同时组织价值解释与使用顾虑：话</text>
+<text x="20" y="6661" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">术按问题选择回应，图文给两类信息独立空</text>
+<text x="20" y="6691" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">间，人物视频再安排不同的推进方式。</text>
+<path d="M20,6750 L370,6750" stroke="#cdd2c7"/>
+<text x="20" y="6802" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">完整作品与补充阅读</text>
+<text x="20" y="6852" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">以下保留另外两组海报、朋友圈、详情页与两</text>
+<text x="20" y="6882" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">条达人视频，便于继续查看不同信息任务。</text>
+<path d="M20,6915 L370,6915" stroke="#cdd2c7"/>
+<text x="20" y="6951" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="500" fill="#26382f">预热与反馈：两组补充海报</text>
+<text x="20" y="6984" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">2组 · 线稿／成品与PDF   展开查看 ＋</text>
+<path d="M20,7014 L370,7014" stroke="#cdd2c7"/>
+<text x="20" y="7050" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="500" fill="#26382f">公众号价值图与朋友圈三个主题</text>
+<text x="20" y="7083" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">4幅 · 长文片段与朋友圈   展开查看 ＋</text>
+<path d="M20,7113 L370,7113" stroke="#cdd2c7"/>
+<text x="20" y="7149" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="500" fill="#26382f">详情页：支持自主阅读与查阅</text>
+<text x="20" y="7182" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">2幅片段＋完整长图   展开查看 ＋</text>
+<path d="M20,7212 L370,7212" stroke="#cdd2c7"/>
+<text x="20" y="7248" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="500" fill="#26382f">达人体验与讲述：动作和解释各有顺序</text>
+<text x="20" y="7281" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">2条 · 成片与各自分析   展开查看 ＋</text>
+<text x="20" y="7350" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="15" font-weight="400" fill="#46534a">历史作品中的功效、技术、数值、人物评价及活动信</text>
+<text x="20" y="7377" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="15" font-weight="400" fill="#46534a">息未由本轮整理转为独立验证的产品结论或当前销售</text>
+<text x="20" y="7404" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="15" font-weight="400" fill="#46534a">承诺。</text>
+<text x="20" y="7451" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="15" font-weight="400" fill="#a65336">继续查看：童颜面膜的升级沟通 · 其他项目 · 查看</text>
+<text x="20" y="7478" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="15" font-weight="400" fill="#a65336">简历</text>
+<path d="M20,7547 L370,7547" stroke="#cdd2c7"/>
+<text x="20" y="7582" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="13" font-weight="400" fill="#626c62">孙岩萍 · 产品内容策划与新媒体运营</text>
+</svg>

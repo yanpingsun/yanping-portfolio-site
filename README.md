@@ -52,4 +52,4 @@ python3 -m http.server 8765
 
 当前 UX 任务分支为 `work/general-ux-r1`，基于内容分支 `work/general-content-r1`；各草稿 PR 与实际阶段见项目状态。内容继续遵循已确认的个人职责与成果口径，技术和设计任务在授权范围内自主推进；事实缺口与内容含义冲突单独说明。
 
-本轮试读后的改造安排见[总方案](docs/REFINEMENT-PLAN.md)：内容、UI视觉、UX阅读与交互分别提案、调整和review，当前先交付两案内容与精华油静态设计试点。提案目录不自动进入现有预览数据；HTML仍在最后。
+本轮试读后的改造安排见[总方案](docs/REFINEMENT-PLAN.md)：内容、UI视觉、UX阅读与交互分别提案、调整和review，已补齐[八份内容提案](content/proposals/general-r4/README.md)及[八页桌面／手机静态设计](design/proposals/general-ux-r3/README.md)，内容、UI和UX分别完成自审及已发现问题调整。提案目录不自动进入现有预览数据；HTML仍在最后。

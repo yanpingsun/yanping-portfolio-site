@@ -29,4 +29,4 @@
 
 ## 本轮独立内容提案
 
-[内容r4方案与两案完整试点](proposals/general-r4/README.md)已另存，并完成[内容自审与调整](reviews/general-r4-pilot-review.md)。它们供与原版／r3同层比较，尚未替换上方七份输入稿；UI和UX另外给方案与review，不在排版时私自改成另一份文案。其余五份r4正文与本人最终措辞确认未完成。
+[内容r4八份提案](proposals/general-r4/README.md)已另存，覆盖首页、五案、关于及复用信息的目录，并完成[整批内容自审与调整](reviews/general-r4-review.md)，两案试点记录继续保留。它们供与原版／r3同层比较，尚未替换上方七份输入稿；UI和UX另外给方案与review，不在排版时私自改成另一份文案。本人最终措辞确认与招聘读者试读尚未完成。

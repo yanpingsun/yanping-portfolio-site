@@ -44,4 +44,4 @@ python3 design/tools/build_layout_studies.py --sans /path/to/NotoSansSC.ttf --se
 
 ## 本轮独立UI／UX提案
 
-[UI视觉方案](proposals/general-ux-r3/ui-plan.md)与[UX阅读／交互方案](proposals/general-ux-r3/ux-plan.md)已分开整理，精华油提供[桌面](proposals/general-ux-r3/layouts/oil-desktop.webp)、[手机](proposals/general-ux-r3/layouts/oil-mobile.webp)及[目录状态](proposals/general-ux-r3/layouts/oil-mobile-menu.webp)静态稿。另见[UI review](reviews/general-ui-r3-review.md)、[UX review](reviews/general-ux-r3-review.md)。输入来自内容r4试点且已记录校验值；当前只是部分页面提案，未改HTML，也未完成真实交互测试。
+[UI视觉方案](proposals/general-ux-r3/ui-plan.md)与[UX阅读／交互方案](proposals/general-ux-r3/ux-plan.md)独立维护。[本批设计索引](proposals/general-ux-r3/README.md)已包含八页桌面／手机完整默认稿，以及手机目录、末章导航和补充展开三种静态状态。另见[UI review](reviews/general-ui-r3-review.md)、[UX review](reviews/general-ux-r3-review.md)。输入来自本批八份内容r4提案，来源与覆盖记录在manifest；已分别自审并调整，未改HTML，也未完成真实交互测试。

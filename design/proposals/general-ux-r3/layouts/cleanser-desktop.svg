@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="3199" viewBox="0 0 1280 3199">
+<title>孙岩萍 · cleanser UX r3 静态设计提案</title>
+<desc>来自内容r4提案，默认主叙述与具名补充入口；不可交互，不是已发布网页。</desc>
+<rect width="100%" height="100%" fill="#f6f4ef"/>
+<rect x="0" y="0" width="1280" height="28" fill="#eceee5" stroke="none"/>
+<text x="64" y="17" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="11" font-weight="400" fill="#626c62">静态设计提案 · 非网页</text>
+<text x="64" y="71" font-family="Noto Serif SC,Songti SC,serif" font-size="24" font-weight="600" fill="#26382f">孙岩萍</text>
+<text x="976" y="69" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="15" font-weight="400" fill="#26382f">作品   关于   简历 ↗</text>
+<path d="M64,96 L1216,96" stroke="#cdd2c7"/>
+<text x="248" y="138" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">← 全部作品</text>
+<text x="248" y="190" font-family="Noto Serif SC,Songti SC,serif" font-size="22" font-weight="500" fill="#26382f">逆时光洁颜霜</text>
+<text x="248" y="254" font-family="Noto Serif SC,Songti SC,serif" font-size="40" font-weight="600" fill="#26382f">一句话回应两种使用顾虑</text>
+<text x="248" y="315" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="400" fill="#46534a">洗不净和洗后紧绷，是这款洁面内容需要同时回应的两类顾</text>
+<text x="248" y="347" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="400" fill="#46534a">虑。我把产品资料整理成短主张，再通过海报和上新文章分别</text>
+<text x="248" y="379" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="400" fill="#46534a">展开。</text>
+<text x="248" y="429" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="500" fill="#26382f">我的工作：独立完成卖点提炼、整体内容策划与文案。 配方、研发与</text>
+<text x="248" y="457" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="500" fill="#26382f">测试来自产品资料；摄影和视觉设计未计入个人已确认职责。</text>
+<text x="248" y="505" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="500" fill="#26382f">项目整体结果：洁面上新 GMV 80万+，由项目及渠道共同完成；统计</text>
+<text x="248" y="533" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="500" fill="#26382f">时长尚未补充。</text>
+<image href="../../../../portfolio-content/cleanser/assets/posters/cleanser-main.jpg" x="851.4200000000001" y="168" width="293" height="470" preserveAspectRatio="xMidYMid meet"/>
+<text x="779.84" y="664" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#626c62">洁颜霜主海报：历史短文案作品</text>
+<text x="779.84" y="692" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">查看原图 ↗</text>
+<path d="M248,796 L1216,796" stroke="#cdd2c7"/>
+<text x="248" y="853" font-family="Noto Serif SC,Songti SC,serif" font-size="30" font-weight="600" fill="#26382f">先把两类顾虑，写进一句短话</text>
+<text x="248" y="904" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="400" fill="#26382f">历史原作：</text>
+<text x="248" y="960" font-family="Noto Serif SC,Songti SC,serif" font-size="36" font-weight="600" fill="#26382f">“油皮洗得净，干皮不紧绷”。</text>
+<text x="248" y="1022" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="400" fill="#46534a">“洗得净”回答清洁是否足够，“不紧绷”回答洗后感受。两个相互呼应的分句，把容易分散在</text>
+<text x="248" y="1054" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="400" fill="#46534a">资料里的关注点放到同一主张中，读者先知道这款产品想回应什么。</text>
+<text x="248" y="1106" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="400" fill="#46534a">主海报围绕这句话安排标题与产品，不再把其他成分说明都挤进首个画面。下面是本人补充提供</text>
+<text x="248" y="1138" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="400" fill="#46534a">的简版内容排版线稿及历史成品，视觉由设计师完成。</text>
+<rect x="248.0" y="1172" width="472.0" height="520" fill="#fff" stroke="#cdd2c7"/>
+<image href="../../../../portfolio-content/skincare-wireframes/cleanser/core-wireframe.webp" x="317.0" y="1182" width="334" height="500" preserveAspectRatio="xMidYMid meet"/>
+<text x="248.0" y="1718" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#626c62">核心主张：简版内容线稿</text>
+<text x="248.0" y="1746" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">查看原图 ↗</text>
+<rect x="744.0" y="1172" width="472.0" height="520" fill="#fff" stroke="#cdd2c7"/>
+<image href="../../../../portfolio-content/skincare-wireframes/cleanser/core-finished.jpg" x="824.0" y="1182" width="312" height="500" preserveAspectRatio="xMidYMid meet"/>
+<text x="744.0" y="1718" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#626c62">核心主张：历史海报成品</text>
+<text x="744.0" y="1746" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">查看原图 ↗</text>
+<text x="248" y="1802" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="400" fill="#a65336">查看主海报原件</text>
+<path d="M248,1867 L1216,1867" stroke="#cdd2c7"/>
+<text x="248" y="1924" font-family="Noto Serif SC,Songti SC,serif" font-size="30" font-weight="600" fill="#26382f">短句留下重点，长文继续解释</text>
+<text x="248" y="1977" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="400" fill="#46534a">2024年7月11日的上新文章，以“可以睁眼洗”的历史传播表达建立温和性记忆，再解释配方、</text>
+<text x="248" y="2009" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="400" fill="#46534a">洗卸与清洁信息、使用感受和首发选择。</text>
+<text x="248" y="2061" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="400" fill="#46534a">海报给出简短理由，长文则需要继续回答“温和是否也能洗干净”。正文通过设问和转场展开资</text>
+<text x="248" y="2093" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="400" fill="#46534a">料，图片分别说明一个主题，再承接购买与互动信息。</text>
+<text x="248" y="2145" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="400" fill="#a65336">查看上新文章30页全文</text>
+<path d="M248,2210 L1216,2210" stroke="#cdd2c7"/>
+<text x="248" y="2267" font-family="Noto Serif SC,Songti SC,serif" font-size="30" font-weight="600" fill="#26382f">项目结果与我的贡献</text>
+<text x="248" y="2320" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="500" fill="#46534a">洁面上新 GMV 80万+。 这是项目整体成果，没有单篇文章、某张海报或个人内容的销售归因；</text>
+<text x="248" y="2352" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="500" fill="#46534a">现有确认未限定为一个月。</text>
+<text x="248" y="2404" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="400" fill="#46534a">这一案呈现的是选择主张与压缩表达：先用两句短话建立重点，再为成分、肤感和长文安排不同</text>
+<text x="248" y="2436" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="400" fill="#46534a">的信息量。</text>
+<path d="M248,2496 L1216,2496" stroke="#cdd2c7"/>
+<text x="248" y="2553" font-family="Noto Serif SC,Songti SC,serif" font-size="30" font-weight="600" fill="#26382f">完整作品与补充阅读</text>
+<text x="248" y="2606" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="18" font-weight="400" fill="#46534a">以下两组对照与清洁感海报继续保留，不必逐张读完也能理解主线。</text>
+<path d="M248,2640 L1216,2640" stroke="#cdd2c7"/>
+<text x="248" y="2678" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="20" font-weight="500" fill="#26382f">成分分组：把名称和说明逐组对应</text>
+<text x="248" y="2709" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">1组 · 线稿／成品   展开查看 ＋</text>
+<path d="M248,2739 L1216,2739" stroke="#cdd2c7"/>
+<text x="248" y="2777" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="20" font-weight="500" fill="#26382f">肤感表达：总标题之后，保留三个短标签</text>
+<text x="248" y="2808" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">1组 · 线稿／成品   展开查看 ＋</text>
+<path d="M248,2838 L1216,2838" stroke="#cdd2c7"/>
+<text x="248" y="2876" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="20" font-weight="500" fill="#26382f">清洁感海报与完整线稿</text>
+<text x="248" y="2907" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">1幅海报＋3页线稿PDF   展开查看 ＋</text>
+<text x="248" y="2976" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="15" font-weight="400" fill="#46534a">图文中的配方、功效与体验按历史作品保留。“睁眼洗”等是历史传播表达，不作为当前使用建议或本轮核验的测</text>
+<text x="248" y="3003" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="15" font-weight="400" fill="#46534a">试结论。</text>
+<text x="248" y="3050" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="15" font-weight="400" fill="#a65336">继续查看：防晒的价值与顾虑回应 · 其他项目 · 查看简历</text>
+<text x="64" y="180" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="12" font-weight="400" fill="#626c62">本案目录</text>
+<text x="64" y="224" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">项目概览</text>
+<text x="64" y="266" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#26382f">策划与作品</text>
+<text x="64" y="308" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#26382f">结果与贡献</text>
+<text x="64" y="350" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#26382f">完整作品</text>
+<path d="M64,3119 L1216,3119" stroke="#cdd2c7"/>
+<text x="64" y="3154" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="13" font-weight="400" fill="#626c62">孙岩萍 · 产品内容策划与新媒体运营</text>
+</svg>

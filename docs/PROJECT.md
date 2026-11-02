@@ -33,11 +33,11 @@ HTML r1只新增`preview/general/`五个静态文件，经[PR #4](https://github
 
 桌面及320／390px浏览器框架已核对完整正文、排版、资源和交互；尚未覆盖真实手机触控、Safari或招聘读者试读。固定代码、早期内容及UX节点继续保留，见[版本记录](VERSIONS.md)。
 
-本轮已完成[内容方案与精华油／酷狗两案r4试点](../content/proposals/general-r4/README.md)，保留全部对应原件入口；[UI方案](../design/proposals/general-ux-r3/ui-plan.md)与[UX方案](../design/proposals/general-ux-r3/ux-plan.md)独立维护，精华油已有桌面、手机和目录状态静态稿。已分别记录[内容自审](../content/reviews/general-r4-pilot-review.md)、[UI自审](../design/reviews/general-ui-r3-review.md)、[UX自审](../design/reviews/general-ux-r3-review.md)及实际调整。它们是工作提案，未接入HTML；其余五份r4正文、酷狗整页视觉与其他页面仍待扩展，不将试点视为全站完成。
+本轮已完成[八份内容r4提案](../content/proposals/general-r4/README.md)，覆盖首页、五案、关于及复用案例信息的目录；与r3相比，五案全部107个去重资源目标均保留。[UI方案](../design/proposals/general-ux-r3/ui-plan.md)与[UX方案](../design/proposals/general-ux-r3/ux-plan.md)独立维护，[八页桌面／手机及三种状态](../design/proposals/general-ux-r3/README.md)共19张查看图已制作。已分别记录[整批内容自审](../content/reviews/general-r4-review.md)、[UI自审](../design/reviews/general-ui-r3-review.md)、[UX自审](../design/reviews/general-ux-r3-review.md)及实际调整，五案旧入口去向已补齐。它们是静态工作提案，未接入HTML，真实交互与招聘读者试读尚未完成。
 
 ## 后续重点
 
-1. 对照原版、现预览和两案内容／精华油静态提案试读，分别反馈内容、UI与UX；按各自记录调整，之后再扩展其余页面。主要论证、完整证据和关键身份都要保留清楚去向。
+1. 对照原版、现预览与整批内容／UI／UX提案试读，分别校准取舍；本批八页已扩展完成。接下来依据实际反馈调整，最后才接入下一版独立HTML预览并验证真实交互。主要论证、完整证据和关键身份都要保留清楚去向。
 2. 结合本人反馈核对CV及已列明的事实缺口；没有确认的新数字继续不刊出。需要真实设备时补测触控、文件打开与长图阅读。
 3. 用户明确确认对应版本后，再按授权处理正式入口替换并保留恢复节点。普通同步或继续优化不自动代表正式切换。
 

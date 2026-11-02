@@ -48,13 +48,14 @@ def prepare_frames():
 
 
 class Proposal(Study):
-    def __init__(self, width, fonts, items, frames):
-        super().__init__(SOURCE, width, fonts)
+    def __init__(self, width, fonts, items, frames, source=SOURCE):
+        super().__init__(source, width, fonts)
         self.x = 20 if self.mobile else 248
         self.w = width - self.x - self.margin
         self.items, self.frames = items, frames
         self.used, self.regions, self.placed_images = [], [], []
         self.anchor_y = {}
+        self.hero_image_y = None
 
     def wrap(self, value, width, size, serif=False, weight=400):
         font=self.font(size,serif,weight)
@@ -118,7 +119,8 @@ class Proposal(Study):
         self.y = 124 if not self.mobile else 114
         if self.mobile:
             self.rect(0, 100, self.width, 44, BG)
-            self.text('精华油 · 项目概览', 20, 112, 260, 14, INK, leading=24)
+            case = self.items[0][2].split('｜')[0].replace('日夜','')
+            self.text(case+' · 项目概览', 20, 112, 260, 14, INK, leading=24)
             self.text('关闭 ×' if menu else '目录', self.width-82,
                       112, 70, 14, ACCENT, leading=24)
             if not menu:
@@ -204,7 +206,7 @@ class Proposal(Study):
         figures = b[1]
         top = self.y
         for col, (label, raw) in enumerate(figures):
-            path = (SOURCE.parent / raw).resolve()
+            path = (self.source.parent / raw).resolve()
             paired = len(figures)==2 and not self.mobile
             cw = (width-24)/2 if paired else min(width, 600)
             xx = x+col*(cw+24) if paired else x
@@ -320,8 +322,8 @@ class Proposal(Study):
         canvas = Image.new('RGB',(self.width,height),BG)
         draw = ImageDraw.Draw(canvas)
         svg = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{self.width}" height="{height}" viewBox="0 0 {self.width} {height}">',
-               '<title>孙岩萍 · 精华油 UX r3 静态设计提案</title>',
-               '<desc>来自内容r4试点，默认主叙述与具名补充入口；不可交互，不是已发布网页。</desc>',
+               f'<title>孙岩萍 · {escape(self.source.stem)} UX r3 静态设计提案</title>',
+               '<desc>来自内容r4提案，默认主叙述与具名补充入口；不可交互，不是已发布网页。</desc>',
                f'<rect width="100%" height="100%" fill="{BG}"/>']
         overflow = []
         for kind,*args in self.ops:
@@ -357,7 +359,7 @@ class Proposal(Study):
         ET.parse(vector)
         canvas.save(raster,format='WEBP',quality=88,method=6)
         return {'file':name, 'width':self.width, 'height':height,
-                'source':SOURCE.relative_to(ROOT).as_posix(), 'source_sha256':digest(SOURCE),
+                'source':self.source.relative_to(ROOT).as_posix(), 'source_sha256':digest(self.source),
                 'painted_source_blocks':sorted(self.used),
                 'first_work_y':self.hero_image_y,
                 'source_images':self.placed_images,

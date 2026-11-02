@@ -1,4 +1,4 @@
-# 酷狗音乐：内容 r4 试点提案
+# 酷狗音乐：内容 r4 提案
 
 2026-11-02。输入为[内容r3](../../projects/kugou.md)与固定原版，全文供单独评审；尚未替换网页输入。各活动及平台数据分别说明，不合成一个整体成果。
 
@@ -105,7 +105,7 @@
 ![入梦晚安电台：官博推广](../../../portfolio-content/kugou/assets/radio/weibo-promotion.jpg)
 ![入梦晚安电台：站内节目页面](../../../portfolio-content/kugou/assets/radio/in-app-program.png)
 
-继续查看：[日夜精华油的产品内容策划](oil.md) · [其他代表项目](../../home.md#代表项目) · [查看简历](../../../portfolio-resume.pdf)
+继续查看：[日夜精华油的产品内容策划](oil.md) · [其他代表项目](home.md#代表项目) · [查看简历](../../../portfolio-resume.pdf)
 
 ## 编辑依据与呈现说明
 
