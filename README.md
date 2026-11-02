@@ -14,7 +14,7 @@
 
 ## 制作方法
 
-先读 [制作 Pipeline](docs/OPTIMIZATION-PLAN.md)：既有网站先还原原版内容与 UI/UX，再从材料、CV 和目标推导修订，最后实现 HTML。[原版基线](baseline/README.md)已补齐完整正文、内容策略、UI/UX 和同层对照。当前[精华油完整内容 r3](content/projects/oil.md)已形成单案修订，其余页面仍为 r2，[UX r1](design/README.md)保留待校准；内容直接阅读 Markdown，五页线框是历史布局节选，尚未开始网页实现。
+先读 [制作 Pipeline](docs/OPTIMIZATION-PLAN.md)：既有网站先还原原版内容与 UI/UX，再从材料、CV 和目标推导修订，最后实现 HTML。[原版基线](baseline/README.md)已补齐完整正文、内容策略、UI/UX 和同层对照。当前[通用内容r3](content/README.md)已形成首页、关于我和五个完整案例，并附[逐项对照](content/reviews/general-r3-vs-baseline.md)；[UX r1](design/README.md)待按完整内容校准。内容直接阅读Markdown，五页线框是历史布局节选，尚未开始网页实现。
 
 不同岗位版本、同版迭代与旧版保留见 [版本记录](docs/VERSIONS.md)。现有网站源码已保留归档分支；多版本网页访问入口留到 HTML 阶段实现。
 
