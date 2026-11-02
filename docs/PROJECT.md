@@ -14,31 +14,29 @@
 - 正式站：https://yanpingsun.github.io/yanping-portfolio-site/
 - 技术：静态 HTML/CSS/JS，GitHub Pages。
 - 页面：首页、五个案例、项目目录、关于我、图片查看与线稿对照。
-- 当前网站代码基线：c9fc45a4417e7a8cfca30cc6536adcbaa66bcfe0；后续以最新 main 为准。
+- 根目录正式网站仍为原代码基线 c9fc45a4417e7a8cfca30cc6536adcbaa66bcfe0；main已另增独立预览目录，后续以最新main为准。
 - 改版分支：work/portfolio-revamp。
 - 内容工作分支：`work/general-content-r1`，沿用原任务分支；[内容草稿 PR #2](https://github.com/yanpingsun/yanping-portfolio-site/pull/2) 基于已共享的规范分支工作。
-- 当前工作分支：`work/general-ux-r1`，基于内容分支，保留原版基线、[通用内容r3](../content/README.md)与[UX r2](../design/README.md)；沿用[草稿 PR #3](https://github.com/yanpingsun/yanping-portfolio-site/pull/3)，尚未合入 main，固定节点见版本记录。
+- 当前工作分支：`work/general-ux-r1`，基于内容分支，保留原版基线、[通用内容r3](../content/README.md)、[UX r2](../design/README.md)与HTML r1完整源码／生成工具；沿用[草稿 PR #3](https://github.com/yanpingsun/yanping-portfolio-site/pull/3)。仅预览文件已由独立PR #4合入main，其余工作稿未合入，固定节点见版本记录。
 - 规范分支：docs/project-standards；[草稿 PR #1](https://github.com/yanpingsun/yanping-portfolio-site/pull/1) 尚未合入 main。
 - 原站源码归档：`archive/baseline-20261101`，固定到上述代码基线；岗位版本及重要节点统一见 [版本记录](VERSIONS.md)。
 
 ## 目前进度
 
-当前为用户已选择的 `general` 通用基准版，首页、关于我与五个案例已形成[内容r3完整工作稿](../content/README.md)。精华油单案r3及更早r1、r2继续保留；本轮补齐其他案例的完整作品与说明，未取得本人对最终措辞、CV及待核对数字的新确认。
+`general`通用基准版已走完本轮“原版还原 → 内容r3 → UX r2 → HTML r1独立预览”的制作过程，现阶段是实际试读与增量修订，尚未确认投递或替换正式入口。内容好坏仍以相关、真实、清楚且有作品支持为准，完成实现不等于已证明整体优于原版。
 
-[原版基线](../baseline/README.md)已从固定源码还原八页完整正文、内容策略与UI/UX，包含14组海报对照、11条视频和105个资源索引。本轮以原版为起点，核对五个案例86项核心作品／文件入口，均在新正文保留；独特能力证据不因入口主次而删去。具体取舍见[本轮对照](../content/reviews/general-r3-vs-baseline.md)。
+[打开通用版预览](https://yanpingsun.github.io/yanping-portfolio-site/preview/general/)；[现有正式网站](https://yanpingsun.github.io/yanping-portfolio-site/)保持原版。首页、作品目录、关于与五个完整案例均已接入，14组海报、11条视频及13份补充分析阅读页可查阅。原图、全文PDF、Word及视频复用原件；没有新增报告PDF。
 
-防晒恢复历史价格话术、四条视频及四组海报；面膜恢复故事脚本、直播讲解和四组对照；洁面保留三组结构与补充作品；酷狗补齐UGC、视频号、电台等平台证据。首页摘要对齐完整案例，关于页结合原有工作方法与现有CV履历。内容直接维护为Markdown，不另外制作报告PDF；原材料、CV与网页代码未改动。
+内容仍以[七份Markdown正文](../content/README.md)为准，编辑说明不进入页面，生成工具负责同步到预览数据。完整内容与原版86项核心引用的取舍见[逐项对照](../content/reviews/general-r3-vs-baseline.md)，原版八页正文、策略、UI/UX与来源仍见[基线](../baseline/README.md)。本人最终措辞、CV与已列明的数据差异仍待核对，未补造事实或将团队结果归为个人。
 
-[UX r2](../design/README.md)已按内容r3校准：八页完整安排、原有路由兼容、14组海报主次、11条视频及长图／文件查阅方式，并提供首页、精华油、酷狗的桌面和390px手机完整静态结构图。继承原版暖底、深绿与宋体标题；原UX r1及五页局部PDF保持历史状态。另五页尚未逐页绘图，真实浏览器与交互尚待HTML验证，未取得招聘读者试读结果。
+HTML r1只新增`preview/general/`五个静态文件，经[PR #4](https://github.com/yanpingsun/yanping-portfolio-site/pull/4)合入main并由原GitHub Pages流程部署成功；正式根入口及其他文件与此前main逐项一致，未更改发布源。已实际打开公开预览的八条主要路径，验证公开站视频与原图，并再次打开原正式站核对。部署与完整验证范围见[HTML检查记录](HTML-REVIEW.md)。
 
-先前已实看原站首页、目录、精华油、关于页及部分交互，完成过八个主要路径与首页／精华油窄屏框架检查；11月1日原版基线的手机部分按源码还原。以上是历史原站核对，不能当作尚未实现的新网页验证。
+桌面及320／390px浏览器框架已核对完整正文、排版、资源和交互；尚未覆盖真实手机触控、Safari或招聘读者试读。固定代码、早期内容及UX节点继续保留，见[版本记录](VERSIONS.md)。
 
 ## 后续重点
 
-部署安排：正式站继续使用现有 GitHub Pages；到 HTML 阶段先建立独立预览路径，让用户实际查看桌面／手机效果并确认对应版本后，再替换正式入口。当前只有文稿和静态线框，尚无新版网页预览链接；原站与固定归档保持原样。具体操作遵循协作说明中的预览与发布约定。
+1. 用户实际打开预览，与原版在同一案例比较：定位是否准确、个人判断和分工是否清楚、作品是否有足够解释、阅读主次是否合适；反馈先定位到事实、内容、UX或实现再修改。
+2. 结合本人反馈核对CV及已列明的事实缺口；没有确认的新数字继续不刊出。需要真实设备时补测触控、文件打开与长图阅读。
+3. 用户明确确认对应版本后，再按授权处理正式入口替换并保留恢复节点。普通同步或继续优化不自动代表正式切换。
 
-1. 依据内容r3与UX r2进入HTML实现，先做独立预览，继承原版路由和原件入口，保留全部作品去向；在实际页面检查桌面、320／390px、键盘、图片、全部视频、文件及返回行为。
-2. 对照本人反馈核对 CV 与已列明的数据差异；发布前处理事实缺口，未确认数字保持不刊出的状态。
-3. 用户实际查看并确认独立预览的具体版本后，再按授权替换正式入口，保留可恢复节点。
-
-制作方法、成果位置和问题回溯统一见 [制作 Pipeline](OPTIMIZATION-PLAN.md)。任务进度仍写在各自 PR，阶段变化才更新本文件。
+制作方法、成果位置和问题回溯统一见[制作Pipeline](OPTIMIZATION-PLAN.md)。日常进度写在各自PR，阶段变化才更新本文件。

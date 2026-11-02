@@ -1,6 +1,6 @@
 # 通用基准版 UX r2
 
-版本ID：`general`。日期：2026-11-02。依据[完整内容r3](../content/README.md)与[原版UI/UX](../baseline/ui-ux.md)完成阅读结构和静态排版校准，尚未接入网站。
+版本ID：`general`。日期：2026-11-02。依据[完整内容r3](../content/README.md)与[原版UI/UX](../baseline/ui-ux.md)完成阅读结构和静态排版校准，现已用于HTML r1独立预览；以下保留UX r2的设计依据与静态产物。
 
 先看首页设计，再按需要查阅完整案例和[八个页面的安排](page-structure.md)。图中使用真实正文与作品；所有补充组在审阅状态展开，视频是有明确标识的静态区域。它们不能点击或播放，不是网页预览。
 
@@ -22,7 +22,7 @@
 - 手机同组线稿与成品上下排列，图片保持原比例；超长图给文字说明、缩略预览与原图查阅。
 - 明确章节、补充展开、图片关闭、媒体失败及返回位置的行为。完整要求见[UX方案](ux-plan.md)，逐案去向见[页面安排](page-structure.md)。
 
-本轮已核对完整内容块、作品引用、静态图排布与颜色配对。面膜、防晒、洁面、目录、关于页已逐段安排，尚未分别绘制整页视觉图；真实320／390px浏览器、键盘、滚动和媒体操作留到HTML阶段验证。没有新增读者试读、CV确认或数据结论。
+本轮已核对完整内容块、作品引用、静态图排布与颜色配对。面膜、防晒、洁面、目录、关于页已逐段安排，尚未分别绘制整页视觉图；320／390px响应式排版、键盘、滚动和媒体操作已在HTML r1阶段另行核对，实际范围见[HTML检查记录](../docs/HTML-REVIEW.md)；手机宽度使用浏览器同源框架，未代替真实设备触控检查。没有新增读者试读、CV确认或数据结论。
 
 ## 重建静态设计
 
@@ -40,4 +40,4 @@ python3 design/tools/build_layout_studies.py --sans /path/to/NotoSansSC.ttf --se
 
 [UX r1固定归档](https://github.com/yanpingsun/yanping-portfolio-site/tree/archive/general-ux-r1)保留当时方案与[五页局部线框PDF](output/pdf/general-ux-r1.pdf)。该PDF仍为旧的局部稿，不是本轮完整案例或已更新的设计。参考站点的11月1日观察与本轮交互依据见[参考记录](references.md)。
 
-下一步按本轮方案制作独立HTML预览，再实际验证并让用户查看具体版本；当前正式站、原件与旧版本均保留。
+[HTML r1独立预览](https://yanpingsun.github.io/yanping-portfolio-site/preview/general/)已制作，接下来由用户实际试读并针对问题修订。正式入口、原件与旧版本均保留。

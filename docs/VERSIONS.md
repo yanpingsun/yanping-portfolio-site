@@ -1,6 +1,6 @@
 # 展示版本与迭代记录
 
-更新日期：2026-11-02。管理不同岗位／面试场景的展示版本，以及同一版本后续的修改。当前已补齐原版上游基线；`general`七份页面已形成完整内容r3，UX r2已完成页面安排与三类代表页面的静态设计，尚待浏览器验证。原站、早期稿与精华油单案节点继续保留，尚未制作新的网页入口。
+更新日期：2026-11-02。管理不同岗位／面试场景的展示版本，以及同一版本后续的修改。当前`general`已形成完整内容r3、UX r2与HTML r1独立网页预览，原版正式入口保留。早期稿、静态设计及精华油单案节点继续保留；本轮网页供试读，尚未确认投递或替换正式入口。
 
 ## 三件事分开管理
 
@@ -38,6 +38,7 @@
 | `general` | 以原版完整案例为起点的增量修订 | 精华油单案内容 r3，完整工作稿及改动对照，待试读 | [4ba2975](https://github.com/yanpingsun/yanping-portfolio-site/commit/4ba297564ced1583c19b99f4d4ade6320c07fe31) | [单案 r3 归档](https://github.com/yanpingsun/yanping-portfolio-site/tree/archive/general-oil-content-r3)，三组海报与原版核心作品入口保留；直接维护 Markdown，无新增报告 PDF 或网页；当时其余页面未升级为 r3 |
 | `general` | 通用基准版，以原版完整证据为起点 | 内容r3，七份页面完整工作稿，待试读与本人事实核对 | [6631e64](https://github.com/yanpingsun/yanping-portfolio-site/commit/6631e644c37d6044e2dd234c0a84ffd104d43ce5) | [完整r3归档](https://github.com/yanpingsun/yanping-portfolio-site/tree/archive/general-content-r3)，首页、关于我与五案正文，原版86项核心引用保留，附逐项对照；无新增报告PDF或网页 |
 | `general` | 基于完整内容r3的阅读与展示安排 | UX r2：八页结构、三类代表页的桌面／手机静态图，待HTML验证 | [f8cf3a0](https://github.com/yanpingsun/yanping-portfolio-site/commit/f8cf3a0da876b0a299049f36a7427ada81c9d9ce) | [UX r2归档](https://github.com/yanpingsun/yanping-portfolio-site/tree/archive/general-ux-r2)，继承原版视觉与作品分层；完整SVG、查看位图和逐页安排均保留，尚无新网页 |
+| `general` | 基于完整内容r3与UX r2的实际试读 | HTML r1：八个主页面、13份补充阅读页，已发布独立预览 | [303f519](https://github.com/yanpingsun/yanping-portfolio-site/commit/303f51933819025cbd24c320c8c14982b7c3e6f8) | [HTML r1代码归档](https://github.com/yanpingsun/yanping-portfolio-site/tree/archive/general-html-r1)，包含完整上游稿与生成工具；同版五个预览文件经[PR #4](https://github.com/yanpingsun/yanping-portfolio-site/pull/4)发布为[独立网页](https://yanpingsun.github.io/yanping-portfolio-site/preview/general/)，根目录正式站未替换。验证记录另见当前[HTML检查](HTML-REVIEW.md) |
 
 原版的[内容与UI/UX还原](../baseline/README.md)从上述固定源码提取，文档位于当前工作分支；没有回写或移动原站归档。它补齐比较依据，不替代原始作品与事实核对。
 
@@ -46,7 +47,7 @@
 ## 查看、恢复与投递
 
 - 查看旧版时由 agent 隔离检出相应提交，保持当前工作区不受影响。需要恢复时，在当前任务分支选择性恢复相关内容或网站文件，检查后形成新提交；保留当前规范和已确认事实，不回退整个主分支历史。
-- 源码归档与旧网页的独立访问入口分别处理。多版本网页入口在 HTML 阶段实现；需要保持投递时内容一致的入口应绑定具体里程碑，通用入口可随正常发布更新。
+- 源码归档与独立网页入口分别管理。当前根目录是原版，`/preview/general/`是通用版HTML r1；后续迭代可更新通用预览，代码固定节点继续保留。需要保持投递时内容一致时，再按实际需求建立绑定里程碑的固定网页入口，不把通用预览当作永不变化的投递链接。
 - 交付明确版本 ID、阶段、是否有固定节点及是否实际发布；内容稿的 `r1` 不代表已经制作或发布对应网页。
 
 制作方法见 [Pipeline](OPTIMIZATION-PLAN.md)，双方操作遵循 [AGENTS](../AGENTS.md) 与 [协作说明](COLLABORATION.md)。版本管理服务于合适的内容与可靠交付，按实际需求建立，不预建全部岗位版本。

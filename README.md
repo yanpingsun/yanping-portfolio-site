@@ -14,7 +14,7 @@
 
 ## 制作方法
 
-先读 [制作 Pipeline](docs/OPTIMIZATION-PLAN.md)：既有网站先还原原版内容与 UI/UX，再从材料、CV 和目标推导修订，最后实现 HTML。[原版基线](baseline/README.md)已补齐完整正文、内容策略、UI/UX 和同层对照。当前[通用内容r3](content/README.md)已形成首页、关于我和五个完整案例，并附[逐项对照](content/reviews/general-r3-vs-baseline.md)；[UX r2](design/README.md)已按完整内容安排阅读层级，并提供首页、精华油、酷狗的桌面／手机静态图。内容直接阅读Markdown，尚未开始网页实现。
+先读 [制作 Pipeline](docs/OPTIMIZATION-PLAN.md)：既有网站先还原原版内容与 UI/UX，再从材料、CV 和目标推导修订，最后实现 HTML。[原版基线](baseline/README.md)已补齐完整正文、内容策略、UI/UX 和同层对照。当前[通用内容r3](content/README.md)已形成首页、关于我和五个完整案例，并附[逐项对照](content/reviews/general-r3-vs-baseline.md)；[UX r2](design/README.md)已按完整内容安排阅读层级，并提供首页、精华油、酷狗的桌面／手机静态图。内容直接维护Markdown；[HTML r1独立预览](https://yanpingsun.github.io/yanping-portfolio-site/preview/general/)已按完整稿接入，等待实际试读反馈，现有正式入口保留。
 
 不同岗位版本、同版迭代与旧版保留见 [版本记录](docs/VERSIONS.md)。现有网站源码已保留归档分支；多版本网页访问入口留到 HTML 阶段实现。
 
@@ -43,9 +43,11 @@ python3 -m http.server 8765
 | `design/` | UI/UX参考、完整页面安排、SVG／WebP静态图及历史线框 |
 | `portfolio-previews/` | 网页轻量预览图 |
 | `docs/` | 本轮优化的项目状态、计划与协作说明 |
+| `preview/general/` | 通用版独立网页预览及生成数据，复用现有原件 |
+| `tools/build_general_preview.py` | 将网页正文与补充资料生成预览数据 |
 
 ## 修改与发布
 
-开发在工作分支进行；开工和 PR 交付前检查 owner 的远端更新，再整合有影响的变更。正式站继续沿用现有 GitHub Pages；新版 HTML 先提供独立预览链接，用户实际查看并确认对应版本后，再更新正式入口，保留可恢复的旧版节点。当前尚未创建新版网页预览。具体步骤见 [协作规则](docs/COLLABORATION.md)。
+开发在工作分支进行；开工和 PR 交付前检查 owner 的远端更新，再整合有影响的变更。正式站继续沿用现有 GitHub Pages；新版 HTML 先提供独立预览链接，用户实际查看并确认对应版本后，再更新正式入口，保留可恢复的旧版节点。当前[通用版预览](https://yanpingsun.github.io/yanping-portfolio-site/preview/general/)由[PR #4](https://github.com/yanpingsun/yanping-portfolio-site/pull/4)只新增独立目录发布，未替换正式首页；[验证范围](docs/HTML-REVIEW.md)与内容、UX来源均有记录。具体步骤见 [协作规则](docs/COLLABORATION.md)。
 
 当前 UX 任务分支为 `work/general-ux-r1`，基于内容分支 `work/general-content-r1`；各草稿 PR 与实际阶段见项目状态。内容继续遵循已确认的个人职责与成果口径，技术和设计任务在授权范围内自主推进；事实缺口与内容含义冲突单独说明。
