@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="698" viewBox="0 0 390 698">
+<title>孙岩萍 · mask UX r3 静态设计提案</title>
+<desc>来自内容r4提案，默认主叙述与具名补充入口；不可交互，不是已发布网页。</desc>
+<rect width="100%" height="100%" fill="#f6f4ef"/>
+<rect x="0" y="0" width="390" height="28" fill="#eceee5" stroke="none"/>
+<text x="20" y="17" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="11" font-weight="400" fill="#626c62">静态设计提案 · 非网页</text>
+<text x="20" y="71" font-family="Noto Serif SC,Songti SC,serif" font-size="24" font-weight="600" fill="#26382f">孙岩萍</text>
+<text x="206" y="67" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="13" font-weight="400" fill="#26382f">作品   关于   简历 ↗</text>
+<path d="M20,98 L370,98" stroke="#cdd2c7"/>
+<rect x="0" y="100" width="390" height="44" fill="#f6f4ef" stroke="none"/>
+<text x="20" y="126" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#26382f">童颜面膜 · 完整作品</text>
+<text x="308" y="126" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">目录</text>
+<path d="M348,120 L353,125" stroke="#a65336"/>
+<path d="M353,125 L358,120" stroke="#a65336"/>
+<path d="M0,144 L390,144" stroke="#cdd2c7"/>
+<path d="M20,194 L370,194" stroke="#cdd2c7"/>
+<text x="20" y="246" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">完整作品与补充阅读</text>
+<text x="20" y="318" font-family="Noto Serif SC,Songti SC,serif" font-size="21" font-weight="600" fill="#26382f">私域沟通：后期重建示例</text>
+<text x="20" y="363" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#a65336">收起 −</text>
+<text x="20" y="408" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">原项目也负责销售话术，历史原稿未留存。现</text>
+<text x="20" y="438" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">有示例依据产品资料后期重建，不是当年原稿</text>
+<text x="20" y="468" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">或真实客户对话。 它说明需求了解、卖点选</text>
+<text x="20" y="498" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">择、顾虑回应和使用说明怎样组织。</text>
+<text x="20" y="548" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#a65336">查看后期重建示例，非历史原稿</text>
+<path d="M20,618 L370,618" stroke="#cdd2c7"/>
+<text x="20" y="653" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="13" font-weight="400" fill="#626c62">孙岩萍 · 产品内容策划与新媒体运营</text>
+</svg>

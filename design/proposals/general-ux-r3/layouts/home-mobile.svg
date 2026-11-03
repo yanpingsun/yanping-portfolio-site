@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="3704" viewBox="0 0 390 3704">
+<title>孙岩萍 · home UX r3 静态设计提案</title>
+<desc>来自内容r4提案，默认主叙述与具名补充入口；不可交互，不是已发布网页。</desc>
+<rect width="100%" height="100%" fill="#f6f4ef"/>
+<rect x="0" y="0" width="390" height="28" fill="#eceee5" stroke="none"/>
+<text x="20" y="17" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="11" font-weight="400" fill="#626c62">静态设计提案 · 非网页</text>
+<text x="20" y="71" font-family="Noto Serif SC,Songti SC,serif" font-size="24" font-weight="600" fill="#26382f">孙岩萍</text>
+<text x="206" y="67" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="13" font-weight="400" fill="#26382f">作品   关于   简历 ↗</text>
+<path d="M20,98 L370,98" stroke="#cdd2c7"/>
+<text x="20" y="154" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="20" font-weight="400" fill="#26382f">我是孙岩萍</text>
+<text x="20" y="189" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="15" font-weight="400" fill="#26382f">产品内容策划 · 新媒体运营</text>
+<text x="20" y="260" font-family="Noto Serif SC,Songti SC,serif" font-size="39" font-weight="600" fill="#26382f">把产品价值，写成</text>
+<text x="20" y="319" font-family="Noto Serif SC,Songti SC,serif" font-size="39" font-weight="600" fill="#26382f">选择理由。</text>
+<text x="20" y="376" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">我为护肤品梳理卖点、撰写长文和视频脚本，</text>
+<text x="20" y="406" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">也在酷狗音乐策划内容与粉丝活动、统筹多平</text>
+<text x="20" y="436" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">台运营。以下作品呈现具体的表达取舍与协作</text>
+<text x="20" y="466" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">分工。</text>
+<text x="20" y="514" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="15" font-weight="400" fill="#a65336">看代表项目 · 查看简历</text>
+<path d="M20,577 L370,577" stroke="#cdd2c7"/>
+<text x="20" y="629" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">代表项目</text>
+<text x="20" y="687" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">日夜精华油｜把共同特点，写进</text>
+<text x="20" y="725" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">日夜场景</text>
+<rect x="20" y="758" width="350" height="300" fill="#eceee5" stroke="none"/>
+<image href="../../../../portfolio-content/essence-oil/assets/posters/oil-product.png" x="32.0" y="758.0" width="326" height="300" preserveAspectRatio="xMidYMid meet"/>
+<text x="20" y="1082" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#626c62">日夜精华油代表作品</text>
+<text x="20" y="1135" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">两瓶产品怎样既有共同记忆点，又有各自的介</text>
+<text x="20" y="1165" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">绍重点？从“表补油，里补精华”的历史主</text>
+<text x="20" y="1195" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">张，到日夜海报、上新长文与四种视频讲述，</text>
+<text x="20" y="1225" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">展示一条内容主线怎样展开。</text>
+<text x="20" y="1274" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="400" fill="#26382f">我的工作：卖点与文案、内容结构、视频脚本。</text>
+<text x="20" y="1321" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="15" font-weight="400" fill="#a65336">查看精华油案例</text>
+<path d="M20,1392 L370,1392" stroke="#cdd2c7"/>
+<text x="20" y="1451" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">酷狗音乐｜让粉丝兴趣有具体的</text>
+<text x="20" y="1489" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">参与入口</text>
+<rect x="20" y="1522" width="350" height="300" fill="#eceee5" stroke="none"/>
+<image href="../../../../portfolio-previews/kugou.webp" x="138.0" y="1522.0" width="114" height="300" preserveAspectRatio="xMidYMid meet"/>
+<text x="20" y="1846" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="14" font-weight="400" fill="#626c62">酷狗音乐代表作品</text>
+<text x="20" y="1899" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">发糖机怎样交代参与理由、入口和奖励？音效</text>
+<text x="20" y="1929" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">内容和晚安电台又怎样持续组织？这组作品呈</text>
+<text x="20" y="1959" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">现活动策划、内容统筹与资源协作。</text>
+<text x="20" y="2008" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="400" fill="#26382f">我的工作：内容与活动策划、资源沟通、团队管</text>
+<text x="20" y="2036" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="16" font-weight="400" fill="#26382f">理及统筹审核。</text>
+<text x="20" y="2083" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="15" font-weight="400" fill="#a65336">查看酷狗案例</text>
+<path d="M20,2154 L370,2154" stroke="#cdd2c7"/>
+<path d="M20,2214 L370,2214" stroke="#cdd2c7"/>
+<text x="20" y="2266" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">更多项目，展开不同的内容问题</text>
+<text x="20" y="2338" font-family="Noto Serif SC,Songti SC,serif" font-size="21" font-weight="600" fill="#26382f">高客单防晒｜解释价</text>
+<text x="20" y="2370" font-family="Noto Serif SC,Songti SC,serif" font-size="21" font-weight="600" fill="#26382f">格，也回应肤感顾虑</text>
+<text x="20" y="2418" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">用历史话术承接价格疑问，再将护理价值与厚</text>
+<text x="20" y="2448" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">重、搓泥等使用问题分别讲清。重点看问答、</text>
+<text x="20" y="2478" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">海报对照与人物脚本。</text>
+<text x="20" y="2528" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#a65336">查看防晒案例</text>
+<text x="20" y="2605" font-family="Noto Serif SC,Songti SC,serif" font-size="21" font-weight="600" fill="#26382f">童颜面膜｜让升级有</text>
+<text x="20" y="2637" font-family="Noto Serif SC,Songti SC,serif" font-size="21" font-weight="600" fill="#26382f">理由，让讲述有承接</text>
+<text x="20" y="2685" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">在旧品认知上解释新版差异，再把较多资料写</text>
+<text x="20" y="2715" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">进人物故事与直播讲解。重点看升级表达、故</text>
+<text x="20" y="2745" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">事转场和讲解记录。</text>
+<text x="20" y="2795" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#a65336">查看面膜案例</text>
+<text x="20" y="2872" font-family="Noto Serif SC,Songti SC,serif" font-size="21" font-weight="600" fill="#26382f">逆时光洁颜霜｜一句</text>
+<text x="20" y="2904" font-family="Noto Serif SC,Songti SC,serif" font-size="21" font-weight="600" fill="#26382f">话回应两种使用顾虑</text>
+<text x="20" y="2952" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">“油皮洗得净，干皮不紧绷”的历史短句，怎</text>
+<text x="20" y="2982" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">样进入主海报与上新长文？这一案集中展示主</text>
+<text x="20" y="3012" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">张选择与文字层级。</text>
+<text x="20" y="3062" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#a65336">查看洁面案例 · 浏览全部作品</text>
+<path d="M20,3126 L370,3126" stroke="#cdd2c7"/>
+<text x="20" y="3178" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">我的经历</text>
+<text x="20" y="3228" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">最近一段工作聚焦护肤品新品内容；此前在酷</text>
+<text x="20" y="3258" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">狗音乐负责官方新媒体运营，更早从事品牌本</text>
+<text x="20" y="3288" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">地化内容及韩语学习相关的新媒体编辑工作。</text>
+<text x="20" y="3338" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#a65336">了解工作经历与协作范围</text>
+<path d="M20,3402 L370,3402" stroke="#cdd2c7"/>
+<text x="20" y="3454" font-family="Noto Serif SC,Songti SC,serif" font-size="25" font-weight="600" fill="#26382f">联系我</text>
+<text x="20" y="3504" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#46534a">关于内容策划或新媒体运营岗位，欢迎联系。</text>
+<text x="20" y="3554" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="17" font-weight="400" fill="#a65336">邮件联系 · 查看简历</text>
+<path d="M20,3624 L370,3624" stroke="#cdd2c7"/>
+<text x="20" y="3659" font-family="Noto Sans SC,PingFang SC,sans-serif" font-size="13" font-weight="400" fill="#626c62">孙岩萍 · 产品内容策划与新媒体运营</text>
+</svg>

@@ -1,0 +1,1482 @@
+{
+  "version": "general UX r3 full-page proposal",
+  "content_inputs": {
+    "content/proposals/general-r4/home.md": "627deb0828f5d342a078f7c20095b140d46dda46ead0a4c6131bd9c91054ca62",
+    "content/proposals/general-r4/works.md": "14700962bef23bf1b512198fcca77b895fe9b3ce4776e81ff451acb21a90fd05",
+    "content/proposals/general-r4/oil.md": "ffc2db4e3dc78f35b27e0d060e7eda8a4f977f67943f4b681082b72c246c397a",
+    "content/proposals/general-r4/kugou.md": "ebe2b601f94a7d44e94251677e94a9d5f474dfec2dc406aa1fe4507e2737ac66",
+    "content/proposals/general-r4/sun.md": "69fb2ae6efaa1aa90d39a48e73b769e6f31e456850091d05bc83884a31a83394",
+    "content/proposals/general-r4/mask.md": "6a18e1925492c8011e6cb0f202b809bd762112ecd57259c7c26771f5837c0a70",
+    "content/proposals/general-r4/cleanser.md": "618dd9bff82a5c1591668fce44ab58703be562fe5da2c5820561dd1d7f5f7571",
+    "content/proposals/general-r4/about.md": "9cc6a97c481bc4374f9cd7de08dcde12da52cbc4fecb79a703fd1390e3b74543"
+  },
+  "frames": [
+    {
+      "file": "design/proposals/general-ux-r3/assets/oil-science-frame.webp",
+      "source": "portfolio-content/essence-oil/assets/videos/oil-sebum-education.mp4",
+      "source_sha256": "24dbaa730070ce940ca1cd0161dce5a5f015e38f7b62616dc0808c38ae6c598e",
+      "second": 8,
+      "size": [
+        140,
+        192
+      ],
+      "identity": "existing compressed video frame; not an original cover"
+    },
+    {
+      "file": "design/proposals/general-ux-r3/assets/oil-person-frame.webp",
+      "source": "portfolio-content/essence-oil/assets/videos/oil-liuxiaoqing.mp4",
+      "source_sha256": "ddeb47afb6b321b3b9d40e5986f399fe38d17a324bde589c7a89744b8bfd82b7",
+      "second": 25,
+      "size": [
+        140,
+        192
+      ],
+      "identity": "existing compressed video frame; not an original cover"
+    },
+    {
+      "file": "design/proposals/general-ux-r3/assets/sun-liying-frame.webp",
+      "source": "portfolio-content/sunscreen/assets/videos/sunscreen-liying.mp4",
+      "source_sha256": "85b37a75d7580709528134087818202005a499b86e5c7bab01ed3eedd7c3e3af",
+      "second": 20,
+      "size": [
+        360,
+        778
+      ],
+      "identity": "frame from supplied video; not an original cover"
+    },
+    {
+      "file": "design/proposals/general-ux-r3/assets/sun-xianghailan-frame.webp",
+      "source": "portfolio-content/sunscreen/assets/videos/sunscreen-xianghailan.mp4",
+      "source_sha256": "4d5a02228b9ce866affb9b0d5cdf972ad5816c018ea1eef625b9201c94c9263f",
+      "second": 20,
+      "size": [
+        360,
+        772
+      ],
+      "identity": "frame from supplied video; not an original cover"
+    },
+    {
+      "file": "design/proposals/general-ux-r3/assets/mask-luodahua-frame.webp",
+      "source": "portfolio-content/tongyan-mask/assets/videos/mask-luodahua-preview.mp4",
+      "source_sha256": "43a2b45afa3d3426ce8531460cc5c2de0c282a6c31afb9045bf4887ae4c14cf5",
+      "second": 20,
+      "size": [
+        284,
+        480
+      ],
+      "identity": "frame from supplied video; not an original cover"
+    },
+    {
+      "file": "design/proposals/general-ux-r3/assets/mask-story-frame.webp",
+      "source": "portfolio-content/tongyan-mask/assets/videos/mask-influencer-story-preview.mp4",
+      "source_sha256": "c197493d472efb51d67f5f1046e496640438769fbf1a92b9bf98deb1de811d99",
+      "second": 20,
+      "size": [
+        284,
+        480
+      ],
+      "identity": "frame from supplied video; not an original cover"
+    }
+  ],
+  "records": [
+    {
+      "file": "oil-desktop",
+      "width": 1280,
+      "height": 5727,
+      "source": "content/proposals/general-r4/oil.md",
+      "source_sha256": "ffc2db4e3dc78f35b27e0d060e7eda8a4f977f67943f4b681082b72c246c397a",
+      "painted_source_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        42,
+        45,
+        48,
+        51,
+        55,
+        56
+      ],
+      "first_work_y": 168,
+      "source_images": [
+        "portfolio-content/essence-oil/assets/posters/oil-product.png",
+        "portfolio-content/skincare-wireframes/essence-oil/day-wireframe.webp",
+        "portfolio-content/skincare-wireframes/essence-oil/day-finished.jpg",
+        "portfolio-content/skincare-wireframes/essence-oil/night-wireframe.webp",
+        "portfolio-content/skincare-wireframes/essence-oil/night-finished.jpg",
+        "portfolio-content/essence-oil/assets/wechat/03-essence-structure.png",
+        "design/proposals/general-ux-r3/assets/oil-science-frame.webp",
+        "design/proposals/general-ux-r3/assets/oil-person-frame.webp"
+      ],
+      "state": "default reading; supplements closed",
+      "bytes": 432998,
+      "text_overflow": [],
+      "supplement_source_blocks": [
+        [
+          39,
+          40,
+          41
+        ],
+        [
+          42,
+          43,
+          44
+        ],
+        [
+          45,
+          46,
+          47
+        ],
+        [
+          48,
+          49,
+          50
+        ],
+        [
+          51,
+          52,
+          53,
+          54
+        ]
+      ]
+    },
+    {
+      "file": "home-desktop",
+      "width": 1280,
+      "height": 2566,
+      "source": "content/proposals/general-r4/home.md",
+      "source_sha256": "627deb0828f5d342a078f7c20095b140d46dda46ead0a4c6131bd9c91054ca62",
+      "painted_source_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "first_work_y": 606,
+      "source_images": [
+        "portfolio-content/essence-oil/assets/posters/oil-product.png",
+        "portfolio-previews/kugou.webp"
+      ],
+      "state": "complete page, all public source blocks shown",
+      "bytes": 180108,
+      "text_overflow": [],
+      "supplement_source_blocks": []
+    },
+    {
+      "file": "works-desktop",
+      "width": 1280,
+      "height": 2022,
+      "source": "content/proposals/general-r4/works.md",
+      "source_sha256": "14700962bef23bf1b512198fcca77b895fe9b3ce4776e81ff451acb21a90fd05",
+      "painted_source_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "first_work_y": 318,
+      "source_images": [
+        "portfolio-content/essence-oil/assets/posters/oil-product.png",
+        "portfolio-previews/kugou.webp",
+        "portfolio-content/sunscreen/assets/detail/detail-01.png",
+        "portfolio-previews/mask.webp",
+        "portfolio-content/cleanser/assets/posters/cleanser-main.jpg"
+      ],
+      "state": "complete page, all public source blocks shown",
+      "bytes": 123884,
+      "text_overflow": [],
+      "supplement_source_blocks": []
+    },
+    {
+      "file": "kugou-desktop",
+      "width": 1280,
+      "height": 5378,
+      "source": "content/proposals/general-r4/kugou.md",
+      "source_sha256": "ebe2b601f94a7d44e94251677e94a9d5f474dfec2dc406aa1fe4507e2737ac66",
+      "painted_source_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        33,
+        36,
+        39,
+        43,
+        46,
+        49
+      ],
+      "first_work_y": 168,
+      "source_images": [
+        "portfolio-previews/kugou.webp",
+        "portfolio-content/kugou/assets/weibo/fatang-weibo.jpg",
+        "portfolio-content/kugou/assets/weibo/fatang-rules.jpg",
+        "portfolio-content/kugou/assets/douyin/concert-collection.png",
+        "portfolio-content/kugou/assets/radio/poster-fiona.png"
+      ],
+      "state": "default reading; supplements closed",
+      "bytes": 380624,
+      "text_overflow": [],
+      "supplement_source_blocks": [
+        {
+          "label_block": 29,
+          "source_blocks": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "label": "小红书票根：给参与一个明确动作",
+          "types_count": "1幅 · 话题与参与内容"
+        },
+        {
+          "label_block": 33,
+          "source_blocks": [
+            33,
+            34,
+            35
+          ],
+          "label": "小红书音效征集：从官号延伸到用户内容",
+          "types_count": "1幅 · 用户内容节选"
+        },
+        {
+          "label_block": 36,
+          "source_blocks": [
+            36,
+            37,
+            38
+          ],
+          "label": "抖音代表片段：现场内容与音效结合",
+          "types_count": "1幅 · 静态截图"
+        },
+        {
+          "label_block": 39,
+          "source_blocks": [
+            39,
+            40,
+            41,
+            42
+          ],
+          "label": "公众号：音乐话题之后，接功能与收听",
+          "types_count": "2幅 · 同一篇文章"
+        },
+        {
+          "label_block": 43,
+          "source_blocks": [
+            43,
+            44,
+            45
+          ],
+          "label": "视频号：从0到1组织新歌与热点Live",
+          "types_count": "1幅 · 互动量截图"
+        },
+        {
+          "label_block": 46,
+          "source_blocks": [
+            46,
+            47,
+            48
+          ],
+          "label": "电台更多作品：另一位艺人与两个传播位置",
+          "types_count": "3幅 · 栏目与传播位置"
+        }
+      ]
+    },
+    {
+      "file": "sun-desktop",
+      "width": 1280,
+      "height": 5393,
+      "source": "content/proposals/general-r4/sun.md",
+      "source_sha256": "69fb2ae6efaa1aa90d39a48e73b769e6f31e456850091d05bc83884a31a83394",
+      "painted_source_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        40,
+        45,
+        49,
+        53,
+        54
+      ],
+      "first_work_y": 168,
+      "source_images": [
+        "portfolio-content/sunscreen/assets/detail/detail-01.png",
+        "portfolio-content/skincare-wireframes/sunscreen/value-wireframe.webp",
+        "portfolio-content/skincare-wireframes/sunscreen/value-finished.jpg",
+        "portfolio-content/skincare-wireframes/sunscreen/texture-wireframe.webp",
+        "portfolio-content/skincare-wireframes/sunscreen/texture-finished.jpg",
+        "portfolio-content/sunscreen/assets/wechat/wechat-05.png",
+        "design/proposals/general-ux-r3/assets/sun-liying-frame.webp",
+        "design/proposals/general-ux-r3/assets/sun-xianghailan-frame.webp"
+      ],
+      "state": "default reading; supplements closed",
+      "bytes": 400042,
+      "text_overflow": [],
+      "supplement_source_blocks": [
+        {
+          "label_block": 35,
+          "source_blocks": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "label": "预热与反馈：两组补充海报",
+          "types_count": "2组 · 线稿／成品与PDF"
+        },
+        {
+          "label_block": 40,
+          "source_blocks": [
+            40,
+            41,
+            42,
+            43,
+            44
+          ],
+          "label": "公众号价值图与朋友圈三个主题",
+          "types_count": "4幅 · 长文片段与朋友圈"
+        },
+        {
+          "label_block": 45,
+          "source_blocks": [
+            45,
+            46,
+            47,
+            48
+          ],
+          "label": "详情页：支持自主阅读与查阅",
+          "types_count": "2幅片段＋完整长图"
+        },
+        {
+          "label_block": 49,
+          "source_blocks": [
+            49,
+            50,
+            51,
+            52
+          ],
+          "label": "达人体验与讲述：动作和解释各有顺序",
+          "types_count": "2条 · 成片与各自分析"
+        }
+      ]
+    },
+    {
+      "file": "mask-desktop",
+      "width": 1280,
+      "height": 6830,
+      "source": "content/proposals/general-r4/mask.md",
+      "source_sha256": "6a18e1925492c8011e6cb0f202b809bd762112ecd57259c7c26771f5837c0a70",
+      "painted_source_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        42,
+        47,
+        51,
+        55,
+        58,
+        59
+      ],
+      "first_work_y": 168,
+      "source_images": [
+        "portfolio-previews/mask.webp",
+        "portfolio-content/tongyan-mask/assets/moments/01-upgrade.png",
+        "portfolio-content/skincare-wireframes/tongyan-mask/dual-wireframe.webp",
+        "portfolio-content/skincare-wireframes/tongyan-mask/dual-finished.jpg",
+        "portfolio-content/tongyan-mask/assets/wechat/01-dual-mask-structure.png",
+        "design/proposals/general-ux-r3/assets/mask-luodahua-frame.webp",
+        "design/proposals/general-ux-r3/assets/mask-story-frame.webp",
+        "portfolio-content/tongyan-mask/assets/live/product-01.png",
+        "portfolio-content/tongyan-mask/assets/live/product-02.png"
+      ],
+      "state": "default reading; supplements closed",
+      "bytes": 508586,
+      "text_overflow": [],
+      "supplement_source_blocks": [
+        {
+          "label_block": 36,
+          "source_blocks": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "label": "三组补充海报：对照、成分与资料各有位置",
+          "types_count": "3组 · 线稿／成品与PDF"
+        },
+        {
+          "label_block": 42,
+          "source_blocks": [
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "label": "公众号与朋友圈：每个主题继续展开",
+          "types_count": "4幅 · 长文与朋友圈"
+        },
+        {
+          "label_block": 47,
+          "source_blocks": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "label": "达人体验与直播演示：给步骤设置观察重点",
+          "types_count": "1条成片＋1张主播文字记录"
+        },
+        {
+          "label_block": 51,
+          "source_blocks": [
+            51,
+            52,
+            53,
+            54
+          ],
+          "label": "商城详情页：支持自主阅读的完整结构",
+          "types_count": "2张完整长图＋结构说明"
+        },
+        {
+          "label_block": 55,
+          "source_blocks": [
+            55,
+            56,
+            57
+          ],
+          "label": "私域沟通：后期重建示例",
+          "types_count": "方法示例 · 非历史原稿"
+        }
+      ]
+    },
+    {
+      "file": "cleanser-desktop",
+      "width": 1280,
+      "height": 3199,
+      "source": "content/proposals/general-r4/cleanser.md",
+      "source_sha256": "618dd9bff82a5c1591668fce44ab58703be562fe5da2c5820561dd1d7f5f7571",
+      "painted_source_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        23,
+        26,
+        30,
+        31
+      ],
+      "first_work_y": 168,
+      "source_images": [
+        "portfolio-content/cleanser/assets/posters/cleanser-main.jpg",
+        "portfolio-content/skincare-wireframes/cleanser/core-wireframe.webp",
+        "portfolio-content/skincare-wireframes/cleanser/core-finished.jpg"
+      ],
+      "state": "default reading; supplements closed",
+      "bytes": 197110,
+      "text_overflow": [],
+      "supplement_source_blocks": [
+        {
+          "label_block": 20,
+          "source_blocks": [
+            20,
+            21,
+            22
+          ],
+          "label": "成分分组：把名称和说明逐组对应",
+          "types_count": "1组 · 线稿／成品"
+        },
+        {
+          "label_block": 23,
+          "source_blocks": [
+            23,
+            24,
+            25
+          ],
+          "label": "肤感表达：总标题之后，保留三个短标签",
+          "types_count": "1组 · 线稿／成品"
+        },
+        {
+          "label_block": 26,
+          "source_blocks": [
+            26,
+            27,
+            28,
+            29
+          ],
+          "label": "清洁感海报与完整线稿",
+          "types_count": "1幅海报＋3页线稿PDF"
+        }
+      ]
+    },
+    {
+      "file": "about-desktop",
+      "width": 1280,
+      "height": 2366,
+      "source": "content/proposals/general-r4/about.md",
+      "source_sha256": "9cc6a97c481bc4374f9cd7de08dcde12da52cbc4fecb79a703fd1390e3b74543",
+      "painted_source_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "first_work_y": null,
+      "source_images": [],
+      "state": "complete page, all public source blocks shown",
+      "bytes": 144844,
+      "text_overflow": [],
+      "supplement_source_blocks": []
+    },
+    {
+      "file": "oil-mobile",
+      "width": 390,
+      "height": 8101,
+      "source": "content/proposals/general-r4/oil.md",
+      "source_sha256": "ffc2db4e3dc78f35b27e0d060e7eda8a4f977f67943f4b681082b72c246c397a",
+      "painted_source_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        42,
+        45,
+        48,
+        51,
+        55,
+        56
+      ],
+      "first_work_y": 373,
+      "source_images": [
+        "portfolio-content/essence-oil/assets/posters/oil-product.png",
+        "portfolio-content/skincare-wireframes/essence-oil/day-wireframe.webp",
+        "portfolio-content/skincare-wireframes/essence-oil/day-finished.jpg",
+        "portfolio-content/skincare-wireframes/essence-oil/night-wireframe.webp",
+        "portfolio-content/skincare-wireframes/essence-oil/night-finished.jpg",
+        "portfolio-content/essence-oil/assets/wechat/03-essence-structure.png",
+        "design/proposals/general-ux-r3/assets/oil-science-frame.webp",
+        "design/proposals/general-ux-r3/assets/oil-person-frame.webp"
+      ],
+      "state": "default reading; supplements closed",
+      "bytes": 374712,
+      "text_overflow": [],
+      "supplement_source_blocks": [
+        [
+          39,
+          40,
+          41
+        ],
+        [
+          42,
+          43,
+          44
+        ],
+        [
+          45,
+          46,
+          47
+        ],
+        [
+          48,
+          49,
+          50
+        ],
+        [
+          51,
+          52,
+          53,
+          54
+        ]
+      ]
+    },
+    {
+      "file": "home-mobile",
+      "width": 390,
+      "height": 3704,
+      "source": "content/proposals/general-r4/home.md",
+      "source_sha256": "627deb0828f5d342a078f7c20095b140d46dda46ead0a4c6131bd9c91054ca62",
+      "painted_source_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "first_work_y": 758,
+      "source_images": [
+        "portfolio-content/essence-oil/assets/posters/oil-product.png",
+        "portfolio-previews/kugou.webp"
+      ],
+      "state": "complete page, all public source blocks shown",
+      "bytes": 154874,
+      "text_overflow": [],
+      "supplement_source_blocks": []
+    },
+    {
+      "file": "works-mobile",
+      "width": 390,
+      "height": 2807,
+      "source": "content/proposals/general-r4/works.md",
+      "source_sha256": "14700962bef23bf1b512198fcca77b895fe9b3ce4776e81ff451acb21a90fd05",
+      "painted_source_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "first_work_y": 418,
+      "source_images": [
+        "portfolio-content/essence-oil/assets/posters/oil-product.png",
+        "portfolio-previews/kugou.webp",
+        "portfolio-content/sunscreen/assets/detail/detail-01.png",
+        "portfolio-previews/mask.webp",
+        "portfolio-content/cleanser/assets/posters/cleanser-main.jpg"
+      ],
+      "state": "complete page, all public source blocks shown",
+      "bytes": 99992,
+      "text_overflow": [],
+      "supplement_source_blocks": []
+    },
+    {
+      "file": "kugou-mobile",
+      "width": 390,
+      "height": 6758,
+      "source": "content/proposals/general-r4/kugou.md",
+      "source_sha256": "ebe2b601f94a7d44e94251677e94a9d5f474dfec2dc406aa1fe4507e2737ac66",
+      "painted_source_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        33,
+        36,
+        39,
+        43,
+        46,
+        49
+      ],
+      "first_work_y": 416,
+      "source_images": [
+        "portfolio-previews/kugou.webp",
+        "portfolio-content/kugou/assets/weibo/fatang-weibo.jpg",
+        "portfolio-content/kugou/assets/weibo/fatang-rules.jpg",
+        "portfolio-content/kugou/assets/douyin/concert-collection.png",
+        "portfolio-content/kugou/assets/radio/poster-fiona.png"
+      ],
+      "state": "default reading; supplements closed",
+      "bytes": 322274,
+      "text_overflow": [],
+      "supplement_source_blocks": [
+        {
+          "label_block": 29,
+          "source_blocks": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "label": "小红书票根：给参与一个明确动作",
+          "types_count": "1幅 · 话题与参与内容"
+        },
+        {
+          "label_block": 33,
+          "source_blocks": [
+            33,
+            34,
+            35
+          ],
+          "label": "小红书音效征集：从官号延伸到用户内容",
+          "types_count": "1幅 · 用户内容节选"
+        },
+        {
+          "label_block": 36,
+          "source_blocks": [
+            36,
+            37,
+            38
+          ],
+          "label": "抖音代表片段：现场内容与音效结合",
+          "types_count": "1幅 · 静态截图"
+        },
+        {
+          "label_block": 39,
+          "source_blocks": [
+            39,
+            40,
+            41,
+            42
+          ],
+          "label": "公众号：音乐话题之后，接功能与收听",
+          "types_count": "2幅 · 同一篇文章"
+        },
+        {
+          "label_block": 43,
+          "source_blocks": [
+            43,
+            44,
+            45
+          ],
+          "label": "视频号：从0到1组织新歌与热点Live",
+          "types_count": "1幅 · 互动量截图"
+        },
+        {
+          "label_block": 46,
+          "source_blocks": [
+            46,
+            47,
+            48
+          ],
+          "label": "电台更多作品：另一位艺人与两个传播位置",
+          "types_count": "3幅 · 栏目与传播位置"
+        }
+      ]
+    },
+    {
+      "file": "sun-mobile",
+      "width": 390,
+      "height": 7627,
+      "source": "content/proposals/general-r4/sun.md",
+      "source_sha256": "69fb2ae6efaa1aa90d39a48e73b769e6f31e456850091d05bc83884a31a83394",
+      "painted_source_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        40,
+        45,
+        49,
+        53,
+        54
+      ],
+      "first_work_y": 401,
+      "source_images": [
+        "portfolio-content/sunscreen/assets/detail/detail-01.png",
+        "portfolio-content/skincare-wireframes/sunscreen/value-wireframe.webp",
+        "portfolio-content/skincare-wireframes/sunscreen/value-finished.jpg",
+        "portfolio-content/skincare-wireframes/sunscreen/texture-wireframe.webp",
+        "portfolio-content/skincare-wireframes/sunscreen/texture-finished.jpg",
+        "portfolio-content/sunscreen/assets/wechat/wechat-05.png",
+        "design/proposals/general-ux-r3/assets/sun-liying-frame.webp",
+        "design/proposals/general-ux-r3/assets/sun-xianghailan-frame.webp"
+      ],
+      "state": "default reading; supplements closed",
+      "bytes": 336712,
+      "text_overflow": [],
+      "supplement_source_blocks": [
+        {
+          "label_block": 35,
+          "source_blocks": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "label": "预热与反馈：两组补充海报",
+          "types_count": "2组 · 线稿／成品与PDF"
+        },
+        {
+          "label_block": 40,
+          "source_blocks": [
+            40,
+            41,
+            42,
+            43,
+            44
+          ],
+          "label": "公众号价值图与朋友圈三个主题",
+          "types_count": "4幅 · 长文片段与朋友圈"
+        },
+        {
+          "label_block": 45,
+          "source_blocks": [
+            45,
+            46,
+            47,
+            48
+          ],
+          "label": "详情页：支持自主阅读与查阅",
+          "types_count": "2幅片段＋完整长图"
+        },
+        {
+          "label_block": 49,
+          "source_blocks": [
+            49,
+            50,
+            51,
+            52
+          ],
+          "label": "达人体验与讲述：动作和解释各有顺序",
+          "types_count": "2条 · 成片与各自分析"
+        }
+      ]
+    },
+    {
+      "file": "mask-mobile",
+      "width": 390,
+      "height": 8257,
+      "source": "content/proposals/general-r4/mask.md",
+      "source_sha256": "6a18e1925492c8011e6cb0f202b809bd762112ecd57259c7c26771f5837c0a70",
+      "painted_source_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        42,
+        47,
+        51,
+        55,
+        58,
+        59
+      ],
+      "first_work_y": 444,
+      "source_images": [
+        "portfolio-previews/mask.webp",
+        "portfolio-content/tongyan-mask/assets/moments/01-upgrade.png",
+        "portfolio-content/skincare-wireframes/tongyan-mask/dual-wireframe.webp",
+        "portfolio-content/skincare-wireframes/tongyan-mask/dual-finished.jpg",
+        "portfolio-content/tongyan-mask/assets/wechat/01-dual-mask-structure.png",
+        "design/proposals/general-ux-r3/assets/mask-luodahua-frame.webp",
+        "design/proposals/general-ux-r3/assets/mask-story-frame.webp",
+        "portfolio-content/tongyan-mask/assets/live/product-01.png",
+        "portfolio-content/tongyan-mask/assets/live/product-02.png"
+      ],
+      "state": "default reading; supplements closed",
+      "bytes": 405762,
+      "text_overflow": [],
+      "supplement_source_blocks": [
+        {
+          "label_block": 36,
+          "source_blocks": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "label": "三组补充海报：对照、成分与资料各有位置",
+          "types_count": "3组 · 线稿／成品与PDF"
+        },
+        {
+          "label_block": 42,
+          "source_blocks": [
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "label": "公众号与朋友圈：每个主题继续展开",
+          "types_count": "4幅 · 长文与朋友圈"
+        },
+        {
+          "label_block": 47,
+          "source_blocks": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "label": "达人体验与直播演示：给步骤设置观察重点",
+          "types_count": "1条成片＋1张主播文字记录"
+        },
+        {
+          "label_block": 51,
+          "source_blocks": [
+            51,
+            52,
+            53,
+            54
+          ],
+          "label": "商城详情页：支持自主阅读的完整结构",
+          "types_count": "2张完整长图＋结构说明"
+        },
+        {
+          "label_block": 55,
+          "source_blocks": [
+            55,
+            56,
+            57
+          ],
+          "label": "私域沟通：后期重建示例",
+          "types_count": "方法示例 · 非历史原稿"
+        }
+      ]
+    },
+    {
+      "file": "cleanser-mobile",
+      "width": 390,
+      "height": 4312,
+      "source": "content/proposals/general-r4/cleanser.md",
+      "source_sha256": "618dd9bff82a5c1591668fce44ab58703be562fe5da2c5820561dd1d7f5f7571",
+      "painted_source_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        23,
+        26,
+        30,
+        31
+      ],
+      "first_work_y": 373,
+      "source_images": [
+        "portfolio-content/cleanser/assets/posters/cleanser-main.jpg",
+        "portfolio-content/skincare-wireframes/cleanser/core-wireframe.webp",
+        "portfolio-content/skincare-wireframes/cleanser/core-finished.jpg"
+      ],
+      "state": "default reading; supplements closed",
+      "bytes": 173564,
+      "text_overflow": [],
+      "supplement_source_blocks": [
+        {
+          "label_block": 20,
+          "source_blocks": [
+            20,
+            21,
+            22
+          ],
+          "label": "成分分组：把名称和说明逐组对应",
+          "types_count": "1组 · 线稿／成品"
+        },
+        {
+          "label_block": 23,
+          "source_blocks": [
+            23,
+            24,
+            25
+          ],
+          "label": "肤感表达：总标题之后，保留三个短标签",
+          "types_count": "1组 · 线稿／成品"
+        },
+        {
+          "label_block": 26,
+          "source_blocks": [
+            26,
+            27,
+            28,
+            29
+          ],
+          "label": "清洁感海报与完整线稿",
+          "types_count": "1幅海报＋3页线稿PDF"
+        }
+      ]
+    },
+    {
+      "file": "about-mobile",
+      "width": 390,
+      "height": 2878,
+      "source": "content/proposals/general-r4/about.md",
+      "source_sha256": "9cc6a97c481bc4374f9cd7de08dcde12da52cbc4fecb79a703fd1390e3b74543",
+      "painted_source_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "first_work_y": null,
+      "source_images": [],
+      "state": "complete page, all public source blocks shown",
+      "bytes": 130376,
+      "text_overflow": [],
+      "supplement_source_blocks": []
+    },
+    {
+      "file": "oil-mobile-menu",
+      "width": 390,
+      "height": 980,
+      "source": "content/proposals/general-r4/oil.md",
+      "source_sha256": "ffc2db4e3dc78f35b27e0d060e7eda8a4f977f67943f4b681082b72c246c397a",
+      "painted_source_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "first_work_y": 373,
+      "source_images": [
+        "portfolio-content/essence-oil/assets/posters/oil-product.png"
+      ],
+      "state": "mobile menu open",
+      "bytes": 43720,
+      "text_overflow": []
+    },
+    {
+      "file": "oil-mobile-outcome",
+      "width": 390,
+      "height": 980,
+      "source": "content/proposals/general-r4/oil.md",
+      "source_sha256": "ffc2db4e3dc78f35b27e0d060e7eda8a4f977f67943f4b681082b72c246c397a",
+      "state": "static scrolled outcome illustration; one persistent case bar; no browser execution",
+      "source_crop_y": 6728
+    },
+    {
+      "file": "mask-mobile-supplement",
+      "width": 390,
+      "height": 698,
+      "source": "content/proposals/general-r4/mask.md",
+      "source_sha256": "6a18e1925492c8011e6cb0f202b809bd762112ecd57259c7c26771f5837c0a70",
+      "painted_source_blocks": [
+        34,
+        55,
+        56,
+        57
+      ],
+      "first_work_y": null,
+      "source_images": [],
+      "state": "one supplemental group open; exact source blocks, not an interactive page",
+      "bytes": 25970,
+      "text_overflow": []
+    }
+  ],
+  "scope": "8 full pages at 1280 and 390; menu, scrolled outcome, one expanded group",
+  "supplement_reading": "Closed groups have named entrances; full source retained in linked content drafts",
+  "interaction": "Static SVG/WebP only; no HTML, playable media, browser or physical-device tests"
+}

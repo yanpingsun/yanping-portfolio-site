@@ -1,0 +1,116 @@
+[
+  {
+    "file": "home-desktop",
+    "width": 1280,
+    "height": 2470,
+    "source": "content/home.md",
+    "source_sha256": "37cd1aa658b254e738c12cf62c94de92f53af5efc42d9117332eac2911d828b7",
+    "blocks": 30,
+    "figures": 0,
+    "parts": [
+      {
+        "file": "home-desktop.webp",
+        "from_y": 0,
+        "to_y": 2470,
+        "bytes": 211290
+      }
+    ]
+  },
+  {
+    "file": "home-mobile",
+    "width": 390,
+    "height": 3314,
+    "source": "content/home.md",
+    "source_sha256": "37cd1aa658b254e738c12cf62c94de92f53af5efc42d9117332eac2911d828b7",
+    "blocks": 30,
+    "figures": 0,
+    "parts": [
+      {
+        "file": "home-mobile.webp",
+        "from_y": 0,
+        "to_y": 3314,
+        "bytes": 182364
+      }
+    ]
+  },
+  {
+    "file": "oil-desktop",
+    "width": 1280,
+    "height": 12407,
+    "source": "content/projects/oil.md",
+    "source_sha256": "103d17f4fd4f48577fcd33691f611c485bee169145c012789e1b7757f5f947e1",
+    "blocks": 83,
+    "figures": 13,
+    "parts": [
+      {
+        "file": "oil-desktop.webp",
+        "from_y": 0,
+        "to_y": 12407,
+        "bytes": 1087880
+      }
+    ]
+  },
+  {
+    "file": "oil-mobile",
+    "width": 390,
+    "height": 19754,
+    "source": "content/projects/oil.md",
+    "source_sha256": "103d17f4fd4f48577fcd33691f611c485bee169145c012789e1b7757f5f947e1",
+    "blocks": 83,
+    "figures": 13,
+    "parts": [
+      {
+        "file": "oil-mobile-01.webp",
+        "from_y": 0,
+        "to_y": 11924,
+        "bytes": 694352
+      },
+      {
+        "file": "oil-mobile-02.webp",
+        "from_y": 11924,
+        "to_y": 19754,
+        "bytes": 397722
+      }
+    ]
+  },
+  {
+    "file": "kugou-desktop",
+    "width": 1280,
+    "height": 11476,
+    "source": "content/projects/kugou.md",
+    "source_sha256": "98dc84fc3ef2f799ff5c124dbaa2004ef66dfe56885bc45ae1159a7534ac1c41",
+    "blocks": 52,
+    "figures": 14,
+    "parts": [
+      {
+        "file": "kugou-desktop.webp",
+        "from_y": 0,
+        "to_y": 11476,
+        "bytes": 835886
+      }
+    ]
+  },
+  {
+    "file": "kugou-mobile",
+    "width": 390,
+    "height": 15852,
+    "source": "content/projects/kugou.md",
+    "source_sha256": "98dc84fc3ef2f799ff5c124dbaa2004ef66dfe56885bc45ae1159a7534ac1c41",
+    "blocks": 52,
+    "figures": 14,
+    "parts": [
+      {
+        "file": "kugou-mobile-01.webp",
+        "from_y": 0,
+        "to_y": 12142,
+        "bytes": 768966
+      },
+      {
+        "file": "kugou-mobile-02.webp",
+        "from_y": 12142,
+        "to_y": 15852,
+        "bytes": 199368
+      }
+    ]
+  }
+]
