@@ -1,6 +1,6 @@
 # general UI/UX r3 提案
 
-日期：2026-11-02。此目录单独处理展示与阅读体验。依据[本轮总方案](../../../docs/REFINEMENT-PLAN.md)、[既有复核](../../reviews/general-html-r1-content-ux-review.md)及[内容r4提案](../../../content/proposals/general-r4/README.md)。现有UX r2、HTML r1不变。
+日期：2026-11-02。此目录单独处理展示与阅读体验。依据[本轮总方案](../../../docs/REFINEMENT-PLAN.md)、[既有复核](../../reviews/general-html-r1-content-ux-review.md)及[内容r4提案](../../../content/proposals/general-r4/README.md)。现有UX r2、HTML r1不变。2026-11-03进展：本批方案已接入新的HTML r2独立预览，实际操作检查见[HTML记录](../../../docs/HTML-R2-REVIEW.md)；本目录图像仍是静态设计，历史评审日期和边界继续保留。
 
 - [UI视觉方案](ui-plan.md)：作品、字体、图文比例、版式节奏及候选人职业表达。
 - [UX阅读与交互方案](ux-plan.md)：信息层级、导航、补充查阅、旧入口和返回行为。

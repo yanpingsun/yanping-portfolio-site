@@ -4,6 +4,8 @@ from pathlib import Path
 from hashlib import sha256
 import json
 import re
+import argparse
+import shutil
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -67,10 +69,17 @@ def public(source):
 
 
 def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--refined',action='store_true',help='Build the separately reviewed r4 sources into preview/general-r2')
+    args=parser.parse_args()
+    out=ROOT/'preview/general-r2' if args.refined else OUT
+    out.mkdir(parents=True,exist_ok=True)
     pages={};materials={};paths={};images={};source_hashes={}
     files={'home':'content/home.md','about':'content/about.md','oil':'content/projects/oil.md',
            'kugou':'content/projects/kugou.md','sun':'content/projects/sun.md',
            'mask':'content/projects/mask.md','clean':'content/projects/cleanser.md'}
+    if args.refined:
+        files={key:f'content/proposals/general-r4/{"cleanser" if key=="clean" else key}.md' for key in [*files,'works']}
     for key,name in files.items():
         source=ROOT/name;text=public(source)
         pages[key]={'source':name,'blocks':parse(text)}
@@ -107,8 +116,17 @@ def main():
     data={'version':'general-html-r1','content':'general-content-r3','ux':'general-ux-r2',
           'pages':pages,'projects':projects,'materials':materials,'material_paths':paths,
           'images':images,'source_hashes':source_hashes}
+    if args.refined:
+        data.update(version='general-html-r2',content='general-content-r4',ux='general-ux-r3')
+        data['frames']={}
+        manifest=json.loads((ROOT/'design/proposals/general-ux-r3/layouts/manifest.json').read_text())
+        for frame in manifest['frames']:
+            target=out/'assets'/Path(frame['file']).name
+            target.parent.mkdir(exist_ok=True)
+            shutil.copyfile(ROOT/frame['file'],target)
+            data['frames'][frame['source']]={'preview':target.relative_to(out).as_posix(),'second':frame['second']}
     text=json.dumps(data,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
-    (OUT/'data.js').write_text('window.GENERAL_PORTFOLIO = '+text+';\n')
+    (out/'data.js').write_text('window.GENERAL_PORTFOLIO = '+text+';\n')
     print(f'Compiled {len(pages)} pages, {len(materials)} supplementary documents and {len(images)} image records')
 
 

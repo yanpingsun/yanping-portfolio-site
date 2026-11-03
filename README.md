@@ -18,6 +18,10 @@
 
 不同岗位版本、同版迭代与旧版保留见 [版本记录](docs/VERSIONS.md)。现有网站源码已保留归档分支；多版本网页访问入口留到 HTML 阶段实现。
 
+## 最新可试读版本
+
+本轮内容r4与UI／UX r3已接入[HTML r2独立预览](https://yanpingsun.github.io/yanping-portfolio-site/preview/general-r2/)，含八页、四项案例导航、手机常驻章节栏及一层具名补充作品。[实际检查范围](docs/HTML-R2-REVIEW.md)分别记录内容、UI和UX；真实手机与Safari仍待试用。[上一版预览](https://yanpingsun.github.io/yanping-portfolio-site/preview/general/)及原正式网站继续保留。完整生成工具通过PR #5共享，PR #6只发布新预览目录。
+
 ## 本地预览
 
 在仓库根目录执行：
