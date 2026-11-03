@@ -255,7 +255,7 @@
   document.getElementById('zoom-fit').addEventListener('click',()=>setZoom(1,true));
   document.getElementById('zoom-actual').addEventListener('click',()=>setZoom(1));
   document.addEventListener('click',event=>{
-    const image=event.target.closest('.image-open');if(image){openImage(image);return;}
+    const image=event.target.closest('button.image-open');if(image){openImage(image);return;}
     if(event.target.closest('.skip-link')){event.preventDefault();main.focus();return;}
     const toggle=event.target.closest('#chapter-toggle');
     if(toggle){const menu=document.getElementById('mobile-chapters'),open=menu.hidden;menu.hidden=!open;toggle.setAttribute('aria-expanded',String(open));if(open)menu.querySelector('a').focus({preventScroll:true});return;}
