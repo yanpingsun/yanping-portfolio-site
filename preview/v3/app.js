@@ -2,6 +2,7 @@
 (() => {
   const D = window.GENERAL_PORTFOLIO;
   const V = window.PORTFOLIO_V3;
+  const M = window.PORTFOLIO_MEDIA;
   const main = document.getElementById('main');
   const root = new URL('../../', document.baseURI);
   const dialog = document.getElementById('image-viewer');
@@ -23,6 +24,8 @@
     if (/^[a-z][a-z0-9+.-]*:/i.test(raw)) return {href:'#/works'};
     if (raw.startsWith('#')) return {href:'#/home/selected'};
     const url=absolute(raw,source), rel=relative(url), fragment=decodeURIComponent(url.hash.slice(1));
+    if(M.articles[rel]) return {href:M.articles[rel].url,external:true};
+    if(M.videos[rel]) return {href:M.videos[rel].originalUrl||M.videos[rel].analysis,external:!!M.videos[rel].originalUrl};
     if(rel==='portfolio-resume.pdf') return {href:new URL('assets/resume.pdf',document.baseURI).href,external:true};
     const directoryRoutes={
       'portfolio-content/tongyan-mask/assets/detail':'#/project/mask/more-detail',
@@ -52,7 +55,8 @@
       else if(value.startsWith('`')) result+='<code>'+esc(value.slice(1,-1))+'</code>';
       else {
         const parts=/^\[([^\]]+)\]\(([^)]+)\)$/.exec(value),to=destination(parts[2],source);
-        result+=`<a href="${esc(to.href)}"${to.external?' target="_blank" rel="noopener"':''}>${esc(parts[1])}${to.external?' <span aria-label="新标签打开">↗</span>':''}</a>`;
+        const originalArticle=!/^[a-z]+:/i.test(parts[2])&&M.articles[relative(absolute(parts[2],source))];
+        result+=`<a href="${esc(to.href)}"${to.external?' target="_blank" rel="noopener"':''}>${esc(originalArticle?'阅读公众号原文':parts[1])}${to.external?' <span aria-label="新标签打开">↗</span>':''}</a>`;
       }
       at=token.lastIndex;
     }
@@ -61,19 +65,23 @@
 
   function figure(item,source,options={}) {
     const url=absolute(item.src,source),info=D.images[relative(url)]||{};
-    const preview=relative(url)==='portfolio-content/essence-oil/assets/posters/oil-product.png'?new URL('portfolio-previews/oil.webp',root).href:info.preview?new URL(info.preview,root).href:url.href;
+    const preview=info.preview?new URL(info.preview,root).href:url.href;
+    const fullUrl=options.originalSrc?new URL(options.originalSrc,root).href:url.href;
     const group=/\/([^/]+)-wireframe\./.exec(item.src)?.[1];
     const id=group&&options.caseId?` id="${options.caseId}-wireframe-${esc(group)}" tabindex="-1"`:'';
-    return `<figure${id} class="work-figure ${options.hero?'hero-work':''}"><button type="button" class="image-open" data-full-src="${esc(url.href)}" data-caption="${esc(item.alt)}" aria-label="放大查看：${esc(item.alt)}"><img src="${esc(preview)}" alt="${esc(item.alt)}" ${info.width?`width="${info.width}" height="${info.height}"`:''} loading="${options.hero?'eager':'lazy'}" decoding="async"><span class="image-placeholder" hidden>图片暂时无法载入，可查看原图。</span></button><figcaption>${esc(item.alt)}</figcaption><a class="original-link" href="${esc(url.href)}" target="_blank" rel="noopener">查看原图 ↗</a></figure>`;
+    return `<figure${id} class="work-figure ${options.hero?'hero-work':''}"><button type="button" class="image-open" data-full-src="${esc(fullUrl)}" data-caption="${esc(item.alt)}" aria-label="放大查看：${esc(item.alt)}"><img src="${esc(preview)}" alt="${esc(item.alt)}" ${info.width?`width="${info.width}" height="${info.height}"`:''} loading="${options.hero?'eager':'lazy'}" decoding="async"><span class="image-placeholder" hidden>图片暂时无法载入，可查看原图。</span></button><figcaption>${esc(item.alt)}</figcaption><a class="original-link" href="${esc(fullUrl)}" target="_blank" rel="noopener">查看原图 ↗</a></figure>`;
+  }
+
+  function videoCard(path) {
+    const v=M.videos[path];
+    if(!v)return '';
+    return `<article class="video-link-card"><div class="video-cover"><img src="${esc(new URL(v.poster,root).href)}" alt="${esc(V.cases[v.project].name)} · ${esc(v.kind)}作品封面" width="400" height="400" loading="lazy"><span>${esc(v.kind)}</span></div><div class="video-link-copy"><h4>${esc(v.title)}</h4><p>${esc(V.cases[v.project].name)} · 视频脚本策划</p><div class="video-link-actions">${v.originalUrl?`<a class="button video-watch" href="${esc(v.originalUrl)}" target="_blank" rel="noopener">观看原视频 <span aria-hidden="true">↗</span></a>`:''}<a class="text-link" href="${esc(v.analysis)}">查看脚本分析 <span aria-hidden="true">↗</span></a></div></div></article>`;
   }
 
   function block(b,source,caseId='') {
     if(b.kind==='paragraph') {
       const movies=[...b.text.matchAll(/\[([^\]]+)\]\(([^)]+\.mp4)\)/g)];
-      if(movies.length) return '<div class="video-entries">'+movies.map(m=>{
-        const url=absolute(m[2],source),frame=D.frames[relative(url)];
-        return `<div class="video-entry"><video controls playsinline preload="none"${frame?` poster="${esc(frame.preview)}"`:''} aria-label="${esc(m[1])}"><source src="${esc(url.href)}" type="video/mp4">请使用原文件入口播放。</video><div><p class="video-name">${esc(m[1])}</p>${frame?`<p class="caption">预览取自现有成片第${frame.second}秒</p>`:''}<p class="media-warning" hidden role="status">视频暂时无法播放，可打开下方原文件。</p></div></div>`;
-      }).join('')+'</div><p class="file-links">'+inline(b.text,source)+'</p>';
+      if(movies.length) return '<div class="video-links-grid">'+movies.map(m=>videoCard(relative(absolute(m[2],source)))).join('')+'</div>';
       const claim=/^\*\*((?:原作主张|历史原作|历史主张)：)(.*?)\*\*(.*)$/.exec(b.text);
       if(claim) return `<p class="claim"><span class="claim-label">${esc(claim[1])}</span><strong>${esc(claim[2])}</strong></p>${claim[3]?'<p>'+inline(claim[3].trim(),source)+'</p>':''}`;
       return '<p>'+inline(b.text,source)+'</p>';
@@ -135,7 +143,7 @@
   }
 
   const storyIds={oil:['strategy','wireframes','article','videos'],kugou:['growth','sound','radio'],sun:['sales','wireframes','videos'],mask:['strategy','wireframes','videos','live'],clean:['strategy','works']};
-  const extraIds={oil:['data','article','moments','videos','sales'],kugou:['social','social-audio','function','wechat','videochannel','radio'],sun:['posters','moments','detail','videos'],mask:['posters','moments','videos','detail','sales'],clean:['ingredients','texture','works']};
+  const extraIds={oil:['data','article','moments','videos'],kugou:['social','social-audio','function','wechat','videochannel','radio'],sun:['posters','moments','detail','videos'],mask:['posters','moments','videos','detail'],clean:['ingredients','texture','works']};
   function metricDisplay(c) {
     return `<div class="metric-item"><strong>${esc(c.metric)}${c.metricUnit?`<small>${esc(c.metricUnit)}</small>`:''}</strong><span>${esc(c.metricLabel)}</span></div>${c.secondaryMetric?`<div class="metric-item secondary"><strong>${esc(c.secondaryMetric)}<small>${esc(c.secondaryUnit)}</small></strong><span>${esc(c.secondaryLabel)}</span></div>`:''}`;
   }
@@ -145,14 +153,16 @@
     const keys=['overview','story','collaboration','outcome','complete'];
     const links=keys.map((key,i)=>`<a href="#/project/${id}/${key}" data-chapter="${id}-${key}">${labels[i]}</a>`).join('');
     const image=hero.blocks.find(b=>b.kind==='images');
-    let html=`<div class="case-page case-${id}"><div class="breadcrumb"><a href="#/works">← 全部作品</a><span>CASE ${c.number} / 05</span></div><section class="case-hero" id="${id}-overview" data-top-chapter tabindex="-1"><div class="case-hero-copy"><p class="eyebrow">${esc(c.name)} / ${esc(c.category)}</p><h1>${esc(c.title).replace('，','，<br>')}</h1><p class="hero-summary">${esc(c.summary)}</p><div class="case-role"><span>我的职责</span><strong>${esc(c.role)}</strong><span>${esc(c.period)}</span></div><div class="hero-metrics">${metricDisplay(c)}</div><p class="metric-note">${esc(c.metricNote)}</p></div><div class="case-hero-visual">${image?figure(image.items[0],p.source,{hero:true}):''}</div></section><div class="case-layout"><nav class="case-nav" aria-label="本案目录"><p>IN THIS PROJECT</p>${links}<a class="all-works" href="#/works">全部作品 ↗</a></nav><div class="case-bar"><span>${esc(c.name)}</span><button type="button" id="chapter-toggle" aria-expanded="false" aria-controls="mobile-chapters"><span id="chapter-current">项目概览</span><span aria-hidden="true">⌄</span></button><nav id="mobile-chapters" aria-label="本案章节" hidden>${links}</nav></div><article class="case-main"><div class="case-brief"><p class="eyebrow">THE CONTENT CHALLENGE</p><h2>${esc(c.question)}</h2><p>${esc(c.brief)}</p><div class="key-decisions">${c.decisions.map((d,i)=>`<article><span class="index">0${i+1}.</span><h3>${esc(d[0])}</h3><p>${esc(d[1])}</p></article>`).join('')}</div></div><div id="${id}-story" class="story-group" data-top-chapter tabindex="-1"><div class="story-label"><p class="eyebrow">01 / THINKING INTO WORK</p><p>把判断，放回具体作品。</p></div>`;
+    const heroImage=c.originalCover?{src:asset(c.cover),alt:c.name+'代表作品'}:image?.items[0];
+    const topButton='<button type="button" class="back-to-top" data-back-to-top>↑ 返回顶部</button>';
+    let html=`<div class="case-page case-${id}"><div class="breadcrumb"><a href="#/works">← 全部作品</a><span>CASE ${c.number} / 05</span></div><section class="case-hero" id="${id}-overview" data-top-chapter tabindex="-1"><div class="case-hero-copy"><p class="eyebrow">${esc(c.name)} / ${esc(c.category)}</p><h1>${esc(c.title).replace('，','，<br>')}</h1><p class="hero-summary">${esc(c.summary)}</p><div class="case-role"><span>我的职责</span><strong>${esc(c.role)}</strong><span>${esc(c.period)}</span></div><div class="hero-metrics">${metricDisplay(c)}</div><p class="metric-note">${esc(c.metricNote)}</p></div><div class="case-hero-visual">${heroImage?figure(heroImage,p.source,{hero:true,originalSrc:c.originalCover}):''}</div></section><div class="case-layout"><nav class="case-nav" aria-label="本案目录"><p>IN THIS PROJECT</p>${links}${topButton}<a class="all-works" href="#/works">全部作品 ↗</a></nav><div class="case-bar"><span>${esc(c.name)}</span><button type="button" id="chapter-toggle" aria-expanded="false" aria-controls="mobile-chapters"><span id="chapter-current">项目概览</span><span aria-hidden="true">⌄</span></button><nav id="mobile-chapters" aria-label="本案章节" hidden>${links}${topButton}</nav></div><article class="case-main"><div class="case-brief"><p class="eyebrow">THE CONTENT CHALLENGE</p><h2>${esc(c.question)}</h2><p>${esc(c.brief)}</p><div class="key-decisions">${c.decisions.map((d,i)=>`<article><span class="index">0${i+1}.</span><h3>${esc(d[0])}</h3><p>${esc(d[1])}</p></article>`).join('')}</div></div><div id="${id}-story" class="story-group" data-top-chapter tabindex="-1"><div class="story-label"><p class="eyebrow">01 / THINKING INTO WORK</p><p>把判断，放回具体作品。</p></div>`;
     ss.forEach((section,i)=>{html+=`<section class="case-section" id="${id}-${storyIds[id][i]}" tabindex="-1"><h2>${inline(section.title,p.source)}</h2>${renderBlocks(section.blocks,p.source,id)}</section>`;});
-    html+=`</div><section class="case-section collaboration" id="${id}-collaboration" data-top-chapter tabindex="-1"><p class="eyebrow">02 / COLLABORATION & DELIVERY</p><h2>${id==='kugou'?'管理两名专员，也连接跨团队资源。':'让内容主线，通过分工走向交付。'}</h2><div class="responsibility-table">${c.team.map(t=>`<div><h3>${esc(t[0])}</h3><p>${esc(t[1])}</p></div>`).join('')}</div><p class="delivery-note">${esc(c.delivery)}</p></section><section class="case-section outcome" id="${id}-outcome" data-top-chapter tabindex="-1"><p class="eyebrow">03 / RESULTS & APPROACH</p><h2>项目结果与方法沉淀</h2><div class="result-panel"><div class="result-metrics">${metricDisplay(c)}</div><p>${esc(c.result)}</p></div><div class="takeaway"><span>从作品中提炼的方法</span><p>${esc(c.takeaway)}</p></div></section><section class="case-section complete-works" id="${id}-complete" data-top-chapter tabindex="-1"><p class="eyebrow">04 / EXPLORE THE DETAILS</p><h2>完整作品与补充阅读</h2><p class="complete-intro">按关注点展开原件、更多成片和结构分析。</p>`;
+    html+=`</div><section class="case-section collaboration" id="${id}-collaboration" data-top-chapter tabindex="-1"><p class="eyebrow">02 / COLLABORATION & DELIVERY</p><h2>${id==='kugou'?'管理两名专员，也连接跨团队资源。':'让内容主线，通过分工走向交付。'}</h2><div class="responsibility-table">${c.team.map(t=>`<div><h3>${esc(t[0])}</h3><p>${esc(t[1])}</p></div>`).join('')}</div><p class="delivery-note">${esc(c.delivery)}</p></section><section class="case-section outcome" id="${id}-outcome" data-top-chapter tabindex="-1"><p class="eyebrow">03 / RESULTS & APPROACH</p><h2>项目结果与方法沉淀</h2><div class="result-panel"><div class="result-metrics">${metricDisplay(c)}</div><p>${esc(c.result)}</p></div><div class="takeaway"><span>从作品中提炼的方法</span><p>${esc(c.takeaway)}</p></div></section><section class="case-section complete-works" id="${id}-complete" data-top-chapter tabindex="-1"><p class="eyebrow">04 / EXPLORE THE DETAILS</p><h2>完整作品与补充阅读</h2><p class="complete-intro">按关注点展开更多图文、视频脚本与结构分析。</p>`;
     const start=complete.blocks.findIndex(b=>b.kind==='heading'&&b.level===4),groups=cards(complete.blocks.slice(start)),tail=[];
     groups.forEach((g,i)=>{
       const body=g.blocks.filter(b=>{if(b.kind==='paragraph'&&/^(?:继续查看：|图文及成片按历史|作品中的技术|图文中的配方)/.test(b.text)){tail.push(b);return false;}return true;});
       const images=body.filter(b=>b.kind==='images').reduce((n,b)=>n+b.items.length,0),movies=body.reduce((n,b)=>n+(b.text?.match(/\.mp4\)/g)||[]).length,0);
-      const meta=[images?`${images} 幅图`:'',movies?`${movies} 条视频`:''].filter(Boolean).join(' · ')||'文字资料';
+      const meta=[images?`${images} 幅图`:'',movies?`${movies} 组视频脚本`:''].filter(Boolean).join(' · ')||'文字资料';
       html+=`<details id="${id}-more-${extraIds[id][i]}" class="supplementary"><summary><span>${inline(g.title,p.source)}</span><span class="detail-meta">${meta}</span></summary><div class="supplement-body">${renderBlocks(body,p.source,id)}<button type="button" class="collapse-detail">收起本组 ↑</button></div></details>`;
     });
     html+=`<div class="case-notes">${renderBlocks(tail.filter(b=>!b.text.startsWith('继续查看：')),p.source,id)}</div></section></article></div>`;
@@ -202,12 +212,14 @@
     const id=parts[1],chapter=parts[2],group=parts[3];
     if(group&&['wireframes','wireframes-extra'].includes(chapter))return document.getElementById(`${id}-wireframe-${group}`);
     const direct=document.getElementById(`${id}-${chapter}`);if(direct)return direct;
-    const maps={oil:{intro:'overview',moments:'more-moments',sales:'more-sales'},sun:{intro:'overview',strategy:'wireframes',article:'videos',moments:'more-moments',detail:'more-detail'},mask:{intro:'overview',moments:'strategy',article:'wireframes',detail:'more-detail',sales:'more-sales'},clean:{intro:'overview',wireframes:'strategy','wireframes-extra':'more-ingredients'},kugou:{intro:'overview',social:'more-social',function:'more-function',wechat:'more-wechat',videochannel:'more-videochannel'}};
+    const maps={oil:{intro:'overview',moments:'more-moments',sales:'collaboration'},sun:{intro:'overview',strategy:'wireframes',article:'videos',moments:'more-moments',detail:'more-detail'},mask:{intro:'overview',moments:'strategy',article:'wireframes',detail:'more-detail',sales:'collaboration'},clean:{intro:'overview',wireframes:'strategy','wireframes-extra':'more-ingredients'},kugou:{intro:'overview',social:'more-social',function:'more-function',wechat:'more-wechat',videochannel:'more-videochannel'}};
     return document.getElementById(`${id}-${maps[id][chapter]||'wireframe-'+chapter}`)||document.getElementById(id+'-overview');
   }
   function applyRoute(restore=false) {
     const sequence=++routeSequence;lastUrl=location.href;let parts;
     try{parts=location.hash.replace(/^#\/?/,'').split('/').filter(Boolean).map(decodeURIComponent);}catch{parts=['missing'];}
+    const removedReaders={'fc642c9578b4':'oil','edb6365be578':'mask'};
+    if(parts[0]==='read'&&removedReaders[parts[1]]){history.replaceState(history.state,'','#/project/'+removedReaders[parts[1]]+'/collaboration');return applyRoute(restore);}
     if(parts[0]==='wireframes'){history.replaceState(history.state,'',`#/project/sun/wireframes${parts[1]?'/'+encodeURIComponent(parts[1]):''}`);return applyRoute(restore);}
     const page=parts[0]==='project'?(project(parts[1])?'case:'+parts[1]:'missing'):parts[0]==='read'?'read:'+parts[1]:['about','contact'].includes(parts[0])?'about':parts[0]==='works'?'works':!parts.length||parts[0]==='home'?'home':'missing';
     const saved=history.state||{},restoreSaved=restore&&saved.page===page&&typeof saved.scrollY==='number';
@@ -218,7 +230,6 @@
       currentKey=page;
       main.querySelectorAll('a,button,summary,video').forEach((el,i)=>el.dataset.focusKey=page+'-'+i);
       main.querySelectorAll('.image-open img').forEach(img=>img.addEventListener('error',()=>{img.hidden=true;img.nextElementSibling.hidden=false;},{once:true}));
-      main.querySelectorAll('video').forEach(v=>v.addEventListener('error',()=>{v.closest('.video-entry').querySelector('.media-warning').hidden=false;}));
     }
     document.querySelectorAll('[data-nav]').forEach(a=>{if(a.dataset.nav===(page==='about'?'about':page==='works'||page.startsWith('case:')?'works':''))a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
     document.title=(page.startsWith('case:')?project(parts[1]).name:page==='about'?'关于我':page==='works'?'全部作品':'作品集')+'｜孙岩萍 · 作品集 3.0';
@@ -259,6 +270,11 @@
     if(event.target.closest('.skip-link')){event.preventDefault();main.focus();return;}
     const toggle=event.target.closest('#chapter-toggle');
     if(toggle){const menu=document.getElementById('mobile-chapters'),open=menu.hidden;menu.hidden=!open;toggle.setAttribute('aria-expanded',String(open));if(open)menu.querySelector('a').focus({preventScroll:true});return;}
+    if(event.target.closest('[data-back-to-top]')){
+      closeMenu();remember();const id=currentKey.split(':')[1];
+      history.replaceState({...history.state,scrollY:0},'','#/project/'+id);lastUrl=location.href;
+      window.scrollTo({top:0,behavior:'auto'});main.querySelector('h1')?.focus({preventScroll:true});updateChapter();remember();return;
+    }
     const collapse=event.target.closest('.collapse-detail');
     if(collapse){const d=collapse.closest('details');d.open=false;d.querySelector('summary').focus({preventScroll:true});d.scrollIntoView({block:'nearest'});remember();return;}
     if(event.target.closest('[data-return-to]')){history.back();return;}
@@ -267,7 +283,6 @@
     if(a&&a.getAttribute('href').startsWith('#/')&&!event.ctrlKey&&!event.metaKey&&!event.shiftKey&&!event.altKey&&event.button===0){event.preventDefault();navigate(a.getAttribute('href'));}
   });
   document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!dialog.open)closeMenu(true);});
-  main.addEventListener('play',event=>{if(event.target.tagName==='VIDEO')main.querySelectorAll('video').forEach(v=>{if(v!==event.target)v.pause();});},true);
   window.addEventListener('scroll',()=>{if(!scrollFrame)scrollFrame=requestAnimationFrame(()=>{updateChapter();scrollFrame=null;});clearTimeout(saveTimer);saveTimer=setTimeout(remember,120);},{passive:true});
   window.addEventListener('resize',()=>{closeMenu();updateChapter();if(dialog.open)setZoom(1,true);});
   main.addEventListener('toggle',()=>{if(!restoreLock){updateChapter();remember();}},true);
