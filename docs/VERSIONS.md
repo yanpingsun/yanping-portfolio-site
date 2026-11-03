@@ -1,6 +1,6 @@
 # 展示版本与迭代记录
 
-更新日期：2026-11-02。管理不同岗位／面试场景的展示版本，以及同一版本后续的修改。当前`general`已形成完整内容r3、UX r2与HTML r1独立网页预览，原版正式入口保留。早期稿、静态设计及精华油单案节点继续保留；本轮网页供试读，尚未确认投递或替换正式入口。
+更新日期：2026-11-03。管理不同岗位／面试场景的展示版本，以及同一版本后续的修改。当前`general`已形成完整内容r3、UX r2与HTML r1独立网页预览，原版正式入口保留。早期稿、静态设计及精华油单案节点继续保留；本轮网页供试读，尚未确认投递或替换正式入口。
 
 ## 三件事分开管理
 
@@ -55,3 +55,7 @@
 ## 当前整批提案
 
 2026-11-02，本轮在同一general版本下形成[八份内容r4提案](../content/proposals/general-r4/README.md)与[UI／UX r3整批静态提案](../design/proposals/general-ux-r3/README.md)：八页桌面／手机及三种阅读状态，内容、UI和UX分别评审并记录调整。八份内容输入校验值、正文覆盖、补充组范围及素材来源由manifest固定记录，具体提交由任务分支Git历史保留。当前是供比较的完整提案批次，尚非本人认可、投递或新HTML发布节点；七份网页输入稿、UX r2与已发布HTML r1保持原样，旧归档引用不移动。
+
+## HTML r2独立预览
+
+2026-11-03，内容r4、UI／UX r3的整批提案已接入[HTML r2](https://yanpingsun.github.io/yanping-portfolio-site/preview/general-r2/)。完整源码固定于[bc4a72e](https://github.com/yanpingsun/yanping-portfolio-site/commit/bc4a72e780a904780cb387c79624fd974d429ef8)，保留于[archive/general-html-r2](https://github.com/yanpingsun/yanping-portfolio-site/tree/archive/general-html-r2)；生成工具和浏览器检查记录均在该节点。发布经[PR #6](https://github.com/yanpingsun/yanping-portfolio-site/pull/6)，只新增preview/general-r2/，原正式入口及HTML r1未改动。后续项目状态记录可能更新，代码节点与归档不移动。真机、Safari与招聘读者试读未算作已完成；这仍是供试读的general预览，不是已确认的投递或正式替换版本。

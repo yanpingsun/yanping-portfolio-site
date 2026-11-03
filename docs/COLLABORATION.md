@@ -58,3 +58,5 @@ agent 负责把需求转成合适操作，用简单的话解释必要影响并�
 - docs/project-standards：规范分享分支，草稿 PR #1 尚未合入 main。
 
 对方 agent 首次可按 [简短接手提示](OWNER-AGENT-START.md) 读取规范分支。规范合入 main 后，以最新 main 为准。未推送的文件和聊天附件不会自动共享。
+
+2026-11-03：本轮完整实现与实际检查由PR #5整合到work/general-ux-r1；PR #6只新增preview/general-r2/提供HTML r2独立预览。正式根入口及HTML r1继续保留。HTML r2维护内容r4来源并使用生成器的 `--refined` 参数，当前状态见docs/PROJECT.md。

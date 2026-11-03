@@ -1,6 +1,6 @@
 # 项目 Agent 工作规范
 
-更新日期：2026-11-02。
+更新日期：2026-11-03。
 
 先读 README 和 docs/PROJECT.md，涉及同步时读 docs/COLLABORATION.md；再按任务查相关案例资料。
 
@@ -20,7 +20,7 @@
 
 当前已补齐原版基线与同层对照；`general`七份页面为内容r3完整工作稿，UX r2已形成完整页面安排及三类代表页面的桌面／手机静态设计；UX r1保留为历史提议。原版作品证据与各自材料身份继续保留，不视为已证明改版整体更优。内容阶段直接维护可编辑的 Markdown 正文与改动对照，默认不另制作报告 PDF；原有作品 PDF 仍是素材。现已依据内容r3与UX r2制作 `preview/general/` 的HTML r1，完整文稿经生成工具接入，实际验证范围见 docs/HTML-REVIEW.md。独立预览与正式入口分别管理，接下来依据用户试读反馈修订。实际阶段见 docs/PROJECT.md，不将已授权的预览发布视为已确认替换正式入口。
 
-本轮用户要求将内容、UI视觉、UX阅读与交互分别给方案、调整及review。按[本轮改造方案](docs/REFINEMENT-PLAN.md)工作：内容r4八份提案在content/proposals/，UI/UX r3八页桌面／手机及三种状态的静态提案在design/proposals/，分别维护内容、UI、UX评审记录。它们尚未替换七份网页输入稿，不运行预览数据生成来提前接入提案；HTML仍在最后。
+本轮用户要求将内容、UI视觉、UX阅读与交互分别给方案、调整及review。按[本轮改造方案](docs/REFINEMENT-PLAN.md)工作：内容r4八份提案在content/proposals/，UI/UX r3八页桌面／手机及三种状态的静态提案在design/proposals/，分别维护内容、UI、UX评审记录。这些稿件已在各自分项自审后，通过 `python3 tools/build_general_preview.py --refined` 直接生成到 `preview/general-r2/`，不覆盖七份r3输入及旧HTML r1。新一轮页面修改先维护对应内容源，再生成和检查；实际状态及浏览器验证范围见 docs/PROJECT.md 和 docs/HTML-R2-REVIEW.md。
 
 ## 两边共同遵守的协作方式
 

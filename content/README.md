@@ -30,3 +30,5 @@
 ## 本轮独立内容提案
 
 [内容r4八份提案](proposals/general-r4/README.md)已另存，覆盖首页、五案、关于及复用信息的目录，并完成[整批内容自审与调整](reviews/general-r4-review.md)，两案试点记录继续保留。它们供与原版／r3同层比较，尚未替换上方七份输入稿；UI和UX另外给方案与review，不在排版时私自改成另一份文案。本人最终措辞确认与招聘读者试读尚未完成。
+
+2026-11-03进展：[内容r4提案](proposals/general-r4/README.md)已直接接入[HTML r2](https://yanpingsun.github.io/yanping-portfolio-site/preview/general-r2/)，生成时使用 `--refined`；本索引的七份r3稿继续对应HTML r1，未被覆盖。
