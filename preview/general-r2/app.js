@@ -53,7 +53,9 @@
     const preview=info.preview?new URL(info.preview,root).href:url.href;
     const group=/\/([^/]+)-wireframe\./.exec(item.src)?.[1];
     const id=group&&options.caseId?` id="${options.caseId}-wireframe-${esc(group)}" tabindex="-1"`:'';
-    return `<figure${id} class="work-figure ${options.hero?'hero-work':''}"><button type="button" class="image-open" data-full-src="${esc(url.href)}" data-caption="${esc(item.alt)}" aria-label="放大查看：${esc(item.alt)}"><img src="${esc(preview)}" alt="${esc(item.alt)}" ${info.width?`width="${info.width}" height="${info.height}"`:''} loading="${options.hero?'eager':'lazy'}" decoding="async"><span class="image-placeholder" hidden>图片暂时无法载入，可查看原图。</span></button><figcaption>${esc(item.alt)}</figcaption><a class="original-link" href="${esc(url.href)}" target="_blank" rel="noopener">查看原图 ↗</a></figure>`;
+    const image=`<img src="${esc(preview)}" alt="${esc(item.alt)}" ${info.width?`width="${info.width}" height="${info.height}"`:''} loading="${options.hero?'eager':'lazy'}" decoding="async"><span class="image-placeholder" hidden>图片暂时无法载入，可查看原图。</span>`;
+    const control=options.caseHref?`<a class="image-open project-cover" href="${esc(options.caseHref)}" aria-label="查看案例：${esc(options.caseLabel)}">${image}</a>`:`<button type="button" class="image-open" data-full-src="${esc(url.href)}" data-caption="${esc(item.alt)}" aria-label="放大查看：${esc(item.alt)}">${image}</button>`;
+    return `<figure${id} class="work-figure ${options.hero?'hero-work':''}">${control}<figcaption>${esc(item.alt)}</figcaption><a class="original-link" href="${esc(url.href)}" target="_blank" rel="noopener">查看原图 ↗</a></figure>`;
   }
 
   function block(b,source,caseId='') {
@@ -107,7 +109,10 @@
         const primary=s.title==='代表项目';html+=`<div class="${primary?'featured-projects':'more-projects'}">`;
         for(const c of cards(s.blocks)) {
           const images=c.blocks.filter(b=>b.kind==='images'),copy=c.blocks.filter(b=>b.kind!=='images');
-          html+=`<article class="${primary?'featured-project':'more-project'}">${images.map(b=>renderBlocks([b],p.source)).join('')}<div class="project-copy"><h3>${inline(c.title,p.source)}</h3>${renderBlocks(copy,p.source)}</div></article>`;
+          const link=copy.find(b=>b.kind==='paragraph'&&b.text.startsWith('[')),href=/\]\(([^)]+)\)/.exec(link?.text||'')?.[1];
+          const cover=primary&&href?{caseHref:destination(href,p.source).href,caseLabel:plain(c.title)}:{};
+          const artwork=images.map(b=>'<div class="image-sequence">'+b.items.map(i=>figure(i,p.source,cover)).join('')+'</div>').join('');
+          html+=`<article class="${primary?'featured-project':'more-project'}">${artwork}<div class="project-copy"><h3>${inline(c.title,p.source)}</h3>${renderBlocks(copy,p.source)}</div></article>`;
         }
         html+='</div>';
       } else html+=renderBlocks(s.blocks,p.source);
@@ -255,7 +260,7 @@
   document.getElementById('zoom-fit').addEventListener('click',()=>setZoom(1,true));
   document.getElementById('zoom-actual').addEventListener('click',()=>setZoom(1));
   document.addEventListener('click',event=>{
-    const image=event.target.closest('.image-open');if(image){openImage(image);return;}
+    const image=event.target.closest('button.image-open');if(image){openImage(image);return;}
     if(event.target.closest('.skip-link')){event.preventDefault();main.focus();return;}
     const toggle=event.target.closest('#chapter-toggle');
     if(toggle){const menu=document.getElementById('mobile-chapters'),open=menu.hidden;menu.hidden=!open;toggle.setAttribute('aria-expanded',String(open));if(open)menu.querySelector('a').focus({preventScroll:true});return;}

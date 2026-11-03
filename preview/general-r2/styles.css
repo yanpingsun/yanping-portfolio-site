@@ -6,6 +6,8 @@
 @media(max-width:350px){.site-header nav{gap:12px}.site-header{gap:10px}.wordmark{font-size:21px}.home-intro h1{font-size:35px}.case-hero h1{font-size:29px}.case-bar{font-size:12px}.case-bar button{font-size:13px}.video-entry{gap:13px}.video-name{font-size:14px}.claim{font-size:27px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 
-#main:focus,.case-section:focus,.case-hero:focus,.story-group:focus,.work-figure:focus,.home-section:focus{outline:none}
+#main:focus,#main :is(h1,h2,h3,h4,h5)[tabindex="-1"]:focus,.case-section:focus,.case-hero:focus,.story-group:focus,.work-figure:focus,.home-section:focus{outline:none}
+
+.project-cover{cursor:pointer}
 
 html{scrollbar-gutter:stable}
