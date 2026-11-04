@@ -32,4 +32,6 @@
 
 接手最新版请先读 [START-HERE.md](START-HERE.md)；视频封面对照见 [VIDEO-COVERS.md](VIDEO-COVERS.md)，两张导航封面的无损PNG及编辑提示词见 [design-sources/](design-sources/README.md)。
 
+修改部署网址请看[部署迁移交接](DEPLOYMENT-HANDOFF.md)；完整资源校验清单见[ASSET-MANIFEST.json](ASSET-MANIFEST.json)。
+
 无构建步骤。修改 `content.js`中的摘要与分工，或 `data.js`中的详细正文；原文/视频链接修改 `media.js`。`app.js`负责路由、原图和阅读位置，`styles.css`负责响应式布局。当前资源与简历缓存版本为3.0.10；完整维护与验证说明见 [HANDOFF.md](HANDOFF.md)。发布更新本目录，通过既有GitHub Pages流程上线。

@@ -1,8 +1,10 @@
 # 作品集 3.0 修改交接说明
 
-更新日期：2026-11-04，当前版本3.0.10。供huhangheng及后续维护者定位源码和核对内容；历次记录中的旧链接数量、简历版本、取景方式及统计时长，以本版最新确认替代。
+更新日期：2026-11-04，当前版本3.0.10。供huhaheng及后续维护者定位源码和核对内容；历次记录中的旧链接数量、简历版本、取景方式及统计时长，以本版最新确认替代。
 
 接手请先读 [START-HERE.md](START-HERE.md)。两张导航封面的无损PNG与编辑提示词已同步到 [design-sources/](design-sources/README.md)，可直接从GitHub获取。
+
+2026-11-05修改部署网址的交接见[DEPLOYMENT-HANDOFF.md](DEPLOYMENT-HANDOFF.md)，资源路径与校验值见[ASSET-MANIFEST.json](ASSET-MANIFEST.json)。现有3.0.10源码及素材已核对与GitHub一致。
 
 ## 入口与基线
 

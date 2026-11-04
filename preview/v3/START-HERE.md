@@ -1,6 +1,8 @@
 # 作品集3.0.10：接手入口
 
-更新日期：2026-11-04。供huhangheng后续修改使用。
+更新日期：2026-11-04。供huhaheng后续修改使用。
+
+明天（2026-11-05）修改部署网址请先看[部署迁移交接](DEPLOYMENT-HANDOFF.md)，其中列出完整素材位置、资源校验清单和目录迁移时的路径调整点。
 
 ## 当前版本
 
@@ -8,7 +10,7 @@
 - 分支：`main`
 - 源码目录：`preview/v3/`
 - 页面版本：**3.0.10**
-- 3.0.9历史界面基线提交：[`1c44a6965c5c90ce77fe1e5daef11063527c94a6`](https://github.com/yanpingsun/yanping-portfolio-site/commit/1c44a6965c5c90ce77fe1e5daef11063527c94a6)
+- 3.0.10运行源码基线提交：[`33954c0f479d416deeb8ecb34fd63dd9ad52a9d1`](https://github.com/yanpingsun/yanping-portfolio-site/commit/33954c0f479d416deeb8ecb34fd63dd9ad52a9d1)
 - [在线查看最新版](https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/?v=3.0.10#/home/selected)
 - [完整分工、事实口径与历史修改记录](HANDOFF.md)
 

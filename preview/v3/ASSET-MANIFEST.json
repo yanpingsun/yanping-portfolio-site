@@ -1,0 +1,2088 @@
+{
+  "sourceVersion": "3.0.10",
+  "sourceCommit": "33954c0f479d416deeb8ecb34fd63dd9ad52a9d1",
+  "repository": "yanpingsun/yanping-portfolio-site",
+  "branch": "main",
+  "entry": "preview/v3/index.html",
+  "verifiedAt": "2026-11-04",
+  "totalFiles": 415,
+  "totalBytes": 184624999,
+  "checksumType": "Git blob SHA-1 (includes Git blob header; verify with git hash-object)",
+  "files": [
+    {
+      "path": "portfolio-2026-favicon.svg",
+      "bytes": 293,
+      "gitBlobSha1": "074c6e58a2d9e07cdf52bb1613fcecc81850fdaf"
+    },
+    {
+      "path": "portfolio-brand-editorial-original.jpg",
+      "bytes": 225974,
+      "gitBlobSha1": "e07f0a006f976818ff6bef697cecae9e0698eac1"
+    },
+    {
+      "path": "portfolio-cleanser-article.webp",
+      "bytes": 95466,
+      "gitBlobSha1": "08e305ba14e935cde1d8c7baa89e9cd8834765b6"
+    },
+    {
+      "path": "portfolio-cleanser-benefit.webp",
+      "bytes": 82628,
+      "gitBlobSha1": "88e76b3f8734d5aa944b88f50995bdb6c6012db9"
+    },
+    {
+      "path": "portfolio-cleanser-hero.webp",
+      "bytes": 57812,
+      "gitBlobSha1": "6db9e03c687d9eea3eca4800577d61d7693b45c7"
+    },
+    {
+      "path": "portfolio-cleanser-product-original.png",
+      "bytes": 1044238,
+      "gitBlobSha1": "e0588ebd93d9778675f94e0664fd26d35cf144b6"
+    },
+    {
+      "path": "portfolio-cleanser-texture.webp",
+      "bytes": 66762,
+      "gitBlobSha1": "4ed3d0114d1ff15c82eec728f154239a8358d43d"
+    },
+    {
+      "path": "portfolio-content/README.md",
+      "bytes": 1154,
+      "gitBlobSha1": "6bf638d0858d8afe9ea720e8c4cc00cf9ec5566d"
+    },
+    {
+      "path": "portfolio-content/cleanser/README.md",
+      "bytes": 1194,
+      "gitBlobSha1": "76b8151d10fa54a5dbbdc8261505a245c40f363e"
+    },
+    {
+      "path": "portfolio-content/cleanser/asset-manifest.json",
+      "bytes": 2814,
+      "gitBlobSha1": "edc2041992889f6f2ba097394325144a81b0510f"
+    },
+    {
+      "path": "portfolio-content/cleanser/assets/posters/cleanser-cleansing.jpg",
+      "bytes": 515773,
+      "gitBlobSha1": "9f8047d3b085ab2c5a8726c1c8a967f4a0958d6c"
+    },
+    {
+      "path": "portfolio-content/cleanser/assets/posters/cleanser-hydrating.jpg",
+      "bytes": 444756,
+      "gitBlobSha1": "df5bb8b6e1e9046a55c67ebebb865fce8f482d7f"
+    },
+    {
+      "path": "portfolio-content/cleanser/assets/posters/cleanser-main.jpg",
+      "bytes": 464042,
+      "gitBlobSha1": "f5cf999dc26f1b1dbd766ca71da53c15e6f7e201"
+    },
+    {
+      "path": "portfolio-content/cleanser/assets/selling-points/selling-points-01.png",
+      "bytes": 524649,
+      "gitBlobSha1": "f205c2392730994d0fe83389639c82bdf5975c94"
+    },
+    {
+      "path": "portfolio-content/cleanser/assets/selling-points/selling-points-02.png",
+      "bytes": 450312,
+      "gitBlobSha1": "9505c443108bfd71d2cae141222020eb36bbe65e"
+    },
+    {
+      "path": "portfolio-content/cleanser/assets/selling-points/selling-points-03.png",
+      "bytes": 364511,
+      "gitBlobSha1": "3aab5fc83f590718be34edc2e4ca47aaedd37493"
+    },
+    {
+      "path": "portfolio-content/cleanser/assets/selling-points/selling-points-04.png",
+      "bytes": 181783,
+      "gitBlobSha1": "0eee5805fa88b43b288979d0c04d12c8f05f132d"
+    },
+    {
+      "path": "portfolio-content/cleanser/assets/source/product-introduction.xlsx",
+      "bytes": 2450528,
+      "gitBlobSha1": "5c7a7e95c7979695e325c7cd36feb2df60d3b92f"
+    },
+    {
+      "path": "portfolio-content/cleanser/assets/wechat/cleanser-launch-article.pdf",
+      "bytes": 14824785,
+      "gitBlobSha1": "8f9553398d5288cd3e505506ce351e829fd8d197"
+    },
+    {
+      "path": "portfolio-content/cleanser/洁面作品集内容.md",
+      "bytes": 8201,
+      "gitBlobSha1": "428aeacfa80cc57ca6eb31ef3449c6af04751d3d"
+    },
+    {
+      "path": "portfolio-content/essence-oil/README.md",
+      "bytes": 2061,
+      "gitBlobSha1": "f3d75937b3360aef961c2f5200c55de85ef1226e"
+    },
+    {
+      "path": "portfolio-content/essence-oil/asset-manifest.json",
+      "bytes": 6650,
+      "gitBlobSha1": "5847bf8fba4c3b51f951d2966060dd62462aa370"
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/moments/oil-essence-structure.png",
+      "bytes": 139626,
+      "gitBlobSha1": "e5af4ccf9913729945667bbc0f81f6d7177656b1"
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/moments/oil-sebum-explanation.png",
+      "bytes": 184432,
+      "gitBlobSha1": "6cb82c13c30548f705d9f9bd7d55b50030ce5da4"
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/moments/oil-sebum-needs.png",
+      "bytes": 178390,
+      "gitBlobSha1": "88b742a55a711c21d4f0558e043ba494506aa076"
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/posters/oil-benefit.png",
+      "bytes": 990251,
+      "gitBlobSha1": "f1586df3203479bc352c5d91c9434166201788a1"
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/posters/oil-product.png",
+      "bytes": 1223616,
+      "gitBlobSha1": "43c9697bc40a8be3b46043945ea530381bc881ad"
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/posters/oil-usage.png",
+      "bytes": 1269372,
+      "gitBlobSha1": "17f4b1d9f486677eb5ea9f882d3bb5671f3c3836"
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/videos/oil-influencer-qa.mp4",
+      "bytes": 2491449,
+      "gitBlobSha1": "502a1c52143b0f758e4130b9ea552a76124afa65"
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/videos/oil-liuxiaoqing.mp4",
+      "bytes": 2236563,
+      "gitBlobSha1": "d051961be1bdd4340cb539390a5711cfab590bc9"
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/videos/oil-sebum-education.mp4",
+      "bytes": 2667551,
+      "gitBlobSha1": "374d3a717560c142910c1c590914080243b1073d"
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/videos/oil-tutorial.mp4",
+      "bytes": 2979154,
+      "gitBlobSha1": "d930289a595bd5966fe591c98759273ed965675a"
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/wechat/01-care-needs.png",
+      "bytes": 464474,
+      "gitBlobSha1": "f9e35e432475d7fc4b18a92d1c6d896a74e5f9c2"
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/wechat/02-sebum-concept.png",
+      "bytes": 549703,
+      "gitBlobSha1": "db71d8abe632fb0dbc75ef84aa9331935e4c2999"
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/wechat/03-essence-structure.png",
+      "bytes": 465215,
+      "gitBlobSha1": "f85e9e7e0b719ba7320414673aafbaa1de3e9e63"
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/wechat/04-day-night.png",
+      "bytes": 698113,
+      "gitBlobSha1": "b1f3df1234810e95ca45c4e9a88a832a6bcfd1fc"
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/wechat/05-day-oil.png",
+      "bytes": 542967,
+      "gitBlobSha1": "a7df318bc6b3fd64317f55ef6aa3c7cdb0358036"
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/wechat/06-night-oil.png",
+      "bytes": 686330,
+      "gitBlobSha1": "d3214b1c08f25b57ed5596cd8fbff2169b2ba85b"
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/wechat/07-usage.png",
+      "bytes": 736190,
+      "gitBlobSha1": "7fa170bb3a04b169eacaabdf0e95fa82d904e3b3"
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/wechat/08-launch-bundle.png",
+      "bytes": 665117,
+      "gitBlobSha1": "6851fb4dd899eec07c74350943501a3fd1c7a9b9"
+    },
+    {
+      "path": "portfolio-content/essence-oil/assets/wechat/oil-launch-article.pdf",
+      "bytes": 2619907,
+      "gitBlobSha1": "d1ebcd8e9f16688e2eedd5c7a9c17e882445e9c0"
+    },
+    {
+      "path": "portfolio-content/essence-oil/content.json",
+      "bytes": 5340,
+      "gitBlobSha1": "223365e0365f6385bdd3381e6fcd004c0d51cdf4"
+    },
+    {
+      "path": "portfolio-content/essence-oil/developer-handoff.md",
+      "bytes": 2392,
+      "gitBlobSha1": "ee1bdd6c188fd42d21f105c2234fd70f1d96e927"
+    },
+    {
+      "path": "portfolio-content/essence-oil/docs/private-sales-reconstructed.md",
+      "bytes": 6551,
+      "gitBlobSha1": "d2e4d3195ebcda27332a52e388b4177d1e211446"
+    },
+    {
+      "path": "portfolio-content/essence-oil/docs/video-analysis.md",
+      "bytes": 14191,
+      "gitBlobSha1": "2a2c03bb4d902d9ea6b96b434bad6d15848e509c"
+    },
+    {
+      "path": "portfolio-content/essence-oil/docs/wechat-analysis.md",
+      "bytes": 7322,
+      "gitBlobSha1": "f612caf54c6ffa9629d958273c1447cb41176623"
+    },
+    {
+      "path": "portfolio-content/essence-oil/project.md",
+      "bytes": 9823,
+      "gitBlobSha1": "5c4f47d773c19e721b766c8273722860b67211f8"
+    },
+    {
+      "path": "portfolio-content/essence-oil/selected-materials.md",
+      "bytes": 2664,
+      "gitBlobSha1": "33dadf838251fca0ee85c1ea4d2b51f72916302a"
+    },
+    {
+      "path": "portfolio-content/essence-oil/精华油作品集内容.md",
+      "bytes": 38028,
+      "gitBlobSha1": "9ff0d2eb9786bad20139db6693fb7ddbf30b12b9"
+    },
+    {
+      "path": "portfolio-content/kugou/README.md",
+      "bytes": 1410,
+      "gitBlobSha1": "3e03e6dcd29ad012b7c0008dae8090ee6c449cbf"
+    },
+    {
+      "path": "portfolio-content/kugou/asset-index.md",
+      "bytes": 2621,
+      "gitBlobSha1": "9dea52566deab9964dd42586e14d492a07388b9b"
+    },
+    {
+      "path": "portfolio-content/kugou/asset-manifest.json",
+      "bytes": 4490,
+      "gitBlobSha1": "bad17aa53dc2adaf9affd2c49db010a98fd04bb3"
+    },
+    {
+      "path": "portfolio-content/kugou/assets/channels/live-list.png",
+      "bytes": 287577,
+      "gitBlobSha1": "8471d33c9bd6cd3e82e2c3a6430f5bda11959003"
+    },
+    {
+      "path": "portfolio-content/kugou/assets/douyin/concert-collection.png",
+      "bytes": 121087,
+      "gitBlobSha1": "6a14429cc798602200280bd2303da22aa27e93eb"
+    },
+    {
+      "path": "portfolio-content/kugou/assets/douyin/gokuraku-screenshot.png",
+      "bytes": 842483,
+      "gitBlobSha1": "0fdf15a178f132188a9fc2c4b5acf8f81f67b8f4"
+    },
+    {
+      "path": "portfolio-content/kugou/assets/radio/in-app-program.png",
+      "bytes": 37719,
+      "gitBlobSha1": "3430e06e8e011d1659045ba04654544da7c3a915"
+    },
+    {
+      "path": "portfolio-content/kugou/assets/radio/poster-fiona.png",
+      "bytes": 99027,
+      "gitBlobSha1": "0f353ca210e78cc914303d567467772ae1767ff2"
+    },
+    {
+      "path": "portfolio-content/kugou/assets/radio/poster-yuwenwen.png",
+      "bytes": 107393,
+      "gitBlobSha1": "ae1f4543d777bea140d1280eae2ef4b9621ba65a"
+    },
+    {
+      "path": "portfolio-content/kugou/assets/radio/weibo-promotion.jpg",
+      "bytes": 114230,
+      "gitBlobSha1": "5648e9f4021cd153b2ab7625e8c213e0fce06611"
+    },
+    {
+      "path": "portfolio-content/kugou/assets/wechat/article-feature-and-reading.png",
+      "bytes": 63342,
+      "gitBlobSha1": "1811bb1037f4988839e1cae1c076bb23a9c7072d"
+    },
+    {
+      "path": "portfolio-content/kugou/assets/wechat/article-opening.png",
+      "bytes": 119695,
+      "gitBlobSha1": "8e1f2fcac4424cdcb16ad3528c312054c4502154"
+    },
+    {
+      "path": "portfolio-content/kugou/assets/weibo/fatang-rules.jpg",
+      "bytes": 368530,
+      "gitBlobSha1": "f2aab73dc4912d4389ee7a493783ebce618cd645"
+    },
+    {
+      "path": "portfolio-content/kugou/assets/weibo/fatang-weibo.jpg",
+      "bytes": 518687,
+      "gitBlobSha1": "10e54c56661f6f402292c114c6c971f59d925da8"
+    },
+    {
+      "path": "portfolio-content/kugou/assets/xiaohongshu/luhan-topic.png",
+      "bytes": 142195,
+      "gitBlobSha1": "e00c1158ae3a56511ff9be6a5a733197f6f7824e"
+    },
+    {
+      "path": "portfolio-content/kugou/assets/xiaohongshu/sound-effect-ugc.png",
+      "bytes": 72975,
+      "gitBlobSha1": "8acf340f1b0f1b65d7c7e9ec33e884f211db2a59"
+    },
+    {
+      "path": "portfolio-content/kugou/content.json",
+      "bytes": 5554,
+      "gitBlobSha1": "7c2ca6868cb5d13188c2e626b0d858f1f27147bc"
+    },
+    {
+      "path": "portfolio-content/kugou/developer-handoff.md",
+      "bytes": 2072,
+      "gitBlobSha1": "96363f34be67d8172f5c50b9e66e6170bddb2b57"
+    },
+    {
+      "path": "portfolio-content/kugou/project.md",
+      "bytes": 7275,
+      "gitBlobSha1": "82523bc503da6e4682f9ea785edce8bd9e5978ec"
+    },
+    {
+      "path": "portfolio-content/kugou/酷狗作品集内容.md",
+      "bytes": 52936,
+      "gitBlobSha1": "c6b1ed10b4c6e566586c5cca0bcfdb710e7eb6f1"
+    },
+    {
+      "path": "portfolio-content/oil-essence-structure.png",
+      "bytes": 139626,
+      "gitBlobSha1": "e5af4ccf9913729945667bbc0f81f6d7177656b1"
+    },
+    {
+      "path": "portfolio-content/oil-influencer-qa.mp4",
+      "bytes": 2491449,
+      "gitBlobSha1": "502a1c52143b0f758e4130b9ea552a76124afa65"
+    },
+    {
+      "path": "portfolio-content/oil-liuxiaoqing.mp4",
+      "bytes": 2236563,
+      "gitBlobSha1": "d051961be1bdd4340cb539390a5711cfab590bc9"
+    },
+    {
+      "path": "portfolio-content/oil-sebum-education.mp4",
+      "bytes": 2667551,
+      "gitBlobSha1": "374d3a717560c142910c1c590914080243b1073d"
+    },
+    {
+      "path": "portfolio-content/oil-sebum-explanation.png",
+      "bytes": 184432,
+      "gitBlobSha1": "6cb82c13c30548f705d9f9bd7d55b50030ce5da4"
+    },
+    {
+      "path": "portfolio-content/oil-sebum-needs.png",
+      "bytes": 178390,
+      "gitBlobSha1": "88b742a55a711c21d4f0558e043ba494506aa076"
+    },
+    {
+      "path": "portfolio-content/oil-tutorial.mp4",
+      "bytes": 2979154,
+      "gitBlobSha1": "d930289a595bd5966fe591c98759273ed965675a"
+    },
+    {
+      "path": "portfolio-content/project.md",
+      "bytes": 9991,
+      "gitBlobSha1": "0a8aaacb344bc2c824b97a7314eb1e2f57a8eb2d"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/2026-10-29-original-assets.md",
+      "bytes": 3334,
+      "gitBlobSha1": "0be6f63868298c00fd605ca8cb726bc8746d8739"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/README.md",
+      "bytes": 3090,
+      "gitBlobSha1": "b3cd91798b5b4ad21d7acbc9dafeb01fc80bee04"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/asset-manifest.json",
+      "bytes": 5672,
+      "gitBlobSha1": "97f81f0312778066d7fb68bcb09bb697f8a73d29"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/README.md",
+      "bytes": 1888,
+      "gitBlobSha1": "115fc34c424a2ec0bed7b8760e5318f0c084a778"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/asset-manifest.json",
+      "bytes": 1198,
+      "gitBlobSha1": "61f7d524b522a9f69d6027714b03f328e0ab3130"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/cleanser-content-wireframes.pdf",
+      "bytes": 97486,
+      "gitBlobSha1": "4d64f374941af3ec343a3bad9eeea9ac3a9d978a"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/core-finished.jpg",
+      "bytes": 194341,
+      "gitBlobSha1": "64816c4f7295dd5a9f0bb3e0901f3ac5a6b9374b"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/core-finished.webp",
+      "bytes": 40870,
+      "gitBlobSha1": "3491dc0163c454a211508472eb8c69864f3b4fd7"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/core-wireframe.webp",
+      "bytes": 30508,
+      "gitBlobSha1": "09297a931e9e33b067990b8b012e42888eba87f4"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/ingredients-finished.jpg",
+      "bytes": 130130,
+      "gitBlobSha1": "11ebee42a9b28cf33c89908ba365617f538b6593"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/ingredients-finished.webp",
+      "bytes": 59556,
+      "gitBlobSha1": "39a5db3f332079f7da8ef0e10fb46a0d02206560"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/ingredients-wireframe.webp",
+      "bytes": 52854,
+      "gitBlobSha1": "e1cd6aac6156e79c598a8150196dcdfa6062fade"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/originals/WechatIMG156.jpg",
+      "bytes": 274967,
+      "gitBlobSha1": "9f5185774cb1cf549250a0c7e05be6be3a501204"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/originals/WechatIMG159.jpg",
+      "bytes": 82596,
+      "gitBlobSha1": "a11ba8feb0697dfa9627a79a9ea3fb44ec8ecc8f"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/originals/洁面三张_内容营销简版线稿.pdf",
+      "bytes": 97486,
+      "gitBlobSha1": "4d64f374941af3ec343a3bad9eeea9ac3a9d978a"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/originals/逆时光洁颜霜海报.jpg",
+      "bytes": 464042,
+      "gitBlobSha1": "f5cf999dc26f1b1dbd766ca71da53c15e6f7e201"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/texture-finished.jpg",
+      "bytes": 179283,
+      "gitBlobSha1": "7cc298a71f27b0b344ddd249b3af9f4589310620"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/texture-finished.webp",
+      "bytes": 55356,
+      "gitBlobSha1": "44ee19899910613185078ff7385e26d25d1acfbb"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/cleanser/texture-wireframe.webp",
+      "bytes": 35846,
+      "gitBlobSha1": "b03beb48c4acc9bd3f65ff198abbe427c8d6dbe8"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/README.md",
+      "bytes": 1824,
+      "gitBlobSha1": "d2f58e8d1e502acedfbe9ada7ad885a52f5c877e"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/asset-manifest.json",
+      "bytes": 1125,
+      "gitBlobSha1": "719a898117501dad8b844e1e682c8a17187dfb84"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/data-finished.jpg",
+      "bytes": 231678,
+      "gitBlobSha1": "cc1f2d8f8d3e080b4661a4b883799e40b6111a6f"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/data-finished.webp",
+      "bytes": 78872,
+      "gitBlobSha1": "add6dc86eae8b2bcc232561cf88c91377c5f16c6"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/data-wireframe.webp",
+      "bytes": 45522,
+      "gitBlobSha1": "62caf64eb9cdc878e999f57c6995b9e760ae76ff"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/day-finished.jpg",
+      "bytes": 190771,
+      "gitBlobSha1": "f0bebe11e9fd39a29b127c5c2d6351b524e60ece"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/day-finished.webp",
+      "bytes": 55140,
+      "gitBlobSha1": "77c2635b2518df224c2ad38dfef2aca547b01b25"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/day-wireframe.webp",
+      "bytes": 41684,
+      "gitBlobSha1": "109268ff9f34797b5ff37db88af086056ddb9acf"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/night-finished.jpg",
+      "bytes": 171994,
+      "gitBlobSha1": "de51abd0885cbcc5ca3cc1ba8a9e7babff4ad3dd"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/night-finished.webp",
+      "bytes": 54418,
+      "gitBlobSha1": "c3049f27859f06233e503a5480b1a1bc4f3324f8"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/night-wireframe.webp",
+      "bytes": 44910,
+      "gitBlobSha1": "44c67f1bc640df7f80821127be9b8a0b51c8841c"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/oil-content-wireframes.pdf",
+      "bytes": 128329,
+      "gitBlobSha1": "8a3e5efb476f7eeea7e721d4efd091798df55988"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/originals/23image.jpg",
+      "bytes": 195808,
+      "gitBlobSha1": "8294420d97fe9e55da32d5d84d898471ad8a6839"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/originals/i34mage.jpg",
+      "bytes": 180014,
+      "gitBlobSha1": "095affb0561e9dea9a1ac624545ef698c473ef95"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/originals/image.png",
+      "bytes": 990251,
+      "gitBlobSha1": "f1586df3203479bc352c5d91c9434166201788a1"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/essence-oil/originals/精华油三张_内容营销简版线稿.pdf",
+      "bytes": 128329,
+      "gitBlobSha1": "8a3e5efb476f7eeea7e721d4efd091798df55988"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/png/00_整组线稿总览.png",
+      "bytes": 578976,
+      "gitBlobSha1": "7bd2c94d2bb454d1f9d1bf4a01aee2b516c139ca"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/png/01A_童颜面膜_主海报.png",
+      "bytes": 113046,
+      "gitBlobSha1": "57c7d9bf1d92dc6b34a5ad0d0e98a19c273da408"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/png/01B_童颜面膜_卖点页.png",
+      "bytes": 129063,
+      "gitBlobSha1": "64407b647dcc64e28bae1f07f4382abf01b6d3ca"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/png/02A_防晒_主海报.png",
+      "bytes": 103272,
+      "gitBlobSha1": "9ac2ca6d3704492ff9983beb285083599b29c877"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/png/02B_防晒_卖点页.png",
+      "bytes": 132803,
+      "gitBlobSha1": "714b64378ac700596e69f0a46544790796eb365c"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/png/03A_精华油_主海报.png",
+      "bytes": 112670,
+      "gitBlobSha1": "2319aea56b2476fcdda6d100bd09349d6cce2690"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/png/03B_精华油_卖点页.png",
+      "bytes": 125481,
+      "gitBlobSha1": "5ac345b6dd6fff09d5d5e897eff13bfeb4f6ed1f"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/png/04A_洁面_主海报.png",
+      "bytes": 108879,
+      "gitBlobSha1": "398dcbfc800d0d0be5aa5b64256b9f68734e1b62"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/png/04B_洁面_卖点页.png",
+      "bytes": 125445,
+      "gitBlobSha1": "52da2642ddd64cb691cf1eff5284601050f8f577"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/source-originals-manifest.json",
+      "bytes": 9796,
+      "gitBlobSha1": "88d2f058058efdb70fc7128f1feb2e1edc72b329"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/README.md",
+      "bytes": 2292,
+      "gitBlobSha1": "ca0fe1becc75c50c4eaa4de0ce3ddd773110947c"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/asset-manifest.json",
+      "bytes": 1525,
+      "gitBlobSha1": "249987d3274ec70d6bdf278ca117ebdb4fdd3765"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/feedback-finished.jpg",
+      "bytes": 437509,
+      "gitBlobSha1": "fac0e6a9a28e82315cc3e454121545c6ae3d7654"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/feedback-finished.webp",
+      "bytes": 100354,
+      "gitBlobSha1": "c59746bb492dcc72f53626c3c17c2830837b1377"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/feedback-wireframe.webp",
+      "bytes": 51578,
+      "gitBlobSha1": "8b54582789622cb1c4afa980ed81212f3ab182b7"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/launch-finished.jpg",
+      "bytes": 162180,
+      "gitBlobSha1": "061047170bf7ad7339ff562e554ec765078b02b8"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/launch-finished.webp",
+      "bytes": 45452,
+      "gitBlobSha1": "26331b361b78472b4b0ca6936bec0698b6d1b790"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/launch-wireframe.webp",
+      "bytes": 46934,
+      "gitBlobSha1": "9fa94df6719d0a6b44338a83bab2c7ba09db7568"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/originals/1mage.jpg",
+      "bytes": 466314,
+      "gitBlobSha1": "b41e565eae31b44410d04d979cb318535ebf2590"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/originals/2image.jpg",
+      "bytes": 323701,
+      "gitBlobSha1": "1ec890111bca60d750095e7a33b877e3979ca03d"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/originals/5image.jpg",
+      "bytes": 912617,
+      "gitBlobSha1": "dfc073351c12d3e7f57660aaf007d2ce9b8d7f0f"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/originals/image.jpg",
+      "bytes": 338458,
+      "gitBlobSha1": "1c5f381a1defe61cb6a501c675596ee17cd852bf"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/originals/防晒四张_内容营销简版线稿.pdf",
+      "bytes": 153692,
+      "gitBlobSha1": "5bc4590ae562f7cc07be08381cf2fff4433aeb58"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/sunscreen-content-wireframes.pdf",
+      "bytes": 153692,
+      "gitBlobSha1": "5bc4590ae562f7cc07be08381cf2fff4433aeb58"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/texture-finished.jpg",
+      "bytes": 156034,
+      "gitBlobSha1": "d8a7fc3987f0f2db7ef641ae9b19d6f66ca02f4d"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/texture-finished.webp",
+      "bytes": 47246,
+      "gitBlobSha1": "911b000511a5914f77218deb57676d0a9883ce8d"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/texture-wireframe.webp",
+      "bytes": 39768,
+      "gitBlobSha1": "aeacbb4f2d9eea34a5c49a9b6879e119a25cc75f"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/value-finished.jpg",
+      "bytes": 208954,
+      "gitBlobSha1": "c541b83c5f8007b4a7ae6e9bbc68306b238cbf97"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/value-finished.webp",
+      "bytes": 66834,
+      "gitBlobSha1": "845c1fc4d7653166199a7527cbd3471c0e7001d9"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/sunscreen/value-wireframe.webp",
+      "bytes": 43374,
+      "gitBlobSha1": "ad8806d3da06fba086f3b7b85ccd0acc3b0b2823"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/svg/00_整组线稿总览.svg",
+      "bytes": 52852,
+      "gitBlobSha1": "f27b556791e35c8683851adcd79ac36421de2e1c"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/svg/01A_童颜面膜_主海报.svg",
+      "bytes": 6066,
+      "gitBlobSha1": "11a9b1c1c6c191c262cfedf7370c840507baccdc"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/svg/01B_童颜面膜_卖点页.svg",
+      "bytes": 5946,
+      "gitBlobSha1": "276def7ff78328131b7426f73aa702dc748aa9c2"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/svg/02A_防晒_主海报.svg",
+      "bytes": 6324,
+      "gitBlobSha1": "a49f3d119b2f6f059f0554da3cc2192cfdf004f2"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/svg/02B_防晒_卖点页.svg",
+      "bytes": 5972,
+      "gitBlobSha1": "0e01896bdeff88069586df027b6b2e2a2210bcd7"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/svg/03A_精华油_主海报.svg",
+      "bytes": 5215,
+      "gitBlobSha1": "aab9cafda0bb03597566981f0d17f1a0b2d0d80a"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/svg/03B_精华油_卖点页.svg",
+      "bytes": 6577,
+      "gitBlobSha1": "a79ccf2eb57306501f840e148c6e9b6b0e052d90"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/svg/04A_洁面_主海报.svg",
+      "bytes": 5404,
+      "gitBlobSha1": "e334d925435aa7321af446d0527bbba40c1a2663"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/svg/04B_洁面_卖点页.svg",
+      "bytes": 5922,
+      "gitBlobSha1": "b70f003932a9a66423c4e45b790f39dd5d9d06db"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/README.md",
+      "bytes": 2013,
+      "gitBlobSha1": "8d1eb4de5f382151b50d371d51c459e3b3777928"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/asset-manifest.json",
+      "bytes": 1544,
+      "gitBlobSha1": "2e74b4a5eb4adca9007d0bc0087935c7e95bb6cf"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/comparison-finished.jpg",
+      "bytes": 234409,
+      "gitBlobSha1": "00d134573adb227a847b7ab370976e5be8721897"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/comparison-finished.webp",
+      "bytes": 75426,
+      "gitBlobSha1": "9ac72940072e28eb442ced602e60b0ce298a49a6"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/comparison-wireframe.webp",
+      "bytes": 69332,
+      "gitBlobSha1": "5e8453287da4959d5244e0aee1bfdf7111b08876"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/documents-finished.jpg",
+      "bytes": 242241,
+      "gitBlobSha1": "cdd4a71da26c5caaee76156eba51eaebfcb9443b"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/documents-finished.webp",
+      "bytes": 80506,
+      "gitBlobSha1": "9d336682622e8516fdd5129e43de2e0581eb89f8"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/documents-wireframe.webp",
+      "bytes": 56034,
+      "gitBlobSha1": "3f9e650445a5c7cf38872bd32d4ac02472d007dc"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/dual-finished.jpg",
+      "bytes": 217041,
+      "gitBlobSha1": "4baf12ddc4bb0e2f2c49dd447b4aaaa8901d6f34"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/dual-finished.webp",
+      "bytes": 69396,
+      "gitBlobSha1": "fb91c9832bb78137d630e83fefac9ead87355134"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/dual-wireframe.webp",
+      "bytes": 52336,
+      "gitBlobSha1": "5c55d6bf49ffe24f5dfd694043c0261f6eb1e2e4"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/ingredients-finished.jpg",
+      "bytes": 386517,
+      "gitBlobSha1": "8cf7cca5851b670a121892b4a5647543edd5c74c"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/ingredients-finished.webp",
+      "bytes": 136002,
+      "gitBlobSha1": "730b43ab1263acdfa297f8c38f1ca221ea14967b"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/ingredients-wireframe.webp",
+      "bytes": 69378,
+      "gitBlobSha1": "cf457aa360deba4b2116c366bf4a22e29c9442cb"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/mask-content-wireframes.pdf",
+      "bytes": 183738,
+      "gitBlobSha1": "de10c254d5716eeaf6fb934b5480d330de7143c9"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/originals/图4.png",
+      "bytes": 751051,
+      "gitBlobSha1": "4666528e20fc4a9e25ae82d8ad4717bf4bedfe82"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/originals/图片5.png",
+      "bytes": 1282242,
+      "gitBlobSha1": "2807c1756061ae54018b37935a50186723ce2bad"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/originals/图片6.png",
+      "bytes": 669333,
+      "gitBlobSha1": "9c8315031e2879ae9908356d5c1b8c00c69c2bc6"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/originals/图片7.png",
+      "bytes": 783008,
+      "gitBlobSha1": "33bcafd69bdd685085c66fc4cbbc0bf042162cf0"
+    },
+    {
+      "path": "portfolio-content/skincare-wireframes/tongyan-mask/originals/童颜面膜四张_内容营销简版线稿.pdf",
+      "bytes": 183738,
+      "gitBlobSha1": "de10c254d5716eeaf6fb934b5480d330de7143c9"
+    },
+    {
+      "path": "portfolio-content/sunscreen/README.md",
+      "bytes": 2392,
+      "gitBlobSha1": "c47e20b68da15926b8271348d87792deff29da99"
+    },
+    {
+      "path": "portfolio-content/sunscreen/asset-manifest.json",
+      "bytes": 28542,
+      "gitBlobSha1": "e14e45e3a40abad81532871635227e5850df77fe"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/detail/detail-01.png",
+      "bytes": 3036157,
+      "gitBlobSha1": "5ef3802e94d578effcad5286127ad7c433354a5a"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/detail/detail-02.png",
+      "bytes": 2148812,
+      "gitBlobSha1": "57e1238454c3840989bcec444e7d9c20355436b1"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/detail/detail-03.png",
+      "bytes": 1696545,
+      "gitBlobSha1": "ed8b951bbab5b94e4782422b15a0736279833c23"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/detail/detail-04.png",
+      "bytes": 4526912,
+      "gitBlobSha1": "4ebf0c44af0fd03a787e36d1840bb8c48fc25824"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/detail/detail-05.png",
+      "bytes": 1540907,
+      "gitBlobSha1": "38b84c181fccec941a4800f6a66d0b0a0de47bb2"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/detail/detail-06.png",
+      "bytes": 1519125,
+      "gitBlobSha1": "dfbab8a1e24bbc9b67e027f2267da6a0ab7b22e5"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/detail/detail-07.png",
+      "bytes": 3118430,
+      "gitBlobSha1": "583cbf1aa18cfc9ffbc22e16ef75a372364d4ea5"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/detail/sunscreen-detail-full.jpg",
+      "bytes": 6000451,
+      "gitBlobSha1": "4185f8e3ab7b532459672d1f64a3393fbd93d8bf"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/moments/01-evidence.png",
+      "bytes": 106583,
+      "gitBlobSha1": "569a77f852c23c01a3e051d9eb32dead0316271f"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/moments/01-evidence.txt",
+      "bytes": 173,
+      "gitBlobSha1": "a485ec94cbab65f4093e2299a88407e738f3f638"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/moments/02-essence-value.png",
+      "bytes": 500170,
+      "gitBlobSha1": "08da019490fd91bc1c0dbfadd2c4106ffcaf0362"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/moments/02-essence-value.txt",
+      "bytes": 131,
+      "gitBlobSha1": "51c63acc9910b414e09f7ca48e4daaa3f2ec8969"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/moments/03-routine.png",
+      "bytes": 185312,
+      "gitBlobSha1": "e16e7254257c98266bf7ec463e1708aa4da3ad7d"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/moments/03-routine.txt",
+      "bytes": 124,
+      "gitBlobSha1": "2f6c0786570bcf6a61fd8f38e7ef7c5ac1ce02ac"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/sales/private-sales-source.docx",
+      "bytes": 14687,
+      "gitBlobSha1": "102d2fe4503375b59a8947c08131dbf29075f104"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/sales/private-sales-text.txt",
+      "bytes": 5769,
+      "gitBlobSha1": "756e4c89a37736ac415fd800e9637e759f37c72e"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer3-002.jpg",
+      "bytes": 151605,
+      "gitBlobSha1": "e5aba0ec71a97f4f02e1f1e454bed92c4b4c36d1"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer3-012.jpg",
+      "bytes": 154569,
+      "gitBlobSha1": "02d2e5751e992142bb17a0d26e16a308e68d8f11"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer3-024.jpg",
+      "bytes": 163973,
+      "gitBlobSha1": "740b9370cfe0adb8e71ec5186bc7bd63d6722f6d"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer3-033.jpg",
+      "bytes": 196743,
+      "gitBlobSha1": "eda0d52754910bff032407ada0e2534c9d4f1520"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer3-050.jpg",
+      "bytes": 149164,
+      "gitBlobSha1": "2f41ca3fc94de6e22fc24f53ce4e374e48decc18"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer3-055.jpg",
+      "bytes": 166526,
+      "gitBlobSha1": "bb3e682a122d5dd1a0c16dae25d60db2505f827a"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer3-058.jpg",
+      "bytes": 180019,
+      "gitBlobSha1": "75b075d9842718f91514b966459b630a9188c7a2"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer3-073.jpg",
+      "bytes": 170893,
+      "gitBlobSha1": "d00d86ee15e849221884238ef5cc9d9bbb473ac9"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer3-085.jpg",
+      "bytes": 284673,
+      "gitBlobSha1": "3447ce5b79efee93ed01a4e327c16d0e12e1bfb8"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer3-090.jpg",
+      "bytes": 168757,
+      "gitBlobSha1": "ad84e88a0a4c325a77787d0f708334410c452470"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer3-100.jpg",
+      "bytes": 216925,
+      "gitBlobSha1": "83c4f41531d8d8aeed26ba10cd2faeb374258a09"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer3-114.jpg",
+      "bytes": 163256,
+      "gitBlobSha1": "ed88b41d6beeee897a39231b482f70be84f6092b"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer3-118.jpg",
+      "bytes": 162011,
+      "gitBlobSha1": "41f85553597f8ccd80d381c6e531a297f1740add"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer4-004.jpg",
+      "bytes": 162766,
+      "gitBlobSha1": "776c2e949c320085f21a6e84e7aea73c6a7c91ae"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer4-009.jpg",
+      "bytes": 149660,
+      "gitBlobSha1": "c4529d1f489137b269c7509d8b70df100119bd56"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer4-014.jpg",
+      "bytes": 173720,
+      "gitBlobSha1": "3a2d2c6589b0fd1a148f4ac0e4bd42b4067dfe29"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer4-023.jpg",
+      "bytes": 172540,
+      "gitBlobSha1": "dd71db1f96c476f75e7457243e1edad37e88f64c"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer4-028.jpg",
+      "bytes": 134751,
+      "gitBlobSha1": "4c3437cf37a511fdef398545930ce8ba04b3c1aa"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer4-033.jpg",
+      "bytes": 149831,
+      "gitBlobSha1": "f73435fcb08a81ae593df02d96206cc945495427"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer4-038.jpg",
+      "bytes": 191791,
+      "gitBlobSha1": "f09075b14bbafec2d49f3b32a0c8533238bc6808"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer4-045.jpg",
+      "bytes": 270182,
+      "gitBlobSha1": "d825afe758c289928add9d86187a90b6504c0bf7"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer4-051.jpg",
+      "bytes": 204466,
+      "gitBlobSha1": "ea9aed89aee1a2f167dff1dea44a96d35f76e68e"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer4-054.jpg",
+      "bytes": 200636,
+      "gitBlobSha1": "35ade1622a12aaa533a4dfd67df64378a73658e3"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer4-058.jpg",
+      "bytes": 158457,
+      "gitBlobSha1": "8bb9b8ae595de1edc2a7aefaf91d0f477df9af03"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer4-067.jpg",
+      "bytes": 160742,
+      "gitBlobSha1": "1f5a2c613268f51d15af32505a32b0526dc781b3"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/influencer4-072.jpg",
+      "bytes": 165130,
+      "gitBlobSha1": "0305c3f907fd8cd9becf0b303b0e79fb3fb13429"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/liying-000.jpg",
+      "bytes": 164615,
+      "gitBlobSha1": "bcf500d62a15529a3cad0b383566204a856cd571"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/liying-041.jpg",
+      "bytes": 166203,
+      "gitBlobSha1": "c7200e9d4dc7f574e71b066b5c8bc604a0687269"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/liying-051.jpg",
+      "bytes": 149023,
+      "gitBlobSha1": "a69c8b330b053d5f94e4d3aa13c3b65e707271db"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/liying-064.jpg",
+      "bytes": 170104,
+      "gitBlobSha1": "8f8b37b73de641bda0883fde99ffeb744d35c017"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/liying-072.jpg",
+      "bytes": 194797,
+      "gitBlobSha1": "80e00bf6e4d51950a9dd8d74f1d4a9939a873747"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/liying-092.jpg",
+      "bytes": 185146,
+      "gitBlobSha1": "f3d606860b1e5eb231635e9f80048e62cc46ea8a"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/liying-104.jpg",
+      "bytes": 191427,
+      "gitBlobSha1": "c94b9127e47969629507137ec05b44670245b3fd"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/xiang-007.jpg",
+      "bytes": 120974,
+      "gitBlobSha1": "17b33e577406fedc59290ee6222fe47483f2a65b"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/xiang-035.jpg",
+      "bytes": 126455,
+      "gitBlobSha1": "ece5a99a152dfb1a7e5027efab91b16bd20b2ebd"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/xiang-047.jpg",
+      "bytes": 88920,
+      "gitBlobSha1": "0df70a2be4fa37895caf780176b7903accb0e029"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/xiang-052.jpg",
+      "bytes": 96177,
+      "gitBlobSha1": "d90254951ab16c001f4ec3417384e3fa3e786c76"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/xiang-074.jpg",
+      "bytes": 91381,
+      "gitBlobSha1": "241dede04353f8f579d9d436e75f2c173862376c"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/xiang-095.jpg",
+      "bytes": 97001,
+      "gitBlobSha1": "9bd1b19cdfcc6dd04408010192fd0e41e01fdf12"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/xiang-112.jpg",
+      "bytes": 129128,
+      "gitBlobSha1": "de43bdd8031287a871ff4414bc67dba0ad670dee"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/xiang-119.jpg",
+      "bytes": 133732,
+      "gitBlobSha1": "d18af4bf368efdb51353ebd7110a1aceef341316"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/xiang-136.jpg",
+      "bytes": 109906,
+      "gitBlobSha1": "7764ae3905b6ed9ac8865f7556384168bf1f249f"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/xiang-146.jpg",
+      "bytes": 119336,
+      "gitBlobSha1": "12ed4503c7d9586ef32b11b5fe19d493c0f11649"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/xiang-154.jpg",
+      "bytes": 105577,
+      "gitBlobSha1": "7e9aa8876d024d854e6b87a6cdeb1d75ff16d877"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/xiang-158.jpg",
+      "bytes": 74309,
+      "gitBlobSha1": "663872388e2430000837f7cd69bc71e100f9c680"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/video-stills/xiang-171.jpg",
+      "bytes": 136350,
+      "gitBlobSha1": "605fedf394e36b7478a9d293a02dad4971575908"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/videos/sunscreen-influencer-03.mp4",
+      "bytes": 3558808,
+      "gitBlobSha1": "8434159dc85c5ea21d8ddbee5ffcd6b9f80f558a"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/videos/sunscreen-influencer-04.mp4",
+      "bytes": 2145781,
+      "gitBlobSha1": "cf3a010453753a05883e1536cd7f5aa8f847a05c"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/videos/sunscreen-liying.mp4",
+      "bytes": 3430471,
+      "gitBlobSha1": "0f0c5552f9931ccc49446a2ab52d2fc2663100a8"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/videos/sunscreen-xianghailan.mp4",
+      "bytes": 5066021,
+      "gitBlobSha1": "0ad2b08f46d6db00fb4b85e1cfb28b7f9cd5a145"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/wechat/sunscreen-launch-article.pdf",
+      "bytes": 2570171,
+      "gitBlobSha1": "8dea9c376c68f87b2fbcee6e7d07808ef449191d"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/wechat/wechat-01.png",
+      "bytes": 749752,
+      "gitBlobSha1": "1ece57c6666959b8da6576993a051ff059d778ad"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/wechat/wechat-02.png",
+      "bytes": 608711,
+      "gitBlobSha1": "1942bc59027246ee25cc5238779161f44cbbb183"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/wechat/wechat-03.png",
+      "bytes": 750678,
+      "gitBlobSha1": "5b507ce56bd821dccda3775eef2bc9f20077e2f7"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/wechat/wechat-04.png",
+      "bytes": 914098,
+      "gitBlobSha1": "4d86a1166bdeeab6a382964cebfdd686a5cc091c"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/wechat/wechat-05.png",
+      "bytes": 290761,
+      "gitBlobSha1": "d1239ad2ba013b889c4732523bf539ae5b6e934f"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/wechat/wechat-06.png",
+      "bytes": 638497,
+      "gitBlobSha1": "23a17845892eafba2850bfbf4dfa07a76cfecf20"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/wechat/wechat-07.png",
+      "bytes": 547144,
+      "gitBlobSha1": "96d1e3bbd6b42b68efc0113a2d7951a14b12d7df"
+    },
+    {
+      "path": "portfolio-content/sunscreen/assets/wechat/wechat-08.png",
+      "bytes": 660367,
+      "gitBlobSha1": "e78ce301a2190b278459bb0747f8e4a428f77a1e"
+    },
+    {
+      "path": "portfolio-content/sunscreen/content.json",
+      "bytes": 6379,
+      "gitBlobSha1": "52e8a4485f4f7c90d95fbbfd77414dfa07071dbd"
+    },
+    {
+      "path": "portfolio-content/sunscreen/developer-handoff.md",
+      "bytes": 2821,
+      "gitBlobSha1": "67bc891d78bc02bae24ae31627eb54a7e65401dd"
+    },
+    {
+      "path": "portfolio-content/sunscreen/docs/celebrity-video-analysis.md",
+      "bytes": 10986,
+      "gitBlobSha1": "d6d0ec96482b93f9e83b440c1d6c97b163bd8df8"
+    },
+    {
+      "path": "portfolio-content/sunscreen/docs/detail-analysis.md",
+      "bytes": 9520,
+      "gitBlobSha1": "4291ee5c32d4d51a57723dfa894d36344750fdab"
+    },
+    {
+      "path": "portfolio-content/sunscreen/docs/influencer-video-analysis.md",
+      "bytes": 8765,
+      "gitBlobSha1": "5a1ffc3730f21f2991de7e9983785f45b45f3c98"
+    },
+    {
+      "path": "portfolio-content/sunscreen/docs/moments-analysis.md",
+      "bytes": 7691,
+      "gitBlobSha1": "6f6ef99a354fd8d300c969a8971129579228020d"
+    },
+    {
+      "path": "portfolio-content/sunscreen/docs/private-sales-analysis.md",
+      "bytes": 7032,
+      "gitBlobSha1": "966c90181c330f5715af3d2a840f9bf3cbfff0bc"
+    },
+    {
+      "path": "portfolio-content/sunscreen/docs/selling-point-strategy.md",
+      "bytes": 8997,
+      "gitBlobSha1": "3a9f78646cd5d8251ea0e011687e8eddded0b5b7"
+    },
+    {
+      "path": "portfolio-content/sunscreen/docs/video-01-structure.md",
+      "bytes": 2487,
+      "gitBlobSha1": "95924079a77f29b5c0240894a90f29e764b92477"
+    },
+    {
+      "path": "portfolio-content/sunscreen/docs/video-02-structure.md",
+      "bytes": 4686,
+      "gitBlobSha1": "bc0693fb8d74c72cfd57b31a321dc04b7f82a3f6"
+    },
+    {
+      "path": "portfolio-content/sunscreen/docs/video-03-structure.md",
+      "bytes": 4459,
+      "gitBlobSha1": "25ecf2f51063638c38d15852f38d9845d24eee01"
+    },
+    {
+      "path": "portfolio-content/sunscreen/docs/video-04-structure.md",
+      "bytes": 3984,
+      "gitBlobSha1": "dc9989e57fba2695aea86384979f2a1e8557a731"
+    },
+    {
+      "path": "portfolio-content/sunscreen/docs/wechat-analysis.md",
+      "bytes": 8804,
+      "gitBlobSha1": "6e7d797b204137e5bbfa3296f9ee235cbf1bf7fe"
+    },
+    {
+      "path": "portfolio-content/sunscreen/project.md",
+      "bytes": 11989,
+      "gitBlobSha1": "2215bd7aadbb8fd27a8a618103f348fc633dc2be"
+    },
+    {
+      "path": "portfolio-content/sunscreen/selected-materials.md",
+      "bytes": 3609,
+      "gitBlobSha1": "50ea57c22f29be9d3181f98cbd3c4374e850314c"
+    },
+    {
+      "path": "portfolio-content/sunscreen/video-metadata.json",
+      "bytes": 1079,
+      "gitBlobSha1": "931af49a95105ced053a3bae2a79fb6269b793aa"
+    },
+    {
+      "path": "portfolio-content/sunscreen/video-redaction-metadata.json",
+      "bytes": 396,
+      "gitBlobSha1": "769c6ab8c1f5c1632bc7769ee8b9b987b44c3559"
+    },
+    {
+      "path": "portfolio-content/sunscreen/防晒作品集内容.md",
+      "bytes": 63750,
+      "gitBlobSha1": "a9134ad363a72c328fc58c2fcaadaa36ab3fccc6"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/README.md",
+      "bytes": 2507,
+      "gitBlobSha1": "25f9497e503080c8797767242df48ebb5afff41f"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/asset-manifest.json",
+      "bytes": 15861,
+      "gitBlobSha1": "202977b2f3b35d37a779bab2d3833c01a94a581d"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/candidates/candidate-01.jpg",
+      "bytes": 590826,
+      "gitBlobSha1": "2dc22fe99f638c0aa26767873449284f7fa6a4e7"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/candidates/candidate-02.jpg",
+      "bytes": 520825,
+      "gitBlobSha1": "869d50badd86c8bc63539030dbfe71e314dcfb4b"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/candidates/candidate-03.jpg",
+      "bytes": 384533,
+      "gitBlobSha1": "fcabfed8a913f48a17e571567b3c422f578c5984"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/candidates/candidate-04.jpg",
+      "bytes": 232459,
+      "gitBlobSha1": "c03f434d3d830fdd7e2745d0274ef2e5f08197a9"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/detail/detail-01.jpg",
+      "bytes": 3641104,
+      "gitBlobSha1": "5693eb94a09a339c974f29b72e018d1e64407989"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/detail/detail-02.jpg",
+      "bytes": 2114818,
+      "gitBlobSha1": "d1507338f394c7046a762a6280c1c78dd83867fd"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/live/order-01.png",
+      "bytes": 336780,
+      "gitBlobSha1": "69e9d41a9c5e7c9753fd790d5a72760f09b908d6"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/live/order-02.png",
+      "bytes": 342350,
+      "gitBlobSha1": "d789299efa8051fc1821fc89639aa9d94f87ba33"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/live/order-03.png",
+      "bytes": 321569,
+      "gitBlobSha1": "349e33e087580d02ded207bc39f71eacceb906a3"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/live/product-01.png",
+      "bytes": 358403,
+      "gitBlobSha1": "f615a30c84a23b1d77586ead76b01fef103d06a4"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/live/product-02.png",
+      "bytes": 329504,
+      "gitBlobSha1": "6b626a309e540ad71e99a9d1cb5e7e0a80f42831"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/live/product-03.png",
+      "bytes": 369012,
+      "gitBlobSha1": "51a1499517016ed3e8a2a67af95ef9bb46aefe3e"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/live/product-04.png",
+      "bytes": 394688,
+      "gitBlobSha1": "390cdcdd72b11010367cb7089daf561480f4392f"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/live/product-05.png",
+      "bytes": 292560,
+      "gitBlobSha1": "8782592d821a1efd0c4d041ebc36ee895d7fa713"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/live/product-06.png",
+      "bytes": 286518,
+      "gitBlobSha1": "17ba3803d5744d4dc01465763fb251d9e66c0b1e"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/live/product-07.png",
+      "bytes": 339365,
+      "gitBlobSha1": "7b9204d82fcf859bc2d563464264bf80152642eb"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/live/product-08.png",
+      "bytes": 286327,
+      "gitBlobSha1": "8e5982f6ec1bb7b8037e93f397a996b24b7c739d"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/live/sop-initial.png",
+      "bytes": 501380,
+      "gitBlobSha1": "5b25ea33f109d47ff7d78589159f859b4ea902e8"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/live/sop-initial.pptx",
+      "bytes": 39449,
+      "gitBlobSha1": "55e0c9f78942abd530d574102a5087306de7cec6"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/live/sop-with-order-guidance.png",
+      "bytes": 523252,
+      "gitBlobSha1": "c587d9f8789f3ba8beff6b1e34ae91e50913c028"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/live/sop-with-order-guidance.pptx",
+      "bytes": 40348,
+      "gitBlobSha1": "4df93c86830665a36f228e4ac0a5c7ed5fe724eb"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/moments/01-upgrade.png",
+      "bytes": 589421,
+      "gitBlobSha1": "3848b7132d3ad8941a232e219d7674cd67521d1c"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/moments/01-upgrade.txt",
+      "bytes": 149,
+      "gitBlobSha1": "0950245942f76ead7494469294da9de3ed710dca"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/moments/02-reassurance.png",
+      "bytes": 184299,
+      "gitBlobSha1": "170bd6d974ef21f611a551a4384e45589f7f90d9"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/moments/02-reassurance.txt",
+      "bytes": 141,
+      "gitBlobSha1": "07da2681a87e466db1cdaf7a508174dd2854ae50"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/moments/03-result-expression.png",
+      "bytes": 122842,
+      "gitBlobSha1": "cd2643c6ee77e8b2f5ad6404c8385a9e1e90483b"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/moments/03-result-expression.txt",
+      "bytes": 166,
+      "gitBlobSha1": "c63254f61330d243dbd1874ea08ac30da6410be1"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/video-stills/celebrity-004.jpg",
+      "bytes": 39976,
+      "gitBlobSha1": "d643b55b088d839e489b80c190e906d1de43f831"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/video-stills/celebrity-045.jpg",
+      "bytes": 43229,
+      "gitBlobSha1": "4e336df44130eb564c63ccd4d0bcdc39407f9b49"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/video-stills/celebrity-089.jpg",
+      "bytes": 34217,
+      "gitBlobSha1": "ac4675d65b35cf065cbddb3034be50b1fa0ca528"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/video-stills/celebrity-103.jpg",
+      "bytes": 40927,
+      "gitBlobSha1": "b2ccf0496aa510c543d296d39cc0a2dd3e959487"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/video-stills/celebrity-134.jpg",
+      "bytes": 42280,
+      "gitBlobSha1": "cfad6a20e9a34557ecad834e34c81e68c8da6472"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/video-stills/story-010.jpg",
+      "bytes": 42152,
+      "gitBlobSha1": "c70b589646cc25bf66cc83d4cc8d6a509201d3e2"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/video-stills/story-035.jpg",
+      "bytes": 48271,
+      "gitBlobSha1": "f95220a6869a6d750d457eebabeb717ae40977d1"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/video-stills/story-105.jpg",
+      "bytes": 46720,
+      "gitBlobSha1": "7345984467bac9e680433e4e6b58bb673d7c6600"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/video-stills/story-132.jpg",
+      "bytes": 39998,
+      "gitBlobSha1": "65db6b525780a3a7190507885777eda525a025f9"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/video-stills/story-150.jpg",
+      "bytes": 36446,
+      "gitBlobSha1": "23236db2607494542fbe0e7c7063d903e2bc2dca"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/video-stills/tutorial-000.jpg",
+      "bytes": 36467,
+      "gitBlobSha1": "9044d3625a6c3a1bae9172702ff4cf19d1a00961"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/video-stills/tutorial-043.jpg",
+      "bytes": 50248,
+      "gitBlobSha1": "1e0d4bad005b268b6e5ebad98f36ef6f5f25f9e0"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/video-stills/tutorial-073.jpg",
+      "bytes": 46130,
+      "gitBlobSha1": "83779cfdffe06979a05d19f19a0fd51caee3a761"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/video-stills/tutorial-106.jpg",
+      "bytes": 34331,
+      "gitBlobSha1": "c56f9a28940d942f909251a028556cd62b1a339c"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/video-stills/tutorial-130.jpg",
+      "bytes": 47077,
+      "gitBlobSha1": "f3c7efb43b85c0c8b0e067b24fe21b3a03d0f00d"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/videos/mask-influencer-story-preview.mp4",
+      "bytes": 3579152,
+      "gitBlobSha1": "231604e508f66d7a91d1d44c0236a23b23f1abbe"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/videos/mask-influencer-tutorial-preview.mp4",
+      "bytes": 3088476,
+      "gitBlobSha1": "5ff76ba0a392f0569f075a4ec35c43a26d8dce92"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/videos/mask-luodahua-preview.mp4",
+      "bytes": 3100791,
+      "gitBlobSha1": "54d4a06a2f21cb3f80fcb8e5a270f46a1e6c406e"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/wechat/01-dual-mask-structure.png",
+      "bytes": 813388,
+      "gitBlobSha1": "39d9f85c6706a7c7de2bf01cb93b446219601c8e"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/wechat/02-whitening-ingredients.png",
+      "bytes": 1075820,
+      "gitBlobSha1": "dd1e7e11d892aa5bbd4a8df282f1ce5830504cbd"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/wechat/03-collagen-ingredients.png",
+      "bytes": 914004,
+      "gitBlobSha1": "64c2c0ede22bcb1b8956a5ec055a0c2ee059b07b"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/wechat/04-cream-step.png",
+      "bytes": 394048,
+      "gitBlobSha1": "3a3ce980a9ebcdb3df3a6dff66131b66329a2886"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/wechat/05-launch-bundle.png",
+      "bytes": 704111,
+      "gitBlobSha1": "46163f84c4d43c32b023aedb5b0d681a34e31156"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/assets/wechat/mask-launch-article.pdf",
+      "bytes": 2638590,
+      "gitBlobSha1": "de9052d3f5a31b6c91d0d57ffcc2f75129ba1b8b"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/content.json",
+      "bytes": 6406,
+      "gitBlobSha1": "f89c257ff43952fadcfafb10bb8e032828f81d58"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/developer-handoff.md",
+      "bytes": 4149,
+      "gitBlobSha1": "11b69d19a6e3ee78b59912ef2c9c69b521de494b"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/docs/channel-roles.md",
+      "bytes": 2948,
+      "gitBlobSha1": "9598000aedea66e02f700c99204208908ea6f6fe"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/docs/detail-analysis.md",
+      "bytes": 7227,
+      "gitBlobSha1": "dae72355e242b1233fe1f3c5611e3702b70228e3"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/docs/detail-case.md",
+      "bytes": 2388,
+      "gitBlobSha1": "0c4934dae7d36ed9bbf676ab769bbaffd0c35a90"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/docs/live-analysis.md",
+      "bytes": 7351,
+      "gitBlobSha1": "f027045acd56f2ac34017d6dcdd96f35c4dfd00a"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/docs/moments-analysis.md",
+      "bytes": 7580,
+      "gitBlobSha1": "dbf0310a6eec862e91c7f1869d6d419500702b3c"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/docs/private-sales-reconstructed.md",
+      "bytes": 11538,
+      "gitBlobSha1": "8a8a647b35b948c7605391662896e39e5e892454"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/docs/selling-point-strategy.md",
+      "bytes": 1322,
+      "gitBlobSha1": "166207f15118cb4f6366b7fb8b73b38c8223d712"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/docs/video-analysis.md",
+      "bytes": 17106,
+      "gitBlobSha1": "d5419d5c283deabd1ecc143230d501efc36fddda"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/docs/video-case.md",
+      "bytes": 1601,
+      "gitBlobSha1": "71eeff6a1e18edcb9739b73c1b546501a76cf83f"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/docs/wechat-analysis.md",
+      "bytes": 8005,
+      "gitBlobSha1": "b2a11298e8c42eaec690c61a90f0cefaa8359732"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/project.md",
+      "bytes": 11363,
+      "gitBlobSha1": "aa4a2650042640fb76084bc4b38215d54c8cb05a"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/video-metadata.json",
+      "bytes": 468,
+      "gitBlobSha1": "1da6b8aaa293e6342e76d7b59ec7744b8120943b"
+    },
+    {
+      "path": "portfolio-content/tongyan-mask/童颜面膜作品集内容.md",
+      "bytes": 63187,
+      "gitBlobSha1": "dba187538a6af507239d3bc6e076eb9c9eb4ec32"
+    },
+    {
+      "path": "portfolio-content/video-analysis.md",
+      "bytes": 14191,
+      "gitBlobSha1": "2a2c03bb4d902d9ea6b96b434bad6d15848e509c"
+    },
+    {
+      "path": "portfolio-essence-oil-article.webp",
+      "bytes": 116292,
+      "gitBlobSha1": "59bc15b3d40ff91ceee318d2c8772c3d1f9e6ecd"
+    },
+    {
+      "path": "portfolio-essence-oil-day.webp",
+      "bytes": 64662,
+      "gitBlobSha1": "f033571bff5f5a963ff6f002e50e315b1bfe9345"
+    },
+    {
+      "path": "portfolio-essence-oil-hero.webp",
+      "bytes": 72462,
+      "gitBlobSha1": "e39bd4ffba5e2082949088f1181a9e3cecf1ec72"
+    },
+    {
+      "path": "portfolio-essence-oil-night.webp",
+      "bytes": 64114,
+      "gitBlobSha1": "f516a160ed4231473c4d704e6582bd710c263645"
+    },
+    {
+      "path": "portfolio-essence-oil-original.png",
+      "bytes": 1223616,
+      "gitBlobSha1": "43c9697bc40a8be3b46043945ea530381bc881ad"
+    },
+    {
+      "path": "portfolio-kugou-growth-activity.webp",
+      "bytes": 21902,
+      "gitBlobSha1": "5e2be50634627a0efc5c7fb6cd5aaa370794852c"
+    },
+    {
+      "path": "portfolio-kugou-growth-article.webp",
+      "bytes": 18842,
+      "gitBlobSha1": "ef60a3c8832b7e1b7df67954d1435f56d095c60d"
+    },
+    {
+      "path": "portfolio-kugou-matrix-douyin.webp",
+      "bytes": 27822,
+      "gitBlobSha1": "e4abe4c9141e1e0f0cd4711502b7a1ae5814ef7b"
+    },
+    {
+      "path": "portfolio-kugou-matrix-red.webp",
+      "bytes": 33476,
+      "gitBlobSha1": "76ac508b1f64932d72c97f80a3d7dc6836e45316"
+    },
+    {
+      "path": "portfolio-luhan-live-communication.svg",
+      "bytes": 841,
+      "gitBlobSha1": "3e61b4353ba9bdd632fd85ac6764fc33b23ded7a"
+    },
+    {
+      "path": "portfolio-mask-product-original.png",
+      "bytes": 1336954,
+      "gitBlobSha1": "2950efca82fbd4c33ad9324c742325e4365fb3b5"
+    },
+    {
+      "path": "portfolio-mask-work-1-original.png",
+      "bytes": 691421,
+      "gitBlobSha1": "9a07887108f6207bf4c803bfd0429bd8e7c0c4f1"
+    },
+    {
+      "path": "portfolio-mask-work-2-original.png",
+      "bytes": 783008,
+      "gitBlobSha1": "33bcafd69bdd685085c66fc4cbbc0bf042162cf0"
+    },
+    {
+      "path": "portfolio-mask-work-3-original.png",
+      "bytes": 346854,
+      "gitBlobSha1": "ff7571f4210f66442092f5e0d0db0ba4eb91d16d"
+    },
+    {
+      "path": "portfolio-mask-work-4-original.png",
+      "bytes": 1137802,
+      "gitBlobSha1": "2848a912fb6de9e0ed8ec6c03e171a8ac87ad8df"
+    },
+    {
+      "path": "portfolio-oil-work-1-original.png",
+      "bytes": 990251,
+      "gitBlobSha1": "f1586df3203479bc352c5d91c9434166201788a1"
+    },
+    {
+      "path": "portfolio-oil-work-2-original.png",
+      "bytes": 1269372,
+      "gitBlobSha1": "17f4b1d9f486677eb5ea9f882d3bb5671f3c3836"
+    },
+    {
+      "path": "portfolio-previews/clean.webp",
+      "bytes": 32796,
+      "gitBlobSha1": "8691beb168b45c6677357e70f4ff5ba7499520df"
+    },
+    {
+      "path": "portfolio-previews/kugou.webp",
+      "bytes": 47920,
+      "gitBlobSha1": "d5703ac02decef949adffbae430ac99ba1b1ca21"
+    },
+    {
+      "path": "portfolio-previews/mask.webp",
+      "bytes": 26420,
+      "gitBlobSha1": "bb2aae09186f080767c30548b936acc63dd77418"
+    },
+    {
+      "path": "portfolio-previews/oil.webp",
+      "bytes": 39332,
+      "gitBlobSha1": "c1ac7e09dca52aae2a49198900743d25ad03476b"
+    },
+    {
+      "path": "portfolio-previews/sun.webp",
+      "bytes": 23362,
+      "gitBlobSha1": "c4e7ecc32a603a35ce54e1efea35e5034545de0f"
+    },
+    {
+      "path": "portfolio-resume.pdf",
+      "bytes": 165828,
+      "gitBlobSha1": "daa1c41ce43826a3ac178ff019657bf63caf7e38"
+    },
+    {
+      "path": "portfolio-sales-moments-1-original.jpg",
+      "bytes": 835141,
+      "gitBlobSha1": "c6f95b8dd8ca2c7edf289014c0e4817ee9de1448"
+    },
+    {
+      "path": "portfolio-sales-moments-2-original.jpg",
+      "bytes": 179826,
+      "gitBlobSha1": "9e63f55989b5e0a5db1301a3788dcfa562e57daa"
+    },
+    {
+      "path": "portfolio-sunscreen-article.webp",
+      "bytes": 103144,
+      "gitBlobSha1": "6d693e77fae951f9a6ffc8890d49acca1d0f89c1"
+    },
+    {
+      "path": "portfolio-sunscreen-context.webp",
+      "bytes": 229338,
+      "gitBlobSha1": "4e94ff369f672bc088fe3b12914ffb1b9132112b"
+    },
+    {
+      "path": "portfolio-sunscreen-detail.webp",
+      "bytes": 231624,
+      "gitBlobSha1": "abf214c7afd563b468ff90048d2c9878df84d790"
+    },
+    {
+      "path": "portfolio-sunscreen-hero.webp",
+      "bytes": 210054,
+      "gitBlobSha1": "3a25387a3d15815cbe662e3d41f5b870fc291109"
+    },
+    {
+      "path": "portfolio-sunscreen-product-original.png",
+      "bytes": 1262885,
+      "gitBlobSha1": "a0c9a8c95e63027217cf5e8b518f6c62f4f5c89d"
+    },
+    {
+      "path": "portfolio-sunscreen-work-1-original.jpg",
+      "bytes": 466314,
+      "gitBlobSha1": "b41e565eae31b44410d04d979cb318535ebf2590"
+    },
+    {
+      "path": "portfolio-sunscreen-work-2-original.jpg",
+      "bytes": 827472,
+      "gitBlobSha1": "5a4c2fb2667384ce6ca38ae7c237ca801715bf02"
+    },
+    {
+      "path": "portfolio-sunscreen-work-3-original.jpg",
+      "bytes": 1338276,
+      "gitBlobSha1": "8cbf3130612c79266109058e155f6e34bb82b0d1"
+    },
+    {
+      "path": "portfolio-sunscreen-work-4-original.jpg",
+      "bytes": 852921,
+      "gitBlobSha1": "9bbcbd9f7df8a63adb405fd3b85b0315ef25e2d5"
+    },
+    {
+      "path": "portfolio-tongyan-mask-article.webp",
+      "bytes": 133600,
+      "gitBlobSha1": "8742b77136a5bbe7b701eb87b7865f815a5936e0"
+    },
+    {
+      "path": "portfolio-tongyan-mask-detail.webp",
+      "bytes": 133902,
+      "gitBlobSha1": "116b0fd09dc25d6bc3ae758bdd11ded3b1fa39a1"
+    },
+    {
+      "path": "portfolio-tongyan-mask-hero.webp",
+      "bytes": 101778,
+      "gitBlobSha1": "8e4f064f3928a43eba482b3256c3854a4bfd3eae"
+    },
+    {
+      "path": "portfolio-tongyan-mask-structure.webp",
+      "bytes": 61218,
+      "gitBlobSha1": "66a228c90b804129dd07b63141d2700c51120161"
+    },
+    {
+      "path": "preview/general-r2/assets/mask-luodahua-frame.webp",
+      "bytes": 13902,
+      "gitBlobSha1": "c704ae4b8ce3eb600b883213b3aaf4234972ca7e"
+    },
+    {
+      "path": "preview/general-r2/assets/mask-story-frame.webp",
+      "bytes": 14364,
+      "gitBlobSha1": "d8b2cd158490878ba2a0d0cc015a6ff45ff40761"
+    },
+    {
+      "path": "preview/general-r2/assets/oil-person-frame.webp",
+      "bytes": 9860,
+      "gitBlobSha1": "c94be22d47f0fbcd00fb18834d02f4986db64992"
+    },
+    {
+      "path": "preview/general-r2/assets/oil-science-frame.webp",
+      "bytes": 6392,
+      "gitBlobSha1": "a90815f80ff8bfb59e48824b032f61fa6d932562"
+    },
+    {
+      "path": "preview/general-r2/assets/sun-liying-frame.webp",
+      "bytes": 34932,
+      "gitBlobSha1": "fd27c3d699ca5759b0a61a795d75041dc0ca361b"
+    },
+    {
+      "path": "preview/general-r2/assets/sun-xianghailan-frame.webp",
+      "bytes": 35948,
+      "gitBlobSha1": "a12fe6d680f9a430795918c16db33fcd836ed6a7"
+    },
+    {
+      "path": "preview/v3/app.js",
+      "bytes": 37156,
+      "gitBlobSha1": "4de80c0f46602de4fcf00cf588bb54ae6a6770f5"
+    },
+    {
+      "path": "preview/v3/assets/cover-clean.webp",
+      "bytes": 57188,
+      "gitBlobSha1": "996d5d9e9a35f59ede54f5c998ca8f6876b8d080"
+    },
+    {
+      "path": "preview/v3/assets/cover-mask-scene6.webp",
+      "bytes": 294144,
+      "gitBlobSha1": "8f07a919f2c90232a4a596cf33f5bdff4bdf15f4"
+    },
+    {
+      "path": "preview/v3/assets/cover-mask.webp",
+      "bytes": 120434,
+      "gitBlobSha1": "20c94e5acfbb954f4e86efa58c8d6f95c9342eb4"
+    },
+    {
+      "path": "preview/v3/assets/cover-oil.webp",
+      "bytes": 145316,
+      "gitBlobSha1": "28c790062b59613edac2eb6f4a5e3f24c1a0423e"
+    },
+    {
+      "path": "preview/v3/assets/cover-sun.webp",
+      "bytes": 97798,
+      "gitBlobSha1": "34102c6bd67811bcc4703e809859c25f296cce31"
+    },
+    {
+      "path": "preview/v3/assets/kugou-platform-cover-v308.webp",
+      "bytes": 87708,
+      "gitBlobSha1": "e7d9ccb08a8fbc7877ad8b8cdd854ab61b594b61"
+    },
+    {
+      "path": "preview/v3/assets/mask-luodahua-frame.webp",
+      "bytes": 13902,
+      "gitBlobSha1": "c704ae4b8ce3eb600b883213b3aaf4234972ca7e"
+    },
+    {
+      "path": "preview/v3/assets/mask-scene6-large.jpg",
+      "bytes": 1033590,
+      "gitBlobSha1": "e76549da2cba6cfe2718fe7797f038bae843b9cb"
+    },
+    {
+      "path": "preview/v3/assets/mask-story-frame.webp",
+      "bytes": 14364,
+      "gitBlobSha1": "d8b2cd158490878ba2a0d0cc015a6ff45ff40761"
+    },
+    {
+      "path": "preview/v3/assets/oil-editorial-cover-v309.webp",
+      "bytes": 78388,
+      "gitBlobSha1": "05f542529458da596550fd7452878ee4103fc330"
+    },
+    {
+      "path": "preview/v3/assets/oil-person-frame.webp",
+      "bytes": 9860,
+      "gitBlobSha1": "c94be22d47f0fbcd00fb18834d02f4986db64992"
+    },
+    {
+      "path": "preview/v3/assets/oil-science-frame.webp",
+      "bytes": 6392,
+      "gitBlobSha1": "a90815f80ff8bfb59e48824b032f61fa6d932562"
+    },
+    {
+      "path": "preview/v3/assets/radio-growth-stats.png",
+      "bytes": 246019,
+      "gitBlobSha1": "827b7b38be3992f6fce8d618d08fc20682417c7a"
+    },
+    {
+      "path": "preview/v3/assets/radio-shan-yichun.png",
+      "bytes": 1674630,
+      "gitBlobSha1": "22714633ceeed6424a23327570fe139b2a130d1a"
+    },
+    {
+      "path": "preview/v3/assets/radio-shan-yichun.webp",
+      "bytes": 169948,
+      "gitBlobSha1": "898acd3725981701a4cc89aaa3e27605c0e8f3d2"
+    },
+    {
+      "path": "preview/v3/assets/resume.pdf",
+      "bytes": 172767,
+      "gitBlobSha1": "4512f7c73de450eb617fb4f28a68635b3e768265"
+    },
+    {
+      "path": "preview/v3/assets/sun-liying-frame.webp",
+      "bytes": 34932,
+      "gitBlobSha1": "fd27c3d699ca5759b0a61a795d75041dc0ca361b"
+    },
+    {
+      "path": "preview/v3/assets/sun-xianghailan-frame.webp",
+      "bytes": 35948,
+      "gitBlobSha1": "a12fe6d680f9a430795918c16db33fcd836ed6a7"
+    },
+    {
+      "path": "preview/v3/assets/video-covers/mask-cross-category.png",
+      "bytes": 488736,
+      "gitBlobSha1": "1c5ced1f90c4dab1c80cda228c3030866f1bc60d"
+    },
+    {
+      "path": "preview/v3/assets/video-covers/mask-influencer-experience.png",
+      "bytes": 521591,
+      "gitBlobSha1": "0c6cf7330e3864b3d5ecfd386215cfdfb7f81875"
+    },
+    {
+      "path": "preview/v3/assets/video-covers/mask-luodahua.png",
+      "bytes": 517942,
+      "gitBlobSha1": "3059fb5ab983906b76398090069b835f47022ccd"
+    },
+    {
+      "path": "preview/v3/assets/video-covers/oil-liuxiaoqing.png",
+      "bytes": 631475,
+      "gitBlobSha1": "fd967f9018dbb4d2719b4892a0b9e47ddfd15f9b"
+    },
+    {
+      "path": "preview/v3/assets/video-covers/oil-qa.png",
+      "bytes": 455687,
+      "gitBlobSha1": "931fde9a0a2151c6fc49989e85425f5fe6803fd5"
+    },
+    {
+      "path": "preview/v3/assets/video-covers/oil-scene.png",
+      "bytes": 501135,
+      "gitBlobSha1": "790d79182b3dba74f4681126e1379a052a8daec5"
+    },
+    {
+      "path": "preview/v3/assets/video-covers/sun-influencer-experience.png",
+      "bytes": 490233,
+      "gitBlobSha1": "566c19263e803c219a186d4c1c16d22a84ca84f1"
+    },
+    {
+      "path": "preview/v3/assets/video-covers/sun-influencer-story.png",
+      "bytes": 514547,
+      "gitBlobSha1": "f3bd23e967caf73903efd6618751fa904f6251e8"
+    },
+    {
+      "path": "preview/v3/assets/video-covers/sun-xianghailan.png",
+      "bytes": 524947,
+      "gitBlobSha1": "9839e44f1995aad6c0a0ed9aee7982be1b88dd4c"
+    },
+    {
+      "path": "preview/v3/content.js",
+      "bytes": 11165,
+      "gitBlobSha1": "f1f978cd88c6f340c468e260c8441a9099a7f851"
+    },
+    {
+      "path": "preview/v3/data.js",
+      "bytes": 117026,
+      "gitBlobSha1": "f2b0106a1b2f66e7f14ecaae08f489feb75e0f15"
+    },
+    {
+      "path": "preview/v3/design-sources/kugou-cover-v308-prompt.txt",
+      "bytes": 2125,
+      "gitBlobSha1": "64f8a92533ace04f1e8fa7e5583e3c756627b4b7"
+    },
+    {
+      "path": "preview/v3/design-sources/kugou-cover-v308.png",
+      "bytes": 1361315,
+      "gitBlobSha1": "0f55a87c7fc5b52629ed65b89d6a946c9c94adc8"
+    },
+    {
+      "path": "preview/v3/design-sources/oil-cover-v309.png",
+      "bytes": 1577433,
+      "gitBlobSha1": "d88ebe4186571a0e82597135edfcb36b60f37ac3"
+    },
+    {
+      "path": "preview/v3/index.html",
+      "bytes": 2695,
+      "gitBlobSha1": "9a2299303f77bc42e410ecd562c930b21d3859ac"
+    },
+    {
+      "path": "preview/v3/media.js",
+      "bytes": 9414,
+      "gitBlobSha1": "ffc5ce9c06ba9ea620b65e6174caddad52deb5bf"
+    },
+    {
+      "path": "preview/v3/styles.css",
+      "bytes": 35166,
+      "gitBlobSha1": "3ac738ec41ea08de6182bd8618193c7fffa10d16"
+    }
+  ]
+}
