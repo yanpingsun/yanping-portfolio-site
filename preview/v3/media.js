@@ -1,5 +1,5 @@
 window.PORTFOLIO_MEDIA={
-  "version": "3.0.5",
+  "version": "3.0.6",
   "articles": {
     "portfolio-content/essence-oil/assets/wechat/oil-launch-article.pdf": {
       "project": "oil",
@@ -128,7 +128,7 @@ window.PORTFOLIO_MEDIA={
       "project": "mask",
       "title": "骆达华合作视频",
       "kind": "明星合作",
-      "poster": "preview/v3/assets/cover-mask.webp",
+      "poster": "preview/v3/assets/cover-mask-scene6.webp",
       "analysis": "#/read/22fe99bbff25/骆达华合作视频",
       "originalUrl": "https://weixin.qq.com/sph/ABf1djMlJ",
       "backup": "portfolio-content/tongyan-mask/assets/videos/mask-luodahua-preview.mp4",
@@ -138,7 +138,7 @@ window.PORTFOLIO_MEDIA={
       "project": "mask",
       "title": "夫妻日常视频",
       "kind": "故事脚本",
-      "poster": "preview/v3/assets/cover-mask.webp",
+      "poster": "preview/v3/assets/cover-mask-scene6.webp",
       "analysis": "#/read/22fe99bbff25/夫妻日常视频",
       "originalUrl": "https://weixin.qq.com/sph/ApcDKmPgM",
       "backup": "portfolio-content/tongyan-mask/assets/videos/mask-influencer-story-preview.mp4",
@@ -149,7 +149,7 @@ window.PORTFOLIO_MEDIA={
       "project": "mask",
       "title": "达人个人体验视频",
       "kind": "使用演示",
-      "poster": "preview/v3/assets/cover-mask.webp",
+      "poster": "preview/v3/assets/cover-mask-scene6.webp",
       "analysis": "#/read/22fe99bbff25/达人个人体验视频",
       "originalUrl": "https://weixin.qq.com/sph/AmjmePS1J",
       "backup": "portfolio-content/tongyan-mask/assets/videos/mask-influencer-tutorial-preview.mp4",

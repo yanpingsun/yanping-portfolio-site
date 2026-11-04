@@ -43,7 +43,7 @@ window.PORTFOLIO_V3 = {
       summary:'从旧胶原炮面膜的认知出发，组织新增美白方向、双膜组合与居家护理价值，再延展到人物故事、直播讲解和商城详情页。',
       short:'让升级差异更易理解，让人物故事与直播讲解有自然的承接。',
       role:'产品内容策划 / 文案', period:'2026.04—2026.09',
-      cover:'preview/v3/assets/cover-mask.webp', originalCover:'portfolio-mask-product-original.png', tags:['升级表达','人物脚本','直播讲解'],
+      cover:'preview/v3/assets/cover-mask-scene6.webp', originalCover:'preview/v3/assets/mask-scene6-large.jpg', tags:['升级表达','人物脚本','直播讲解'],
       metric:'100万+', metricLabel:'上新首月 · GMV',
       metricNote:'团队及渠道的项目整体成绩。',
       brief:'新版建立在已有产品认知上，需要讲清继承与变化，并把双膜、成分和护理资料组织成容易跟上的表达。',
