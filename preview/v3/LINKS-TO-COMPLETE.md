@@ -1,42 +1,45 @@
 # 3.0 原文与原视频链接交接清单
 
-更新日期：2026-11-03。
+更新日期：2026-11-04，版本3.0.4。
 
-## 已记录的公众号原文
+## 当前原视频入口（10条）
 
-| 项目 | 原文链接 | 核对情况 | PDF备份 |
+| 项目 | 作品 | 原发布入口 | 来源 |
 | --- | --- | --- | --- |
-| 日夜精华油 | [阅读原文](https://mp.weixin.qq.com/s/lY5_fSiM1Bk8Cobkfq_2ug) | 与已有项目资料一致；浏览器站点安全策略阻止在线观察，需微信内复核 | `portfolio-content/essence-oil/assets/wechat/oil-launch-article.pdf` |
-| 高客单防晒 | [阅读原文](https://mp.weixin.qq.com/s/zy8nm3TFUkB6eYzNfENkcg) | 与已有项目资料一致；浏览器站点安全策略阻止在线观察，需微信内复核 | `portfolio-content/sunscreen/assets/wechat/sunscreen-launch-article.pdf` |
-| 童颜面膜 | [阅读原文](https://mp.weixin.qq.com/s/br1rnY7m4sV6_7hGVMGlEw) | 与已有项目资料一致；浏览器站点安全策略阻止在线观察，需微信内复核 | `portfolio-content/tongyan-mask/assets/wechat/mask-launch-article.pdf` |
-| 洁颜霜 | [阅读原文](https://mp.weixin.qq.com/s/Iyy8ZSHjaQ81cHFoMoogQA) | 与已有项目资料一致；浏览器站点安全策略阻止在线观察，需微信内复核 | `portfolio-content/cleanser/assets/wechat/cleanser-launch-article.pdf` |
+| 日夜精华油 | 达人问题答疑脚本 | [观看原视频](https://weixin.qq.com/sph/AEKGYj10i) | 用户2026-11-04提供 |
+| 日夜精华油 | 达人使用场景脚本 | [观看原视频](https://weixin.qq.com/sph/ANddvY6vE) | 用户2026-11-04提供 |
+| 日夜精华油 | 刘晓庆合作推广 | [观看原视频](https://weixin.qq.com/sph/AiMGBlqH4) | 用户2026-11-04提供 |
+| 高客单防晒 | 李颖合作视频 | [观看原视频](https://weixin.qq.com/sph/AZuUvxG8x) | 用户2026-11-04提供 |
+| 高客单防晒 | 向海岚合作视频 | [观看原视频](https://weixin.qq.com/sph/AmjmA14Rs) | 用户2026-11-04提供 |
+| 高客单防晒 | 达人体验视频 | [观看原视频](https://weixin.qq.com/sph/AEE3F5GMF) | 用户2026-11-04提供 |
+| 高客单防晒 | 达人讲述视频 | [观看原视频](https://weixin.qq.com/sph/AZsIiiYTq) | 用户2026-11-04提供 |
+| 童颜面膜 | 骆达华合作视频 | [观看原视频](https://weixin.qq.com/sph/ABf1djMlJ) | 已有项目资料 |
+| 童颜面膜 | 夫妻日常视频 | [观看原视频](https://weixin.qq.com/sph/ApcDKmPgM) | 用户2026-11-04提供 |
+| 童颜面膜 | 达人个人体验视频 | [观看原视频](https://weixin.qq.com/sph/AmjmePS1J) | 用户2026-11-04提供 |
 
-## 已找到的原视频链接
+## 唯一暂无原链的作品
 
-| 视频 | 原链接 | 核对情况 |
+日夜精华油｜以皮脂膜为核心的品牌科普脚本。用户确认暂无原发布链接。
+
+- 页面保留清晰产品封面和“查看脚本分析”，展示内容逻辑与卖点逻辑。
+- 不显示“观看原视频”按钮，不填猜测或占位地址。
+- 原录屏保留：`portfolio-content/essence-oil/assets/videos/oil-sebum-education.mp4`。
+- 后续若取得可公开的原发布地址，修改media.js对应originalUrl即可。
+
+## 当前公众号原文（4篇）
+
+| 项目 | 原文入口 | 来源 |
 | --- | --- | --- |
-| 骆达华合作视频 | [原发布入口](https://weixin.qq.com/sph/ABf1djMlJ) | 与面膜项目资料对应；跳转到视频号域后被浏览器安全策略阻止，未确认播放、画质与当前内容 |
+| 日夜精华油 | [阅读原文](https://mp.weixin.qq.com/s/lY5_fSiM1Bk8Cobkfq_2ug) | 已有项目资料 |
+| 高客单防晒 | [阅读原文](https://mp.weixin.qq.com/s/aZbt0d1mOrQGfoOdcZNjFw) | 用户2026-11-04补充，作为当前入口 |
+| 童颜面膜 | [阅读原文](https://mp.weixin.qq.com/s/br1rnY7m4sV6_7hGVMGlEw) | 已有项目资料 |
+| 洁颜霜 | [阅读原文](https://mp.weixin.qq.com/s/Iyy8ZSHjaQ81cHFoMoogQA) | 已有项目资料 |
 
-## 缺少原发布链接的10条视频
+防晒旧地址留在media.js的previousUrl字段作追溯，不作为当前入口。
 
-公开页面使用产品封面与可用的脚本分析入口，不显示占位链接或失效按钮。提供原发布地址后，在 `media.js` 对应条目的 `originalUrl` 中填入真实地址，实测后更新 `verification`。
+## 核对状态与备份
 
-| 项目 | 视频 | 录屏备份 |
-| --- | --- | --- |
-| 日夜精华油 | 品牌科普 | `portfolio-content/essence-oil/assets/videos/oil-sebum-education.mp4` |
-| 日夜精华油 | 刘晓庆合作推广 | `portfolio-content/essence-oil/assets/videos/oil-liuxiaoqing.mp4` |
-| 日夜精华油 | 达人问题答疑 | `portfolio-content/essence-oil/assets/videos/oil-influencer-qa.mp4` |
-| 日夜精华油 | 达人使用场景 | `portfolio-content/essence-oil/assets/videos/oil-tutorial.mp4` |
-| 高客单防晒 | 李颖合作视频 | `portfolio-content/sunscreen/assets/videos/sunscreen-liying.mp4` |
-| 高客单防晒 | 向海岚合作视频 | `portfolio-content/sunscreen/assets/videos/sunscreen-xianghailan.mp4` |
-| 高客单防晒 | 达人讲述视频 | `portfolio-content/sunscreen/assets/videos/sunscreen-influencer-03.mp4` |
-| 高客单防晒 | 达人体验视频 | `portfolio-content/sunscreen/assets/videos/sunscreen-influencer-04.mp4` |
-| 童颜面膜 | 夫妻日常视频 | `portfolio-content/tongyan-mask/assets/videos/mask-influencer-story-preview.mp4` |
-| 童颜面膜 | 达人体验与双膜演示 | `portfolio-content/tongyan-mask/assets/videos/mask-influencer-tutorial-preview.mp4` |
-
-## 备份与验证边界
-
-- 所有原视频、公众号PDF、原图和原始文字资料都保留在仓库既有路径，未删除或覆盖。
-- 四个公众号链接和一个视频原链均来自已留存项目资料；本轮不将安全策略阻止的页面记为链接已失效，也不记为已验证可访问。
-- 后续需要在微信内逐条打开对应文章、确认视频内容与清晰度；未取得原链接的十条不得填写猜测地址。
-- 浏览器阻止后没有通过其他浏览器、代理、抓取或命令行绕过限制。
+- 已按用户提供的作品名称一一配置9条新视频地址，并更新防晒原文。所有原视频按钮与文章按钮使用新标签打开。
+- 浏览器环境的站点安全策略限制微信文章域与视频号跳转域；新链接标记为user_supplied_unverified，未宣称当前内容、视频播放或清晰度已通过在线核验。后续需在微信内逐条复核。
+- 11条录屏、4份公众号PDF、原图及原始文字资料继续保留在原路径，media.js逐项记录backup。网站下载的简历另按用户最新确认更新为首月GMV，旧版本保留在Git历史。
+- 不通过其他浏览器、代理、抓取或命令行绕过微信站点限制。
