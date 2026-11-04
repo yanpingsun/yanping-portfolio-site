@@ -1,4 +1,4 @@
-# 作品集3.0.9：接手入口
+# 作品集3.0.10：接手入口
 
 更新日期：2026-11-04。供huhangheng后续修改使用。
 
@@ -7,12 +7,12 @@
 - 仓库：[yanpingsun/yanping-portfolio-site](https://github.com/yanpingsun/yanping-portfolio-site)
 - 分支：`main`
 - 源码目录：`preview/v3/`
-- 页面版本：**3.0.9**
-- 3.0.9界面基线提交：[`1c44a6965c5c90ce77fe1e5daef11063527c94a6`](https://github.com/yanpingsun/yanping-portfolio-site/commit/1c44a6965c5c90ce77fe1e5daef11063527c94a6)
-- [在线查看3.0.9](https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/?v=3.0.9#/home/selected)
+- 页面版本：**3.0.10**
+- 3.0.9历史界面基线提交：[`1c44a6965c5c90ce77fe1e5daef11063527c94a6`](https://github.com/yanpingsun/yanping-portfolio-site/commit/1c44a6965c5c90ce77fe1e5daef11063527c94a6)
+- [在线查看最新版](https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/?v=3.0.10#/home/selected)
 - [完整分工、事实口径与历史修改记录](HANDOFF.md)
 
-本次交接补充文档和封面原稿，页面版本仍为3.0.9。开始新修改时，以GitHub上最新`main`为基础。
+本版已接入9张视频封面、更新跨垂类达人脚本策划名称与分析，并替换已下架的李颖视频展示。开始新修改时，以GitHub上最新`main`为基础。
 
 请克隆完整仓库后修改`preview/v3/`。原图、线稿、历史视频和文章备份还引用仓库根目录下的`portfolio-content/`等路径，单独下载本目录不能获得完整素材站。根首页和其他预览目录是独立版本。
 
@@ -38,11 +38,13 @@
 - PNG原稿与编辑提示词在[design-sources/](design-sources/README.md)。这些是根据用户要求制作的作品集导航封面；案例内的历史原始作品仍保留原路径。
 - 导航封面在`projectArtwork`中独立指定；仅替换`content.js`的`cover`字段不会同步替换这两个入口。该字段仍服务案例首屏等原作品展示。
 
-## 下一项已知需求：替换视频封面
+## 已完成的视频封面替换与后续维护
 
-用户将继续提供视频封面。按“项目＋具体视频名称＋图片”逐条对应，新增图片后修改`media.js`相应视频条目的`poster`。
+用户已提供9张封面，按“项目＋具体视频名称＋图片”逐条匹配，完整对照见[VIDEO-COVERS.md](VIDEO-COVERS.md)。文件副本位于assets/video-covers/，当前保留用户原PNG；`media.js`记录逐条poster及原文件名、宽高。
 
-保留该条目的原视频地址与脚本分析地址，逐条检查；当前多条视频可能共用产品图片，不要直接覆盖共用文件导致所有视频同时换图。网站尚未进行这批逐条视频封面替换。
+后续修改时保留原视频和分析地址。原“夫妻日常视频”现名为“跨垂类达人脚本策划”，旧分析锚点继续兼容。李颖视频按用户确认已下架，不应重新启用previousUrl为观看地址。
+
+封面使用3:4图框、contain完整显示，类别标签在文字区。“放大封面”可查看原PNG，点击封面进入原视频。替换时核对人物、产品、文字及桌面手机显示。
 
 ## 需延续的已确认内容
 
@@ -60,6 +62,8 @@
 
 修改后检查受影响页面、封面点击、原图与分析入口，以及320、390、1280px下文字和图片是否溢出。3.0.9已做这三种宽度下首页、目录和精华油案例共9组检查，并核对线上图片和封面跳转；不等同于真机Safari验证。
 
-脚本、样式和简历的当前缓存参数为`?v=3.0.9`。后续有页面改动时同步更新`index.html`、`app.js`等相关缓存参数及版本记录。
+3.0.10在这三种宽度下核对三个视频案例与面膜新旧分析锚点，共18组，无横向溢出或封面裁切；9张封面逐一放大核对原始尺寸，新增分析入口已实际点击。
+
+脚本、样式和简历的当前缓存参数为`?v=3.0.10`。后续有页面改动时同步更新`index.html`、`app.js`等相关缓存参数及版本记录。
 
 提交到`main`后，等待GitHub Actions的`pages build and deployment`成功，再核对线上页面。微信外链仍需在允许访问的环境内复核，不能把仅配置了地址写成已验证播放。

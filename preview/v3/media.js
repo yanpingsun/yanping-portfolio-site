@@ -1,5 +1,5 @@
 window.PORTFOLIO_MEDIA={
-  "version": "3.0.9",
+  "version": "3.0.10",
   "articles": {
     "portfolio-content/essence-oil/assets/wechat/oil-launch-article.pdf": {
       "project": "oil",
@@ -51,34 +51,43 @@ window.PORTFOLIO_MEDIA={
       "project": "oil",
       "title": "刘晓庆合作推广",
       "kind": "明星合作",
-      "poster": "preview/v3/assets/cover-oil.webp",
+      "poster": "preview/v3/assets/video-covers/oil-liuxiaoqing.png",
       "analysis": "#/read/6a7ad141f475/刘晓庆明星推广脚本",
       "originalUrl": "https://weixin.qq.com/sph/AiMGBlqH4",
       "backup": "portfolio-content/essence-oil/assets/videos/oil-liuxiaoqing.mp4",
       "verification": "user_supplied_unverified",
-      "source": "用户于2026-11-04提供；微信域受浏览器环境限制，未在线核验"
+      "source": "用户于2026-11-04提供；微信域受浏览器环境限制，未在线核验",
+      "posterWidth": 484,
+      "posterHeight": 660,
+      "posterSourceFile": "精华油刘晓庆合作推广.png"
     },
     "portfolio-content/essence-oil/assets/videos/oil-influencer-qa.mp4": {
       "project": "oil",
       "title": "达人问题答疑",
       "kind": "达人答疑",
-      "poster": "preview/v3/assets/cover-oil.webp",
+      "poster": "preview/v3/assets/video-covers/oil-qa.png",
       "analysis": "#/read/6a7ad141f475/达人问题答疑脚本",
       "originalUrl": "https://weixin.qq.com/sph/AEKGYj10i",
       "backup": "portfolio-content/essence-oil/assets/videos/oil-influencer-qa.mp4",
       "verification": "user_supplied_unverified",
-      "source": "用户于2026-11-04提供；微信域受浏览器环境限制，未在线核验"
+      "source": "用户于2026-11-04提供；微信域受浏览器环境限制，未在线核验",
+      "posterWidth": 488,
+      "posterHeight": 650,
+      "posterSourceFile": "精华油达人问题答疑.png"
     },
     "portfolio-content/essence-oil/assets/videos/oil-tutorial.mp4": {
       "project": "oil",
       "title": "达人使用场景",
       "kind": "使用演示",
-      "poster": "preview/v3/assets/cover-oil.webp",
+      "poster": "preview/v3/assets/video-covers/oil-scene.png",
       "analysis": "#/read/6a7ad141f475/达人使用场景脚本",
       "originalUrl": "https://weixin.qq.com/sph/ANddvY6vE",
       "backup": "portfolio-content/essence-oil/assets/videos/oil-tutorial.mp4",
       "verification": "user_supplied_unverified",
-      "source": "用户于2026-11-04提供；微信域受浏览器环境限制，未在线核验"
+      "source": "用户于2026-11-04提供；微信域受浏览器环境限制，未在线核验",
+      "posterWidth": 490,
+      "posterHeight": 644,
+      "posterSourceFile": "精华油达人使用场景.png"
     },
     "portfolio-content/sunscreen/assets/videos/sunscreen-liying.mp4": {
       "project": "sun",
@@ -86,75 +95,94 @@ window.PORTFOLIO_MEDIA={
       "kind": "明星合作",
       "poster": "preview/v3/assets/cover-sun.webp",
       "analysis": "#/read/c76bf6cfb08f",
-      "originalUrl": "https://weixin.qq.com/sph/AZuUvxG8x",
+      "originalUrl": null,
       "backup": "portfolio-content/sunscreen/assets/videos/sunscreen-liying.mp4",
-      "verification": "user_supplied_unverified",
-      "source": "用户于2026-11-04提供；微信域受浏览器环境限制，未在线核验"
+      "verification": "user_reported_removed",
+      "source": "用户于2026-11-04确认原视频已下架；公开展示由防晒达人讲述视频替代，历史脚本与录屏保留。",
+      "previousUrl": "https://weixin.qq.com/sph/AZuUvxG8x"
     },
     "portfolio-content/sunscreen/assets/videos/sunscreen-xianghailan.mp4": {
       "project": "sun",
       "title": "向海岚合作视频",
       "kind": "明星合作",
-      "poster": "preview/v3/assets/cover-sun.webp",
+      "poster": "preview/v3/assets/video-covers/sun-xianghailan.png",
       "analysis": "#/read/a2e70560ff66",
       "originalUrl": "https://weixin.qq.com/sph/AmjmA14Rs",
       "backup": "portfolio-content/sunscreen/assets/videos/sunscreen-xianghailan.mp4",
       "verification": "user_supplied_unverified",
-      "source": "用户于2026-11-04提供；微信域受浏览器环境限制，未在线核验"
+      "source": "用户于2026-11-04提供；微信域受浏览器环境限制，未在线核验",
+      "posterWidth": 488,
+      "posterHeight": 658,
+      "posterSourceFile": "防晒向海岚合作视频.png"
     },
     "portfolio-content/sunscreen/assets/videos/sunscreen-influencer-03.mp4": {
       "project": "sun",
       "title": "达人讲述视频",
       "kind": "达人讲述",
-      "poster": "preview/v3/assets/cover-sun.webp",
+      "poster": "preview/v3/assets/video-covers/sun-influencer-story.png",
       "analysis": "#/read/28d1f6c940a9",
       "originalUrl": "https://weixin.qq.com/sph/AZsIiiYTq",
       "backup": "portfolio-content/sunscreen/assets/videos/sunscreen-influencer-03.mp4",
       "verification": "user_supplied_unverified",
-      "source": "用户于2026-11-04提供；微信域受浏览器环境限制，未在线核验"
+      "source": "用户于2026-11-04提供；微信域受浏览器环境限制，未在线核验",
+      "posterWidth": 494,
+      "posterHeight": 650,
+      "posterSourceFile": "防晒达人讲述视频.png"
     },
     "portfolio-content/sunscreen/assets/videos/sunscreen-influencer-04.mp4": {
       "project": "sun",
       "title": "达人体验视频",
       "kind": "使用体验",
-      "poster": "preview/v3/assets/cover-sun.webp",
+      "poster": "preview/v3/assets/video-covers/sun-influencer-experience.png",
       "analysis": "#/read/b5ba5f975756",
       "originalUrl": "https://weixin.qq.com/sph/AEE3F5GMF",
       "backup": "portfolio-content/sunscreen/assets/videos/sunscreen-influencer-04.mp4",
       "verification": "user_supplied_unverified",
-      "source": "用户于2026-11-04提供；微信域受浏览器环境限制，未在线核验"
+      "source": "用户于2026-11-04提供；微信域受浏览器环境限制，未在线核验",
+      "posterWidth": 488,
+      "posterHeight": 652,
+      "posterSourceFile": "防晒达人体验视频.png"
     },
     "portfolio-content/tongyan-mask/assets/videos/mask-luodahua-preview.mp4": {
       "project": "mask",
       "title": "骆达华合作视频",
       "kind": "明星合作",
-      "poster": "preview/v3/assets/cover-mask-scene6.webp",
+      "poster": "preview/v3/assets/video-covers/mask-luodahua.png",
       "analysis": "#/read/22fe99bbff25/骆达华合作视频",
       "originalUrl": "https://weixin.qq.com/sph/ABf1djMlJ",
       "backup": "portfolio-content/tongyan-mask/assets/videos/mask-luodahua-preview.mp4",
-      "verification": "browser_restricted"
+      "verification": "browser_restricted",
+      "posterWidth": 490,
+      "posterHeight": 660,
+      "posterSourceFile": "童颜面膜骆达华合作视频.png"
     },
     "portfolio-content/tongyan-mask/assets/videos/mask-influencer-story-preview.mp4": {
       "project": "mask",
-      "title": "夫妻日常视频",
-      "kind": "故事脚本",
-      "poster": "preview/v3/assets/cover-mask-scene6.webp",
-      "analysis": "#/read/22fe99bbff25/夫妻日常视频",
+      "title": "跨垂类达人脚本策划",
+      "kind": "跨垂类策划",
+      "poster": "preview/v3/assets/video-covers/mask-cross-category.png",
+      "analysis": "#/read/22fe99bbff25/跨垂类达人脚本策划",
       "originalUrl": "https://weixin.qq.com/sph/ApcDKmPgM",
       "backup": "portfolio-content/tongyan-mask/assets/videos/mask-influencer-story-preview.mp4",
       "verification": "user_supplied_unverified",
-      "source": "用户于2026-11-04提供；微信域受浏览器环境限制，未在线核验"
+      "source": "用户于2026-11-04提供；微信域受浏览器环境限制，未在线核验",
+      "posterWidth": 486,
+      "posterHeight": 660,
+      "posterSourceFile": "童颜面膜夫妻日常视频.png"
     },
     "portfolio-content/tongyan-mask/assets/videos/mask-influencer-tutorial-preview.mp4": {
       "project": "mask",
       "title": "达人个人体验视频",
       "kind": "使用演示",
-      "poster": "preview/v3/assets/cover-mask-scene6.webp",
+      "poster": "preview/v3/assets/video-covers/mask-influencer-experience.png",
       "analysis": "#/read/22fe99bbff25/达人个人体验视频",
       "originalUrl": "https://weixin.qq.com/sph/AmjmePS1J",
       "backup": "portfolio-content/tongyan-mask/assets/videos/mask-influencer-tutorial-preview.mp4",
       "verification": "user_supplied_unverified",
-      "source": "用户于2026-11-04提供；微信域受浏览器环境限制，未在线核验"
+      "source": "用户于2026-11-04提供；微信域受浏览器环境限制，未在线核验",
+      "posterWidth": 494,
+      "posterHeight": 664,
+      "posterSourceFile": "童颜面膜达人个人体验视频.png"
     }
   }
 };
