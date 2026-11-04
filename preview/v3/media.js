@@ -1,5 +1,5 @@
 window.PORTFOLIO_MEDIA={
-  "version": "3.0.6",
+  "version": "3.0.7",
   "articles": {
     "portfolio-content/essence-oil/assets/wechat/oil-launch-article.pdf": {
       "project": "oil",
