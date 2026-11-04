@@ -41,5 +41,5 @@
 .compact-project.compact-mask>img,.video-mask .video-cover img{object-fit:cover;object-position:50% 54%}
 .work-metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin:28px 0 13px;padding:23px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .work-metrics .metric-item>strong{font-size:clamp(28px,3.4vw,44px)}
-.project-art.art-kugou.art-kugou-cover{display:block;padding:0;background:#e9e6dd}
-.project-art.art-kugou.art-kugou-cover>img:first-child{display:block;width:100%;height:100%;object-fit:contain}
+.project-art.art-editorial-cover{display:block;padding:0;background:#e9e6dd}
+.project-art.art-editorial-cover>img:first-child{display:block;width:100%;height:100%;aspect-ratio:4/3;object-fit:contain;object-position:center}
