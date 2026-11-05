@@ -1,10 +1,12 @@
 # 作品集3.0.10：接手入口
 
-更新日期：2026-11-04。供huhaheng后续修改使用。
+更新日期：2026-11-05。供huhaheng后续修改使用。
+
+本分支为3.0.11修复稿：修正返回顶部的标题焦点，并统一简历第一页拉新单位。尚未合入main或发布；下方3.0.10链接与固定提交保留为线上基线，修复与验证见[HANDOFF.md](HANDOFF.md)。
 
 明天（2026-11-05）修改部署网址请先看[部署迁移交接](DEPLOYMENT-HANDOFF.md)，其中列出完整素材位置、资源校验清单和目录迁移时的路径调整点。
 
-## 当前版本
+## 当前线上版本
 
 - 仓库：[yanpingsun/yanping-portfolio-site](https://github.com/yanpingsun/yanping-portfolio-site)
 - 分支：`main`
@@ -28,7 +30,7 @@
 | 字体、留白、图框与手机布局 | `styles.css` |
 | 视频封面、原视频与公众号链接 | `media.js`中的`PORTFOLIO_MEDIA.videos`、`articles` |
 | 精华油与酷狗导航封面 | `app.js`的`projectArtwork`，及`styles.css`的`art-editorial-cover` |
-| 简历 | `assets/resume.pdf`，为用户提供的原件；`resume-source.md`仅供文字提取参考 |
+| 简历 | `assets/resume.pdf`，仅更正拉新单位的PDF；用户原件在`assets/archive/`；`resume-source.md`仅供文字提取参考 |
 
 首页和关于页有专用模板，仅改`data.js`中的旧首页文字不会更新它们。
 
@@ -66,6 +68,6 @@
 
 3.0.10在这三种宽度下核对三个视频案例与面膜新旧分析锚点，共18组，无横向溢出或封面裁切；9张封面逐一放大核对原始尺寸，新增分析入口已实际点击。
 
-脚本、样式和简历的当前缓存参数为`?v=3.0.10`。后续有页面改动时同步更新`index.html`、`app.js`等相关缓存参数及版本记录。
+本修复分支脚本、样式和简历的缓存参数为`?v=3.0.11`。后续有页面改动时同步更新`index.html`、`app.js`等相关缓存参数及版本记录。
 
 提交到`main`后，等待GitHub Actions的`pages build and deployment`成功，再核对线上页面。微信外链仍需在允许访问的环境内复核，不能把仅配置了地址写成已验证播放。
