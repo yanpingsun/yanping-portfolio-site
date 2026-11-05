@@ -2,6 +2,8 @@
 
 更新日期：2026-11-04。供huhaheng于2026-11-05接手修改部署网址时使用。
 
+2026-11-05修复补充：本分支为3.0.11修复稿，仅更正返回顶部焦点和简历拉新单位，尚未合入main或发布；下方3.0.10网址继续表示线上基线。本分支资源清单已更新为3.0.11源码提交`f0036d67e4cbf83d7145eb2a07871ff82d54a6a5`；3.0.10原清单仍可从Git提交`61205c0`查回。网址和部署目录尚未修改。
+
 ## 当前可用基线
 
 - 仓库：[yanpingsun/yanping-portfolio-site](https://github.com/yanpingsun/yanping-portfolio-site)，分支`main`。
@@ -25,7 +27,7 @@
 | 原作品、海报线稿、录屏、文章备份等 | 仓库根目录`portfolio-content/`及相关`portfolio-*`文件 |
 | 原内容稿与归档材料 | 仓库根目录`content/`及现有材料目录 |
 
-[ASSET-MANIFEST.json](ASSET-MANIFEST.json)记录415项运行文件与资源的路径、大小、Git blob SHA-1，共184,624,999字节；包含归档素材，不代表浏览器会一次加载这些文件。清单对应上述3.0.10源码基线，校验某文件可在完整克隆仓库中运行`git hash-object 文件路径`与`gitBlobSha1`比较。
+[ASSET-MANIFEST.json](ASSET-MANIFEST.json)在本修复分支记录416项运行文件与资源的路径、大小、Git blob SHA-1，共184,811,096字节（含新增的用户原简历备份）；包含归档素材，不代表浏览器会一次加载这些文件。当前清单对应本修复分支的3.0.11源码提交，校验某文件可在完整克隆仓库中运行`git hash-object 文件路径`与`gitBlobSha1`比较。
 
 ## 修改新网址时的路径区别
 
