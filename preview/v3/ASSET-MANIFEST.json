@@ -1,12 +1,12 @@
 {
-  "sourceVersion": "3.0.10",
-  "sourceCommit": "33954c0f479d416deeb8ecb34fd63dd9ad52a9d1",
+  "sourceVersion": "3.0.11",
+  "sourceCommit": "f0036d67e4cbf83d7145eb2a07871ff82d54a6a5",
   "repository": "yanpingsun/yanping-portfolio-site",
   "branch": "main",
   "entry": "preview/v3/index.html",
-  "verifiedAt": "2026-11-04",
-  "totalFiles": 415,
-  "totalBytes": 184624999,
+  "verifiedAt": "2026-11-05",
+  "totalFiles": 416,
+  "totalBytes": 184811096,
   "checksumType": "Git blob SHA-1 (includes Git blob header; verify with git hash-object)",
   "files": [
     {
@@ -1906,8 +1906,13 @@
     },
     {
       "path": "preview/v3/app.js",
-      "bytes": 37156,
-      "gitBlobSha1": "4de80c0f46602de4fcf00cf588bb54ae6a6770f5"
+      "bytes": 37234,
+      "gitBlobSha1": "d427dc713543304c6a7f82c72647b3a0fd8c4f27"
+    },
+    {
+      "path": "preview/v3/assets/archive/resume-user-20261104.pdf",
+      "bytes": 172767,
+      "gitBlobSha1": "4512f7c73de450eb617fb4f28a68635b3e768265"
     },
     {
       "path": "preview/v3/assets/cover-clean.webp",
@@ -1986,8 +1991,8 @@
     },
     {
       "path": "preview/v3/assets/resume.pdf",
-      "bytes": 172767,
-      "gitBlobSha1": "4512f7c73de450eb617fb4f28a68635b3e768265"
+      "bytes": 186019,
+      "gitBlobSha1": "92bc9548aece3e69dcd850186369186a146c70df"
     },
     {
       "path": "preview/v3/assets/sun-liying-frame.webp",
@@ -2072,7 +2077,7 @@
     {
       "path": "preview/v3/index.html",
       "bytes": 2695,
-      "gitBlobSha1": "9a2299303f77bc42e410ecd562c930b21d3859ac"
+      "gitBlobSha1": "d11a7cfe7d8767b897f72ed46644a9d5f1a929ba"
     },
     {
       "path": "preview/v3/media.js",
