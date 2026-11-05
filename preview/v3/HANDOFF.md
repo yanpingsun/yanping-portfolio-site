@@ -1,10 +1,10 @@
 # 作品集 3.0 修改交接说明
 
-更新日期：2026-11-05，本分支为3.0.11修复稿，线上仍为3.0.10。供huhaheng及后续维护者定位源码和核对内容；历次记录中的旧链接数量、简历版本、取景方式及统计时长，以本版最新确认替代。
+更新日期：2026-11-05，当前版本3.0.11。供huhaheng及后续维护者定位源码和核对内容；历次记录中的旧链接数量、简历版本、取景方式及统计时长，以本版最新确认替代。
 
 接手请先读 [START-HERE.md](START-HERE.md)。两张导航封面的无损PNG与编辑提示词已同步到 [design-sources/](design-sources/README.md)，可直接从GitHub获取。
 
-2026-11-05修改部署网址的交接见[DEPLOYMENT-HANDOFF.md](DEPLOYMENT-HANDOFF.md)，资源路径与校验值见[ASSET-MANIFEST.json](ASSET-MANIFEST.json)。现有3.0.10源码及素材已核对与GitHub一致。
+2026-11-05修改部署网址的交接见[DEPLOYMENT-HANDOFF.md](DEPLOYMENT-HANDOFF.md)，资源路径与校验值见[ASSET-MANIFEST.json](ASSET-MANIFEST.json)。3.0.11运行源码及素材校验对应资源清单，实际部署状态以GitHub Pages运行结果为准。
 
 ## 入口与基线
 
@@ -67,7 +67,7 @@ data.js 是在 general-r2 基础上复制到 3.0 的独立文件，并非实时�
 
 这是静态HTML/JS网站，无依赖安装或构建步骤。将修改提交到 main 后，由已有 GitHub Pages 流程发布，确认对应提交的 pages build and deployment 成功，再核对在线页面。
 
-本修复分支 index.html 为脚本和样式使用 ?v=3.0.11。简历入口在index.html与app.js中也附加?v=3.0.11；更新相关文件后同步修改版本参数，避免浏览器继续使用旧缓存。
+当前 index.html 为脚本和样式使用 ?v=3.0.11。简历入口在index.html与app.js中也附加?v=3.0.11；更新相关文件后同步修改版本参数，避免浏览器继续使用旧缓存。
 
 ## 已做验证与后续检查
 
@@ -79,9 +79,9 @@ data.js 是在 general-r2 基础上复制到 3.0 的独立文件，并非实时�
 3. 手机文字、图片、导航不溢出。
 4. 项目数据、统计周期与个人/团队分工保持一致。
 
-## 2026-11-05：两项评审问题修复（3.0.11修复稿）
+## 2026-11-05：两项评审问题修复（3.0.11）
 
-基于main `61205c0`，在`fix/v3-review-20261105`修复，尚未合入main或发布；正式根入口及其他预览不变。
+基于main `61205c0`，在`fix/v3-review-20261105`修复，通过[PR #8](https://github.com/yanpingsun/yanping-portfolio-site/pull/8)交付；正式根入口及其他预览不变。运行源码固定为`f0036d6`，部署结果以对应Pages运行与线上复核为准。
 
 - 返回顶部：在聚焦案例标题前显式设置`tabindex="-1"`。直接打开章节或从分析页返回时，标题也能获得焦点，保留滚动回页首、收起手机目录与现有键盘样式。
 - 简历：按用户要求将第一页“拉新21万人次”统一为“拉新21万名纯新增用户”，与第二页及网页一致。只替换原PDF内容流中的该处字形，沿用内嵌字体、字号、基线与内容顺序，未从文字稿重新生成简历。原件保存在`assets/archive/resume-user-20261104.pdf`，SHA-256仍为`f659f340c2151eae98c4480b32beefdaabaf1c5b96bb7c889ce874d24e2fb898`；校正稿SHA-256为`3ec379224e1b29a21b3a53d7633987f7d8e3b661b9cee722289339e851782330`。
