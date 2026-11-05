@@ -1,0 +1,6 @@
+{
+  "installCommand": "node --version",
+  "buildCommand": "node tools/build_edgeone.mjs",
+  "outputDirectory": "dist-edgeone",
+  "nodeVersion": "22.11.0"
+}
