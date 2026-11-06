@@ -2,6 +2,8 @@
 
 更新日期：2026-11-05。供huhaheng于2026-11-05接手修改部署网址时使用。
 
+EdgeOne Pages 方案的构建配置、用户所需信息和待上线步骤见 [EDGEONE-DEPLOYMENT.md](EDGEONE-DEPLOYMENT.md)。该方案单独生成新域名根目录部署包，不替换现有 GitHub Pages 根首页；云端项目和域名尚未配置。
+
 2026-11-05修复补充：3.0.11仅更正返回顶部焦点和简历拉新单位，通过[PR #8](https://github.com/yanpingsun/yanping-portfolio-site/pull/8)交付。资源清单已更新为3.0.11源码提交`f0036d67e4cbf83d7145eb2a07871ff82d54a6a5`；3.0.10原清单仍可从Git提交`61205c0`查回。网址和部署目录尚未修改。
 
 ## 当前可用基线
