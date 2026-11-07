@@ -1,8 +1,8 @@
 # 作品集3.0.11：接手入口
 
-更新日期：2026-11-05。供huhaheng后续修改使用。
+更新日期：2026-11-07。供huhaheng后续修改使用。
 
-3.0.11修正返回顶部的标题焦点，并统一简历第一页拉新单位，通过[PR #8](https://github.com/yanpingsun/yanping-portfolio-site/pull/8)交付。修复与验证见[HANDOFF.md](HANDOFF.md)，实际部署状态以GitHub Pages运行结果为准。
+3.0.11修正返回顶部的标题焦点，并统一简历第一页拉新单位，通过[PR #8](https://github.com/yanpingsun/yanping-portfolio-site/pull/8)交付。2026-11-07复用该版本部署至新域名，内容与设计不变；GitHub Pages原根首页和预览继续保留。修复与验证见[HANDOFF.md](HANDOFF.md)，新托管配置见[EDGEONE-DEPLOYMENT.md](EDGEONE-DEPLOYMENT.md)。
 
 修改部署网址请先看[部署迁移交接](DEPLOYMENT-HANDOFF.md)，其中列出完整素材位置、资源校验清单和目录迁移时的路径调整点。
 
@@ -14,7 +14,9 @@
 - 页面版本：**3.0.11**
 - 历史3.0.10运行源码基线提交：[`33954c0f479d416deeb8ecb34fd63dd9ad52a9d1`](https://github.com/yanpingsun/yanping-portfolio-site/commit/33954c0f479d416deeb8ecb34fd63dd9ad52a9d1)
 - 3.0.11运行源码提交：[`f0036d6`](https://github.com/yanpingsun/yanping-portfolio-site/commit/f0036d67e4cbf83d7145eb2a07871ff82d54a6a5)；发布交接文档不改变运行源码。
-- [在线查看最新版](https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/?v=3.0.11#/home/selected)
+- [新域名查看最新版](https://yanpingsun.cn/)
+- [保留的GitHub Pages预览](https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/?v=3.0.11#/home/selected)
+- 新域名部署仓库：`huhaheng/yanping-portfolio-site`，`main`；原仓库合入后需同步此副本才会更新新域名。
 - [完整分工、事实口径与历史修改记录](HANDOFF.md)
 
 本版已接入9张视频封面、更新跨垂类达人脚本策划名称与分析，并替换已下架的李颖视频展示。开始新修改时，以GitHub上最新`main`为基础。
@@ -71,4 +73,4 @@
 
 脚本、样式和简历的当前缓存参数为`?v=3.0.11`。后续有页面改动时同步更新`index.html`、`app.js`等相关缓存参数及版本记录。
 
-提交到`main`后，等待GitHub Actions的`pages build and deployment`成功，再核对线上页面。微信外链仍需在允许访问的环境内复核，不能把仅配置了地址写成已验证播放。
+原仓库修改合入`main`后，按[同步说明](EDGEONE-DEPLOYMENT.md#后续代码更新与副本同步)同步部署副本，等待EdgeOne构建成功后核对新域名。GitHub Pages仍独立等待其`pages build and deployment`成功并核对。微信外链仍需在允许访问的环境内复核，不能把仅配置了地址写成已验证播放。
