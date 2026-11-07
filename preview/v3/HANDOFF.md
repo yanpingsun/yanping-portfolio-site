@@ -1,17 +1,18 @@
 # 作品集 3.0 修改交接说明
 
-更新日期：2026-11-05，当前版本3.0.11。供huhaheng及后续维护者定位源码和核对内容；历次记录中的旧链接数量、简历版本、取景方式及统计时长，以本版最新确认替代。
+更新日期：2026-11-07，当前版本3.0.11。供huhaheng及后续维护者定位源码和核对内容；历次记录中的旧链接数量、简历版本、取景方式及统计时长，以本版最新确认替代。
 
 接手请先读 [START-HERE.md](START-HERE.md)。两张导航封面的无损PNG与编辑提示词已同步到 [design-sources/](design-sources/README.md)，可直接从GitHub获取。
 
-2026-11-05修改部署网址的交接见[DEPLOYMENT-HANDOFF.md](DEPLOYMENT-HANDOFF.md)，资源路径与校验值见[ASSET-MANIFEST.json](ASSET-MANIFEST.json)。3.0.11运行源码及素材校验对应资源清单，实际部署状态以GitHub Pages运行结果为准。
+2026-11-07新域名为[yanpingsun.cn](https://yanpingsun.cn/)，从根目录打开现有3.0.11。EdgeOne部署、DNS、证书及副本同步见[EDGEONE-DEPLOYMENT.md](EDGEONE-DEPLOYMENT.md)，目录迁移说明见[DEPLOYMENT-HANDOFF.md](DEPLOYMENT-HANDOFF.md)，资源路径与校验值见[ASSET-MANIFEST.json](ASSET-MANIFEST.json)。GitHub Pages原入口和运行文件继续保留。
 
 ## 入口与基线
 
 - 仓库：https://github.com/yanpingsun/yanping-portfolio-site
 - 分支：main
 - 本版本目录：preview/v3/
-- 在线预览：https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/
+- 新域名：https://yanpingsun.cn/
+- 保留的在线预览：https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/
 - 3.0 首次上线提交：70e1b93c178fd3478dfee0175cdadc2e6965497a
 
 开始修改前先获取 main 的最新状态，以最新提交为基础。3.0 是独立预览；正式根入口以及 general、general-r2、general-original-layout 是其他版本。

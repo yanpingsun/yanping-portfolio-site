@@ -1,22 +1,40 @@
-# EdgeOne Pages 部署准备
+# EdgeOne Pages 部署与新域名
 
-更新日期：2026-11-06。基于已上线的 3.0.11；本次仅准备新托管，复用现有页面、设计与素材。现有 GitHub Pages 根首页和预览地址继续保留。
+更新日期：2026-11-07。迁移复用现有 3.0.11 页面、设计和素材。现有 GitHub Pages 根首页和预览地址继续保留，运行文件没有改写。
 
 ## 目前状态
 
-根目录部署工具和 Git 导入配置已通过 PR #9 合入原仓库 `main`（`0eb7686`）。用户已购买 `yanpingsun.cn` 并收到实名认证通过通知；通知提示注册局将在 1—2 个工作日内恢复解析，实际恢复状态仍需核对。
+用户已购买并完成 `yanpingsun.cn` 实名认证。新域名已绑定到生产环境，DNS 已生效，免费 HTTPS 证书已部署。当前证书有效期至 2027-02-04，平台会在到期前 15 天自动续期；强制 HTTPS 已启用，301 跳转已保存并重新打开配置核对。
 
-用户登录 GitHub 的账号为 `huhaheng`，原仓库归 `yanpingsun` 所有，导入列表未显示原仓库。预填公开仓库链接未解决授权问题，不能将该链接写成已验证可绕过授权。用户已手动创建 [部署副本 huhaheng/yanping-portfolio-site](https://github.com/huhaheng/yanping-portfolio-site)；2026-11-06 核对副本 `main` 与原仓库一致，均为 `0eb76864887be919b27830c4558a2fd319739710`。
+| 项目 | 当前配置 |
+| --- | --- |
+| 新域名 | `https://yanpingsun.cn/`，入口为网站根目录 |
+| 内容协作源仓库 | [yanpingsun/yanping-portfolio-site](https://github.com/yanpingsun/yanping-portfolio-site) |
+| 托管使用的部署副本 | [huhaheng/yanping-portfolio-site](https://github.com/huhaheng/yanping-portfolio-site)，`main` |
+| EdgeOne 项目 | `yanping-portfolio-overseas`，ID `makers-unagnz0yaijv` |
+| 加速区域 | **全球可用区（不含中国大陆）** |
+| 控制台 | [项目概览](https://console.cloud.tencent.com/edgeone/makers/project/makers-unagnz0yaijv/index) |
+| 平台默认域名 | `yanping-portfolio-overseas-8ghtvlwd.edgeone.dev`，不用作求职投递地址 |
+| 构建产物 | `dist-edgeone/`，450 个文件、194,149,436 字节 |
 
-当前下一步为在 EdgeOne 授权、导入该副本并创建项目；尚未收到云端部署成功或域名绑定完成的证据，不将新域名标记为已上线。
+原 EdgeOne 项目 `yanping-portfolio-site`（`makers-exop6jxam5ic`）实际使用“全球可用区（含中国大陆）”，因此未备案域名在绑定时被拦截。未找到创建后修改区域的入口，现已保留原项目，另建上述不含大陆区域项目。新项目的首次部署 `dpo4grmc0wei` 已成功。
 
-## 用户需要准备
+域名在 DNSPod 使用以下记录，保留已有验证记录及默认 NS：
+
+| 主机记录 | 类型 | 线路 | 记录值 | TTL |
+| --- | --- | --- | --- | --- |
+| `@` | CNAME | 默认 | `yanpingsun.cn.pages.dnsoe6.com` | 600 秒 |
+| `edgeonereclaim` | TXT | 默认 | EdgeOne 生成的归属验证值，已验证通过 | 600 秒 |
+
+证书使用 EdgeOne 免费托管证书、RSA 2048、自动验证方式，控制台状态为“已部署”。证书入口为“域名管理 → 目标域名 HTTPS 列的配置 → 边缘 HTTPS 证书”，与只含 HTTP/2、IPv6、关联环境的通用域名配置抽屉不同。不要重复申请，不删除已生效的根 CNAME；平台依赖该指向完成验证和后续续期。托管及证书均未购买付费服务。
+
+## 账号与访问验收
 
 1. 域名已确认为 `yanpingsun.cn`，注册和实名认证已完成，无需重复提交个人资料。
-2. 用户继续登录本人腾讯云账号，在 EdgeOne 中为新副本完成 GitHub 授权、创建项目和域名绑定。不提供密码、验证码或密钥。
-3. 域名绑定后，用关闭 VPN 的手机流量和国内宽带打开新网址，反馈页面、图片和简历是否正常。境外检查不能证明国内各运营商的访问效果。
+2. 控制台操作使用用户本人腾讯云账号授权的会话，不提供密码、验证码或密钥。
+3. 用户还需用关闭 VPN 的手机流量和国内宽带打开新网址，核对实际加载效果。执行环境检查不能证明国内各运营商的访问稳定性。
 
-只使用静态托管，无需购买云服务器。目前没有可直接操作腾讯云账号的连接工具，登录和控制台操作需用户完成；构建产物、参数和验收由维护者准备。
+只使用静态托管，无需购买云服务器。GitHub Pages 原根首页和 `/preview/v3/` 继续保留，不添加跳转，也不删除旧项目。
 
 ## 生成部署目录
 
@@ -33,28 +51,32 @@ python3 -m http.server 8080 --directory dist-edgeone
 
 本方案用于独立域名的根目录；不要把产物放入额外的子目录。以后修改运行文件或素材，应评审修改并同步资源清单后再构建，校验失败时不要跳过检查。
 
-## 推荐发布方式：导入 Git
+## 托管与构建配置
 
 1. 在腾讯云的 EdgeOne Pages 控制台创建项目，使用 `huhaheng` 连接 GitHub，只授权部署副本 `huhaheng/yanping-portfolio-site`。如列表未显示新副本，在 GitHub 应用的仓库授权中将其勾选，再返回 EdgeOne 刷新。
 2. 仓库选择 `huhaheng/yanping-portfolio-site`，分支选择 `main`。部署配置已合入主分支，无需再选择历史任务分支。
 3. 项目根目录用仓库根目录，框架选其他／自定义。`edgeone.json` 提供构建配置：安装命令 `node --version`（无依赖，仅检查运行环境）、构建命令 `node tools/build_edgeone.mjs`、输出目录 `dist-edgeone`、Node 22.11.0。
 4. **加速区域选择“全球可用区（不含中国大陆）”**。该区域绑定自定义域名无需 ICP 备案；不选包含大陆节点的区域。
-5. 部署成功后添加自己的域名，按控制台提示配置域名验证、DNS CNAME 和免费 HTTPS。DNS 记录值由项目实际生成，不能提前猜填。
+5. 部署成功后添加自定义域名，配置域名验证、DNS CNAME 和免费 HTTPS。当前域名这三项已完成；未来迁移时仍使用目标项目实际生成的记录值。
 6. 用绑定后的自有域名验收，再将该地址用于求职。平台默认项目／部署域名在大陆访问会返回 401，不能作为投递地址。
 
-Git 导入便于继续同步已有仓库修改，不需要另行维护一份网页源码。以上配置已完成本地构建验证，腾讯云侧构建和域名配置待账号就绪后检查。
+Git 导入复用已有源码。上述构建配置已在新项目实际部署成功；不会覆盖 GitHub Pages 原根目录入口。
 
 ## 后续代码更新与副本同步
 
 内容与设计继续以 `yanpingsun/yanping-portfolio-site` 为协作源仓库，通过任务分支和 PR 合入原仓库 `main`，不另在副本独立维护页面。GitHub Fork 不会自动获得原仓库的新提交；每次原仓库修改合入后，维护者需核对并同步部署副本 `main`，EdgeOne 才会从副本触发新构建。
 
-确认副本没有独立修改后，可以运行：
+在本地仓库核对 `origin` 指向原协作仓库，`deploy` 指向 `https://github.com/huhaheng/yanping-portfolio-site.git`；未配置 `deploy` 时先添加。确认副本没有独立修改后，用普通快进推送同步：
 
 ```sh
-gh repo sync huhaheng/yanping-portfolio-site --source yanpingsun/yanping-portfolio-site --branch main
+set -e
+git fetch origin main:refs/remotes/origin/main
+git fetch deploy main:refs/remotes/deploy/main
+git merge-base --is-ancestor deploy/main origin/main
+git push deploy refs/remotes/origin/main:refs/heads/main
 ```
 
-不使用强制覆盖；如副本出现额外提交，先核对并保留相关改动，再处理同步。原站发布、Fork 同步、EdgeOne 构建成功及新域名实际可访问分别记录，不以其中一个步骤代替其他步骤的验证。
+当前连接调用 GitHub `merge-upstream` 接口返回 403，普通 Git 推送已验证可用。不使用强制覆盖；如副本出现额外提交，先核对并保留相关改动，再处理同步。原站发布、Fork 同步、EdgeOne 构建成功及新域名实际可访问分别记录。
 
 ## 备用方式：直接上传
 
@@ -71,6 +93,10 @@ gh repo sync huhaheng/yanping-portfolio-site --source yanpingsun/yanping-portfol
 - 已有 GitHub Pages 根首页、运行脚本、样式及 `preview/v3/` 运行文件无修改。以上为本地 Chromium 验证，不代表腾讯云构建、国内网络或真机 Safari 验收。
 
 ## 发布验收与回退
+
+2026-11-07 已在新域名根目录检查 320、390、1280px 下八个主页面，共 24 组；82 个站内图片地址、中文分析新旧锚点、图片放大、返回顶部焦点、旧 `/preview/v3/` 入口和简历均通过。未见脚本异常、HTTP 错误或横向溢出。简历 SHA-256 仍为 `3ec379224e1b29a21b3a53d7633987f7d8e3b661b9cee722289339e851782330`。
+
+首页、脚本、样式和简历已与 3.0.11 原文件逐字节核对一致。Google 与阿里 DNS 均解析到上述 CNAME，控制台证书已部署；独立浏览器打开 HTTPS 无证书警告，HTTP 入口跳转至 HTTPS 并显示同一作品集。国内手机流量、宽带及真机 Safari 的实际访问效果仍待用户实测。
 
 从自有域名根目录检查首页、作品目录、关于页、五个案例、分析锚点（含中文和旧名称）、图片放大、九张视频封面、简历 PDF，以及手机与桌面显示。检查刷新后的深链接和网络请求无资源缺失。
 
