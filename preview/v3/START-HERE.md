@@ -1,6 +1,8 @@
-# 作品集3.0.11：接手入口
+# 作品集3.0.12：接手入口
 
-更新日期：2026-11-07。供huhaheng后续修改使用。
+更新日期：2026-11-09。供huhaheng后续修改使用。
+
+3.0.12精简首页与精华油案例，先说明项目及本人职责，再展示真实作品。精华油视频脚本不标数量。详见[本次修改说明](RELEASE-3.0.12.md)。
 
 3.0.11修正返回顶部的标题焦点，并统一简历第一页拉新单位，通过[PR #8](https://github.com/yanpingsun/yanping-portfolio-site/pull/8)交付。2026-11-07复用该版本部署至新域名，内容与设计不变；GitHub Pages原根首页和预览继续保留。修复与验证见[HANDOFF.md](HANDOFF.md)，新托管配置见[EDGEONE-DEPLOYMENT.md](EDGEONE-DEPLOYMENT.md)。
 
@@ -11,11 +13,12 @@
 - 仓库：[yanpingsun/yanping-portfolio-site](https://github.com/yanpingsun/yanping-portfolio-site)
 - 分支：`main`
 - 源码目录：`preview/v3/`
-- 页面版本：**3.0.11**
+- 页面版本：**3.0.12**
+- 3.0.12运行源码提交：`428350de086e4c66df13aa2fb22ff2227aef7e40`
 - 历史3.0.10运行源码基线提交：[`33954c0f479d416deeb8ecb34fd63dd9ad52a9d1`](https://github.com/yanpingsun/yanping-portfolio-site/commit/33954c0f479d416deeb8ecb34fd63dd9ad52a9d1)
 - 3.0.11运行源码提交：[`f0036d6`](https://github.com/yanpingsun/yanping-portfolio-site/commit/f0036d67e4cbf83d7145eb2a07871ff82d54a6a5)；发布交接文档不改变运行源码。
 - [新域名查看最新版](https://yanpingsun.cn/)
-- [保留的GitHub Pages预览](https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/?v=3.0.11#/home/selected)
+- [保留的GitHub Pages预览](https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/?v=3.0.12#/home/selected)
 - 新域名部署仓库：`huhaheng/yanping-portfolio-site`，`main`；原仓库合入后需同步此副本才会更新新域名。
 - [完整分工、事实口径与历史修改记录](HANDOFF.md)
 
@@ -27,7 +30,8 @@
 
 | 要改的内容 | 位置 |
 | --- | --- |
-| 首页、项目目录、关于页 | `app.js`中的`homePage`、`worksPage`、`aboutPage` |
+| 首页、项目目录、关于页 | `app.js`中的`homePage`、`featureCard`、`worksPage`、`aboutPage` |
+| 精华油案例 | `app.js`中的`oilCasePage`；作品正文在`data.js`，摘要在`content.js` |
 | 项目标题、摘要、职责与成果 | `content.js`中的`PORTFOLIO_V3.cases` |
 | 案例叙事与补充分析 | `data.js`中的`GENERAL_PORTFOLIO.pages`、`materials` |
 | 字体、留白、图框与手机布局 | `styles.css` |
@@ -37,13 +41,15 @@
 
 首页和关于页有专用模板，仅改`data.js`中的旧首页文字不会更新它们。
 
-## 两张新封面
+## 旧版导航封面归档
 
-- 精华油：网站使用`assets/oil-editorial-cover-v309.webp`。
-- 酷狗：网站使用`assets/kugou-platform-cover-v308.webp`。
+首页3.0.12已改用真实作品组合：精华油日夜海报、酷狗活动页面与内容合集。作品目录仍使用以下导航封面，PNG原稿继续保留。
+
+- 精华油：`assets/oil-editorial-cover-v309.webp`。
+- 酷狗：`assets/kugou-platform-cover-v308.webp`。
 - 二者为1448×1086、4:3，使用同一`art-editorial-cover`规则，0内边距，`contain`完整显示。保留类别标签位置与主体安全留白。
 - PNG原稿与编辑提示词在[design-sources/](design-sources/README.md)。这些是根据用户要求制作的作品集导航封面；案例内的历史原始作品仍保留原路径。
-- 导航封面在`projectArtwork`中独立指定；仅替换`content.js`的`cover`字段不会同步替换这两个入口。该字段仍服务案例首屏等原作品展示。
+- 首页真实作品在`featureCard`中指定；作品目录导航封面在`projectArtwork`中独立指定；仅替换`content.js`的`cover`字段不会同步替换这两个入口。该字段仍服务案例首屏等原作品展示。
 
 ## 已完成的视频封面替换与后续维护
 
@@ -71,6 +77,6 @@
 
 3.0.10在这三种宽度下核对三个视频案例与面膜新旧分析锚点，共18组，无横向溢出或封面裁切；9张封面逐一放大核对原始尺寸，新增分析入口已实际点击。
 
-脚本、样式和简历的当前缓存参数为`?v=3.0.11`。后续有页面改动时同步更新`index.html`、`app.js`等相关缓存参数及版本记录。
+脚本、样式和简历的当前缓存参数为`?v=3.0.12`。后续有页面改动时同步更新`index.html`、`app.js`等相关缓存参数及版本记录。
 
 原仓库修改合入`main`后，按[同步说明](EDGEONE-DEPLOYMENT.md#后续代码更新与副本同步)同步部署副本，等待EdgeOne构建成功后核对新域名。GitHub Pages仍独立等待其`pages build and deployment`成功并核对。微信外链仍需在允许访问的环境内复核，不能把仅配置了地址写成已验证播放。
