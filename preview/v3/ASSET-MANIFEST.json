@@ -1,12 +1,12 @@
 {
-  "sourceVersion": "3.0.11",
-  "sourceCommit": "f0036d67e4cbf83d7145eb2a07871ff82d54a6a5",
+  "sourceVersion": "3.0.12",
+  "sourceCommit": "428350de086e4c66df13aa2fb22ff2227aef7e40",
   "repository": "yanpingsun/yanping-portfolio-site",
   "branch": "main",
   "entry": "preview/v3/index.html",
-  "verifiedAt": "2026-11-05",
+  "verifiedAt": "2026-11-09",
   "totalFiles": 416,
-  "totalBytes": 184811096,
+  "totalBytes": 184821184,
   "checksumType": "Git blob SHA-1 (includes Git blob header; verify with git hash-object)",
   "files": [
     {
@@ -1906,8 +1906,8 @@
     },
     {
       "path": "preview/v3/app.js",
-      "bytes": 37234,
-      "gitBlobSha1": "d427dc713543304c6a7f82c72647b3a0fd8c4f27"
+      "bytes": 42103,
+      "gitBlobSha1": "89ede71dde9f8d6f27e11e635c1b228f6e98bd7b"
     },
     {
       "path": "preview/v3/assets/archive/resume-user-20261104.pdf",
@@ -2051,13 +2051,13 @@
     },
     {
       "path": "preview/v3/content.js",
-      "bytes": 11165,
-      "gitBlobSha1": "f1f978cd88c6f340c468e260c8441a9099a7f851"
+      "bytes": 11102,
+      "gitBlobSha1": "00b48041992ad75bac2121c3016399f65b824985"
     },
     {
       "path": "preview/v3/data.js",
-      "bytes": 117026,
-      "gitBlobSha1": "f2b0106a1b2f66e7f14ecaae08f489feb75e0f15"
+      "bytes": 113114,
+      "gitBlobSha1": "8d7837c2876af7f505e5e580ce42dc653866bab0"
     },
     {
       "path": "preview/v3/design-sources/kugou-cover-v308-prompt.txt",
@@ -2077,7 +2077,7 @@
     {
       "path": "preview/v3/index.html",
       "bytes": 2695,
-      "gitBlobSha1": "d11a7cfe7d8767b897f72ed46644a9d5f1a929ba"
+      "gitBlobSha1": "2172295647b0aff815a6aec049dd71ce85a9a3d9"
     },
     {
       "path": "preview/v3/media.js",
@@ -2086,8 +2086,8 @@
     },
     {
       "path": "preview/v3/styles.css",
-      "bytes": 35166,
-      "gitBlobSha1": "3ac738ec41ea08de6182bd8618193c7fffa10d16"
+      "bytes": 44360,
+      "gitBlobSha1": "ce937da4c445edd65936330b845320eb1fa01e72"
     }
   ]
 }

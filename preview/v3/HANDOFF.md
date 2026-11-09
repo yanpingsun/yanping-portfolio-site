@@ -1,6 +1,8 @@
 # 作品集 3.0 修改交接说明
 
-更新日期：2026-11-07，当前版本3.0.11。供huhaheng及后续维护者定位源码和核对内容；历次记录中的旧链接数量、简历版本、取景方式及统计时长，以本版最新确认替代。
+更新日期：2026-11-09，当前版本3.0.12。供huhaheng及后续维护者定位源码和核对内容；历次记录中的旧链接数量、简历版本、取景方式及统计时长，以本版最新确认替代。
+
+本次只重排首页与精华油案例：删除重复口号及方法总结，明确具体职责，用真实作品替换首页生成导航图，手机视频卡片采用单列；精华油视频脚本不写数量。原视频、封面和分析入口保留，其他案例正文未改。详见[RELEASE-3.0.12.md](RELEASE-3.0.12.md)。
 
 接手请先读 [START-HERE.md](START-HERE.md)。两张导航封面的无损PNG与编辑提示词已同步到 [design-sources/](design-sources/README.md)，可直接从GitHub获取。
 
@@ -24,7 +26,7 @@
 | 首页、作品目录、关于页的文字与结构 | app.js 中的 homePage、worksPage、aboutPage |
 | 各项目首屏标题、摘要、职责、数据、关键判断、协作分工、结果与方法 | content.js 中的 PORTFOLIO_V3.cases |
 | 案例详细叙事、原件入口、补充作品、11份分析正文 | data.js 中的 GENERAL_PORTFOLIO.pages 和 materials |
-| 五案通用排版、目录、折叠、原图弹窗、视频、阅读位置 | app.js 中的 casePage、block、figure 与路由/事件逻辑 |
+| 五案通用排版、目录、折叠、原图弹窗、视频、阅读位置 | app.js 中的 casePage、block、figure 与路由/事件逻辑；精华油使用oilCasePage |
 | 字号、颜色、留白、图片高度与手机适配 | styles.css |
 | 页头页脚、页面元信息、脚本样式入口 | index.html |
 | 下载简历 | assets/resume.pdf |
@@ -32,8 +34,8 @@
 | 公众号、原视频、脚本分析入口及备份路径 | media.js 中的 PORTFOLIO_MEDIA |
 | 9张产品视频封面 | assets/video-covers/；对应关系见VIDEO-COVERS.md，media.js逐条记录原文件名与宽高 |
 | 四张产品展示封面 | assets/cover-oil.webp、cover-sun.webp、cover-mask-scene6.webp、cover-clean.webp；面膜放大图为assets/mask-scene6-large.jpg |
-| 酷狗首页与作品目录封面 | assets/kugou-platform-cover-v308.webp；4:3导航封面，案例正文继续展示真实作品 |
-| 精华油首页与作品目录封面 | assets/oil-editorial-cover-v309.webp；根据原产品图编辑背景与构图的4:3导航封面；原始海报仍在案例中 |
+| 酷狗作品目录旧导航封面 | assets/kugou-platform-cover-v308.webp；4:3导航封面，案例正文继续展示真实作品 |
+| 精华油作品目录旧导航封面 | assets/oil-editorial-cover-v309.webp；根据原产品图编辑背景与构图的4:3导航封面；原始海报仍在案例中 |
 | 电台主海报和阶段数据记录 | assets/radio-shan-yichun.webp为预览，radio-shan-yichun.png为用户原海报，radio-growth-stats.png为用户原始数据图 |
 | 原视频链接待补与微信核对事项 | LINKS-TO-COMPLETE.md |
 

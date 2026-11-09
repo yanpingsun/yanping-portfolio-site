@@ -50,3 +50,142 @@
 .video-poster-zoom.image-open{display:inline-flex;gap:5px;width:auto;height:auto;padding:8px 0 0;background:none;font:11px/1.6 var(--sans);color:var(--accent)}
 .video-poster-zoom.image-open:after{content:none}
 @media(max-width:760px){.video-link-copy>.video-kind{font-size:10px}.video-poster-zoom.image-open{font-size:10px}}
+
+/* Homepage and oil case: describe the work, then show it. */
+.home-direct h1,.home-direct h2,.home-direct h3,.home-direct .compact-copy strong,.oil-direct h1,.oil-direct h2,.oil-direct h3{font-family:var(--sans);letter-spacing:0;font-weight:600;line-height:1.5}
+.home-intro{padding:46px 0 36px;border-bottom:1px solid var(--line);max-width:100%}
+.intro-name{font-size:14px;color:var(--muted);margin:0 0 12px}
+.home-intro h1{font-size:44px;line-height:1.4;margin-bottom:18px}
+.mobile-break{display:none}
+.intro-description{max-width:660px;font-size:16px;line-height:1.85;margin-bottom:12px}
+.intro-target{font-size:13px;color:var(--muted);margin-bottom:23px}
+.home-direct .selected-section{padding:34px 0 42px}
+.home-direct .section-heading{margin-bottom:24px;align-items:center}
+.home-direct .section-heading h2{font-size:24px}
+.home-direct .featured-grid{gap:36px}
+.home-direct .feature-card{display:flex;flex-direction:column}
+.feature-heading{padding-bottom:14px}
+.home-direct .feature-heading h3{font-size:25px;margin:0 0 4px}
+.feature-heading h3 a{display:flex;align-items:center;justify-content:space-between;gap:14px}
+.feature-heading h3 a>span{font-size:21px;color:var(--accent)}
+.feature-heading .project-type{margin:0}
+.home-direct .feature-copy{padding-top:18px}
+.home-direct .feature-copy h3{font-size:25px;margin:0 0 6px}
+.project-type{font-size:13px;color:var(--muted);margin-bottom:5px;line-height:1.7}
+.home-direct .feature-work{font-size:15px;line-height:1.85;margin:12px 0}
+.home-direct .feature-result{font-size:12px;line-height:1.8;color:var(--muted);margin:0 0 8px}
+.work-samples{display:grid;grid-template-columns:1fr 1fr;gap:16px;aspect-ratio:4/3;padding:22px;background:#eeece5;overflow:hidden}
+.work-samples img{width:100%;height:100%;min-height:0;object-fit:contain;object-position:center}
+.samples-kugou img:first-child{object-fit:cover;object-position:top}
+.samples-kugou img:last-child{background:white}
+.home-direct .more-section{padding:30px 0 42px;border-top:1px solid var(--line)}
+.home-direct .compact-project{grid-template-columns:90px 1fr 24px;gap:22px}
+.home-direct .compact-copy strong{font-size:21px}
+.home-direct .compact-copy>span:last-child{font-size:14px}
+.home-contact{display:flex;align-items:center;justify-content:space-between;gap:24px;border-top:1px solid var(--line);padding:30px 0 42px}
+.home-contact h2{font-size:23px;margin-bottom:8px}
+.home-contact p{font-size:13px;color:var(--muted);margin:0}
+.home-contact>a{font-size:15px;color:var(--accent)}
+.oil-direct .case-hero{gap:6%;padding:32px 0 38px;align-items:start}
+.oil-direct .case-hero h1{font-size:42px;margin:9px 0 15px}
+.oil-direct .hero-summary{font-size:16px;line-height:1.85;margin-bottom:22px}
+.oil-role-summary{border-top:1px solid var(--line);padding-top:18px}
+.oil-role-summary>p{display:grid;gap:6px;margin-bottom:17px;font-size:15px;line-height:1.85}
+.oil-role-summary>p:last-child{margin-bottom:0}
+.oil-role-summary strong{font-size:13px}
+.oil-role-summary>.oil-team-note{font-size:13px;color:var(--muted)}
+.case-oil.oil-direct .case-hero-visual .image-open{padding:12px;aspect-ratio:4/3}
+.oil-direct .case-layout{padding-top:32px}
+.oil-direct .case-section{margin-top:34px;padding-top:30px}
+.oil-direct .story-group>.case-section:first-of-type{margin-top:0;padding-top:0}
+.oil-direct .case-section>h2{font-size:27px;margin-bottom:17px}
+.oil-direct .case-section>h3{font-size:20px;margin:25px 0 10px}
+.oil-direct .case-section>p,.oil-direct #oil-strategy>p{font-size:15px;line-height:1.85;margin-bottom:17px;max-width:760px}
+.oil-direct .paired-figures{gap:20px}
+.oil-poster-work{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:24px;margin:20px 0 27px}
+.oil-poster-work>.work-figure,.oil-poster-work .supplement-body>.work-figure{margin:0}
+.oil-poster-work .image-open{height:auto;aspect-ratio:3/4;padding:12px}
+.oil-poster-work .oil-linework{margin-top:0;border-bottom:1px solid var(--line)}
+.oil-poster-work .oil-linework>summary{padding-top:10px;padding-bottom:10px;font-size:13px}
+.oil-poster-work .oil-linework>summary:after{top:7px}
+.oil-direct .case-hero-visual figcaption{margin-right:12px}
+.oil-direct .paired-figures .image-open{height:auto;aspect-ratio:3/4;padding:12px}
+.oil-direct .image-sequence>.work-figure:only-child{max-width:560px}
+.oil-direct .image-sequence>.work-figure:only-child .image-open{height:auto;padding:14px}
+.oil-direct .image-sequence>.work-figure:only-child img{width:100%;height:auto;max-height:none}
+.oil-video-list{display:grid;gap:22px;margin:22px 0}
+.oil-direct .video-link-card{grid-template-columns:190px minmax(0,1fr);gap:26px;background:transparent;padding:20px;border:1px solid var(--line)}
+.oil-direct .video-link-copy h3{font-size:21px;margin:0 0 11px}
+.oil-direct .video-link-copy>.video-description{font-size:14px;line-height:1.85;color:var(--body);margin-bottom:18px}
+.oil-script-links{display:flex;flex-wrap:wrap;gap:12px 25px}
+.oil-direct .result-panel{padding:24px}
+.oil-direct .result-metrics{margin-bottom:14px}
+.oil-direct .result-panel p{font-size:13px}
+.oil-direct .supplementary summary{font-size:15px}
+@media(max-width:760px){
+  .home-direct .home-intro{padding:26px 0 28px}
+  .home-direct .intro-name{font-size:13px;margin-bottom:9px}
+  .home-direct .home-intro h1{font-size:30px;line-height:1.4;margin-bottom:14px}
+  .mobile-break{display:block}
+  .intro-description{font-size:15px;line-height:1.8;margin-bottom:10px}
+  .intro-target{font-size:12px;line-height:1.8;margin-bottom:18px}
+  .home-direct .hero-actions{gap:24px}
+  .home-direct .button{font-size:13px;min-height:44px}
+  .home-direct .text-link{font-size:13px}
+  .home-direct .selected-section{padding:25px 0 30px}
+  .home-direct .section-heading{display:flex;gap:12px;margin-bottom:19px}
+  .home-direct .section-heading h2{font-size:22px}
+  .home-direct .featured-grid{gap:29px}
+  .work-samples{padding:16px;gap:12px}
+  .home-direct .feature-copy{padding-top:15px}
+  .home-direct .feature-copy h3{font-size:23px;line-height:1.5}
+  .home-direct .feature-work{font-size:15px;margin:9px 0}
+  .home-direct .feature-result{font-size:12px;line-height:1.8}
+  .home-direct .project-type{font-size:12px}
+  .home-direct .more-section{padding:25px 0 30px}
+  .home-direct .more-section .section-heading>a{margin-top:0;white-space:nowrap}
+  .home-direct .compact-project{grid-template-columns:64px 1fr 18px;gap:15px;padding:18px 0}
+  .home-direct .compact-copy strong{font-size:19px}
+  .home-direct .compact-copy>span:last-child{font-size:13px;line-height:1.75}
+  .home-contact{display:block;padding:25px 0 32px}
+  .home-contact h2{font-size:21px}
+  .home-contact p{font-size:12px;margin-bottom:17px}
+  .home-contact>a{font-size:14px}
+  .oil-direct .breadcrumb{font-size:11px}
+  .oil-direct .breadcrumb>span{font-size:10px;letter-spacing:0}
+  .oil-direct .case-hero{gap:23px;padding:23px 0 27px}
+  .oil-direct .project-type{font-size:12px}
+  .oil-direct .case-hero h1{font-size:30px;margin:7px 0 12px}
+  .oil-direct .hero-summary{font-size:15px;line-height:1.8;margin-bottom:17px}
+  .oil-role-summary{padding-top:14px}
+  .oil-role-summary>p{font-size:15px;line-height:1.8;gap:4px;margin-bottom:12px}
+  .oil-role-summary>.oil-team-note{font-size:12px;line-height:1.8}
+  .oil-role-summary strong{font-size:13px}
+  .oil-direct .case-layout{padding-top:0}
+  .oil-direct .case-bar{margin-bottom:27px}
+  .oil-direct .case-section{padding-top:26px;margin-top:27px}
+  .oil-direct .case-section>h2{font-size:23px;margin-bottom:15px}
+  .oil-direct .case-section>h3{font-size:18px;margin-top:22px}
+  .oil-direct .case-section>p,.oil-direct #oil-strategy>p{font-size:15px;line-height:1.85}
+  .oil-direct .paired-figures{grid-template-columns:1fr;gap:20px;margin:20px 0}
+  .oil-poster-work{grid-template-columns:1fr;gap:14px;margin:18px 0 24px}
+  .oil-poster-work .image-open{aspect-ratio:auto;padding:14px}
+  .oil-poster-work img{width:100%;height:auto;max-height:none}
+  .oil-direct .paired-figures .image-open{aspect-ratio:auto;padding:14px}
+  .oil-direct .paired-figures img{width:100%;height:auto;max-height:none}
+  .oil-direct .work-type-label{font-size:12px;margin-bottom:8px}
+  .oil-direct .paired-figures figcaption,.oil-direct .work-figure figcaption{font-size:12px;line-height:1.75}
+  .oil-direct .original-link{font-size:12px;display:inline-block;padding:5px 0}
+  .oil-direct .video-link-card{display:flex;flex-direction:column;align-items:stretch;gap:16px;padding:16px}
+  .oil-direct .video-visual{width:100%;max-width:270px;margin:0 auto}
+  .oil-direct .video-link-card .video-cover{aspect-ratio:3/4}
+  .oil-direct .video-link-copy h3{font-size:19px;margin-bottom:9px}
+  .oil-direct .video-link-copy>.video-description{font-size:14px;margin-bottom:13px}
+  .oil-direct .video-link-actions{gap:16px;align-items:center}
+  .oil-direct .video-link-actions .button{font-size:12px;min-height:44px;padding:10px 14px}
+  .oil-direct .video-link-actions .text-link{font-size:12px;min-height:44px;padding:10px 0}
+  .oil-direct .video-poster-zoom.image-open{font-size:12px;min-height:38px}
+  .oil-direct .oil-script-links{display:grid;gap:8px}
+  .oil-direct .result-panel{padding:20px}
+  .oil-direct .supplementary summary{font-size:14px}
+}
