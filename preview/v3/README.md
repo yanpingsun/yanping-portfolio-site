@@ -1,10 +1,12 @@
 # 孙岩萍内容营销作品集 3.0
 
+3.0.15仅调整酷狗排版，保留原文、数据与全部作品。修改与核对见[RELEASE-3.0.15.md](RELEASE-3.0.15.md)。
+
 3.0.14修正成品与线稿的并排对齐，内容及素材不变。原因、修改和验证见[RELEASE-3.0.14.md](RELEASE-3.0.14.md)。
 
-发布状态（2026-11-09）：源码与GitHub Pages预览版本为3.0.14；正式域名yanpingsun.cn仍待huhaheng同步部署副本main后更新。当前部署副本停在e97a201，当前会话没有该副本写权限。请按EDGEONE-DEPLOYMENT.md同步原仓库最新main，等待EdgeOne构建并复核正式域名。
+发布状态（2026-11-09）：源码与GitHub Pages预览版本为3.0.15；正式域名yanpingsun.cn仍待huhaheng同步部署副本main后更新。当前部署副本停在e97a201，当前会话没有该副本写权限。请按EDGEONE-DEPLOYMENT.md同步原仓库最新main，等待EdgeOne构建并复核正式域名。
 
-当前版本：**3.0.14**（2026-11-09）。正式域名为 https://yanpingsun.cn/，GitHub Pages保留`/preview/v3/`入口。新域名通过部署副本的EdgeOne构建发布，见[部署说明](EDGEONE-DEPLOYMENT.md)。
+当前版本：**3.0.15**（2026-11-09）。正式域名为 https://yanpingsun.cn/，GitHub Pages保留`/preview/v3/`入口。新域名通过部署副本的EdgeOne构建发布，见[部署说明](EDGEONE-DEPLOYMENT.md)。
 
 本次根据用户确认稿，统一童颜面膜、防晒与洁颜霜的内容及排版。修改范围、验证与维护位置见[RELEASE-3.0.13.md](RELEASE-3.0.13.md)。首页与精华油沿用3.0.12。
 
@@ -40,4 +42,4 @@
 
 修改部署网址请看[部署迁移交接](DEPLOYMENT-HANDOFF.md)；完整资源校验清单见[ASSET-MANIFEST.json](ASSET-MANIFEST.json)。
 
-无构建步骤。修改 `content.js`中的摘要与分工，或 `data.js`中的详细正文；原文/视频链接修改 `media.js`。`app.js`负责路由、原图和阅读位置，`styles.css`负责响应式布局。当前资源与简历缓存版本为3.0.14；完整维护与验证说明见 [HANDOFF.md](HANDOFF.md)。发布时更新资源清单并运行`node tools/build_edgeone.mjs`；合入源码仓库后同步部署副本，分别确认GitHub Pages及新域名。
+无构建步骤。修改 `content.js`中的摘要与分工，或 `data.js`中的详细正文；原文/视频链接修改 `media.js`。`app.js`负责路由、原图和阅读位置，`styles.css`负责响应式布局。当前资源与简历缓存版本为3.0.15；完整维护与验证说明见 [HANDOFF.md](HANDOFF.md)。发布时更新资源清单并运行`node tools/build_edgeone.mjs`；合入源码仓库后同步部署副本，分别确认GitHub Pages及新域名。
