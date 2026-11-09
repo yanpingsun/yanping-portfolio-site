@@ -1,5 +1,7 @@
 # 作品集3.0.12：部署网址迁移交接
 
+发布状态（2026-11-09）：源码已通过PR #12合入main，GitHub Pages预览3.0.12已上线并核对；正式域名yanpingsun.cn仍为3.0.11，部署副本main停在e97a201。当前连接器没有副本写权限，本机Git也无可用登录凭据，因此尚未同步或触发新域名部署。请huhaheng按EDGEONE-DEPLOYMENT.md中的同步步骤，将原仓库最新main同步到部署副本，再等待EdgeOne构建并核对正式域名。
+
 更新日期：2026-11-09。供huhaheng及后续维护者核对部署网址时使用。
 
 2026-11-07 部署更新：不含中国大陆区域的新项目 `yanping-portfolio-overseas` 已部署成功，`yanpingsun.cn` 已绑定生产环境，DNS 已生效，免费 HTTPS 证书已部署。实际配置和验收见 [EDGEONE-DEPLOYMENT.md](EDGEONE-DEPLOYMENT.md)。新域名根目录复用 3.0.11，不替换现有 GitHub Pages 根首页。
@@ -13,7 +15,7 @@
 - 仓库：[yanpingsun/yanping-portfolio-site](https://github.com/yanpingsun/yanping-portfolio-site)，分支`main`。
 - 最新作品集入口：`preview/v3/index.html`，页面版本3.0.12。
 - 历史3.0.11运行源码基线：[`f0036d6`](https://github.com/yanpingsun/yanping-portfolio-site/commit/f0036d67e4cbf83d7145eb2a07871ff82d54a6a5)。3.0.12运行源码提交见上方记录。
-- 当前新域名：[作品集3.0.12](https://yanpingsun.cn/)；[GitHub Pages预览](https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/?v=3.0.12#/home/selected)继续保留。
+- 当前新域名：[正式域名（待同步3.0.12）](https://yanpingsun.cn/)；[GitHub Pages预览](https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/?v=3.0.12#/home/selected)继续保留。
 - 修改位置与已确认内容见[START-HERE.md](START-HERE.md)及[HANDOFF.md](HANDOFF.md)。
 
 3.0.10交接时已核对：本地`preview/v3/`的44个现有文件与GitHub一致；图片、录屏、PDF及其他素材也无待上传差异。图片与备份引用中的116个路径均存在。

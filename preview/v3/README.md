@@ -1,5 +1,7 @@
 # 孙岩萍内容营销作品集 3.0
 
+发布状态（2026-11-09）：源码已通过PR #12合入main，GitHub Pages预览3.0.12已上线并核对；正式域名yanpingsun.cn仍为3.0.11，部署副本main停在e97a201。当前连接器没有副本写权限，本机Git也无可用登录凭据，因此尚未同步或触发新域名部署。请huhaheng按EDGEONE-DEPLOYMENT.md中的同步步骤，将原仓库最新main同步到部署副本，再等待EdgeOne构建并核对正式域名。
+
 当前版本：**3.0.12**（2026-11-09）。正式域名为 https://yanpingsun.cn/，GitHub Pages保留`/preview/v3/`入口。新域名通过部署副本的EdgeOne构建发布，见[部署说明](EDGEONE-DEPLOYMENT.md)。
 
 本次精简首页与精华油案例，修改范围、验证与维护位置见[RELEASE-3.0.12.md](RELEASE-3.0.12.md)。

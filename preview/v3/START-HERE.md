@@ -1,5 +1,7 @@
 # 作品集3.0.12：接手入口
 
+发布状态（2026-11-09）：源码已通过PR #12合入main，GitHub Pages预览3.0.12已上线并核对；正式域名yanpingsun.cn仍为3.0.11，部署副本main停在e97a201。当前连接器没有副本写权限，本机Git也无可用登录凭据，因此尚未同步或触发新域名部署。请huhaheng按EDGEONE-DEPLOYMENT.md中的同步步骤，将原仓库最新main同步到部署副本，再等待EdgeOne构建并核对正式域名。
+
 更新日期：2026-11-09。供huhaheng后续修改使用。
 
 3.0.12精简首页与精华油案例，先说明项目及本人职责，再展示真实作品。精华油视频脚本不标数量。详见[本次修改说明](RELEASE-3.0.12.md)。
@@ -17,7 +19,7 @@
 - 3.0.12运行源码提交：`428350de086e4c66df13aa2fb22ff2227aef7e40`
 - 历史3.0.10运行源码基线提交：[`33954c0f479d416deeb8ecb34fd63dd9ad52a9d1`](https://github.com/yanpingsun/yanping-portfolio-site/commit/33954c0f479d416deeb8ecb34fd63dd9ad52a9d1)
 - 3.0.11运行源码提交：[`f0036d6`](https://github.com/yanpingsun/yanping-portfolio-site/commit/f0036d67e4cbf83d7145eb2a07871ff82d54a6a5)；发布交接文档不改变运行源码。
-- [新域名查看最新版](https://yanpingsun.cn/)
+- [正式域名（待同步3.0.12）](https://yanpingsun.cn/)
 - [保留的GitHub Pages预览](https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/?v=3.0.12#/home/selected)
 - 新域名部署仓库：`huhaheng/yanping-portfolio-site`，`main`；原仓库合入后需同步此副本才会更新新域名。
 - [完整分工、事实口径与历史修改记录](HANDOFF.md)

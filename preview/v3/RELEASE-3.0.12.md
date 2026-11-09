@@ -1,5 +1,7 @@
 # 3.0.12：首页与精华油案例精简
 
+发布状态（2026-11-09）：源码已通过PR #12合入main，GitHub Pages预览3.0.12已上线并核对；正式域名yanpingsun.cn仍为3.0.11，部署副本main停在e97a201。当前连接器没有副本写权限，本机Git也无可用登录凭据，因此尚未同步或触发新域名部署。请huhaheng按EDGEONE-DEPLOYMENT.md中的同步步骤，将原仓库最新main同步到部署副本，再等待EdgeOne构建并核对正式域名。
+
 日期：2026-11-09。基于最新main（e97a201），保留huhaheng完成的新域名、HTTPS与EdgeOne配置。
 
 ## 内容与排版
