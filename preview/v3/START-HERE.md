@@ -1,6 +1,8 @@
-# 作品集3.0.13：接手入口
+# 作品集3.0.14：接手入口
 
-发布状态（2026-11-09）：源码与GitHub Pages预览版本为3.0.13；正式域名yanpingsun.cn仍待huhaheng同步部署副本main后更新。当前部署副本停在e97a201，当前会话没有该副本写权限。请按EDGEONE-DEPLOYMENT.md同步原仓库最新main，等待EdgeOne构建并复核正式域名。
+3.0.14修正成品与线稿的并排对齐，内容及素材不变。原因、修改和验证见[RELEASE-3.0.14.md](RELEASE-3.0.14.md)。
+
+发布状态（2026-11-09）：源码与GitHub Pages预览版本为3.0.14；正式域名yanpingsun.cn仍待huhaheng同步部署副本main后更新。当前部署副本停在e97a201，当前会话没有该副本写权限。请按EDGEONE-DEPLOYMENT.md同步原仓库最新main，等待EdgeOne构建并复核正式域名。
 
 更新日期：2026-11-09。供huhaheng后续修改使用。
 
@@ -15,14 +17,15 @@
 - 仓库：[yanpingsun/yanping-portfolio-site](https://github.com/yanpingsun/yanping-portfolio-site)
 - 分支：`main`
 - 源码目录：`preview/v3/`
-- 页面版本：**3.0.13**
+- 页面版本：**3.0.14**
+- 3.0.14运行源码提交：83713139e4fa6010ce8da0b39b06acd53aec7a87
 - 3.0.13运行源码提交：`070b3112bf3ae1c0beb2fb24e83f762ced62fb5b`
-- 本次修改：[RELEASE-3.0.13.md](RELEASE-3.0.13.md)；内容依据：[已确认文案](APPROVED-PRODUCT-COPY.md)
+- 本次修改：[RELEASE-3.0.14.md](RELEASE-3.0.14.md)；上次内容改版：[RELEASE-3.0.13.md](RELEASE-3.0.13.md)；内容依据：[已确认文案](APPROVED-PRODUCT-COPY.md)
 - 3.0.12运行源码提交：`428350de086e4c66df13aa2fb22ff2227aef7e40`
 - 历史3.0.10运行源码基线提交：[`33954c0f479d416deeb8ecb34fd63dd9ad52a9d1`](https://github.com/yanpingsun/yanping-portfolio-site/commit/33954c0f479d416deeb8ecb34fd63dd9ad52a9d1)
 - 3.0.11运行源码提交：[`f0036d6`](https://github.com/yanpingsun/yanping-portfolio-site/commit/f0036d67e4cbf83d7145eb2a07871ff82d54a6a5)；发布交接文档不改变运行源码。
-- [正式域名（待同步3.0.13）](https://yanpingsun.cn/)
-- [保留的GitHub Pages预览](https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/?v=3.0.13#/home/selected)
+- [正式域名（待同步3.0.14）](https://yanpingsun.cn/)
+- [保留的GitHub Pages预览](https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/?v=3.0.14#/home/selected)
 - 新域名部署仓库：`huhaheng/yanping-portfolio-site`，`main`；原仓库合入后需同步此副本才会更新新域名。
 - [完整分工、事实口径与历史修改记录](HANDOFF.md)
 
@@ -81,6 +84,6 @@
 
 3.0.10在这三种宽度下核对三个视频案例与面膜新旧分析锚点，共18组，无横向溢出或封面裁切；9张封面逐一放大核对原始尺寸，新增分析入口已实际点击。
 
-脚本、样式和简历的当前缓存参数为`?v=3.0.13`。后续有页面改动时同步更新`index.html`、`app.js`等相关缓存参数及版本记录。
+脚本、样式和简历的当前缓存参数为`?v=3.0.14`。后续有页面改动时同步更新`index.html`、`app.js`等相关缓存参数及版本记录。
 
 原仓库修改合入`main`后，按[同步说明](EDGEONE-DEPLOYMENT.md#后续代码更新与副本同步)同步部署副本，等待EdgeOne构建成功后核对新域名。GitHub Pages仍独立等待其`pages build and deployment`成功并核对。微信外链仍需在允许访问的环境内复核，不能把仅配置了地址写成已验证播放。

@@ -1,6 +1,8 @@
 # EdgeOne Pages 部署与新域名
 
-发布状态（2026-11-09）：源码与GitHub Pages预览版本为3.0.13；正式域名yanpingsun.cn仍待huhaheng同步部署副本main后更新。当前部署副本停在e97a201，当前会话没有该副本写权限。请按EDGEONE-DEPLOYMENT.md同步原仓库最新main，等待EdgeOne构建并复核正式域名。
+3.0.14修正成品与线稿的并排对齐，内容及素材不变。原因、修改和验证见[RELEASE-3.0.14.md](RELEASE-3.0.14.md)。
+
+发布状态（2026-11-09）：源码与GitHub Pages预览版本为3.0.14；正式域名yanpingsun.cn仍待huhaheng同步部署副本main后更新。当前部署副本停在e97a201，当前会话没有该副本写权限。请按EDGEONE-DEPLOYMENT.md同步原仓库最新main，等待EdgeOne构建并复核正式域名。
 
 2026-11-09：源码与GitHub预览更新至3.0.12，精简首页与精华油案例。托管、域名、DNS与HTTPS配置沿用本说明；本次修改见[RELEASE-3.0.12.md](RELEASE-3.0.12.md)。当前构建仍校验416项资源并输出450个文件，194,169,612字节。下方2026-11-07配置与验证记录保留为迁移历史。
 
