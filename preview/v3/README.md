@@ -1,17 +1,17 @@
 # 孙岩萍内容营销作品集 3.0
 
-发布状态（2026-11-09）：源码已通过PR #12合入main，GitHub Pages预览3.0.12已上线并核对；正式域名yanpingsun.cn仍为3.0.11，部署副本main停在e97a201。当前连接器没有副本写权限，本机Git也无可用登录凭据，因此尚未同步或触发新域名部署。请huhaheng按EDGEONE-DEPLOYMENT.md中的同步步骤，将原仓库最新main同步到部署副本，再等待EdgeOne构建并核对正式域名。
+发布状态（2026-11-09）：源码与GitHub Pages预览版本为3.0.13；正式域名yanpingsun.cn仍待huhaheng同步部署副本main后更新。当前部署副本停在e97a201，当前会话没有该副本写权限。请按EDGEONE-DEPLOYMENT.md同步原仓库最新main，等待EdgeOne构建并复核正式域名。
 
-当前版本：**3.0.12**（2026-11-09）。正式域名为 https://yanpingsun.cn/，GitHub Pages保留`/preview/v3/`入口。新域名通过部署副本的EdgeOne构建发布，见[部署说明](EDGEONE-DEPLOYMENT.md)。
+当前版本：**3.0.13**（2026-11-09）。正式域名为 https://yanpingsun.cn/，GitHub Pages保留`/preview/v3/`入口。新域名通过部署副本的EdgeOne构建发布，见[部署说明](EDGEONE-DEPLOYMENT.md)。
 
-本次精简首页与精华油案例，修改范围、验证与维护位置见[RELEASE-3.0.12.md](RELEASE-3.0.12.md)。
+本次根据用户确认稿，统一童颜面膜、防晒与洁颜霜的内容及排版。修改范围、验证与维护位置见[RELEASE-3.0.13.md](RELEASE-3.0.13.md)。首页与精华油沿用3.0.12。
 
 ## 内容与设计
 
 - 沿用原版米白、深绿、砖红及编辑式排版，提高正文阅读性。
 - 首页以姓名、职业、经历和具体职责开场；代表项目使用真实作品。作品目录保留旧导航封面，素材未删除。
 - 首页突出产品内容策略与团队管理：精华油、酷狗为两大代表项目；面膜、防晒、洁面补充不同判断。
-- 精华油案例按项目介绍、作品展示、项目结果、更多作品排列；其他案例保持原结构。
+- 四个产品案例按项目介绍、作品展示、项目结果、更多作品排列；面膜保留直播讲解，防晒保留销售问答，酷狗沿用现有结构。
 - 桌面侧边目录、手机常驻章节栏均支持返回顶部；手机目录点击后自动收起。
 - 9条可展示产品视频按用户文件名接入真实封面，人物、产品和文字完整显示；封面可放大，原视频和脚本分析分别保留。对应关系见 [VIDEO-COVERS.md](VIDEO-COVERS.md)。
 - 公众号使用原文入口并在新标签打开，保留能说明内容策略的精选截图。
@@ -38,4 +38,4 @@
 
 修改部署网址请看[部署迁移交接](DEPLOYMENT-HANDOFF.md)；完整资源校验清单见[ASSET-MANIFEST.json](ASSET-MANIFEST.json)。
 
-无构建步骤。修改 `content.js`中的摘要与分工，或 `data.js`中的详细正文；原文/视频链接修改 `media.js`。`app.js`负责路由、原图和阅读位置，`styles.css`负责响应式布局。当前资源与简历缓存版本为3.0.12；完整维护与验证说明见 [HANDOFF.md](HANDOFF.md)。发布时更新资源清单并运行`node tools/build_edgeone.mjs`；合入源码仓库后同步部署副本，分别确认GitHub Pages及新域名。
+无构建步骤。修改 `content.js`中的摘要与分工，或 `data.js`中的详细正文；原文/视频链接修改 `media.js`。`app.js`负责路由、原图和阅读位置，`styles.css`负责响应式布局。当前资源与简历缓存版本为3.0.13；完整维护与验证说明见 [HANDOFF.md](HANDOFF.md)。发布时更新资源清单并运行`node tools/build_edgeone.mjs`；合入源码仓库后同步部署副本，分别确认GitHub Pages及新域名。
