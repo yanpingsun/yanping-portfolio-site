@@ -210,3 +210,67 @@
   .poster-work .image-open img{height:auto;max-height:none}
   .poster-work .work-figure figcaption{min-height:0}
 }
+
+
+/* Kugou keeps its operating cases, with the shared project typography and spacing. */
+.kugou-direct .kugou-subtitle{font-size:20px;line-height:1.7;color:var(--ink);margin:-3px 0 20px}
+.kugou-direct .product-role-summary{padding-top:15px}
+.kugou-direct .product-role-summary>.kugou-position{font-size:12px;color:var(--muted);margin-top:10px}
+.kugou-direct .hero-metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;padding-top:16px;margin-top:18px}
+.kugou-direct .hero-metrics .metric-item>strong{font-size:32px}
+.kugou-direct .metric-note{font-size:12px;line-height:1.8;margin-top:10px}
+.case-page.kugou-direct .case-hero-visual .image-open{display:block;aspect-ratio:4/3;padding:0;overflow:hidden}
+.case-page.kugou-direct .case-hero-visual .image-open img{display:block;width:100%;height:100%;object-fit:cover;object-position:center top}
+.kugou-direct .case-hero-visual .image-open:after{content:'查看完整长图 ↗'}
+.kugou-direct .preview-note{margin:7px 0 0;font-size:12px;line-height:1.8;color:var(--muted)}
+.kugou-direct .case-brief{padding-bottom:22px;margin-bottom:16px;border-bottom:1px solid var(--line)}
+.kugou-direct .case-brief>h2{font-size:26px;line-height:1.65;margin-bottom:14px}
+.kugou-direct .case-brief>p:not(.eyebrow){font-size:15px;line-height:1.85}
+.kugou-direct .case-main .eyebrow{font-size:9px;color:var(--muted);margin-bottom:10px}
+.kugou-direct .key-decisions{gap:24px;margin:22px 0 5px}
+.kugou-direct .key-decisions .index{font-size:17px}
+.kugou-direct .key-decisions h3{font-size:16px;margin:6px 0 8px}
+.kugou-direct .key-decisions p{font-size:14px;line-height:1.85}
+.kugou-direct .story-label{border-top:0;padding-top:0;margin-bottom:20px}
+.kugou-direct .story-label>p:last-child{font:400 13px/1.8 var(--sans);color:var(--muted)}
+.kugou-direct .case-main .image-sequence{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:start}
+.kugou-direct .case-main .image-sequence>.work-figure:only-child{max-width:520px}
+.kugou-direct .case-main .image-open{height:auto;aspect-ratio:auto;padding:14px}
+.kugou-direct .case-main .image-open img{width:100%;height:auto;max-height:none;object-fit:contain}
+.kugou-direct .case-main .artwork-long-preview .image-open{height:auto;aspect-ratio:3/4;overflow:hidden}
+.kugou-direct .case-main .artwork-long-preview .image-open img{width:100%;height:100%;object-fit:cover;object-position:center top}
+.kugou-direct .artwork-long-preview .image-open:after{content:'局部预览 · 查看完整长图 ↗'}
+.kugou-direct .case-section>blockquote{padding:22px 24px;border:0;background:var(--soft);margin:24px 0;color:var(--body)}
+.kugou-direct .case-section>blockquote p{font-size:15px;line-height:1.85}
+.kugou-direct .case-section>blockquote strong{font-size:17px}
+.kugou-direct .work-metric-set{margin:24px 0}
+.kugou-direct .work-metrics{padding:22px 24px;margin:0;border:0;background:var(--soft)}
+.kugou-direct .work-metrics .metric-item>strong{font-size:34px}
+.kugou-direct .work-metric-set>.caption{font-size:12px;line-height:1.8;margin:9px 0 0}
+.kugou-direct .responsibility-table>div{padding:20px 0;gap:24px}
+.kugou-direct .responsibility-table h3,.kugou-direct .responsibility-table p{font-size:15px;line-height:1.85}
+.kugou-direct .delivery-note{font-size:15px;line-height:1.85}
+.kugou-direct .takeaway>p{font-size:15px;line-height:1.85}
+@media(max-width:760px){
+  .kugou-direct .kugou-subtitle{font-size:17px;line-height:1.7;margin:-2px 0 15px}
+  .kugou-direct .product-role-summary>.kugou-position{font-size:12px;margin-top:8px}
+  .kugou-direct .hero-metrics{gap:18px;padding-top:15px;margin-top:16px}
+  .kugou-direct .hero-metrics .metric-item>strong{font-size:30px}
+  .kugou-direct .hero-metrics .metric-item>span{font-size:11px}
+  .kugou-direct .metric-note{font-size:12px;line-height:1.8}
+  .kugou-direct .case-brief>h2{font-size:23px}
+  .kugou-direct .key-decisions{margin-top:18px}
+  .kugou-direct .key-decisions p{font-size:14px;line-height:1.85}
+  .kugou-direct .key-decisions article{padding-top:15px;margin-top:15px}
+  .kugou-direct .story-label{margin-bottom:16px}
+  .kugou-direct .case-main .image-sequence{grid-template-columns:1fr;gap:18px}
+  .kugou-direct .case-main .image-sequence>.work-figure:only-child{max-width:100%}
+  .kugou-direct .case-main .image-open{padding:12px}
+  .kugou-direct .case-section>blockquote{padding:19px 20px}
+  .kugou-direct .work-metrics{gap:14px;padding:20px 16px}
+  .kugou-direct .work-metrics .metric-item>strong{font-size:29px}
+  .kugou-direct .work-metrics .metric-item small{font-size:11px}
+  .kugou-direct .responsibility-table>div{gap:7px;padding:18px 0}
+  .kugou-direct .delivery-note{margin-top:20px}
+  .kugou-direct .supplementary .detail-meta{font-size:11px}
+}
