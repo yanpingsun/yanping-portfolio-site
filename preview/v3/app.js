@@ -15,7 +15,7 @@
   const absolute = (raw, source) => new URL(raw, new URL(source, root));
   const relative = url => decodeURIComponent(url.pathname.slice(root.pathname.length));
   let currentKey = '', lastUrl = '', routeSequence = 0, restoreLock = false;
-  let saveTimer, scrollFrame, lastTrigger, oldOverflow = '', imageScrollY = 0, zoom = 1;
+  let saveTimer, scrollFrame, lastTrigger, oldOverflow = '', imageScrollY = 0, zoom = 1, zoomMode = 'contain';
   history.scrollRestoration = 'manual';
 
   function destination(raw, source) {
@@ -26,7 +26,7 @@
     const url=absolute(raw,source), rel=relative(url), fragment=decodeURIComponent(url.hash.slice(1));
     if(M.articles[rel]) return {href:M.articles[rel].url,external:true};
     if(M.videos[rel]) return {href:M.videos[rel].originalUrl||M.videos[rel].analysis,external:!!M.videos[rel].originalUrl};
-    if(rel==='portfolio-resume.pdf') return {href:new URL('assets/resume.pdf?v=3.0.15',document.baseURI).href,external:true};
+    if(rel==='portfolio-resume.pdf') return {href:new URL('assets/resume.pdf?v=3.0.16',document.baseURI).href,external:true};
     const directoryRoutes={
       'portfolio-content/tongyan-mask/assets/detail':'#/project/mask/more-detail',
       'portfolio-content/tongyan-mask/assets/moments':'#/project/mask/more-moments',
@@ -69,10 +69,11 @@
     const fullUrl=options.originalSrc?new URL(options.originalSrc,root).href:url.href;
     const artworkType=/-(wireframe|finished)\./.exec(item.src)?.[1];
     const longPreview=options.caseId==='kugou'&&!options.hero&&info.height/info.width>2.4;
+    const landscapePreview=!options.hero&&info.width/info.height>=1.35;
     const artworkLabel=artworkType&&!options.hideTypeLabel?`<p class="work-type-label">${artworkType==='wireframe'?'内容线稿':'设计成品'}</p>`:'';
     const group=/\/([^/]+)-wireframe\./.exec(item.src)?.[1];
     const id=group&&options.caseId?` id="${options.caseId}-wireframe-${esc(group)}" tabindex="-1"`:'';
-    return `<figure${id} class="work-figure ${options.hero?'hero-work':''}${longPreview?' artwork-long-preview':''}">${artworkLabel}<button type="button" class="image-open" data-full-src="${esc(fullUrl)}" data-caption="${esc(item.alt)}" aria-label="放大查看：${esc(item.alt)}"><img src="${esc(preview)}" alt="${esc(item.alt)}" ${info.width?`width="${info.width}" height="${info.height}"`:''} loading="${options.hero?'eager':'lazy'}" decoding="async"><span class="image-placeholder" hidden>图片暂时无法载入，可查看原图。</span></button><figcaption>${esc(item.alt)}</figcaption><a class="original-link" href="${esc(fullUrl)}" target="_blank" rel="noopener">查看原图 ↗</a></figure>`;
+    return `<figure${id} class="work-figure ${options.hero?'hero-work':''}${longPreview?' artwork-long-preview':''}${landscapePreview?' artwork-landscape':''}">${artworkLabel}<button type="button" class="image-open" data-full-src="${esc(fullUrl)}" data-caption="${esc(item.alt)}" aria-label="放大查看：${esc(item.alt)}"><img src="${esc(preview)}" alt="${esc(item.alt)}" ${info.width?`width="${info.width}" height="${info.height}"`:''} loading="${options.hero?'eager':'lazy'}" decoding="async"><span class="image-placeholder" hidden>图片暂时无法载入，可查看原图。</span></button><figcaption>${esc(item.alt)}</figcaption><a class="original-link" href="${esc(fullUrl)}" target="_blank" rel="noopener">查看原图 ↗</a></figure>`;
   }
 
   function videoCard(path, description='') {
@@ -154,18 +155,18 @@
     return `<a class="compact-project ${id==='mask'?'compact-mask':''}" href="#/project/${id}"><span class="project-index">${c.number}</span><img src="${esc(asset(c.cover))}" alt="" width="100" height="110" loading="lazy"><span class="compact-copy"><span class="eyebrow">${esc(c.category)}</span><strong>${esc(c.name)}</strong><span>${esc(c.short)}</span></span><span class="project-arrow" aria-hidden="true">↗</span></a>`;
   }
   function contactBand() {
-    return `<section class="contact-band" id="about-contact"><div><p class="eyebrow">LET’S MAKE GOOD CONTENT.</p><h2>下一次，让内容为你的品牌说话。</h2><p>求职方向：内容营销经理 / 内容团队组长 · 广州</p></div><div>${cta('mailto:beibiduo@163.com','邮件联系','contact-link')}<a href="assets/resume.pdf?v=3.0.15" target="_blank" rel="noopener">查看简历 PDF ↗</a></div></section>`;
+    return `<section class="contact-band" id="about-contact"><div><p class="eyebrow">LET’S MAKE GOOD CONTENT.</p><h2>下一次，让内容为你的品牌说话。</h2><p>求职方向：内容营销经理 / 内容团队组长 · 广州</p></div><div>${cta('mailto:beibiduo@163.com','邮件联系','contact-link')}<a href="assets/resume.pdf?v=3.0.16" target="_blank" rel="noopener">查看简历 PDF ↗</a></div></section>`;
   }
   function homePage() {
     const otherWork={mask:'升级卖点、达人脚本与直播讲解',sun:'产品卖点、销售话术与达人脚本',clean:'产品主张、海报文案与上新文章'};
-    return `<div class="page-home home-direct"><section class="home-intro"><p class="intro-name">孙岩萍 · 作品集</p><h1>内容营销与<br class="mobile-break">新媒体运营</h1><p class="intro-description">9年以上经验，做过护肤品新品内容策划、酷狗音乐新媒体运营，并管理过两名专员。</p><p class="intro-target">求职方向：内容营销经理 / 内容团队组长 · 广州</p><div class="hero-actions">${cta('#/home/selected','查看作品')}${cta('assets/resume.pdf?v=3.0.15','查看简历','text-link')}</div></section><section class="selected-section" id="home-selected" tabindex="-1"><div class="section-heading"><h2>代表项目</h2></div><div class="featured-grid">${featureCard('oil')}${featureCard('kugou')}</div></section><section class="more-section"><div class="section-heading"><h2>其他作品</h2><a class="text-link" href="#/works">全部作品 <span aria-hidden="true">↗</span></a></div><div>${['mask','sun','clean'].map(id=>{const c=V.cases[id];return `<a class="compact-project compact-${id}" href="#/project/${id}"><img src="${esc(asset(c.cover))}" alt="" width="100" height="110" loading="lazy"><span class="compact-copy"><strong>${esc(c.name)}</strong><span>${esc(otherWork[id])}</span></span><span class="project-arrow" aria-hidden="true">↗</span></a>`;}).join('')}</div></section><section class="home-contact" id="about-contact"><div><h2>联系我</h2><p>求职方向：内容营销经理 / 内容团队组长</p></div><a href="mailto:beibiduo@163.com">beibiduo@163.com <span aria-hidden="true">↗</span></a></section></div>`;
+    return `<div class="page-home home-direct"><section class="home-intro"><p class="intro-name">孙岩萍 · 作品集</p><h1>内容营销与<br class="mobile-break">新媒体运营</h1><p class="intro-description">9年以上经验，做过护肤品新品内容策划、酷狗音乐新媒体运营，并管理过两名专员。</p><p class="intro-target">求职方向：内容营销经理 / 内容团队组长 · 广州</p><div class="hero-actions">${cta('#/home/selected','查看作品')}${cta('assets/resume.pdf?v=3.0.16','查看简历','text-link')}</div></section><section class="selected-section" id="home-selected" tabindex="-1"><div class="section-heading"><h2>代表项目</h2></div><div class="featured-grid">${featureCard('oil')}${featureCard('kugou')}</div></section><section class="more-section"><div class="section-heading"><h2>其他作品</h2><a class="text-link" href="#/works">全部作品 <span aria-hidden="true">↗</span></a></div><div>${['mask','sun','clean'].map(id=>{const c=V.cases[id];return `<a class="compact-project compact-${id}" href="#/project/${id}"><img src="${esc(asset(c.cover))}" alt="" width="100" height="110" loading="lazy"><span class="compact-copy"><strong>${esc(c.name)}</strong><span>${esc(otherWork[id])}</span></span><span class="project-arrow" aria-hidden="true">↗</span></a>`;}).join('')}</div></section><section class="home-contact" id="about-contact"><div><h2>联系我</h2><p>求职方向：内容营销经理 / 内容团队组长</p></div><a href="mailto:beibiduo@163.com">beibiduo@163.com <span aria-hidden="true">↗</span></a></section></div>`;
   }
   function worksPage() {
     return `<section class="page-works"><p class="eyebrow">PROJECT INDEX / 05</p><div class="section-heading"><h1>从产品价值，<br>到用户参与。</h1><p>产品内容策略、升级沟通、<br>平台运营与团队协作。</p></div><div class="work-index">${V.order.map(id=>{const c=V.cases[id];return `<article class="work-row"><a class="work-row-art" href="#/project/${id}" aria-label="查看${esc(c.name)}案例">${projectArtwork(c)}</a><div class="work-row-copy"><p class="eyebrow">${c.number} / ${esc(c.category)}</p><h2><a href="#/project/${id}">${esc(c.name)}<span aria-hidden="true">↗</span></a></h2><p class="work-row-title">${esc(c.title)}</p><p>${esc(c.short)}</p><p class="caption">我的职责：${esc(c.role)} · ${esc(c.tags.join(' / '))}</p>${cta('#/project/'+id,'查看完整案例','text-link')}</div></article>`;}).join('')}</div></section>${contactBand()}`;
   }
   function aboutPage() {
     const jobs=[['2024.03—2026.09','广州无添加主义化妆品有限公司','企划（产品内容方向）','负责护肤品产品内容与新品上市传播，完成卖点、长图文、内容结构与视频脚本，协同产品、研发、设计、运营与销售推进交付。'],['2019.06—2024.01','广州酷狗计算机科技有限公司','新媒体运营经理','独立负责微博内容与活动，管理两名专员，统筹多平台内容审核；推动公众号定位调整、视频号从0到1运营与客户端引流合作。'],['2018.02—2019.04','China Marketing Development Center 首尔分部','新媒体运营','参与韩国品牌在中国市场的本地化内容、线上推广及小红书种草项目执行。'],['2017.01—2018.01','上海沪江网教育技术有限公司','新媒体编辑','围绕韩语学习需求、活动及课程推广组织新媒体内容与表达。']];
-    return `<article class="page-about"><section class="about-hero"><p class="eyebrow">ABOUT & APPROACH</p><h1>讲清产品价值，<br>也推动内容走到用户面前。</h1><div class="about-lead"><p class="about-label">孙岩萍<br><span>产品内容营销 / 内容策略 / 团队协作</span></p><div><p>9年以上内容策划与新媒体运营经验，经历从品牌本地化、音乐平台运营，延伸到护肤品新品内容与上市传播。</p><p>在护肤品项目中，我负责卖点、内容主线、文案与视频脚本；在酷狗音乐，我独立负责微博内容与活动，管理两名专员，并统筹其他平台内容与脚本审核。</p><a class="text-link" href="assets/resume.pdf?v=3.0.15" target="_blank" rel="noopener">查看完整简历 ↗</a></div></div></section><section class="about-section"><div class="section-heading"><div><p class="eyebrow">MY CONTRIBUTION</p><h2>把专业判断，落实到具体交付。</h2></div></div><div class="about-principles"><article><span class="index">01.</span><h3>选择这一轮的沟通重点</h3><p>精华油先建立共同特点与日夜角色；防晒兼顾价格解释和肤感顾虑；升级产品需要承接已有认知。</p></article><article><span class="index">02.</span><h3>根据触点调整信息与讲述</h3><p>从海报、公众号、人物视频到详情页和销售沟通，为不同形式安排合适的任务与信息层级。</p></article><article><span class="index">03.</span><h3>通过分工推进内容</h3><p>独立撰写与统筹审核分别说明，对接设计、达人及内部团队；在酷狗承担两名专员的管理与内容审核。</p></article></div></section><section class="about-section"><p class="eyebrow">EXPERIENCE</p><h2>工作经历</h2><div class="timeline">${jobs.map(j=>`<article><p class="job-date">${j[0]}</p><div><h3>${j[1]}</h3><p class="job-role">${j[2]}</p><p>${j[3]}</p></div></article>`).join('')}</div></section><section class="education"><div><p class="eyebrow">EDUCATION & LANGUAGE</p><h2>教育与语言</h2></div><div><p>釜山大学 · 对外韩语教育硕士 · 2015—2017<br>三江学院 · 国际旅游管理本科 · 2010—2014</p><p>韩国语 TOPIK 6级<br>日常使用 ChatGPT、Gemini 辅助资料整理、选题与脚本优化。</p></div></section></article>${contactBand()}`;
+    return `<article class="page-about"><section class="about-hero"><p class="eyebrow">ABOUT & APPROACH</p><h1>讲清产品价值，<br>也推动内容走到用户面前。</h1><div class="about-lead"><p class="about-label">孙岩萍<br><span>产品内容营销 / 内容策略 / 团队协作</span></p><div><p>9年以上内容策划与新媒体运营经验，经历从品牌本地化、音乐平台运营，延伸到护肤品新品内容与上市传播。</p><p>在护肤品项目中，我负责卖点、内容主线、文案与视频脚本；在酷狗音乐，我独立负责微博内容与活动，管理两名专员，并统筹其他平台内容与脚本审核。</p><a class="text-link" href="assets/resume.pdf?v=3.0.16" target="_blank" rel="noopener">查看完整简历 ↗</a></div></div></section><section class="about-section"><div class="section-heading"><div><p class="eyebrow">MY CONTRIBUTION</p><h2>把专业判断，落实到具体交付。</h2></div></div><div class="about-principles"><article><span class="index">01.</span><h3>选择这一轮的沟通重点</h3><p>精华油先建立共同特点与日夜角色；防晒兼顾价格解释和肤感顾虑；升级产品需要承接已有认知。</p></article><article><span class="index">02.</span><h3>根据触点调整信息与讲述</h3><p>从海报、公众号、人物视频到详情页和销售沟通，为不同形式安排合适的任务与信息层级。</p></article><article><span class="index">03.</span><h3>通过分工推进内容</h3><p>独立撰写与统筹审核分别说明，对接设计、达人及内部团队；在酷狗承担两名专员的管理与内容审核。</p></article></div></section><section class="about-section"><p class="eyebrow">EXPERIENCE</p><h2>工作经历</h2><div class="timeline">${jobs.map(j=>`<article><p class="job-date">${j[0]}</p><div><h3>${j[1]}</h3><p class="job-role">${j[2]}</p><p>${j[3]}</p></div></article>`).join('')}</div></section><section class="education"><div><p class="eyebrow">EDUCATION & LANGUAGE</p><h2>教育与语言</h2></div><div><p>釜山大学 · 对外韩语教育硕士 · 2015—2017<br>三江学院 · 国际旅游管理本科 · 2010—2014</p><p>韩国语 TOPIK 6级<br>日常使用 ChatGPT、Gemini 辅助资料整理、选题与脚本优化。</p></div></section></article>${contactBand()}`;
   }
 
   const storyIds={oil:['strategy','wireframes','article','videos'],kugou:['growth','sound','radio'],sun:['sales','wireframes','article','videos'],mask:['strategy','wireframes','article','videos','live'],clean:['strategy','works']};
@@ -307,25 +308,36 @@
       restoreLock=false;main.setAttribute('aria-busy','false');updateChapter();
     }));
   }
-  function setZoom(value,fit=false) {
+  function setZoom(value,mode='manual') {
     if(!fullImage.naturalWidth)return;
-    zoom=fit?Math.min(1,(stage.clientWidth-32)/fullImage.naturalWidth):Math.min(4,Math.max(.1,value));
-    fullImage.style.width=Math.round(fullImage.naturalWidth*zoom)+'px';
-    document.getElementById('zoom-value').textContent=fit?'适宽':Math.round(zoom*100)+'%';
+    const padding=getComputedStyle(stage);
+    const width=Math.max(1,stage.clientWidth-parseFloat(padding.paddingLeft)-parseFloat(padding.paddingRight));
+    const height=Math.max(1,stage.clientHeight-parseFloat(padding.paddingTop)-parseFloat(padding.paddingBottom));
+    zoom=mode==='contain'?Math.min(1,width/fullImage.naturalWidth,height/fullImage.naturalHeight):mode==='width'?Math.min(1,width/fullImage.naturalWidth):Math.min(4,Math.max(.1,value));
+    zoomMode=mode;
+    stage.classList.toggle('viewer-overview',mode==='contain');
+    fullImage.style.width=Math.max(1,Math.floor(fullImage.naturalWidth*zoom))+'px';
+    fullImage.hidden=false;
+    document.getElementById('zoom-value').textContent=Math.round(zoom*100)+'%';
+    document.getElementById('zoom-fit').setAttribute('aria-pressed',String(mode==='contain'));
+    document.getElementById('zoom-width').setAttribute('aria-pressed',String(mode==='width'));
+    document.getElementById('zoom-actual').setAttribute('aria-pressed',String(mode==='manual'&&zoom===1));
+    if(mode!=='manual')stage.scrollTo(0,0);
   }
   function openImage(button){
     lastTrigger=button;document.getElementById('viewer-title').textContent=button.dataset.caption;document.getElementById('viewer-original').href=button.dataset.fullSrc;
-    document.getElementById('viewer-error').hidden=true;fullImage.hidden=false;fullImage.alt=button.dataset.caption;fullImage.style.width='100%';fullImage.src=button.dataset.fullSrc;
+    document.getElementById('viewer-error').hidden=true;fullImage.hidden=true;fullImage.alt=button.dataset.caption;fullImage.src=button.dataset.fullSrc;
     imageScrollY=window.scrollY;oldOverflow=document.body.style.overflow;document.body.style.overflow='hidden';dialog.showModal();stage.scrollTo(0,0);document.getElementById('viewer-close').focus();
-    if(fullImage.complete&&fullImage.naturalWidth)setZoom(1,true);
+    if(fullImage.complete&&fullImage.naturalWidth)setZoom(1,'contain');
   }
-  fullImage.addEventListener('load',()=>setZoom(1,true));
+  fullImage.addEventListener('load',()=>setZoom(1,'contain'));
   fullImage.addEventListener('error',()=>{fullImage.hidden=true;document.getElementById('viewer-error').hidden=false;});
   document.getElementById('viewer-close').addEventListener('click',()=>dialog.close());
   dialog.addEventListener('close',()=>{document.body.style.overflow=oldOverflow;window.scrollTo(0,imageScrollY);if(lastTrigger?.isConnected)lastTrigger.focus({preventScroll:true});});
   document.getElementById('zoom-in').addEventListener('click',()=>setZoom(zoom*1.3));
   document.getElementById('zoom-out').addEventListener('click',()=>setZoom(zoom/1.3));
-  document.getElementById('zoom-fit').addEventListener('click',()=>setZoom(1,true));
+  document.getElementById('zoom-fit').addEventListener('click',()=>setZoom(1,'contain'));
+  document.getElementById('zoom-width').addEventListener('click',()=>setZoom(1,'width'));
   document.getElementById('zoom-actual').addEventListener('click',()=>setZoom(1));
   document.addEventListener('click',event=>{
     const image=event.target.closest('button.image-open');if(image){openImage(image);return;}
@@ -348,7 +360,7 @@
   });
   document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!dialog.open)closeMenu(true);});
   window.addEventListener('scroll',()=>{if(!scrollFrame)scrollFrame=requestAnimationFrame(()=>{updateChapter();scrollFrame=null;});clearTimeout(saveTimer);saveTimer=setTimeout(remember,120);},{passive:true});
-  window.addEventListener('resize',()=>{closeMenu();updateChapter();if(dialog.open)setZoom(1,true);});
+  window.addEventListener('resize',()=>{closeMenu();updateChapter();if(dialog.open&&zoomMode!=='manual')setZoom(1,zoomMode);});
   main.addEventListener('toggle',()=>{if(!restoreLock){updateChapter();remember();}},true);
   window.addEventListener('popstate',()=>applyRoute(true));
   window.addEventListener('hashchange',()=>{if(location.href!==lastUrl)applyRoute(false);});

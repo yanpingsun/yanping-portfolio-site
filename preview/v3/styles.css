@@ -274,3 +274,43 @@
   .kugou-direct .delivery-note{margin-top:20px}
   .kugou-direct .supplementary .detail-meta{font-size:11px}
 }
+
+
+/* 3.0.16: compact previews retain the complete artwork; detail stays in the viewer. */
+.case-page:is(.product-direct,.kugou-direct){--preview-height:min(440px,62vh);--preview-padding:12px}
+.case-page:is(.product-direct,.kugou-direct) .case-main .work-figure>button.image-open{height:var(--preview-height);max-height:var(--preview-height);aspect-ratio:auto;min-height:0;padding:var(--preview-padding);overflow:hidden}
+.case-page:is(.product-direct,.kugou-direct) .case-main .work-figure>button.image-open>img{display:block;width:100%;height:100%;max-width:100%;max-height:100%;min-width:0;min-height:0;object-fit:contain;object-position:center}
+.case-page:is(.product-direct,.kugou-direct) .case-main .work-figure.artwork-landscape>button.image-open{height:auto}
+.case-page:is(.product-direct,.kugou-direct) .case-main .work-figure.artwork-landscape>button.image-open>img{height:auto;max-height:calc(var(--preview-height) - 2 * var(--preview-padding))}
+.case-page.product-direct .case-main .poster-work .work-figure>button.image-open,.case-page.product-direct .case-main .paired-figures .work-figure>button.image-open{height:min(420px,58vh);max-height:none;aspect-ratio:auto}
+.case-page.product-direct .case-main .poster-work .work-figure>button.image-open>img,.case-page.product-direct .case-main .paired-figures .work-figure>button.image-open>img{width:100%;height:100%;max-height:100%;object-position:center top}
+.kugou-direct .case-main .artwork-long-preview .image-open:after{content:'查看完整长图 ↗'}
+.video-link-card .video-cover{min-width:0;min-height:0}
+.video-link-card .video-cover img{min-width:0;min-height:0}
+.viewer-stage.viewer-overview{display:flex;align-items:center;justify-content:center}
+.viewer-stage img{flex:none}
+.viewer-actions button[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+@media(max-width:760px){
+  .case-page:is(.product-direct,.kugou-direct){--preview-height:min(340px,55vh)}
+  .case-page.product-direct .case-main .poster-work .work-figure>button.image-open,.case-page.product-direct .case-main .paired-figures .work-figure>button.image-open{height:var(--preview-height)}
+  .product-direct .video-link-card{display:grid;grid-template-columns:108px minmax(0,1fr);align-items:start;gap:14px;padding:12px}
+  .product-direct .video-visual{width:108px;max-width:none;min-width:0;margin:0}
+  .product-direct .video-link-card .video-cover{display:block;width:100%;height:144px;aspect-ratio:auto}
+  .product-direct .video-link-card .video-cover img{width:100%;height:100%;object-fit:contain;object-position:center}
+  .product-direct .video-link-copy{min-width:0}
+  .product-direct .video-link-copy h3{font-size:17px;line-height:1.5;margin-bottom:8px}
+  .product-direct .video-link-copy>.video-description{font-size:13px;line-height:1.65;margin-bottom:8px}
+  .product-direct .video-link-actions{display:flex;flex-direction:column;align-items:flex-start;gap:2px}
+  .product-direct .video-link-actions .button{font-size:12px;min-height:44px;padding:9px 10px;gap:12px}
+  .product-direct .video-link-actions .text-link{font-size:12px;min-height:44px;padding:8px 0}
+  .product-direct .video-poster-zoom.image-open{padding-top:4px;min-height:36px;font-size:11px}
+  .viewer-header h2{flex-basis:100%;min-width:0}
+  .viewer-actions{gap:6px}
+  .viewer-actions button{min-height:36px;padding:5px 7px}
+}
+@media(max-width:380px){
+  .product-direct .video-link-card{grid-template-columns:88px minmax(0,1fr);gap:10px}
+  .product-direct .video-visual{width:88px}
+  .product-direct .video-link-card .video-cover{height:118px}
+  .product-direct .video-link-copy h3{font-size:16px}
+}
