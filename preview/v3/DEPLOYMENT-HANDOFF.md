@@ -1,12 +1,14 @@
-# 作品集3.0.15：部署网址迁移交接
+# 作品集3.0.16：部署网址迁移交接
+
+3.0.16缩小项目图片预览，压缩手机视频卡片，放大图默认完整显示。项目文案、数据、原图、封面和视频／分析链接保留。详细改动与验证见[RELEASE-3.0.16.md](RELEASE-3.0.16.md)。
 
 3.0.15仅调整酷狗排版，保留原文、数据与全部作品。修改与核对见[RELEASE-3.0.15.md](RELEASE-3.0.15.md)。
 
 3.0.14修正成品与线稿的并排对齐，内容及素材不变。原因、修改和验证见[RELEASE-3.0.14.md](RELEASE-3.0.14.md)。
 
-发布状态（2026-11-09）：源码与GitHub Pages预览版本为3.0.15；正式域名yanpingsun.cn仍待huhaheng同步部署副本main后更新。当前部署副本停在e97a201，当前会话没有该副本写权限。请按EDGEONE-DEPLOYMENT.md同步原仓库最新main，等待EdgeOne构建并复核正式域名。
+发布状态（2026-11-12）：本轮源码版本3.0.16，GitHub Pages预览发布后核对。当天正式域名yanpingsun.cn仍显示3.0.11，待huhaheng同步部署副本main。现有域名、DNS、HTTPS及EdgeOne配置沿用；不需要重新创建项目。
 
-更新日期：2026-11-09。供huhaheng及后续维护者核对部署网址时使用。
+更新日期：2026-11-12。供huhaheng及后续维护者核对部署网址时使用。
 
 2026-11-07 部署更新：不含中国大陆区域的新项目 `yanping-portfolio-overseas` 已部署成功，`yanpingsun.cn` 已绑定生产环境，DNS 已生效，免费 HTTPS 证书已部署。实际配置和验收见 [EDGEONE-DEPLOYMENT.md](EDGEONE-DEPLOYMENT.md)。新域名根目录复用 3.0.11，不替换现有 GitHub Pages 根首页。
 
@@ -19,9 +21,9 @@
 ## 当前可用基线
 
 - 仓库：[yanpingsun/yanping-portfolio-site](https://github.com/yanpingsun/yanping-portfolio-site)，分支`main`。
-- 最新作品集入口：`preview/v3/index.html`，页面版本3.0.15。
+- 最新作品集入口：`preview/v3/index.html`，页面版本3.0.16。
 - 历史3.0.11运行源码基线：[`f0036d6`](https://github.com/yanpingsun/yanping-portfolio-site/commit/f0036d67e4cbf83d7145eb2a07871ff82d54a6a5)。3.0.12运行源码提交见上方记录。
-- 当前新域名：[正式域名（待同步3.0.15）](https://yanpingsun.cn/)；[GitHub Pages预览](https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/?v=3.0.15#/home/selected)继续保留。
+- 当前新域名：[正式域名（待同步3.0.16）](https://yanpingsun.cn/)；[GitHub Pages预览](https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/?v=3.0.16#/home/selected)继续保留。
 - 修改位置与已确认内容见[START-HERE.md](START-HERE.md)及[HANDOFF.md](HANDOFF.md)。
 
 3.0.10交接时已核对：本地`preview/v3/`的44个现有文件与GitHub一致；图片、录屏、PDF及其他素材也无待上传差异。图片与备份引用中的116个路径均存在。
@@ -39,7 +41,7 @@
 | 原作品、海报线稿、录屏、文章备份等 | 仓库根目录`portfolio-content/`及相关`portfolio-*`文件 |
 | 原内容稿与归档材料 | 仓库根目录`content/`及现有材料目录 |
 
-[ASSET-MANIFEST.json](ASSET-MANIFEST.json)记录416项运行文件与资源的路径、大小、Git blob SHA-1，共184,822,771字节（含新增的用户原简历备份）；包含归档素材，不代表浏览器会一次加载这些文件。当前清单对应3.0.15源码提交，校验某文件可在完整克隆仓库中运行`git hash-object 文件路径`与`gitBlobSha1`比较。
+[ASSET-MANIFEST.json](ASSET-MANIFEST.json)记录416项运行文件与资源的路径、大小、Git blob SHA-1，共184,827,588字节（含新增的用户原简历备份）；包含归档素材，不代表浏览器会一次加载这些文件。当前清单对应3.0.16运行源码提交`0de06c6ea5388bbc8143ca5a79ad5bbb64b44e7b`，校验某文件可在完整克隆仓库中运行`git hash-object 文件路径`与`gitBlobSha1`比较。
 
 ## 修改新网址时的路径区别
 
