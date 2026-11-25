@@ -130,64 +130,43 @@ a{color:inherit;text-decoration:none}button{font:inherit}.app-header{position:st
 #s13 .product-card p{font-size:10px;line-height:1.35}
 }
 
-/* 2026-11-25 / 胶原炮三页：真实原图、可放大、复盘示意与历史稿分开 */
+/* 胶原炮案例 */
 .collagen-showcase .slide-heading{margin-bottom:17px}
 .collagen-showcase .slide-heading h2{font-size:32px;line-height:1.22}
-.collagen-showcase figure{margin:0;min-width:0}
 .collagen-overview{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
-.collagen-note-card{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.9fr);align-items:center;gap:16px;padding:12px;border:1px solid #e0e7f0;border-radius:12px;background:#fafcff;min-width:0}
-.collagen-image{display:flex;align-items:center;justify-content:center;background:#f0f3f7;border-radius:8px;overflow:hidden;min-width:0}
-.collagen-image img{display:block;max-width:100%;width:100%;height:100%;object-fit:contain}
-.collagen-note-card .collagen-image{height:310px}
-.collagen-tag{font-size:10px;font-weight:800;color:#005dc5;letter-spacing:.06em}
+.collagen-note-card{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);align-items:center;gap:16px;padding:12px;border:1px solid #e0e7f0;border-radius:12px;background:#fafcff;min-width:0}
+.collagen-note-card.note-feature{grid-template-columns:minmax(0,1.08fr) minmax(0,1fr);max-width:900px;margin-inline:auto;gap:24px;padding:14px}
+.collagen-image{display:flex;align-items:center;justify-content:center;background:#f0f3f7;border-radius:8px;overflow:hidden;min-width:0;height:306px}
+.note-feature .collagen-image{height:342px}
+.collagen-image img{width:100%;height:100%;object-fit:contain;display:block}
 .collagen-note-copy{min-width:0;padding:8px 0}
-.collagen-note-copy h3{font-size:20px;margin:10px 0 6px}
-.collagen-note-copy p{font-size:14px;margin:0 0 16px;line-height:1.55;color:#3e4e63}
-.collagen-stats{color:#235681;font-size:11px;font-weight:700;line-height:1.6}
-.collagen-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
-.collagen-links a,.collagen-takeaway a,.note-link{font-size:12px;color:#005dc5;font-weight:700;text-decoration:underline;text-underline-offset:3px}
-.collagen-footnote{font-size:11px!important;color:#687589;line-height:1.5;margin:12px 0 0}
-.collagen-compare{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
-.collagen-panel{display:flex;flex-direction:column;padding:10px;border:1px solid #dce5ee;border-radius:10px;background:#fff;min-width:0}
-.collagen-panel figcaption{display:flex;flex-direction:column;gap:3px;margin:0 0 8px;min-width:0}
-.collagen-panel figcaption span{font-size:10px;font-weight:800;color:#526b87}
-.collagen-panel figcaption strong{font-size:14px;color:#162132}
-.collagen-compare .collagen-image,.ledger-visual{height:282px}
-.collagen-panel.revised{border-color:#a6c7e9;background:#f8fbff}
-.ledger-visual{box-sizing:border-box;background:#f0f5fb;border-radius:8px;padding:14px 12px;color:#233a56;display:flex;flex-direction:column;justify-content:center;gap:7px;overflow:hidden}
-.ledger-kicker{font-size:9px;letter-spacing:.06em;color:#536c87}
-.ledger-title{font-size:22px;font-weight:800;line-height:1.25}
-.ledger-visual>p{font-size:11px!important;margin:0 0 5px;color:#536c87}
-.ledger-row{display:flex;gap:9px;align-items:center;border-top:1px solid #dbe4ee;padding:7px 5px;min-height:42px}
-.ledger-row.selected{background:#dceafb;border-radius:6px;border-top:0}
-.ledger-row i{font-style:normal;font-size:10px;font-weight:800;color:#005dc5}
-.ledger-row b,.ledger-row small{display:block}.ledger-row b{font-size:12px}.ledger-row small{font-size:10px;color:#526b87}
-.collagen-takeaway{display:flex;align-items:center;gap:12px;border-left:3px solid #005dc5;background:#f0f5fb;padding:9px 13px;margin-top:13px;border-radius:0 8px 8px 0;font-size:12px;line-height:1.55}
-.collagen-takeaway b{white-space:nowrap;color:#0a3470}.collagen-takeaway a{margin-left:auto;white-space:nowrap}
-.collagen-search{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.05fr);gap:20px;align-items:stretch}
-.search-original .collagen-image{height:284px}
-.search-original .note-link{display:block;margin-top:7px}
-.collagen-brief-panel{border:1px solid #dce5ee;border-radius:10px;padding:14px 15px;min-width:0;background:#fafcff}
-.collagen-brief-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:12px}
-.collagen-brief-heading h3{font-size:16px;line-height:1.35;margin:0}
-.collagen-brief-heading>span{font-size:10px;white-space:nowrap;color:#587494}
-.collagen-storyboard{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
-.storyboard-card{border:1px solid #dce6f1;background:#fff;border-radius:8px;padding:8px 10px;min-width:0;display:flex;flex-direction:column;gap:3px}
-.story-no{font-size:10px;font-weight:800;color:#005dc5}
-.story-art{height:56px;background:#eff4fa;border-radius:5px;display:flex;align-items:center;justify-content:center;gap:8px;position:relative;overflow:hidden}
-.storyboard-card>b{font-size:13px;line-height:1.3}
-.storyboard-card>small{font-size:10px;line-height:1.45;color:#687589}
-.mini-person{width:25px;height:38px;border-radius:15px 15px 5px 5px;border:1.5px solid #6c93bb;background:#d9e7f5}
-.mini-pack{width:21px;height:29px;border-radius:3px;background:#fff;border:1.5px solid #6c93bb}
-.mini-sheet{width:26px;height:34px;border-radius:7px;background:#fff;border:1.5px solid #93a9bf;transform:rotate(-9deg)}
-.mini-sheet.gold{background:#e6d7ad;border-color:#b4a271;transform:rotate(9deg)}
-.story-art.order i{height:13px;width:13px;border-radius:50%;border:1.5px solid #7ba0c4}.story-art.order i.on{background:#4079b5}
-.story-art.steps i{font-style:normal;width:20px;height:20px;border-radius:5px;display:grid;place-items:center;background:#d2e4f7;color:#235681;font-size:11px;font-weight:800}
-.mini-face{width:32px;height:36px;border-radius:48%;background:#dbe6ef;border:1.5px solid #86a0b9}.mini-quote{color:#4079b5;font-size:24px;font-weight:800}
-.story-art.check{flex-direction:column;gap:2px}.mini-check{display:flex;align-items:center;gap:5px;font-size:11px;color:#4079b5;line-height:1.1}.mini-check span{display:block;width:41px;height:2px;background:#a8bdd3}
-@media(max-width:800px){.collagen-showcase .slide-heading h2{font-size:28px}.collagen-overview,.collagen-search{grid-template-columns:1fr;gap:12px}.collagen-note-card{grid-template-columns:minmax(0,1fr) minmax(0,.85fr);gap:12px}.collagen-note-card .collagen-image{height:250px}.collagen-compare{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.collagen-compare .collagen-image{height:205px}.collagen-panel.revised{grid-column:1/-1}.ledger-visual{height:auto;min-height:230px}.collagen-takeaway{align-items:flex-start;flex-wrap:wrap}.collagen-takeaway a{margin-left:0}.search-original .collagen-image{height:300px}.collagen-brief-heading{flex-wrap:wrap}.collagen-storyboard{gap:7px}.storyboard-card{padding:7px}.story-art{height:45px}}
-@media(max-width:420px){.collagen-note-card{grid-template-columns:minmax(0,1fr) minmax(0,.8fr);padding:9px;gap:9px}.collagen-note-card .collagen-image{height:198px}.collagen-note-copy h3{font-size:17px}.collagen-note-copy p{font-size:12px}.collagen-compare .collagen-image{height:165px}.collagen-panel figcaption strong{font-size:12px}.collagen-storyboard{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media print{.collagen-showcase .slide-heading{margin:5mm 0 4mm}.collagen-showcase .slide-heading h2{font-size:28px}.collagen-note-card .collagen-image{height:290px}.collagen-compare .collagen-image,.ledger-visual{height:258px}.search-original .collagen-image{height:267px}.collagen-showcase .slide-body{overflow:hidden}.collagen-storyboard{grid-template-columns:repeat(3,minmax(0,1fr))}.collagen-overview{grid-template-columns:repeat(2,minmax(0,1fr))}.collagen-compare{grid-template-columns:repeat(3,minmax(0,1fr))}.collagen-panel.revised{grid-column:auto}.collagen-search{grid-template-columns:minmax(0,1fr) minmax(0,2.05fr)}.collagen-footnote{font-size:10px!important}}
+.collagen-tag{font-size:11px;font-weight:750;color:#005ab8}
+.collagen-note-copy h3{font-size:19px;margin:8px 0 6px}
+.collagen-note-copy p{font-size:14px;margin:0 0 13px;line-height:1.55;color:#3e4e63}
+.collagen-stats{font-size:11px;color:#526779;line-height:1.55}
+.collagen-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+.collagen-links a{font-size:12px;color:#005ab8;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:800px){
+  .collagen-showcase .slide-heading h2{font-size:28px}
+  .collagen-overview{grid-template-columns:1fr;gap:12px}
+  .collagen-note-card,.collagen-note-card.note-feature{gap:12px;padding:10px}
+  .collagen-image{height:210px}
+  .note-feature .collagen-image{height:270px}
+}
+@media(max-width:420px){
+  .collagen-note-card,.collagen-note-card.note-feature{grid-template-columns:minmax(0,.95fr) minmax(0,1fr);gap:9px;padding:8px}
+  .collagen-image,.note-feature .collagen-image{height:174px}
+  .collagen-note-copy h3{font-size:15px}
+  .collagen-note-copy p{font-size:12px;margin-bottom:8px}
+}
+@media print{
+  .collagen-showcase .slide-heading{margin:5mm 0 4mm}
+  .collagen-showcase .slide-heading h2{font-size:28px}
+  .collagen-showcase .slide-body{overflow:hidden}
+  .collagen-overview{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .collagen-image{height:285px}
+  .note-feature .collagen-image{height:328px}
+}
 </style></head><body><header class="app-header"><div class="header-inner"><a class="brand" href="#s1">孙岩萍 <small>NEW MEDIA / 2026</small></a><nav aria-label="作品导航" class="nav"><a href="#s3">业务增长</a><a href="#s4">粉丝活动</a><a href="#s5">内容矩阵</a><a href="#s6">晚安电台</a><a href="#s7">团队协作</a><a href="#s8">视频号</a><a href="#s10">小红书</a><a href="#s13">护肤新品</a><a class="nav-top" href="#s1">回到首页 ↑</a></nav></div></header><main class="deck"><section class="slide cover" id="s1">
 <div class="slide-top"><span>YANPING SUN / NEW MEDIA PORTFOLIO</span><span>01 / 14</span></div>
 <div class="slide-heading"><div class="kicker">NEW MEDIA PORTFOLIO / 2026</div>
@@ -209,7 +188,7 @@ a{color:inherit;text-decoration:none}button{font:inherit}.app-header{position:st
 <article class="chapter-card"><div><span class="chapter-no">01 / 酷狗音乐 · 2019—2024</span><h3>微博内容与用户增长</h3><p>独立负责微博内容及粉丝活动，推动社媒到客户端的合作思路，与APP运营、产品及设计团队协同落地。</p><strong>256万人次累计引流 · 21万名纯新增用户</strong></div><a href="#s3" aria-label="查看微博增长案例"><img src="https://yanpingsun.github.io/yanping-portfolio-site/portfolio-content/kugou/assets/weibo/fatang-weibo.jpg" alt="酷狗音乐胖汪发糖机微博历史截图" loading="lazy"></a></article>
 <article class="chapter-card"><div><span class="chapter-no">02 / 酷狗音乐 · 内容矩阵</span><h3>跨平台统筹与团队管理</h3><p>管理2名新媒体专员；统筹抖音、小红书、视频号的内容方向和审核，并推进持续更新的音乐栏目。</p><strong>蝰蛇音效 · 鹿晗话题 · 晚安电台</strong></div><a href="#s5" aria-label="查看跨平台案例"><img src="https://yanpingsun.github.io/yanping-portfolio-site/portfolio-content/kugou/assets/douyin/concert-collection.png" alt="蝰蛇音效演唱会合集历史截图" loading="lazy"></a></article>
 <article class="chapter-card"><div><span class="chapter-no">03 / 无添加主义 · 品牌视频号</span><h3>新账号内容从0到1</h3><p>参与科普视频号的定位与早期选题，围绕30+女性、健康长寿和人物故事撰写原创视频脚本。</p><strong>53条视频 · 3.1万+粉丝 · 60万+转发收藏</strong></div><a href="#s8" aria-label="查看视频号案例"><img src="https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/assets/antiaging-channel-overview.webp" alt="逆时光颜研究院账号主页及数据" loading="lazy"></a></article>
-<article class="chapter-card"><div><span class="chapter-no">04 / 原生密码 · 消费品牌</span><h3>达人种草与产品内容</h3><p>参与小红书达人选题、Brief、脚本与初稿审核；在新品项目中负责卖点提炼、海报及公众号文案。</p><strong>真实笔记与Brief · 产品内容案例</strong></div><a href="#s10" aria-label="查看达人种草案例"><img src="https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/assets/collagen/budget-cover.webp" alt="胶原炮面膜达人笔记历史首图" loading="lazy"></a></article>
+<article class="chapter-card"><div><span class="chapter-no">04 / 原生密码 · 消费品牌</span><h3>达人种草与产品内容</h3><p>参与小红书达人选题、Brief、脚本与初稿审核；在新品项目中负责卖点提炼、海报及公众号文案。</p><strong>达人笔记成品 · 产品内容案例</strong></div><a href="#s10" aria-label="查看达人种草案例"><img src="collagen-note-hehe.webp" alt="禾禾暖发布的胶原炮面膜笔记首图" loading="lazy"></a></article>
 </div><p class="evidence-note">说明：数据为不同账号/项目的历史累计或截图时点结果，分别标注；不将团队或渠道成果归为个人独立产出。</p>
 </div><div class="slide-bottom"><span>孙岩萍 · 新媒体运营经理 / 2026</span><span>真实历史素材与项目记录 · 明确个人职责与团队成果</span></div></section><section class="slide" id="s3">
 <div class="slide-top"><span>YANPING SUN / NEW MEDIA PORTFOLIO</span><span>03 / 14</span></div>
@@ -334,11 +313,91 @@ a{color:inherit;text-decoration:none}button{font:inherit}.app-header{position:st
 <div class="quote-bar compact"><strong>实际反馈</strong><p>公开页面在 2026-11-19 查阅时显示分享 10 万+；留存截图显示 6.9 万。两个时间口径不可混用。</p></div></div></div>
 </div>
 <div class="slide-bottom"><span>新媒体运营经理 · 项目作品集 / 2026</span><span>真实项目与公开作品精选 · 项目成果与个人职责分别说明</span></div>
-</section><section class="slide collagen-showcase" id="s10"><div class="slide-top"><span>YANPING SUN / NEW MEDIA PORTFOLIO</span><span>10 / 14</span></div><div class="slide-heading"><div class="kicker">CASE 06 / XIAOHONGSHU</div><h2>胶原炮面膜｜小红书达人种草内容策划</h2><p>负责种草方向、达人选题、Brief、图文／视频脚本、初稿审核与修改。</p></div><div class="slide-body"><div class="collagen-overview"><article class="collagen-note-card"><a class="collagen-image" href="https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/assets/collagen/budget-cover.webp" target="_blank" rel="noopener" aria-label="放大查看雯柚甜公开笔记原首图"><img src="https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/assets/collagen/budget-cover.webp" alt="雯柚甜公开笔记原首图" loading="eager" decoding="async"></a><div class="collagen-note-copy"><div class="collagen-tag">01 / 发现型</div><h3>雯柚甜</h3><p>金融人护肤预算</p><div class="collagen-stats">254 赞 · 111 收藏 · 46 评论</div><div class="collagen-links"><a href="https://www.xiaohongshu.com/explore/6a2792760000000007029ba3" target="_blank" rel="noopener">原笔记 ↗</a><a href="#s11">查看复盘 ↓</a></div></div></article><article class="collagen-note-card"><a class="collagen-image" href="https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/assets/collagen/review-cover.webp" target="_blank" rel="noopener" aria-label="放大查看傲娇年世兰公开笔记原首图"><img src="https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/assets/collagen/review-cover.webp" alt="傲娇年世兰公开笔记原首图" loading="eager" decoding="async"></a><div class="collagen-note-copy"><div class="collagen-tag">02 / 搜索型</div><h3>傲娇年世兰</h3><p>真人、包装与膜布同屏</p><div class="collagen-stats">479 赞 · 170 收藏 · 17 评论</div><div class="collagen-links"><a href="https://www.xiaohongshu.com/explore/697c6039000000000a031c61" target="_blank" rel="noopener">原笔记 ↗</a><a href="#s12">查看复盘 ↓</a></div></div></article></div><p class="collagen-footnote">公开笔记复盘样本 · 互动数据为 2026.11.19 查阅记录，非个人投放业绩。</p></div><div class="slide-bottom"><span>原生密码 · 胶原炮面膜</span><span>真实公开笔记 / 内容复盘</span></div></section><section class="slide collagen-showcase" id="s11"><div class="slide-top"><span>YANPING SUN / NEW MEDIA PORTFOLIO</span><span>11 / 14</span></div><div class="slide-heading"><div class="kicker">CASE 06 / NOTE 01</div><h2>封面讲护肤预算，<br>第二张就应该给出答案。</h2><p>雯柚甜 · 发现型笔记复盘</p></div><div class="slide-body"><div class="collagen-compare">
-<figure class="collagen-panel"><figcaption><span>01 / 原首图</span><strong>金融人的护肤预算</strong></figcaption><a class="collagen-image" href="https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/assets/collagen/budget-cover.webp" target="_blank" rel="noopener" aria-label="放大查看雯柚甜原首图"><img src="https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/assets/collagen/budget-cover.webp" alt="雯柚甜原首图" loading="eager" decoding="async"></a></figure>
-<figure class="collagen-panel"><figcaption><span>02 / 原第二张</span><strong>直接展示产品静物</strong></figcaption><a class="collagen-image" href="https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/assets/collagen/budget-slide-2.webp" target="_blank" rel="noopener" aria-label="放大查看雯柚甜原第二张产品静物"><img src="https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/assets/collagen/budget-slide-2.webp" alt="雯柚甜原第二张产品静物" loading="eager" decoding="async"></a></figure>
-<figure class="collagen-panel revised"><figcaption><span>03 / 复盘改稿示意</span><strong>把护理账本前移</strong></figcaption><div class="ledger-visual" role="img" aria-label="护肤账本改稿示意，分为日常基础护理、阶段性护理和额外预算"><div class="ledger-kicker">SKINCARE BUDGET / 改稿示意</div><div class="ledger-title">我的护肤账本</div><p>护理预算分在哪几步？</p><div class="ledger-row"><i>01</i><div><b>日常基础护理</b><small>每天会用到的几步</small></div></div><div class="ledger-row selected"><i>02</i><div><b>阶段性护理</b><small>胶原炮面膜放在这里</small></div></div><div class="ledger-row"><i>03</i><div><b>额外预算</b><small>先看已有产品，再决定是否添购</small></div></div></div></figure>
-</div><div class="collagen-takeaway"><b>修改建议</b><span>原第二张直接展示产品，建议先呈现护理账本，再用下一张解释面膜为什么出现在护理计划中。</span><a href="https://www.xiaohongshu.com/explore/6a2792760000000007029ba3" target="_blank" rel="noopener">原笔记 ↗</a></div></div><div class="slide-bottom"><span>公开笔记 · 254 赞 / 111 收藏 / 46 评论（2026.11.19）</span><span>右图为后期复盘示意，非已发布改稿</span></div></section><section class="slide collagen-showcase" id="s12"><div class="slide-top"><span>YANPING SUN / NEW MEDIA PORTFOLIO</span><span>12 / 14</span></div><div class="slide-heading"><div class="kicker">CASE 06 / NOTE 02</div><h2>用户想知道怎么用，<br>就先回答怎么用。</h2><p>傲娇年世兰 · 公开笔记样本与搜索型六图 Brief 复盘方案</p></div><div class="slide-body"><div class="collagen-search"><figure class="collagen-panel search-original"><figcaption><span>公开笔记原首图</span><strong>真人、包装、膜布同屏</strong></figcaption><a class="collagen-image" href="https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/assets/collagen/review-cover.webp" target="_blank" rel="noopener" aria-label="放大查看傲娇年世兰公开笔记原首图"><img src="https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/assets/collagen/review-cover.webp" alt="傲娇年世兰公开笔记原首图" loading="eager" decoding="async"></a><a class="note-link" href="https://www.xiaohongshu.com/explore/697c6039000000000a031c61" target="_blank" rel="noopener">查看原笔记 ↗</a></figure><div class="collagen-brief-panel"><div class="collagen-brief-heading"><h3>原生密码胶原炮面膜怎么用？</h3><span>六图 Brief / 复盘方案</span></div><div class="collagen-storyboard"><article class="storyboard-card"><span class="story-no">01</span><div class="story-art cover" aria-hidden="true"><div class="mini-person"></div><div class="mini-pack"></div></div><b>认产品</b><small>真人＋对应包装与膜布</small></article><article class="storyboard-card"><span class="story-no">02</span><div class="story-art compare" aria-hidden="true"><div class="mini-sheet"></div><div class="mini-sheet gold"></div></div><b>辨组件</b><small>实物标出白膜／金膜</small></article><article class="storyboard-card"><span class="story-no">03</span><div class="story-art order" aria-hidden="true"><i></i><i></i><i class="on"></i><i></i></div><b>看顺序</b><small>对应版本的护理位置</small></article><article class="storyboard-card"><span class="story-no">04</span><div class="story-art steps" aria-hidden="true"><i>1</i><i>2</i><i>3</i></div><b>看步骤</b><small>按包装说明实拍</small></article><article class="storyboard-card"><span class="story-no">05</span><div class="story-art experience" aria-hidden="true"><div class="mini-face"></div><div class="mini-quote">“ ”</div></div><b>看体验</b><small>真实肤感与贴合细节</small></article><article class="storyboard-card"><span class="story-no">06</span><div class="story-art check" aria-hidden="true"><div class="mini-check">✓<span></span></div><div class="mini-check">✓<span></span></div><div class="mini-check">✓<span></span></div></div><b>留速查卡</b><small>版本、组件、使用顺序</small></article></div></div></div><p class="collagen-footnote">六图为后期内容复盘方案示意，不是该达人的历史发布稿；使用方法以对应产品包装说明为准。</p></div><div class="slide-bottom"><span>公开笔记 · 479 赞 / 170 收藏 / 17 评论（2026.11.19）</span><span>真实首图 / 后期 Brief 示意</span></div></section><section class="slide" id="s13">
+</section><section class="slide collagen-showcase" id="s10">
+  <div class="slide-top"><span>YANPING SUN / NEW MEDIA PORTFOLIO</span><span>10 / 14</span></div>
+  <div class="slide-heading">
+    <div class="kicker">胶原炮面膜 / 小红书达人种草</div>
+    <h2>从种草到搜索，把购买理由说清楚。</h2>
+    <p>围绕 30+ 女性的护理需求，负责选题、达人 Brief、图文／视频脚本和初稿审核，并参与代表笔记撰写。</p>
+  </div>
+  <div class="slide-body">
+    <div class="collagen-overview">
+    <article class="collagen-note-card">
+  <a class="collagen-image" href="collagen-note-hehe.webp" target="_blank" rel="noopener" aria-label="查看禾禾暖的笔记原图"><img src="collagen-note-hehe.webp" alt="禾禾暖的公开笔记首图，展示职场人物与胶原炮产品" loading="eager" decoding="async"></a>
+  <div class="collagen-note-copy">
+    <div class="collagen-tag">人群场景 · 禾禾暖</div>
+    <h3>从她熟悉的生活说起</h3>
+    <p>职场故事让熟龄护理找到具体人群。</p>
+    
+    <div class="collagen-links"><a href="#s11">查看案例</a></div>
+  </div>
+</article>
+    <article class="collagen-note-card">
+  <a class="collagen-image" href="collagen-note-yuanyuan.webp" target="_blank" rel="noopener" aria-label="查看圆圆宝团子的笔记原图"><img src="collagen-note-yuanyuan.webp" alt="圆圆宝团子的原生密码面膜自用笔记首图" loading="eager" decoding="async"></a>
+  <div class="collagen-note-copy">
+    <div class="collagen-tag">产品体验 · 圆圆宝团子</div>
+    <h3>把使用感受讲具体</h3>
+    <p>用实际敷膜体验承接对产品的进一步了解。</p>
+    
+    <div class="collagen-links"><a href="#s12">查看案例</a></div>
+  </div>
+</article>
+  </div>
+  </div>
+  <div class="slide-bottom"><span>原生密码 · 胶原炮面膜</span><span>达人笔记成品</span></div>
+</section><section class="slide collagen-showcase" id="s11">
+  <div class="slide-top"><span>YANPING SUN / NEW MEDIA PORTFOLIO</span><span>11 / 14</span></div>
+  <div class="slide-heading">
+    <div class="kicker">小红书达人种草 / 人群场景</div>
+    <h2>从职场经历切入，带出 30+ 的护理需求。</h2>
+    <p>禾禾暖 · 参与笔记撰写</p>
+  </div>
+  <div class="slide-body">
+    <article class="collagen-note-card note-feature">
+  <a class="collagen-image" href="collagen-note-hehe.webp" target="_blank" rel="noopener" aria-label="查看禾禾暖的笔记原图"><img src="collagen-note-hehe.webp" alt="禾禾暖的公开笔记首图，展示职场人物与胶原炮产品" loading="eager" decoding="async"></a>
+  <div class="collagen-note-copy">
+    <div class="collagen-tag">人群场景 · 禾禾暖</div>
+    <h3>让产品出现在人物的日常里</h3>
+    <p>先写一次见客户的经历，带出对年龄和状态的讨论，再写人物如何把胶原炮放进自己的护理习惯。</p>
+    <div class="collagen-stats">252 赞 · 148 收藏 · 36 评论</div>
+    <div class="collagen-links"><a href="https://www.xiaohongshu.com/explore/6a1018d0000000003603013e" target="_blank" rel="noopener">查看原笔记</a></div>
+  </div>
+</article>
+  </div>
+  <div class="slide-bottom"><span>原生密码 · 胶原炮面膜</span><span>笔记互动数据 · 2026 年 11 月 25 日查阅</span></div>
+</section><section class="slide collagen-showcase" id="s12">
+  <div class="slide-top"><span>YANPING SUN / NEW MEDIA PORTFOLIO</span><span>12 / 14</span></div>
+  <div class="slide-heading">
+    <div class="kicker">小红书达人种草 / 搜索与购买判断</div>
+    <h2>用真实体验回应买前顾虑。</h2>
+    <p>主笔记讲敷膜感受，补充笔记呈现用户对价格与套装的疑问。</p>
+  </div>
+  <div class="slide-body">
+    <div class="collagen-overview">
+    <article class="collagen-note-card">
+  <a class="collagen-image" href="collagen-note-yuanyuan.webp" target="_blank" rel="noopener" aria-label="查看圆圆宝团子的笔记原图"><img src="collagen-note-yuanyuan.webp" alt="圆圆宝团子的原生密码面膜自用笔记首图" loading="eager" decoding="async"></a>
+  <div class="collagen-note-copy">
+    <div class="collagen-tag">产品体验 · 圆圆宝团子</div>
+    <h3>两种膜布，用起来有什么感受？</h3>
+    <p>记录白膜和金膜的实际感受。评论进一步问到发热、贴敷和敷后护理。</p>
+    <div class="collagen-stats">110 赞 · 86 收藏 · 39 评论</div>
+    <div class="collagen-links"><a href="https://www.xiaohongshu.com/explore/6a0d8c6a0000000035020f91" target="_blank" rel="noopener">查看原笔记</a></div>
+  </div>
+</article>
+    <article class="collagen-note-card">
+  <a class="collagen-image" href="collagen-note-momomo.webp" target="_blank" rel="noopener" aria-label="查看沫小沫的 CF 手记的笔记原图"><img src="collagen-note-momomo.webp" alt="沫小沫的 CF 手记公开笔记原图，记录用完两盒的体验" loading="eager" decoding="async"></a>
+  <div class="collagen-note-copy">
+    <div class="collagen-tag">买前顾虑 · 沫小沫的 CF 手记</div>
+    <h3>用完两盒，值不值得继续买？</h3>
+    <p>作者分享两盒用后感，评论进一步问到价格、套装和同类选择。</p>
+    <div class="collagen-stats">72 赞 · 20 收藏 · 85 评论</div>
+    <div class="collagen-links"><a href="https://www.xiaohongshu.com/explore/682dcf7c000000002100e7e0" target="_blank" rel="noopener">查看原笔记</a></div>
+  </div>
+</article>
+  </div>
+  </div>
+  <div class="slide-bottom"><span>原生密码 · 胶原炮面膜</span><span>笔记互动数据 · 2026 年 11 月 25 日查阅</span></div>
+</section><section class="slide" id="s13">
 <div class="slide-top"><span>YANPING SUN / NEW MEDIA PORTFOLIO</span><span>13 / 14</span></div>
 <div class="slide-heading"><div class="kicker">ADDITIONAL WORK / CROSS-CATEGORY CONTENT</div><h2>从音乐用户活动，延伸到护肤新品内容。</h2><p>补充证明跨品类表达能力：负责卖点、内容结构与文案；产品研发、海报视觉及拍摄剪辑由对应团队完成。</p></div>
 <div class="slide-body">
