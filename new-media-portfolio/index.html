@@ -130,11 +130,19 @@ a{color:inherit;text-decoration:none}button{font:inherit}.app-header{position:st
 /* 胶原炮案例 */
 .collagen-showcase .slide-heading{margin-bottom:17px}
 .collagen-showcase .slide-heading h2{font-size:32px;line-height:1.22}
+@media screen{
+  .slide.collagen-detail{aspect-ratio:auto;min-height:0}
+}
 .collagen-overview{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
 .collagen-note-card{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);align-items:center;gap:16px;padding:12px;border:1px solid #e0e7f0;border-radius:12px;background:#fafcff;min-width:0}
-.collagen-note-card.note-feature{grid-template-columns:minmax(0,1.08fr) minmax(0,1fr);max-width:900px;margin-inline:auto;gap:24px;padding:14px}
+.collagen-experience{display:grid;grid-template-columns:minmax(0,2.12fr) minmax(0,1fr);gap:20px}
+.collagen-note-card.with-gallery{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);padding:14px}
+.collagen-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.collagen-gallery .collagen-image{height:auto;aspect-ratio:3 / 4}
+.collagen-reference{display:flex;flex-direction:column;justify-content:center;padding:20px;border:1px solid #dce8f5;border-radius:12px;background:#f0f6fc}
+.collagen-reference h3{font-size:19px;margin:8px 0 6px}
+.collagen-reference p{font-size:14px;margin:0;line-height:1.55;color:#3e4e63}
 .collagen-image{display:flex;align-items:center;justify-content:center;background:#f0f3f7;border-radius:8px;overflow:hidden;min-width:0;height:306px}
-.note-feature .collagen-image{height:342px}
 .collagen-image img{width:100%;height:100%;object-fit:contain;display:block}
 .collagen-note-copy{min-width:0;padding:8px 0}
 .collagen-tag{font-size:11px;font-weight:750;color:#005ab8}
@@ -145,16 +153,21 @@ a{color:inherit;text-decoration:none}button{font:inherit}.app-header{position:st
 .collagen-links a{font-size:12px;color:#005ab8;font-weight:700;text-decoration:underline;text-underline-offset:3px}
 @media(max-width:800px){
   .collagen-showcase .slide-heading h2{font-size:28px}
-  .collagen-overview{grid-template-columns:1fr;gap:12px}
-  .collagen-note-card,.collagen-note-card.note-feature{gap:12px;padding:10px}
+  .collagen-overview,.collagen-experience{grid-template-columns:1fr;gap:12px}
+  .collagen-note-card,.collagen-note-card.with-gallery{gap:12px;padding:10px}
+  .collagen-reference{padding:15px}
   .collagen-image{height:210px}
-  .note-feature .collagen-image{height:270px}
+}
+@media(max-width:560px){
+  .collagen-note-card.with-gallery{grid-template-columns:1fr}
 }
 @media(max-width:420px){
-  .collagen-note-card,.collagen-note-card.note-feature{grid-template-columns:minmax(0,.95fr) minmax(0,1fr);gap:9px;padding:8px}
-  .collagen-image,.note-feature .collagen-image{height:174px}
+  .collagen-note-card{grid-template-columns:minmax(0,.95fr) minmax(0,1fr);gap:9px;padding:8px}
+  .collagen-image{height:174px}
   .collagen-note-copy h3{font-size:15px}
   .collagen-note-copy p{font-size:12px;margin-bottom:8px}
+  .collagen-reference h3{font-size:16px}
+  .collagen-reference p{font-size:13px}
 }
 @media print{
   .collagen-showcase .slide-heading{margin:5mm 0 4mm}
@@ -162,7 +175,7 @@ a{color:inherit;text-decoration:none}button{font:inherit}.app-header{position:st
   .collagen-showcase .slide-body{overflow:hidden}
   .collagen-overview{grid-template-columns:repeat(2,minmax(0,1fr))}
   .collagen-image{height:285px}
-  .note-feature .collagen-image{height:328px}
+  .collagen-experience{grid-template-columns:minmax(0,2.12fr) minmax(0,1fr)}
 }
 </style></head><body><header class="app-header"><div class="header-inner"><a class="brand" href="#s1">孙岩萍 <small>NEW MEDIA / 2026</small></a><nav aria-label="作品导航" class="nav"><a href="#s3">业务增长</a><a href="#s4">粉丝活动</a><a href="#s5">内容矩阵</a><a href="#s6">晚安电台</a><a href="#s7">团队协作</a><a href="#s8">视频号</a><a href="#s10">小红书</a><a href="#s13">护肤新品</a><a class="nav-top" href="#s1">回到首页 ↑</a></nav></div></header><main class="deck"><section class="slide cover" id="s1">
 <div class="slide-top"><span>YANPING SUN / NEW MEDIA PORTFOLIO</span><span>01 / 14</span></div>
@@ -312,9 +325,9 @@ a{color:inherit;text-decoration:none}button{font:inherit}.app-header{position:st
     <article class="collagen-note-card">
   <a class="collagen-image" href="collagen-note-hehe.webp" target="_blank" rel="noopener" aria-label="查看禾禾暖的笔记原图"><img src="collagen-note-hehe.webp" alt="禾禾暖的公开笔记首图，展示职场人物与胶原炮产品" loading="eager" decoding="async"></a>
   <div class="collagen-note-copy">
-    <div class="collagen-tag">人群场景 · 禾禾暖</div>
-    <h3>从她熟悉的生活说起</h3>
-    <p>职场故事让熟龄护理找到具体人群。</p>
+    <div class="collagen-tag">人群场景 · 职场与居家</div>
+    <h3>同一款面膜，两个生活场景</h3>
+    <p>从见客户的一次经历，到送孩子上学后的居家护理。</p>
     
     <div class="collagen-links"><a href="#s11">查看案例</a></div>
   </div>
@@ -331,26 +344,38 @@ a{color:inherit;text-decoration:none}button{font:inherit}.app-header{position:st
 </article>
   </div>
   </div>
-</section><section class="slide collagen-showcase" id="s11">
+</section><section class="slide collagen-showcase collagen-detail" id="s11">
   <div class="slide-top"><span>YANPING SUN / NEW MEDIA PORTFOLIO</span><span>11 / 14</span></div>
   <div class="slide-heading">
     <div class="kicker">小红书达人种草 / 人群场景</div>
-    <h2>从职场经历切入，带出 30+ 的护理需求。</h2>
-    <p>禾禾暖 · 参与笔记撰写</p>
+    <h2>同一款面膜，从两个生活场景说起。</h2>
+    <p>禾禾暖、七七年年 · 参与两篇笔记撰写</p>
   </div>
   <div class="slide-body">
-    <article class="collagen-note-card note-feature">
-  <a class="collagen-image" href="collagen-note-hehe.webp" target="_blank" rel="noopener" aria-label="查看禾禾暖的笔记原图"><img src="collagen-note-hehe.webp" alt="禾禾暖的公开笔记首图，展示职场人物与胶原炮产品" loading="eager" decoding="async"></a>
-  <div class="collagen-note-copy">
-    <div class="collagen-tag">人群场景 · 禾禾暖</div>
-    <h3>让产品出现在人物的日常里</h3>
-    <p>先写一次见客户的经历，带出对年龄和状态的讨论，再写人物如何把胶原炮放进自己的护理习惯。</p>
-    <div class="collagen-stats">252 赞 · 148 收藏 · 36 评论</div>
-    <div class="collagen-links"><a href="https://www.xiaohongshu.com/explore/6a1018d0000000003603013e" target="_blank" rel="noopener">查看原笔记</a></div>
+    <div class="collagen-overview">
+      <article class="collagen-note-card">
+        <a class="collagen-image" href="collagen-note-hehe.webp" target="_blank" rel="noopener" aria-label="查看禾禾暖的笔记原图"><img src="collagen-note-hehe.webp" alt="禾禾暖原笔记首图，展示职场人物与胶原炮面膜" loading="lazy" decoding="async"></a>
+        <div class="collagen-note-copy">
+          <div class="collagen-tag">30+ 职场女性 · 禾禾暖</div>
+          <h3>从一次见客户的经历讲起</h3>
+          <p>先写见客户时对年龄和状态的感受，再带出她日常如何做护理。</p>
+          <div class="collagen-stats">252 赞 · 148 收藏 · 36 评论</div>
+          <div class="collagen-links"><a href="https://www.xiaohongshu.com/explore/6a1018d0000000003603013e" target="_blank" rel="noopener">查看原笔记</a></div>
+        </div>
+      </article>
+      <article class="collagen-note-card">
+        <a class="collagen-image" href="collagen-note-qiqi.webp" target="_blank" rel="noopener" aria-label="查看七七年年的笔记原图"><img src="collagen-note-qiqi.webp" alt="七七年年在家贴敷金膜的原笔记首图" loading="lazy" decoding="async"></a>
+        <div class="collagen-note-copy">
+          <div class="collagen-tag">宝妈居家 · 七七年年</div>
+          <h3>送完孩子，留点时间敷面膜</h3>
+          <p>用送孩子上学后的空档开场，再写回家后敷白膜、叠金膜的过程。</p>
+          <div class="collagen-stats">122 赞 · 79 收藏 · 14 评论</div>
+          <div class="collagen-links"><a href="https://www.xiaohongshu.com/explore/6a1c111600000000350259b7" target="_blank" rel="noopener">查看原笔记</a></div>
+        </div>
+      </article>
+    </div>
   </div>
-</article>
-  </div>
-</section><section class="slide collagen-showcase" id="s12">
+</section><section class="slide collagen-showcase collagen-detail" id="s12">
   <div class="slide-top"><span>YANPING SUN / NEW MEDIA PORTFOLIO</span><span>12 / 14</span></div>
   <div class="slide-heading">
     <div class="kicker">小红书达人种草 / 产品体验</div>
@@ -358,16 +383,27 @@ a{color:inherit;text-decoration:none}button{font:inherit}.app-header{position:st
     <p>圆圆宝团子 · 参与笔记撰写</p>
   </div>
   <div class="slide-body">
-    <article class="collagen-note-card note-feature">
-      <a class="collagen-image" href="collagen-note-yuanyuan.webp" target="_blank" rel="noopener" aria-label="查看圆圆宝团子的敷膜原图"><img src="collagen-note-yuanyuan.webp" alt="圆圆宝团子贴敷金膜的原笔记首图" loading="eager" decoding="async"></a>
-      <div class="collagen-note-copy">
-        <h3>白膜和金膜，敷起来哪里不同？</h3>
-        <p>作者写到白膜敷着润，金膜按得太紧时感觉发热，揭膜后还有短暂泛红。</p>
-        <p>评论里有人继续追问金膜的发热感，以及揭膜后能否直接涂护肤品。</p>
-        <div class="collagen-stats">110 赞 · 86 收藏 · 39 评论</div>
-        <div class="collagen-links"><a href="https://www.xiaohongshu.com/explore/6a0d8c6a0000000035020f91" target="_blank" rel="noopener">查看原笔记</a></div>
-      </div>
-    </article>
+    <div class="collagen-experience">
+      <article class="collagen-note-card with-gallery">
+        <div class="collagen-gallery">
+          <a class="collagen-image" href="collagen-note-yuanyuan.webp" target="_blank" rel="noopener" aria-label="查看圆圆宝团子的敷膜原图"><img src="collagen-note-yuanyuan.webp" alt="圆圆宝团子贴敷金膜的原笔记首图" loading="lazy" decoding="async"></a>
+          <a class="collagen-image" href="collagen-note-yuanyuan-product.webp" target="_blank" rel="noopener" aria-label="查看圆圆宝团子笔记里的产品原图"><img src="collagen-note-yuanyuan-product.webp" alt="圆圆宝团子手持胶原炮面膜包装的原笔记照片" loading="lazy" decoding="async"></a>
+        </div>
+        <div class="collagen-note-copy">
+          <h3>白膜和金膜，敷起来哪里不同？</h3>
+          <p>作者写到白膜敷着润，金膜按得太紧时感觉发热，揭膜后还有短暂泛红。</p>
+          <p>评论里有人继续追问金膜的发热感，以及揭膜后能否直接涂护肤品。</p>
+          <div class="collagen-stats">110 赞 · 86 收藏 · 39 评论</div>
+          <div class="collagen-links"><a href="https://www.xiaohongshu.com/explore/6a0d8c6a0000000035020f91" target="_blank" rel="noopener">查看原笔记</a></div>
+        </div>
+      </article>
+      <aside class="collagen-reference" aria-labelledby="collagen-reference-title">
+        <div class="collagen-tag">公开笔记参考 · 帅姐不帅 Amber</div>
+        <h3 id="collagen-reference-title">把单品做进连续测评栏目</h3>
+        <p>视频用「面膜测评 Day 74」延续栏目编号，标题同时写明原生密码胶原炮，让搜具体产品的读者能直接找到这一期。</p>
+        <div class="collagen-links"><a href="https://www.xiaohongshu.com/explore/67fc73d9000000001c033248" target="_blank" rel="noopener">观看原视频</a></div>
+      </aside>
+    </div>
   </div>
 </section><section class="slide" id="s13">
 <div class="slide-top"><span>YANPING SUN / NEW MEDIA PORTFOLIO</span><span>13 / 14</span></div>
