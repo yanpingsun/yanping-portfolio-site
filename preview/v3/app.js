@@ -15,7 +15,7 @@
   const standaloneProjects = new Map([
     ['xiaohongshu',{
       id:'xiaohongshu',name:'胶原炮面膜',category:'小红书达人种草',
-      short:'围绕 30+ 女性的日常抗老需求，策划达人选题、首图和脚本，并参与稿件审核。',
+      short:'围绕 30+ 女性的护理需求，策划并参与撰写场景种草与真人测评笔记。',
       cover:'assets/collagen/project-cover.png',width:1280,height:1707,alt:'原生密码胶原炮面膜的产品展示图'
     }],
     ['videochannel',{
@@ -185,58 +185,140 @@
   }
 
   const collagenNotes = {
-    budget: {
-      author: '雯柚甜', url: 'https://www.xiaohongshu.com/explore/6a2792760000000007029ba3',
-      metrics: '254 赞 · 111 收藏 · 46 评论', cover: 'budget-cover.webp', width: 1080, height: 1440,
-      alt: '雯柚甜笔记首图，人物与产品四宫格，中间写有金融人护肤预算主题'
+    workplace: {
+      author: '禾禾暖',
+      audience: '30+ 职场女性',
+      title: '从一次见客户的经历讲起',
+      summary: '先写见客户时对年龄和状态的感受，再自然带到她日常怎么做护理。',
+      file: 'collagen-note-hehe.webp',
+      alt: '禾禾暖原笔记首图，展示职场人物和胶原炮面膜',
+      metrics: '252 赞 · 148 收藏 · 36 评论',
+      url: 'https://www.xiaohongshu.com/explore/6a1018d0000000003603013e'
+    },
+    home: {
+      author: '七七年年',
+      audience: '宝妈居家护理',
+      title: '送完孩子，留点时间敷面膜',
+      summary: '用送孩子上学后的空档开场，接着写回到家怎么安排白膜和金膜。',
+      file: 'collagen-note-qiqi.webp',
+      alt: '七七年年在家贴敷金膜的原笔记首图',
+      metrics: '122 赞 · 79 收藏 · 14 评论',
+      url: 'https://www.xiaohongshu.com/explore/6a1c111600000000350259b7'
     },
     review: {
-      author: '傲娇年世兰', url: 'https://www.xiaohongshu.com/explore/697c6039000000000a031c61',
-      metrics: '479 赞 · 170 收藏 · 17 评论', cover: 'review-cover.webp', width: 640, height: 854,
-      alt: '傲娇年世兰笔记首图，真人、原生密码产品包装和两张膜布同屏'
+      author: '圆圆宝团子',
+      title: '白膜和金膜，敷起来哪里不同？',
+      file: 'collagen-note-yuanyuan.webp',
+      alt: '圆圆宝团子贴敷金膜的原笔记首图',
+      metrics: '110 赞 · 86 收藏 · 39 评论',
+      url: 'https://www.xiaohongshu.com/explore/6a0d8c6a0000000035020f91'
     }
   };
   const collagenRoute = '#/project/xiaohongshu';
   const collagenReader = '#/read/xiaohongshu-analysis';
-  const collagenImage = name => new URL('assets/collagen/' + name, document.baseURI).href;
-  function collagenFigure(note, caption, file=note.cover, alt=note.alt) {
-    const path=esc(collagenImage(file));
-    return '<figure class="collagen-figure"><button type="button" class="image-open" data-full-src="'+path+'" data-caption="'+esc(caption)+'" aria-label="放大查看'+esc(caption)+'"><img src="'+path+'" width="'+note.width+'" height="'+note.height+'" alt="'+esc(alt)+'" loading="lazy" decoding="async"><span hidden>图片暂时无法载入。</span></button><figcaption>'+esc(caption)+'</figcaption></figure>';
-  }
-  function collagenSource(note) {
-    return '<p class="collagen-source">'+esc(note.metrics)+' <span>· 2026 年 11 月 19 日核对</span> <a class="text-link" href="'+note.url+'" target="_blank" rel="noopener">原笔记 ↗</a></p>';
-  }
-  function collagenLedger() {
-    return '<figure class="collagen-figure"><div class="collagen-ledger"><p class="collagen-label">改稿示意</p><strong>护肤账本</strong><p>护理预算分别放在哪几步？</p><dl><div><dt>日常基础护理</dt><dd>每天会用到的几步</dd></div><div><dt>阶段性护理</dt><dd>我会额外留时间做的一步<br>胶原炮面膜放在这里</dd></div><div><dt>额外预算</dt><dd>先看手里已有的，再决定要不要添</dd></div></dl></div><figcaption>改稿示意 · 护肤账本前移</figcaption></figure>';
-  }
-  function collagenCasePage() {
-    const {budget,review}=collagenNotes;
-    return [
-      '<article class="collagen-page"><div class="breadcrumb"><a href="#/works">← 全部作品</a></div>',
-      '<div class="collagen-top" id="xiaohongshu-overview" tabindex="-1"><header><p class="eyebrow">原生密码 · 小红书达人种草</p><h1>胶原炮面膜</h1><p class="collagen-lead">围绕 30+ 女性的日常抗老需求，我根据读者是刷到笔记还是主动搜索，决定标题、首图和内页先讲什么。</p><p class="collagen-role"><strong>我负责</strong> 达人选题、Brief 与脚本、封面和首图内容，并参与稿件的审核与修改。</p></header>',
-      '<section class="collagen-strategy" id="xiaohongshu-strategy" aria-labelledby="collagen-strategy-title" tabindex="-1"><h2 id="collagen-strategy-title">我的内容策略</h2>',
-      '<dl><div><dt>发现型 · 刷到时给一个点开理由</dt><dd>借达人熟悉的身份或生活场景提出具体问题，让产品出现在她原本会讲的话题里。</dd></div><div><dt>搜索型 · 搜到时尽早给答案</dt><dd>标题写清产品名和用户的问题，首图让人认出同款，第二张优先回答怎么用。</dd></div></dl>',
-      '<p class="collagen-check"><strong>审稿时我看</strong> 封面说了什么，第二张有没有先给答案，末页的信息是否值得回看。</p></section></div>',
-      '<section class="collagen-section" id="xiaohongshu-cases" tabindex="-1"><div class="collagen-section-title"><h2>笔记案例</h2><p class="caption">公开笔记复盘</p></div>',
-      '<article class="collagen-primary"><div class="collagen-example-copy"><p class="eyebrow">发现型复盘 · 雯柚甜</p><h3>封面说护肤账本，第二张先给账本</h3><p>保留金融人讲预算的切口，把三类护理选择前移。下一张再放产品静物，说明面膜为什么出现在这一步。</p>'+collagenSource(budget)+cta(collagenReader,'看原第二张与改稿分析','text-link')+'</div>',
-      '<div class="collagen-pair">'+collagenFigure(budget,'原首图')+collagenLedger()+'</div></article>',
-      '<article class="collagen-contrast">'+collagenFigure(review,'原首图 · 傲娇年世兰')+'<div class="collagen-example-copy"><p class="eyebrow">搜索型写法示意 · 傲娇年世兰样本</p><h3>原生密码胶原炮面膜怎么用？</h3><p>沿用真人、包装和膜布同屏的首图思路，标题直接写品名和用法问题，第二张用实物标出白膜和金膜，末页给使用速查卡。</p>'+collagenSource(review)+'</div></article>',
-      '</section>'+nextProjectNav('xiaohongshu','#/','← 返回作品集首页')+'</article>'
-    ].join('');
-  }
-  function collagenAnalysisPage() {
-    const {budget}=collagenNotes;
-    const brief=[
-      ['首图','胶原炮面膜怎么用？','拍真人、对应版本的包装和膜布，首屏能认出同款。'],
-      ['第二张','白膜和金膜怎么分？','组件和说明同框，把名称标在实物边上。'],
-      ['护理顺序','放在晚间护理哪一步？','结合对应版本的包装说明和真实使用过程，说明达人怎么安排。'],
-      ['用法','这一次怎么用','用连续实拍交代步骤，上图文字与包装说明核对。'],
-      ['体验','我留意了贴合和肤感','保留达人真实感受，用原话配近景。'],
-      ['收藏图','第一次打开核对三项','把包装版本、组件和使用顺序做成一张速查卡。']
-    ];
-    return '<article class="collagen-page"><div class="breadcrumb"><a href="'+collagenRoute+'/cases">← 返回笔记案例</a></div><p class="eyebrow">发现型复盘 · 雯柚甜</p><h1>第二张图先给护肤账本</h1><p class="collagen-lead">封面让人想看金融人怎么花护肤预算，原第二张放的是产品静物。我会先给护理分类，再用下一张解释面膜放在哪一步。</p><div class="collagen-three">'+collagenFigure(budget,'原首图')+collagenFigure(budget,'原第二张 · 产品静物','budget-slide-2.webp','雯柚甜原第二张的产品静物图')+collagenLedger()+'</div>'+collagenSource(budget)+'<details class="supplementary collagen-brief" id="collagen-brief"><summary><span>六图达人 Brief</span><span class="detail-meta">搜索型方案</span></summary><div class="supplement-body"><p><strong>原生密码胶原炮面膜怎么用？</strong></p><ol>'+brief.map(([page,title,shot])=>'<li><strong>'+esc(page)+' · '+esc(title)+'</strong><p>'+esc(shot)+'</p></li>').join('')+'</ol></div></details><p class="collagen-back"><a class="text-link" href="'+collagenRoute+'/cases">← 返回笔记案例</a></p></article>';
+
+  function collagenFigure({file, alt}, caption) {
+    const image = new URL('new-media-portfolio/' + file, root).href;
+    return `<figure class="collagen-figure">
+      <button type="button" class="image-open" data-full-src="${esc(image)}" data-caption="${esc(caption)}" aria-label="放大查看 ${esc(caption)}">
+        <img src="${esc(image)}" width="1080" height="1440" alt="${esc(alt)}" loading="lazy" decoding="async">
+        <span class="image-placeholder" hidden>图片暂时无法载入。</span>
+      </button>
+    </figure>`;
   }
 
+  function collagenSource(note) {
+    return `<div class="collagen-source">
+      <span>${esc(note.metrics)}</span>
+      <a class="text-link" href="${esc(note.url)}" target="_blank" rel="noopener">查看原笔记</a>
+    </div>`;
+  }
+
+  function collagenScene(note) {
+    return `<article class="collagen-note">
+      ${collagenFigure(note, note.author + '的笔记首图')}
+      <div class="collagen-example-copy">
+        <p class="eyebrow">${esc(note.audience)} · ${esc(note.author)}</p>
+        <h3>${esc(note.title)}</h3>
+        <p>${esc(note.summary)}</p>
+        ${collagenSource(note)}
+      </div>
+    </article>`;
+  }
+
+  function collagenCasePage() {
+    const {workplace, home, review} = collagenNotes;
+    return `<article class="collagen-page">
+      <div class="breadcrumb"><a href="#/works">← 全部作品</a></div>
+      <div class="collagen-top" id="xiaohongshu-overview" tabindex="-1">
+        <header>
+          <p class="eyebrow">原生密码 · 小红书达人种草</p>
+          <h1>胶原炮面膜</h1>
+          <p class="collagen-lead">从生活场景切入，再把使用感受讲清楚。</p>
+          <p class="collagen-role"><strong>我负责</strong>选题、达人 Brief、图文与视频脚本及初稿审核，并参与下方三篇笔记的撰写。</p>
+          <div class="collagen-jump">${cta(collagenRoute + '/cases','查看成品笔记','text-link')}</div>
+        </header>
+        <section class="collagen-strategy" id="xiaohongshu-strategy" aria-labelledby="collagen-strategy-title" tabindex="-1">
+          <h2 id="collagen-strategy-title">我的内容策略</h2>
+          <dl>
+            <div><dt>刷到时先有人群代入</dt><dd>面向 30+ 女性，从见客户、送孩子上学这类生活片段引出护理需求。</dd></div>
+            <div><dt>搜到时先解决一个问题</dt><dd>围绕白膜和金膜的实际感受展开，让读者在购买前知道两种膜布用起来有什么区别。</dd></div>
+          </dl>
+        </section>
+      </div>
+      <section class="collagen-section" id="xiaohongshu-cases" aria-labelledby="collagen-scenes-title" tabindex="-1">
+        <div class="collagen-section-title">
+          <h2 id="collagen-scenes-title">不同人群的场景化代入</h2>
+          <p class="caption">互动数据为 2026 年 11 月 25 日查阅记录</p>
+        </div>
+        <div class="collagen-scene-grid">
+          ${collagenScene(workplace)}
+          ${collagenScene(home)}
+        </div>
+      </section>
+      <section class="collagen-section collagen-review" id="xiaohongshu-review" aria-labelledby="collagen-review-title" tabindex="-1">
+        <div class="collagen-section-title"><h2 id="collagen-review-title">问题为导向真人测评</h2></div>
+        <article class="collagen-review-note">
+          <div class="collagen-pair">
+            ${collagenFigure(review, '圆圆宝团子的贴敷原图')}
+            ${collagenFigure({file:'collagen-note-yuanyuan-product.webp',alt:'圆圆宝团子手持胶原炮面膜包装的原笔记照片'}, '圆圆宝团子的产品实拍')}
+          </div>
+          <div class="collagen-example-copy">
+            <p class="eyebrow">${esc(review.author)}</p>
+            <h3>${esc(review.title)}</h3>
+            <p>作者写到白膜敷着润，金膜按得太紧时感觉发热，揭膜后短暂泛红。</p>
+            <p>评论里有人接着问金膜的发热感，以及揭膜后能否直接涂护肤品。</p>
+            ${collagenSource(review)}
+          </div>
+        </article>
+        <div class="collagen-jump">${cta(collagenReader,'查看选题与审稿复盘','text-link')}</div>
+      </section>
+      ${nextProjectNav('xiaohongshu','#/','← 返回作品集首页')}
+    </article>`;
+  }
+
+  function collagenAnalysisPage() {
+    return `<article class="collagen-page">
+      <div class="breadcrumb"><a href="${collagenRoute}/cases">← 返回笔记案例</a></div>
+      <h1>选题与审稿复盘</h1>
+      <p class="collagen-lead">两篇场景稿各有一个具体开头，测评稿则把买前最想问的问题放在前面。</p>
+      <section class="collagen-section collagen-analysis" aria-labelledby="collagen-analysis-title">
+        <h2 id="collagen-analysis-title">我会怎么审这三篇稿</h2>
+        <dl>
+          <div><dt>禾禾暖 · 留下见客户这件事</dt><dd>一次见客户的经历让读者知道她在什么场合注意到了年龄和状态。护肤习惯顺着经历带出，开头保留人物自己的感受。</dd></div>
+          <div><dt>七七年年 · 写清楚空档从哪来</dt><dd>把「孩子上学后」放在开头，读者能立刻代入自己的作息。后文接住这个场景，写她回家后怎么安排两种膜布。</dd></div>
+          <div><dt>圆圆宝团子 · 把两种肤感分开讲</dt><dd>首图配合产品实拍帮助读者识别同款，正文分别交代白膜和金膜的感受。评论里的发热程度和后续护理，可以成为下篇稿要回答的问题。</dd></div>
+        </dl>
+      </section>
+      <aside class="collagen-analysis-reference" aria-labelledby="collagen-reference-title">
+        <p class="eyebrow">公开测评参考 · 帅姐不帅 Amber</p>
+        <h2 id="collagen-reference-title">用栏目编号承接单品搜索</h2>
+        <p>「面膜测评 Day 74」沿用固定栏目名，标题同时写明原生密码胶原炮，方便想了解这款面膜的人找到本期。</p>
+        <a class="text-link" href="https://www.xiaohongshu.com/explore/67fc73d9000000001c033248" target="_blank" rel="noopener">查看原视频</a>
+      </aside>
+      <p class="collagen-back"><a class="text-link" href="${collagenRoute}/cases">← 返回笔记案例</a></p>
+    </article>`;
+  }
 
   const channelRoute = '#/project/videochannel';
   const channelScreenshots = {
