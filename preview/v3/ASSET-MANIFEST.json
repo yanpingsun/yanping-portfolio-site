@@ -1,14 +1,34 @@
 {
-  "sourceVersion": "3.0.19",
-  "sourceCommit": "73d46fc135ffcda2b851ac1afcc0085a667413e8",
+  "sourceVersion": "3.0.20",
+  "sourceCommit": "cd1075cad3cd4ddd57f95140760c99436a68693a",
   "repository": "yanpingsun/yanping-portfolio-site",
   "branch": "main",
   "entry": "preview/v3/index.html",
-  "verifiedAt": "2026-11-20",
-  "totalFiles": 423,
-  "totalBytes": 186087799,
+  "verifiedAt": "2026-11-26",
+  "totalFiles": 427,
+  "totalBytes": 186518233,
   "checksumType": "Git blob SHA-1 (includes Git blob header; verify with git hash-object)",
   "files": [
+    {
+      "path": "new-media-portfolio/collagen-note-hehe.webp",
+      "bytes": 231468,
+      "gitBlobSha1": "ec1550910f3db219a5012132a5d7d74160c52856"
+    },
+    {
+      "path": "new-media-portfolio/collagen-note-qiqi.webp",
+      "bytes": 75780,
+      "gitBlobSha1": "f0ca8a5b445e24f9c5a1884c74fa49a868bd0505"
+    },
+    {
+      "path": "new-media-portfolio/collagen-note-yuanyuan-product.webp",
+      "bytes": 55548,
+      "gitBlobSha1": "6b0a99e619fe3c3683a45f78e02143006701794e"
+    },
+    {
+      "path": "new-media-portfolio/collagen-note-yuanyuan.webp",
+      "bytes": 67560,
+      "gitBlobSha1": "960358bf994836f0f1ed804b1cc61f2c605d2ad2"
+    },
     {
       "path": "portfolio-2026-favicon.svg",
       "bytes": 293,
@@ -1906,8 +1926,8 @@
     },
     {
       "path": "preview/v3/app.js",
-      "bytes": 60219,
-      "gitBlobSha1": "d57cfbf38849cb32dbb3ebbc4eff629b9fe64524"
+      "bytes": 61031,
+      "gitBlobSha1": "f5a1e7312107223798262c0141a8885c7fd5ff9a"
     },
     {
       "path": "preview/v3/assets/antiaging-channel-overview.webp",
@@ -2112,7 +2132,7 @@
     {
       "path": "preview/v3/index.html",
       "bytes": 2823,
-      "gitBlobSha1": "1cf5970b0083b21865631bb0b3ffbdb6cf0de2b8"
+      "gitBlobSha1": "29c6a4047b83b41d14f16fb037249ed18171c134"
     },
     {
       "path": "preview/v3/media.js",
@@ -2121,8 +2141,8 @@
     },
     {
       "path": "preview/v3/styles.css",
-      "bytes": 60611,
-      "gitBlobSha1": "301ee705b16eeeadf897c468b5a2f42915530c15"
+      "bytes": 59877,
+      "gitBlobSha1": "b7a0470f0957b7615cf50f19c1b4f2f41c6fc0ef"
     }
   ]
 }

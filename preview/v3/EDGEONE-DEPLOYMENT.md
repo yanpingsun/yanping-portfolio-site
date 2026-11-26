@@ -1,5 +1,12 @@
 # EdgeOne Pages 部署与新域名
 
+## 最新交接 · 2026-11-26 · 3.0.20
+
+- 本轮更新胶原炮面膜的小红书种草案例。主页面展示本人参与撰写的禾禾暖、七七年年和圆圆宝团子三篇公开成品，分为人群场景和真人测评。帅姐不帅 Amber 的视频放在复盘页作为公开参考。
+- 运行源码提交为 [`cd1075c`](https://github.com/yanpingsun/yanping-portfolio-site/commit/cd1075cad3cd4ddd57f95140760c99436a68693a)，网页入口为 `preview/v3/index.html`。案例入口和复盘链接见[胶原炮面膜案例](https://yanpingsun.github.io/yanping-portfolio-site/preview/v3/?v=3.0.20#/project/xiaohongshu)。
+- 四张照片复用仓库 `new-media-portfolio/collagen-note-*.webp` 中已上线的素材，已纳入 [ASSET-MANIFEST.json](ASSET-MANIFEST.json)。`node tools/build_edgeone.mjs` 已核对 427 个源文件并生成 468 个文件。已在 320、390、1280px 核对案例入口、图片放大、复盘和返回路径。
+- `huhaheng` 可从本仓库同步最新 `main` 到 [部署副本](https://github.com/huhaheng/yanping-portfolio-site) 的 `main`，由现有 EdgeOne 项目更新 [yanpingsun.cn](https://yanpingsun.cn/)。
+
 ## 最新发布 · 2026-11-23 · 3.0.19
 
 已将协作仓库 `main` 的 `2999f1f3558b21711557dd02ea6f7cb16efe2762` 快进同步到部署副本 `huhaheng/yanping-portfolio-site` 的 `main`。现有 EdgeOne 项目完成更新，`https://yanpingsun.cn/` 已返回协作者的 3.0.19，七个案例均已接入。本次沿用既有项目、域名、DNS 和 HTTPS 配置；GitHub Pages 原根首页保持原样。
